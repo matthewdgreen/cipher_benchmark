@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cipher Benchmark Record",
+  "description": "Schema for a single page-level benchmark record in the classical cipher benchmark",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "source_record_id",
+    "rights_class",
+    "status",
+    "image_files",
+    "transcription_diplomatic_file",
+    "transcription_canonical_file",
+    "plaintext_file"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique benchmark record identifier",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source dataset or collection identifier",
+      "examples": ["copiale", "decode", "hcportal", "icdar"]
+    },
+    "source_record_id": {
+      "type": "string",
+      "description": "Identifier in the original source system"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the source record or project page"
+    },
+    "task_tracks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["image2transcription", "transcription2plaintext", "image2plaintext"]
+      },
+      "description": "Which benchmark tracks this record supports"
+    },
+    "rights_class": {
+      "type": "string",
+      "enum": ["open", "linked_only", "hold_for_review"],
+      "description": "Whether the record can be redistributed or must be linked"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["solved_verified", "solved_probable", "partial_solution", "unsolved"],
+      "description": "Solution verification status"
+    },
+    "cipher_type": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Cipher family classification(s)",
+      "examples": [["homophonic_substitution"], ["nomenclator"], ["simple_substitution"]]
+    },
+    "symbol_set": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Types of symbols used",
+      "examples": [["alphabetic", "numerical"], ["diacritical", "logographic"]]
+    },
+    "symbol_count": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of distinct cipher symbols on this page"
+    },
+    "plaintext_language": {
+      "type": "string",
+      "description": "ISO 639-1 language code of the plaintext",
+      "examples": ["de", "en", "fr", "es", "it", "la", "hu", "nl"]
+    },
+    "date_or_century": {
+      "type": "string",
+      "description": "Date or approximate period of the original document"
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of pages in this record (always 1 for page-level records)"
+    },
+    "provenance": {
+      "type": "string",
+      "description": "Current holding archive and location"
+    },
+    "solution_reference": {
+      "type": "string",
+      "description": "Citation for the decipherment or solution"
+    },
+    "image_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "Relative paths to page image files"
+    },
+    "transcription_diplomatic_file": {
+      "type": "string",
+      "description": "Relative path to the diplomatic transcription file"
+    },
+    "transcription_canonical_file": {
+      "type": "string",
+      "description": "Relative path to the canonical transcription file"
+    },
+    "plaintext_file": {
+      "type": "string",
+      "description": "Relative path to the plaintext/decryption file"
+    },
+    "has_key": {
+      "type": "boolean",
+      "description": "Whether the cipher key is known"
+    },
+    "has_inline_plaintext": {
+      "type": "boolean",
+      "description": "Whether the document contains mixed cipher and cleartext"
+    },
+    "manuscript_page": {
+      "type": "integer",
+      "description": "Original manuscript page number"
+    },
+    "curation_notes": {
+      "type": "string",
+      "description": "Free-text notes from curators"
+    }
+  },
+  "additionalProperties": false
+}

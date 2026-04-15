@@ -1,0 +1,12 @@
+# Staging data (large files, not for distribution)
+data_staging/
+
+# Draft emails
+Emails_TODO/
+
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
