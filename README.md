@@ -8,25 +8,30 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Current Status
 
-**MVP in progress.** The Copiale cipher source is complete (101 page-level records). Additional sources (DECODE database, British Library manuscripts, HCPortal, ICDAR competition data) are under investigation.
+**MVP in progress.** Two sources complete (498 page-level records). Additional sources under investigation.
 
-| Source | Records | Status |
-|--------|---------|--------|
-| Copiale cipher | 101 | Complete |
-| DECODE database | — | Metadata exported; content pending |
-| British Library | — | Candidates identified; pending rights |
-| HCPortal | — | Not yet started |
-| ICDAR 2024 | — | Pending RRC access |
+| Source | Records | Cipher Type | Status |
+|--------|---------|-------------|--------|
+| Copiale cipher | 101 | Homophonic substitution | Complete |
+| Borg cipher (MSS Borg.lat.898) | 397 | Monoalphabetic substitution | Complete |
+| DECODE database | — | Various | Metadata exported; content pending |
+| British Library | — | Various | Candidates identified; pending rights |
+| ICDAR 2024 | — | Various | Data staged; redistribution TBD |
 
 ## Quick Start
 
 Each benchmark record is one manuscript page with four associated files:
 
 ```
-benchmark/images/copiale_p050.png                    # Page scan
+benchmark/images/copiale_p050.png                    # Page scan (Copiale)
 benchmark/transcriptions/copiale_p050.diplomatic.txt # Transcription (source notation)
 benchmark/transcriptions/copiale_p050.canonical.txt  # Transcription (normalized S### tokens)
 benchmark/plaintext/copiale_p050.txt                 # Deciphered plaintext
+
+benchmark/images/borg_0010r.jpg                      # Page scan (Borg, folio 10 recto)
+benchmark/transcriptions/borg_0010r.diplomatic.txt   # Character-level cipher transcription
+benchmark/transcriptions/borg_0010r.canonical.txt    # Canonical S### tokens (| = word boundary)
+benchmark/plaintext/borg_0010r.txt                   # Deciphered Latin plaintext
 ```
 
 Records are listed in `benchmark/manifest/records.jsonl` (one JSON object per line) and validated against `benchmark/manifest/schema.json`.
@@ -42,7 +47,7 @@ Records are listed in `benchmark/manifest/records.jsonl` (one JSON object per li
 ```
 benchmark/           # The benchmark dataset
   manifest/          #   Record manifest and schema
-  images/            #   Page images (PNG)
+  images/            #   Page images (PNG/JPG)
   transcriptions/    #   Diplomatic + canonical transcriptions
   plaintext/         #   Deciphered plaintext
   metadata/          #   Symbol maps

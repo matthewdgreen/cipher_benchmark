@@ -124,8 +124,8 @@
       "description": "Whether the document contains mixed cipher and cleartext"
     },
     "manuscript_page": {
-      "type": "integer",
-      "description": "Original manuscript page number"
+      "type": ["integer", "string"],
+      "description": "Original manuscript page or folio identifier (integer for numbered pages, string for folio notation like '0001r')"
     },
     "curation_notes": {
       "type": "string",

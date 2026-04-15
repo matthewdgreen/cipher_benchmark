@@ -20,7 +20,9 @@ This benchmark provides standardized evaluation data for AI-assisted classical c
 
 ### Unit of Analysis
 
-The benchmark operates at **page level**: one record = one manuscript page. This provides a natural, well-defined unit with clear image boundaries and keeps records independent of document-level structure.
+The benchmark operates at **record level**: one record typically corresponds to one manuscript page. Records are the atomic storage unit — every record has its own image, transcription, and plaintext files.
+
+However, records are not necessarily the unit of evaluation. For decipherment tasks (Tracks B and C), the amount of ciphertext available dramatically affects difficulty. A system given 101 pages of the same cipher has far more statistical signal than one given a single page. Test definitions (Section 4a) handle this by separating what a system is *scored on* from what it is *given*.
 
 ---
 
@@ -95,6 +97,75 @@ Not every record supports every track. A record's `task_tracks` field lists whic
 - **image2plaintext**: Requires a page image and plaintext.
 
 A record with all three data layers (image + transcription + plaintext) supports all three tracks.
+
+---
+
+## 4a. Test Definitions
+
+A **test** is the unit of evaluation: it specifies what a system receives as input, what it is scored on, and which track applies. Tests are defined in `splits/` and reference records by ID.
+
+### Structure
+
+Each test has three components:
+
+| Component | Description |
+|-----------|-------------|
+| **Target** | The record(s) whose output is scored. This is what the system must produce. |
+| **Context** | Additional record(s) the system may use as auxiliary input. These are in the same cipher system as the target but are not scored. |
+| **Track** | Which task track applies (A, B, or C). |
+
+### Why Separate Target from Context?
+
+The amount of available ciphertext is a primary driver of decipherment difficulty. For a 136-symbol homophonic substitution cipher like the Copiale:
+
+- **1 page** (~600–700 tokens): Very difficult. Sparse frequency data, many symbols seen only a few times.
+- **10 pages** (~7,000 tokens): Feasible for statistical methods. Most symbol frequencies are stable.
+- **101 pages** (~70,000 tokens): Comparatively straightforward. Rich statistical signal.
+
+By separating target from context, the benchmark can evaluate the same system at multiple difficulty levels using the same underlying records. The scoring unit stays consistent (one page of plaintext) while the input varies.
+
+### Track-Specific Behavior
+
+- **Track A** (image→transcription): Context is generally not applicable — each page is transcribed independently. The target is a single page image; context may optionally include sample transcriptions from other pages (for few-shot prompting), but this should be noted in the test definition.
+- **Track B** (transcription→plaintext): The target is one or more canonical transcriptions to decrypt. Context provides additional ciphertext in the same cipher system. The system is scored only on the target pages' plaintext.
+- **Track C** (image→plaintext): Same as Track B, but images are provided instead of transcriptions. Context images give the system more material to work with.
+
+### Test Definition Format
+
+Test definitions are stored as JSON in `splits/`. Format will be finalized when evaluation tooling is built, but the minimum structure is:
+
+```json
+{
+  "test_id": "copiale_single_p050",
+  "track": "transcription2plaintext",
+  "cipher_system": "copiale",
+  "target_records": ["copiale_p050"],
+  "context_records": [],
+  "description": "Decrypt page 50 with no additional context"
+}
+```
+
+```json
+{
+  "test_id": "copiale_full_p050",
+  "track": "transcription2plaintext",
+  "cipher_system": "copiale",
+  "target_records": ["copiale_p050"],
+  "context_records": ["copiale_p001", "copiale_p002", "...", "copiale_p105"],
+  "description": "Decrypt page 50 given all other pages as context"
+}
+```
+
+### Flexibility
+
+This structure imposes no fixed assumptions about:
+
+- **Granularity**: A record can represent a page, a partial page, or a multi-page unit, depending on what the source material requires.
+- **Context size**: A test can have zero context records (hardest) or many (easiest).
+- **Target size**: A test can score on one record or multiple. For sources with very short pages, it may make sense to score on several pages jointly.
+- **Cross-document context**: Context records could come from a different document that uses the same cipher system (e.g., two letters encrypted with the same nomenclator).
+
+Predefined test suites (e.g., "single-page difficulty", "10-page difficulty", "full-document") will be provided as standard splits for comparable benchmarking.
 
 ---
 
@@ -215,6 +286,20 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 - **Rights status:** `linked_only` — image redistribution rights pending clarification from the DECRYPT team at Stockholm University.
 - **Tracks supported:** A (image2transcription), B (transcription2plaintext), C (image2plaintext)
 
+### Borg Cipher (MSS Borg.lat.898)
+
+- **Records:** 397 folios (of 408; pages without cipher content or missing images excluded)
+- **Cipher type:** Monoalphabetic substitution
+- **Symbol set:** 77 distinct characters (alphabetic, numerical, diacritical); 34 core cipher symbols
+- **Plaintext language:** Latin (medical/pharmaceutical text)
+- **Date:** 17th century
+- **Provenance:** Biblioteca Apostolica Vaticana, MSS Borg.lat.898. 408-folio manuscript.
+- **Solution:** Aldarrab, Knight, Megyesi. "The Borg Cipher." DECRYPT project, Stockholm University.
+- **Transcription:** Character-level. Each cipher character maps to an S### token; words delimited by `|` in canonical form.
+- **Rights status:** `linked_only` — images from Vatican Library IIIF (personal use or study only). Transcriptions and plaintext from Stockholm University research.
+- **Tracks supported:** A (image2transcription), B (transcription2plaintext), C (image2plaintext)
+- **Notes:** 31 pages contain mixed cleartext passages (marked with `<CLEARTEXT>` in diplomatic transcription). Plaintext is corrected Latin from Urban Örneholm's interpretation.
+
 *(Additional sources — DECODE database records, British Library manuscripts, HCPortal, ICDAR competition data — are under investigation. See `source_audit.md` in the repository root.)*
 
 ---
@@ -223,7 +308,7 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 
 | File type | Format | Encoding | Notes |
 |-----------|--------|----------|-------|
-| Images | PNG | — | One file per page; variable resolution |
+| Images | PNG or JPG | — | One file per page; variable resolution. Copiale: PNG. Borg: JPG (1200px wide from IIIF). |
 | Diplomatic transcription | Plain text | UTF-8 | Space-separated tokens; blank lines = line breaks |
 | Canonical transcription | Plain text | UTF-8 | Space-separated S### tokens; same line structure as diplomatic |
 | Plaintext | Plain text | UTF-8 | Deciphered text; logogram markers preserved as `*token*` |
@@ -234,7 +319,7 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 
 ## 11. Planned Additions
 
-- **Train/dev/test splits** (`splits/`): Predefined splits for reproducible evaluation. Will stratify by source, cipher type, and difficulty.
+- **Predefined test suites** (`splits/`): Standard test definitions at multiple difficulty levels (single-page, 10-page, full-document). See Section 4a for the test definition format.
 - **Evaluation scripts** (`evaluation/`): Scoring code for each track (symbol error rate for Track A, plaintext accuracy for Tracks B and C).
 - **Additional sources**: DECODE database records, British Library cipher manuscripts, HCPortal material, ICDAR 2024 competition data. See `source_audit.md` for current status.
 - **Difficulty annotations**: Per-record difficulty estimates based on cipher complexity, symbol count, and solution method.
