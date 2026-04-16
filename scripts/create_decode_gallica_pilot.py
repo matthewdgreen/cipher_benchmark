@@ -132,7 +132,7 @@ def main():
         record_id = f"decode_{decode_id}"
 
         # Download image (one folio for now; multi-page records get first folio)
-        img_path = BENCHMARK / "images" / f"{record_id}_f{folio}.jpg"
+        img_path = BENCHMARK / "sources" / "decode_gallica" / "images" / f"{record_id}_f{folio}.jpg"
         if not img_path.exists():
             print(f"  [{i+1}/{len(records)}] Downloading {record_id} f{folio}...")
             success = download_gallica_image(ark, folio, img_path)
@@ -156,7 +156,7 @@ def main():
         if date_str and len(date_str) >= 4:
             date_str = date_str[:10]  # "YYYY-MM-DD" or similar
 
-        image_files = [f"images/{record_id}_f{folio}.jpg"]
+        image_files = [f"sources/decode_gallica/images/{record_id}_f{folio}.jpg"]
 
         rec = {
             "id": record_id,

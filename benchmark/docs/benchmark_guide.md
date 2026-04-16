@@ -33,19 +33,23 @@ benchmark/
   manifest/
     schema.json              # JSON Schema for record validation
     records.jsonl            # One JSON record per line, one per page
-  images/                    # Page images (PNG)
-  transcriptions/            # Two files per page:
-    {id}.diplomatic.txt      #   Diplomatic transcription (source notation)
-    {id}.canonical.txt       #   Canonical transcription (S### tokens)
-  plaintext/                 # Deciphered plaintext, one file per page
-  metadata/                  # Per-source symbol maps and auxiliary data
-    {source}_symbol_map.json #   Diplomatic-to-canonical token mapping
-  splits/                    # Train/dev/test split definitions (future)
+  sources/                   # Per-source data directories
+    {source}/
+      images/                #   Page images (PNG or JPG)
+      transcriptions/        #   Two files per page:
+        {id}.diplomatic.txt  #     Diplomatic transcription (source notation)
+        {id}.canonical.txt   #     Canonical transcription (S### tokens)
+      plaintext/             #   Deciphered plaintext, one file per page
+      metadata/              #   Symbol maps and auxiliary data
+        {source}_symbol_map.json
+  splits/                    # Predefined test suite definitions
   evaluation/                # Scoring scripts and baselines (future)
   docs/
     benchmark_guide.md       # This document
     normalization_rules.md   # Rules for producing canonical transcriptions
 ```
+
+File paths in `records.jsonl` are relative to `benchmark/` and include the source prefix, e.g. `sources/copiale/images/copiale_p050.png`.
 
 ---
 
@@ -308,7 +312,7 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 
 | File type | Format | Encoding | Notes |
 |-----------|--------|----------|-------|
-| Images | PNG or JPG | — | One file per page; variable resolution. Copiale: PNG. Borg: JPG (1200px wide from IIIF). |
+| Images | PNG or JPG | — | One file per page in `sources/{source}/images/`. Copiale: PNG. Borg/Gallica: JPG (1200px wide from IIIF). |
 | Diplomatic transcription | Plain text | UTF-8 | Space-separated tokens; blank lines = line breaks |
 | Canonical transcription | Plain text | UTF-8 | Space-separated S### tokens; same line structure as diplomatic |
 | Plaintext | Plain text | UTF-8 | Deciphered text; logogram markers preserved as `*token*` |

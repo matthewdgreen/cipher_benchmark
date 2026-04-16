@@ -19,18 +19,24 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Quick Start
 
-Each benchmark record is one manuscript page with four associated files:
+Each benchmark record is one manuscript page. Files are organized by source:
 
 ```
-benchmark/images/copiale_p050.png                    # Page scan (Copiale)
-benchmark/transcriptions/copiale_p050.diplomatic.txt # Transcription (source notation)
-benchmark/transcriptions/copiale_p050.canonical.txt  # Transcription (normalized S### tokens)
-benchmark/plaintext/copiale_p050.txt                 # Deciphered plaintext
+benchmark/sources/copiale/
+  images/copiale_p050.png                    # Page scan
+  transcriptions/copiale_p050.diplomatic.txt # Transcription (source notation)
+  transcriptions/copiale_p050.canonical.txt  # Transcription (normalized S### tokens)
+  plaintext/copiale_p050.txt                 # Deciphered plaintext
+  metadata/copiale_symbol_map.json           # Cipher symbol mapping
 
-benchmark/images/borg_0010r.jpg                      # Page scan (Borg, folio 10 recto)
-benchmark/transcriptions/borg_0010r.diplomatic.txt   # Character-level cipher transcription
-benchmark/transcriptions/borg_0010r.canonical.txt    # Canonical S### tokens (| = word boundary)
-benchmark/plaintext/borg_0010r.txt                   # Deciphered Latin plaintext
+benchmark/sources/borg/
+  images/borg_0010r.jpg                      # Page scan (folio 10 recto)
+  transcriptions/borg_0010r.diplomatic.txt   # Character-level cipher transcription
+  transcriptions/borg_0010r.canonical.txt    # Canonical S### tokens (| = word boundary)
+  plaintext/borg_0010r.txt                   # Deciphered Latin plaintext
+
+benchmark/sources/decode_gallica/
+  images/decode_2686_f209.jpg                # Gallica IIIF scan (Track A only)
 ```
 
 Records are listed in `benchmark/manifest/records.jsonl` (one JSON object per line) and validated against `benchmark/manifest/schema.json`.
@@ -44,18 +50,24 @@ Records are listed in `benchmark/manifest/records.jsonl` (one JSON object per li
 ## Repository Structure
 
 ```
-benchmark/           # The benchmark dataset
-  manifest/          #   Record manifest and schema
-  images/            #   Page images (PNG/JPG)
-  transcriptions/    #   Diplomatic + canonical transcriptions
-  plaintext/         #   Deciphered plaintext
-  metadata/          #   Symbol maps
-  docs/              #   Documentation
-  splits/            #   Train/dev/test splits (planned)
-  evaluation/        #   Scoring scripts (planned)
-scripts/             # Data processing and curation scripts
-data_staging/        # Raw source data (not tracked in git)
-source_audit.md      # Source investigation notes
+benchmark/                    # The benchmark dataset
+  sources/                    #   Per-source data directories
+    copiale/                  #     Copiale cipher (101 pages, Tracks A/B/C)
+      images/                 #       Page scans
+      transcriptions/         #       Diplomatic + canonical transcriptions
+      plaintext/              #       Deciphered plaintext
+      metadata/               #       Symbol maps
+    borg/                     #     Borg cipher (397 folios, Tracks A/B/C)
+      images/ transcriptions/ plaintext/ metadata/
+    decode_gallica/           #     BnF manuscripts via Gallica (140 pages, Track A)
+      images/
+  manifest/                   #   Record manifest and schema
+  splits/                     #   Predefined test suite definitions
+  docs/                       #   Documentation
+  evaluation/                 #   Scoring scripts (planned)
+scripts/                      # Data processing and curation scripts
+data_staging/                 # Raw source data (not tracked in git)
+source_audit.md               # Source investigation notes
 ```
 
 ## Rights

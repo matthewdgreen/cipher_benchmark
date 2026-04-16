@@ -248,21 +248,21 @@ def main():
         latin_plain = extract_latin_plaintext(plain_text)
 
         # Write diplomatic transcription
-        diplo_path = BENCHMARK / "transcriptions" / f"{record_id}.diplomatic.txt"
+        diplo_path = BENCHMARK / "sources" / "borg" / "transcriptions" / f"{record_id}.diplomatic.txt"
         diplo_path.write_text(diplo_text, encoding="utf-8")
 
         # Write canonical transcription
         canon_text, unknown = diplomatic_to_canonical(diplo_text, symbol_map)
         all_unknown.update(unknown)
-        canon_path = BENCHMARK / "transcriptions" / f"{record_id}.canonical.txt"
+        canon_path = BENCHMARK / "sources" / "borg" / "transcriptions" / f"{record_id}.canonical.txt"
         canon_path.write_text(canon_text, encoding="utf-8")
 
         # Write plaintext (Latin)
-        plain_path = BENCHMARK / "plaintext" / f"{record_id}.txt"
+        plain_path = BENCHMARK / "sources" / "borg" / "plaintext" / f"{record_id}.txt"
         plain_path.write_text(latin_plain, encoding="utf-8")
 
         # Download image
-        img_path = BENCHMARK / "images" / f"{record_id}.jpg"
+        img_path = BENCHMARK / "sources" / "borg" / "images" / f"{record_id}.jpg"
         if not img_path.exists():
             iiif_base = iiif_map[page_name]
             success = download_iiif_image(iiif_base, img_path)
@@ -302,10 +302,10 @@ def main():
             "page_count": 1,
             "provenance": "Biblioteca Apostolica Vaticana, MSS Borg.lat.898",
             "solution_reference": "Aldarrab, Knight, Megyesi. 'The Borg Cipher.' DECRYPT project, Stockholm University.",
-            "image_files": [f"images/{record_id}.jpg"],
-            "transcription_diplomatic_file": f"transcriptions/{record_id}.diplomatic.txt",
-            "transcription_canonical_file": f"transcriptions/{record_id}.canonical.txt",
-            "plaintext_file": f"plaintext/{record_id}.txt",
+            "image_files": [f"sources/borg/images/{record_id}.jpg"],
+            "transcription_diplomatic_file": f"sources/borg/transcriptions/{record_id}.diplomatic.txt",
+            "transcription_canonical_file": f"sources/borg/transcriptions/{record_id}.canonical.txt",
+            "plaintext_file": f"sources/borg/plaintext/{record_id}.txt",
             "has_key": True,
             "has_inline_plaintext": has_cleartext,
             "manuscript_page": norm,
@@ -349,7 +349,7 @@ def main():
         "8": "L", "9": "N",
     }
 
-    symmap_path = BENCHMARK / "metadata" / "borg_symbol_map.json"
+    symmap_path = BENCHMARK / "sources" / "borg" / "metadata" / "borg_symbol_map.json"
     with open(symmap_path, "w", encoding="utf-8") as f:
         json.dump({
             "description": "Mapping from Borg cipher diplomatic transcription tokens to canonical S### identifiers",

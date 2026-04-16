@@ -143,22 +143,22 @@ def main():
         diplo_text = trans_pages[page_num]
 
         # Diplomatic transcription
-        diplo_path = BENCHMARK / "transcriptions" / f"{record_id}.diplomatic.txt"
+        diplo_path = BENCHMARK / "sources" / "copiale" / "transcriptions" / f"{record_id}.diplomatic.txt"
         diplo_path.write_text(diplo_text, encoding="utf-8")
 
         # Canonical transcription
         canon_text, unknown = diplomatic_to_canonical(diplo_text, symbol_map)
         all_unknown.update(unknown)
-        canon_path = BENCHMARK / "transcriptions" / f"{record_id}.canonical.txt"
+        canon_path = BENCHMARK / "sources" / "copiale" / "transcriptions" / f"{record_id}.canonical.txt"
         canon_path.write_text(canon_text, encoding="utf-8")
 
         # Plaintext
-        plain_path = BENCHMARK / "plaintext" / f"{record_id}.txt"
+        plain_path = BENCHMARK / "sources" / "copiale" / "plaintext" / f"{record_id}.txt"
         plain_path.write_text(deci_pages[page_num], encoding="utf-8")
 
         # Image
         src_img = COPIALE_DIR / "individual_pages" / f"page_{img_page:03d}.png"
-        dst_img = BENCHMARK / "images" / f"{record_id}.png"
+        dst_img = BENCHMARK / "sources" / "copiale" / "images" / f"{record_id}.png"
         shutil.copy2(src_img, dst_img)
 
         # Count symbols on this page
@@ -187,10 +187,10 @@ def main():
             "page_count": 1,
             "provenance": "Private collection; scans hosted by Stockholm University",
             "solution_reference": "Knight, Megyesi, Schaefer (2011). 'The Copiale Cipher.' ACL Workshop. https://aclanthology.org/W11-1202/",
-            "image_files": [f"images/{record_id}.png"],
-            "transcription_diplomatic_file": f"transcriptions/{record_id}.diplomatic.txt",
-            "transcription_canonical_file": f"transcriptions/{record_id}.canonical.txt",
-            "plaintext_file": f"plaintext/{record_id}.txt",
+            "image_files": [f"sources/copiale/images/{record_id}.png"],
+            "transcription_diplomatic_file": f"sources/copiale/transcriptions/{record_id}.diplomatic.txt",
+            "transcription_canonical_file": f"sources/copiale/transcriptions/{record_id}.canonical.txt",
+            "plaintext_file": f"sources/copiale/plaintext/{record_id}.txt",
             "has_key": True,
             "has_inline_plaintext": False,
             "manuscript_page": page_num,
@@ -211,7 +211,7 @@ def main():
     print(f"\nManifest written: {manifest_path} ({len(records)} records)")
 
     # Write global symbol map with logogram glossary
-    symmap_path = BENCHMARK / "metadata" / "copiale_symbol_map.json"
+    symmap_path = BENCHMARK / "sources" / "copiale" / "metadata" / "copiale_symbol_map.json"
     logogram_glossary = {
         "nee": "master",
         "tri": "lodge",
