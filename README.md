@@ -8,15 +8,14 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Current Status
 
-**MVP in progress.** Two sources complete (498 page-level records). Additional sources under investigation.
+**MVP in progress.** Three sources loaded (638 page-level records). Additional sources under investigation.
 
-| Source | Records | Cipher Type | Status |
-|--------|---------|-------------|--------|
-| Copiale cipher | 101 | Homophonic substitution | Complete |
-| Borg cipher (MSS Borg.lat.898) | 397 | Monoalphabetic substitution | Complete |
-| DECODE database | — | Various | Metadata exported; content pending |
-| British Library | — | Various | Candidates identified; pending rights |
-| ICDAR 2024 | — | Various | Data staged; redistribution TBD |
+| Source | Records | Cipher Type | Tracks | Status |
+|--------|---------|-------------|--------|--------|
+| Copiale cipher | 101 | Homophonic substitution | A, B, C | Complete |
+| Borg cipher (MSS Borg.lat.898) | 397 | Monoalphabetic substitution | A, B, C | Complete |
+| DECODE/Gallica (BnF manuscripts) | 140 | Nomenclator, homophonic | A only | Images downloaded; transcription pending |
+| ICDAR 2024 | — | Various | — | Data staged; redistribution TBD |
 
 ## Quick Start
 

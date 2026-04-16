@@ -9,10 +9,7 @@
     "source_record_id",
     "rights_class",
     "status",
-    "image_files",
-    "transcription_diplomatic_file",
-    "transcription_canonical_file",
-    "plaintext_file"
+    "image_files"
   ],
   "properties": {
     "id": {
