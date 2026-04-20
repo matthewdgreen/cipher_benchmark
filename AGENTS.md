@@ -31,11 +31,28 @@ As of April 20, 2026, the manifest contains 896 records:
 - Multilingual synthetic simple substitution: 240
 - Tool-bundled parity records: 3
 
+Tool-bundled coverage is intentionally still partial. The benchmark currently
+has only three imported Zenith smoke records (`goldbug`, `horacemann`,
+`zodiac408`). The downloaded tool corpora contain more material:
+
+- Zenith source checkout includes 11 cipher JSON resources: `goldbug`,
+  `hamptonfull`, `horacemann`, `jameshampton1`, `kryptos1`, `kryptos2`,
+  `kryptos3`, `kryptos4`, `zodiac340-original`, `zodiac340-transformed`,
+  and `zodiac408`.
+- zkdecrypto-lite includes 24 bundled `cipher/*.txt` resources.
+
+Future curation should inventory these files before importing them. Add solved
+and scorable records to parity splits; add unsolved, transformed, unsupported,
+or special-family ciphers only with explicit diagnostic metadata.
+
 ## Working Rules
 
 - Treat `benchmark/manifest/records.jsonl` as the source of truth for counts.
 - Keep benchmark curation separate from Decipher solver code.
 - Prefer adding explicit metadata over inferring intent from file names.
+- Do not mark external-tool corpus coverage as complete merely because the
+  `tool_builtins` source exists; track which bundled files have actually been
+  imported.
 - Run Decipher's validator after manifest/schema/split changes:
 
 ```bash
