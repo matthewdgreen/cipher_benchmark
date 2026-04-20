@@ -450,6 +450,21 @@ Based on the 1,400 decrypted cipher records in DECODE, the top holding archives 
 
 **Total estimated open-release yield from DECODE metadata + archive images: 30–80 records** (if we can match DECODE records to digitized images at source archives)
 
+### Known curation complication: Gallica folio-to-scan offsets
+
+For BnF volumes in the Mélanges de Colbert series, the DECODE folio numbers
+encode historical manuscript foliation stamps. Gallica IIIF URLs use
+sequential scan indices starting at 1, which align with the folio numbers
+for most volumes but **not** for 9 identified "bis" volumes (Mel109,
+Mel127bis, Mel134bis, Mel137bis, Mel142bis, Mel157bis, Mel165bis, Mel171bis,
+Mel176bis). Those volumes pick up the foliation from wherever the non-bis
+part ended (e.g., Mel134bis starts at folio ~432).
+
+Partial resolution in progress — see
+`data_staging/bis_offset_recon/STATUS.md` for findings, method, evidence
+images, and resume plan. Expected impact: recovers up to 17 of the 160 BnF
+records currently excluded from the DECODE/Gallica pilot.
+
 ---
 
 ## Open questions

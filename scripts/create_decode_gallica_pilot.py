@@ -20,6 +20,7 @@ BASE = Path("/Users/mgreen/Dropbox/src2/cipher_benchmark")
 BENCHMARK = BASE / "benchmark"
 MAPPING = BASE / "data_staging" / "decode_gallica_mapping.json"
 SCAN_COUNTS = BASE / "data_staging" / "gallica_scan_counts.json"
+OFFSETS_FILE = BASE / "data_staging" / "gallica_folio_offsets.json"
 DETAIL_FILE = BASE / "data_staging" / "decode_decrypted_ciphers_detail.jsonl"
 
 IMAGE_WIDTH = 1200
@@ -35,31 +36,72 @@ def load_decode_details():
     return details
 
 
-def get_ok_volumes():
-    """Get set of volumes where folio number = scan index."""
+def load_offsets():
+    """Load per-volume folio-to-scan offsets. Volumes with a known offset are
+    included in the pilot; volumes listed under 'unresolved' are skipped."""
+    if not OFFSETS_FILE.exists():
+        return {}, {}
+    with open(OFFSETS_FILE) as f:
+        data = json.load(f)
+    offsets = {vol: info["offset"] for vol, info in data.get("offsets", {}).items()}
+    unresolved = set(data.get("unresolved", {}).keys())
+    return offsets, unresolved
+
+
+def get_ok_volumes(offsets=None, unresolved=None):
+    """Get the set of volumes usable for the pilot.
+
+    A volume is usable if either:
+      (a) folio numbers align with scan indices (max_folio <= scan_count, offset=0), or
+      (b) it has a known per-volume offset in gallica_folio_offsets.json that keeps
+          every DECODE folio within [1, scan_count] after applying the offset.
+
+    Volumes listed in gallica_folio_offsets.json 'unresolved' are excluded.
+    """
+    offsets = offsets or {}
+    unresolved = unresolved or set()
+
     with open(MAPPING) as f:
         records = json.load(f)["records"]
     with open(SCAN_COUNTS) as f:
         scan_counts = json.load(f)
 
-    vol_max_folio = {}
+    vol_folios = {}
     for r in records:
-        vol = r["volume"]
-        folio = int(r["folio"])
-        vol_max_folio[vol] = max(vol_max_folio.get(vol, 0), folio)
+        vol_folios.setdefault(r["volume"], []).append(int(r["folio"]))
 
     ok = set()
-    for vol, scans in scan_counts.items():
-        if isinstance(scans, int) and vol_max_folio.get(vol, 9999) <= scans:
+    for vol, folios in vol_folios.items():
+        if vol in unresolved:
+            continue
+        scans = scan_counts.get(vol)
+        if not isinstance(scans, int):
+            continue
+        off = offsets.get(vol, 0)
+        # After applying the offset, every DECODE folio must map into [1, scans].
+        # We treat the special sentinel 99999 as "HEAD-verified to work at each
+        # requested folio" — accept any folio.
+        if scans == 99999:
+            ok.add(vol)
+            continue
+        scan_indices = [f - off for f in folios]
+        if all(1 <= s <= scans for s in scan_indices):
             ok.add(vol)
     return ok
 
 
-def download_gallica_image(ark_id, folio_num, output_path, width=IMAGE_WIDTH):
-    """Download a folio image from Gallica IIIF."""
+def folio_to_scan(folio, vol, offsets):
+    """Convert a DECODE folio number to the corresponding Gallica scan index
+    by applying the per-volume offset (0 if none)."""
+    return int(folio) - offsets.get(vol, 0)
+
+
+def download_gallica_image(ark_id, scan_index, output_path, width=IMAGE_WIDTH):
+    """Download a folio image from Gallica IIIF. scan_index is the
+    Gallica-sequential index (already offset-adjusted)."""
     url = (
         f"https://gallica.bnf.fr/iiif/ark:/12148/{ark_id}"
-        f"/f{folio_num}/full/{width},/0/native.jpg"
+        f"/f{scan_index}/full/{width},/0/native.jpg"
     )
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "CipherBenchmark/1.0"})
@@ -67,7 +109,7 @@ def download_gallica_image(ark_id, folio_num, output_path, width=IMAGE_WIDTH):
             output_path.write_bytes(resp.read())
         return True
     except Exception as e:
-        print(f"    ERROR downloading f{folio_num}: {e}")
+        print(f"    ERROR downloading scan f{scan_index}: {e}")
         if output_path.exists():
             output_path.unlink()
         return False
@@ -110,9 +152,15 @@ def main():
     with open(MAPPING) as f:
         all_records = json.load(f)["records"]
 
-    ok_volumes = get_ok_volumes()
+    offsets, unresolved = load_offsets()
+    ok_volumes = get_ok_volumes(offsets=offsets, unresolved=unresolved)
     records = [r for r in all_records if r["volume"] in ok_volumes]
-    print(f"OK volumes: {len(ok_volumes)}")
+    print(f"OK volumes: {len(ok_volumes)} (of which {sum(1 for v in ok_volumes if v in offsets)} use a folio-offset)")
+    if offsets:
+        print(f"  offset volumes: {sorted(v for v in ok_volumes if v in offsets)}")
+    if unresolved:
+        skipped = [r for r in all_records if r["volume"] in unresolved]
+        print(f"Unresolved volumes (skipped): {sorted(unresolved)} — {len(skipped)} record(s) held for review")
     print(f"Records to process: {len(records)}")
 
     details = load_decode_details()
@@ -128,14 +176,23 @@ def main():
         folio = r["folio"]
         ark = r["gallica_ark"].split("/")[-1]
 
+        # Convert DECODE folio to Gallica scan index via per-volume offset (0 if none).
+        scan_index = folio_to_scan(folio, vol, offsets)
+        vol_offset = offsets.get(vol, 0)
+
         # Build record ID
         record_id = f"decode_{decode_id}"
 
-        # Download image (one folio for now; multi-page records get first folio)
+        # Download image (one folio for now; multi-page records get first folio).
+        # Filename still uses the DECODE folio number for human-readability;
+        # Gallica URL uses the computed scan index.
         img_path = BENCHMARK / "sources" / "decode_gallica" / "images" / f"{record_id}_f{folio}.jpg"
         if not img_path.exists():
-            print(f"  [{i+1}/{len(records)}] Downloading {record_id} f{folio}...")
-            success = download_gallica_image(ark, folio, img_path)
+            if vol_offset:
+                print(f"  [{i+1}/{len(records)}] Downloading {record_id} f{folio} (Gallica scan {scan_index}, offset {vol_offset})...")
+            else:
+                print(f"  [{i+1}/{len(records)}] Downloading {record_id} f{folio}...")
+            success = download_gallica_image(ark, scan_index, img_path)
             if not success:
                 download_errors.append(record_id)
             time.sleep(1.5)  # rate limit for Gallica
@@ -181,6 +238,11 @@ def main():
                 f"Volume {vol} ({num_pages} pages in DECODE record). "
                 f"Track A only — transcription and plaintext pending DECODE access. "
                 f"Image from Gallica IIIF. Source: gallica.bnf.fr / BnF."
+                + (
+                    f" Folio-to-scan offset {vol_offset} applied (scan index = folio − {vol_offset}); "
+                    f"see data_staging/gallica_folio_offsets.json."
+                    if vol_offset else ""
+                )
             ),
         }
         benchmark_records.append(rec)

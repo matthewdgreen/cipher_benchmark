@@ -8,13 +8,15 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Current Status
 
-**MVP in progress.** Three sources loaded (638 page-level records). Additional sources under investigation.
+**MVP in progress.** Current manifest: 896 records across historical, DECODE/Gallica, synthetic, and tool-bundled parity sources. Additional sources under investigation.
 
 | Source | Records | Cipher Type | Tracks | Status |
 |--------|---------|-------------|--------|--------|
 | Copiale cipher | 101 | Homophonic substitution | A, B, C | Complete |
 | Borg cipher (MSS Borg.lat.898) | 397 | Monoalphabetic substitution | A, B, C | Complete |
-| DECODE/Gallica (BnF manuscripts) | 140 | Nomenclator, homophonic | A only | Images downloaded; transcription pending |
+| DECODE/Gallica (BnF manuscripts) | 155 | Nomenclator, homophonic | A only | Images downloaded; transcription pending |
+| Multilingual synthetic substitution | 240 | Simple substitution | B only | Complete |
+| External tool built-ins | 3 | Reference ciphers | B only | Parity smoke records |
 | ICDAR 2024 | — | Various | — | Data staged; redistribution TBD |
 
 ## Quick Start
@@ -59,8 +61,12 @@ benchmark/                    # The benchmark dataset
       metadata/               #       Symbol maps
     borg/                     #     Borg cipher (397 folios, Tracks A/B/C)
       images/ transcriptions/ plaintext/ metadata/
-    decode_gallica/           #     BnF manuscripts via Gallica (140 pages, Track A)
+    decode_gallica/           #     BnF manuscripts via Gallica (155 pages, Track A)
       images/
+    *_ss_synth*/              #     Synthetic multilingual substitution records (Track B)
+      transcriptions/ plaintext/ keys/
+    tool_builtins/            #     Reference ciphers bundled with external tools
+      transcriptions/ plaintext/ metadata/
   manifest/                   #   Record manifest and schema
   splits/                     #   Predefined test suite definitions
   docs/                       #   Documentation

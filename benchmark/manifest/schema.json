@@ -6,10 +6,8 @@
   "required": [
     "id",
     "source",
-    "source_record_id",
-    "rights_class",
     "status",
-    "image_files"
+    "task_tracks"
   ],
   "properties": {
     "id": {
@@ -97,8 +95,7 @@
       "items": {
         "type": "string"
       },
-      "minItems": 1,
-      "description": "Relative paths to page image files"
+      "description": "Relative paths to page image files. Required for image2transcription and image2plaintext records; omitted for Track-B-only generated records."
     },
     "transcription_diplomatic_file": {
       "type": "string",
@@ -127,6 +124,24 @@
     "curation_notes": {
       "type": "string",
       "description": "Free-text notes from curators"
+    },
+    "word_boundaries": {
+      "type": "boolean",
+      "description": "Whether the canonical transcription preserves plaintext word boundaries."
+    },
+    "token_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of cipher tokens in the canonical transcription."
+    },
+    "word_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Approximate number of plaintext words represented by the record."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Short source- or generation-specific notes."
     }
   },
   "additionalProperties": false

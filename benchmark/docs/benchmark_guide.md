@@ -1,8 +1,8 @@
 # Classical Cipher Benchmark: Dataset Guide
 
 **Version:** 0.1
-**Date:** 2026-04-15
-**Status:** Draft — Copiale source complete; additional sources in progress
+**Date:** 2026-04-20
+**Status:** Draft — Borg/Copiale and multilingual synthetic Track B records loaded; DECODE/Gallica Track A records in progress
 
 ---
 
@@ -63,20 +63,25 @@ Each record in `manifest/records.jsonl` is a JSON object. The full schema is in 
 |-------|------|-------------|
 | `id` | string | Unique record ID (pattern: `[a-z0-9_]+`), e.g. `copiale_p050` |
 | `source` | string | Source collection identifier, e.g. `copiale`, `decode`, `hcportal` |
-| `source_record_id` | string | Identifier in the original source system |
-| `rights_class` | string | Redistribution category (see Section 5) |
 | `status` | string | Solution verification status (see Section 6) |
-| `image_files` | array | Relative paths to page image files |
-| `transcription_diplomatic_file` | string | Relative path to diplomatic transcription |
-| `transcription_canonical_file` | string | Relative path to canonical transcription |
-| `plaintext_file` | string | Relative path to plaintext |
+| `task_tracks` | array | Which tracks this record supports (see Section 4) |
+
+### Conditionally Required Fields
+
+| Field | Required when | Description |
+|-------|---------------|-------------|
+| `image_files` | Track A or Track C | Relative paths to page image files |
+| `transcription_diplomatic_file` | Track A | Relative path to diplomatic transcription |
+| `transcription_canonical_file` | Track B | Relative path to canonical transcription |
+| `plaintext_file` | Track B or Track C | Relative path to plaintext |
 
 ### Optional Fields
 
 | Field | Type | Description |
 |-------|------|-------------|
 | `source_url` | string (URI) | URL to the source record or project |
-| `task_tracks` | array | Which tracks this record supports (see Section 4) |
+| `source_record_id` | string | Identifier in the original source system |
+| `rights_class` | string | Redistribution category (see Section 5) |
 | `cipher_type` | array | Cipher family, e.g. `["homophonic_substitution"]` |
 | `symbol_set` | array | Symbol types, e.g. `["alphabetic", "diacritical"]` |
 | `symbol_count` | integer | Distinct cipher symbols on this page |
@@ -89,6 +94,15 @@ Each record in `manifest/records.jsonl` is a JSON object. The full schema is in 
 | `has_inline_plaintext` | boolean | Whether the page mixes cipher and cleartext |
 | `manuscript_page` | integer | Original page number in the manuscript |
 | `curation_notes` | string | Free-text notes from curators |
+| `word_boundaries` | boolean | Whether canonical transcription preserves word boundaries |
+| `token_count` | integer | Number of cipher tokens |
+| `word_count` | integer | Approximate plaintext word count |
+| `notes` | string | Short source- or generation-specific notes |
+
+Track-B-only generated records may omit image files and diplomatic
+transcriptions. Historical manuscript records should include `source_record_id`
+and `rights_class`; generated records should include those fields when possible
+but are allowed to remain data-only records while curation is in progress.
 
 ---
 

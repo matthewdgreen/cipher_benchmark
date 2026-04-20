@@ -1,0 +1,23 @@
+{
+  "source": "Zenith bundled cipher JSON",
+  "source_file": "/Users/mgreen/Dropbox/src2/decipher/other_tools/zenith-src/zenith-inference/src/main/resources/ciphers/horacemann.json",
+  "rows": 1,
+  "columns": 66,
+  "known_solution_key": {
+    "T": "e",
+    "L": "d",
+    "M": "u",
+    "G": "c",
+    "E": "a",
+    "R": "t",
+    "Z": "i",
+    "Y": "o",
+    "H": "n",
+    "C": "s",
+    "B": "p",
+    "D": "l",
+    "I": "h",
+    "F": "r",
+    "P": "m"
+  }
+}
