@@ -1,0 +1,859 @@
+{
+  "_source": "https://collections.library.yale.edu/manifests/2002046",
+  "_fetched": "2026-04-23",
+  "canvas_count": 213,
+  "canvases": [
+    {
+      "label": "[Front cover]",
+      "service": "https://collections.library.yale.edu/iiif/2/1006074"
+    },
+    {
+      "label": "[Inside front cover]",
+      "service": "https://collections.library.yale.edu/iiif/2/1006075"
+    },
+    {
+      "label": "1r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006076"
+    },
+    {
+      "label": "1v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006077"
+    },
+    {
+      "label": "2r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006078"
+    },
+    {
+      "label": "2v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006079"
+    },
+    {
+      "label": "3r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006080"
+    },
+    {
+      "label": "3v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006081"
+    },
+    {
+      "label": "4r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006082"
+    },
+    {
+      "label": "4v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006083"
+    },
+    {
+      "label": "5r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006084"
+    },
+    {
+      "label": "5v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006085"
+    },
+    {
+      "label": "6r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006086"
+    },
+    {
+      "label": "6v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006087"
+    },
+    {
+      "label": "7r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006088"
+    },
+    {
+      "label": "7v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006089"
+    },
+    {
+      "label": "8r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006090"
+    },
+    {
+      "label": "8v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006091"
+    },
+    {
+      "label": "9r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006092"
+    },
+    {
+      "label": "9v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006093"
+    },
+    {
+      "label": "10r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006094"
+    },
+    {
+      "label": "10v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006095"
+    },
+    {
+      "label": "11r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006096"
+    },
+    {
+      "label": "11v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006097"
+    },
+    {
+      "label": "13r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006098"
+    },
+    {
+      "label": "13v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006099"
+    },
+    {
+      "label": "14r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006100"
+    },
+    {
+      "label": "14v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006101"
+    },
+    {
+      "label": "15r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006102"
+    },
+    {
+      "label": "15v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006103"
+    },
+    {
+      "label": "16r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006104"
+    },
+    {
+      "label": "16v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006105"
+    },
+    {
+      "label": "17r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006106"
+    },
+    {
+      "label": "17v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006107"
+    },
+    {
+      "label": "18r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006108"
+    },
+    {
+      "label": "18v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006109"
+    },
+    {
+      "label": "19r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006110"
+    },
+    {
+      "label": "19v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006111"
+    },
+    {
+      "label": "20r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006112"
+    },
+    {
+      "label": "20v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006113"
+    },
+    {
+      "label": "21r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006114"
+    },
+    {
+      "label": "21v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006115"
+    },
+    {
+      "label": "22r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006116"
+    },
+    {
+      "label": "22v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006117"
+    },
+    {
+      "label": "23r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006118"
+    },
+    {
+      "label": "23v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006119"
+    },
+    {
+      "label": "24r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006120"
+    },
+    {
+      "label": "24v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006121"
+    },
+    {
+      "label": "25r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006122"
+    },
+    {
+      "label": "25v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006123"
+    },
+    {
+      "label": "26r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006124"
+    },
+    {
+      "label": "26v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006125"
+    },
+    {
+      "label": "27r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006126"
+    },
+    {
+      "label": "27v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006127"
+    },
+    {
+      "label": "28r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006128"
+    },
+    {
+      "label": "28v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006129"
+    },
+    {
+      "label": "29r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006130"
+    },
+    {
+      "label": "29v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006131"
+    },
+    {
+      "label": "30r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006132"
+    },
+    {
+      "label": "30v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006133"
+    },
+    {
+      "label": "31r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006134"
+    },
+    {
+      "label": "31v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006135"
+    },
+    {
+      "label": "32r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006136"
+    },
+    {
+      "label": "32v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006137"
+    },
+    {
+      "label": "33r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006138"
+    },
+    {
+      "label": "33v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006139"
+    },
+    {
+      "label": "34r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006140"
+    },
+    {
+      "label": "34v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006141"
+    },
+    {
+      "label": "35r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006142"
+    },
+    {
+      "label": "35v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006143"
+    },
+    {
+      "label": "36r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006144"
+    },
+    {
+      "label": "36v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006145"
+    },
+    {
+      "label": "37r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006146"
+    },
+    {
+      "label": "37v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006147"
+    },
+    {
+      "label": "38r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006148"
+    },
+    {
+      "label": "38v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006149"
+    },
+    {
+      "label": "39r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006150"
+    },
+    {
+      "label": "39v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006151"
+    },
+    {
+      "label": "40r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006152"
+    },
+    {
+      "label": "40v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006153"
+    },
+    {
+      "label": "41r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006154"
+    },
+    {
+      "label": "41v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006155"
+    },
+    {
+      "label": "42r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006156"
+    },
+    {
+      "label": "42v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006157"
+    },
+    {
+      "label": "43r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006158"
+    },
+    {
+      "label": "43v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006159"
+    },
+    {
+      "label": "44r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006160"
+    },
+    {
+      "label": "44v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006161"
+    },
+    {
+      "label": "45r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006162"
+    },
+    {
+      "label": "45v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006163"
+    },
+    {
+      "label": "46r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006164"
+    },
+    {
+      "label": "46v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006165"
+    },
+    {
+      "label": "47r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006166"
+    },
+    {
+      "label": "47v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006167"
+    },
+    {
+      "label": "48r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006168"
+    },
+    {
+      "label": "48v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006169"
+    },
+    {
+      "label": "49r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006170"
+    },
+    {
+      "label": "49v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006171"
+    },
+    {
+      "label": "50r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006172"
+    },
+    {
+      "label": "50v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006173"
+    },
+    {
+      "label": "51r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006174"
+    },
+    {
+      "label": "51v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006175"
+    },
+    {
+      "label": "52r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006176"
+    },
+    {
+      "label": "52v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006177"
+    },
+    {
+      "label": "53r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006178"
+    },
+    {
+      "label": "53v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006179"
+    },
+    {
+      "label": "54r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006180"
+    },
+    {
+      "label": "54v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006181"
+    },
+    {
+      "label": "55r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006182"
+    },
+    {
+      "label": "55v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006183"
+    },
+    {
+      "label": "56r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006184"
+    },
+    {
+      "label": "56v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006185"
+    },
+    {
+      "label": "57r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006186"
+    },
+    {
+      "label": "57v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006187"
+    },
+    {
+      "label": "58r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006188"
+    },
+    {
+      "label": "58v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006189"
+    },
+    {
+      "label": "65r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006190"
+    },
+    {
+      "label": "65v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006191"
+    },
+    {
+      "label": "66r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006192"
+    },
+    {
+      "label": "66v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006193"
+    },
+    {
+      "label": "67r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006194"
+    },
+    {
+      "label": "67v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006195"
+    },
+    {
+      "label": "68r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006196"
+    },
+    {
+      "label": "68v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006197"
+    },
+    {
+      "label": "69r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006198"
+    },
+    {
+      "label": "69v and 70r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006199"
+    },
+    {
+      "label": "70v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006200"
+    },
+    {
+      "label": "70v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006201"
+    },
+    {
+      "label": "71r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006202"
+    },
+    {
+      "label": "71v and 72r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006203"
+    },
+    {
+      "label": "72v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006204"
+    },
+    {
+      "label": "72v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006205"
+    },
+    {
+      "label": "73r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006206"
+    },
+    {
+      "label": "73v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006207"
+    },
+    {
+      "label": "75r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006208"
+    },
+    {
+      "label": "75v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006209"
+    },
+    {
+      "label": "76r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006210"
+    },
+    {
+      "label": "76v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006211"
+    },
+    {
+      "label": "77r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006212"
+    },
+    {
+      "label": "77v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006213"
+    },
+    {
+      "label": "78r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006214"
+    },
+    {
+      "label": "78v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006215"
+    },
+    {
+      "label": "79r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006216"
+    },
+    {
+      "label": "79v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006217"
+    },
+    {
+      "label": "80r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006218"
+    },
+    {
+      "label": "80v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006219"
+    },
+    {
+      "label": "81r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006220"
+    },
+    {
+      "label": "81v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006221"
+    },
+    {
+      "label": "82r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006222"
+    },
+    {
+      "label": "82v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006223"
+    },
+    {
+      "label": "83r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006224"
+    },
+    {
+      "label": "83v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006225"
+    },
+    {
+      "label": "84r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006226"
+    },
+    {
+      "label": "84v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006227"
+    },
+    {
+      "label": "85r (part) (part of 85-86 foldout)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006228"
+    },
+    {
+      "label": "85r (part) 86v (part) (part of 85-86 foldout)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006229"
+    },
+    {
+      "label": "86v (part) (part of 85-86 foldout)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006230"
+    },
+    {
+      "label": "85v and 86r (foldout)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006231"
+    },
+    {
+      "label": "87r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006232"
+    },
+    {
+      "label": "87v",
+      "service": "https://collections.library.yale.edu/iiif/2/1043429"
+    },
+    {
+      "label": "88r",
+      "service": "https://collections.library.yale.edu/iiif/2/1037112"
+    },
+    {
+      "label": "88v and 89r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006233"
+    },
+    {
+      "label": "89v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006234"
+    },
+    {
+      "label": "89v (part) and 90r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006235"
+    },
+    {
+      "label": "90r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006236"
+    },
+    {
+      "label": "90v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006237"
+    },
+    {
+      "label": "93r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006238"
+    },
+    {
+      "label": "93v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006239"
+    },
+    {
+      "label": "94r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006240"
+    },
+    {
+      "label": "94v and 95r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006241"
+    },
+    {
+      "label": "95v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006242"
+    },
+    {
+      "label": "95v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006243"
+    },
+    {
+      "label": "96r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006244"
+    },
+    {
+      "label": "96v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006245"
+    },
+    {
+      "label": "99r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006246"
+    },
+    {
+      "label": "99v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006247"
+    },
+    {
+      "label": "100r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006248"
+    },
+    {
+      "label": "100v and 101r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006249"
+    },
+    {
+      "label": "101v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006250"
+    },
+    {
+      "label": "101v (part) and 102r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006251"
+    },
+    {
+      "label": "102v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006252"
+    },
+    {
+      "label": "102v (part)",
+      "service": "https://collections.library.yale.edu/iiif/2/1006253"
+    },
+    {
+      "label": "103r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006254"
+    },
+    {
+      "label": "103v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006255"
+    },
+    {
+      "label": "104r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006256"
+    },
+    {
+      "label": "104v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006257"
+    },
+    {
+      "label": "105r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006258"
+    },
+    {
+      "label": "105v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006259"
+    },
+    {
+      "label": "106r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006260"
+    },
+    {
+      "label": "106v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006261"
+    },
+    {
+      "label": "107r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006262"
+    },
+    {
+      "label": "107v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006263"
+    },
+    {
+      "label": "108r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006264"
+    },
+    {
+      "label": "108v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006265"
+    },
+    {
+      "label": "111r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006266"
+    },
+    {
+      "label": "111v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006267"
+    },
+    {
+      "label": "112r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006268"
+    },
+    {
+      "label": "112v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006269"
+    },
+    {
+      "label": "113r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006270"
+    },
+    {
+      "label": "113v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006271"
+    },
+    {
+      "label": "114r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006272"
+    },
+    {
+      "label": "114v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006273"
+    },
+    {
+      "label": "115r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006274"
+    },
+    {
+      "label": "115v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006275"
+    },
+    {
+      "label": "116r",
+      "service": "https://collections.library.yale.edu/iiif/2/1006276"
+    },
+    {
+      "label": "116v",
+      "service": "https://collections.library.yale.edu/iiif/2/1006277"
+    },
+    {
+      "label": "[Back flyleaf recto]",
+      "service": "https://collections.library.yale.edu/iiif/2/1037113"
+    },
+    {
+      "label": "[Back flyleaf verso-inside back cover]",
+      "service": "https://collections.library.yale.edu/iiif/2/1006278"
+    },
+    {
+      "label": "[Head]",
+      "service": "https://collections.library.yale.edu/iiif/2/11868207"
+    },
+    {
+      "label": "[Tail]",
+      "service": "https://collections.library.yale.edu/iiif/2/11868208"
+    },
+    {
+      "label": "[Fore-edge]",
+      "service": "https://collections.library.yale.edu/iiif/2/11868209"
+    },
+    {
+      "label": "[Spine]",
+      "service": "https://collections.library.yale.edu/iiif/2/11868210"
+    },
+    {
+      "label": "[Back cover]",
+      "service": "https://collections.library.yale.edu/iiif/2/1006279"
+    }
+  ]
+}

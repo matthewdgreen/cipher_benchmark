@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Unsolved Cipher Benchmark Record",
+  "description": "Schema for a single record in the UNSOLVED area of the cipher benchmark. Relaxed from the main schema: solution_reference and plaintext_file are optional (and usually absent), status is constrained to unsolved/disputed variants, and a new partial_solution_evidence field captures what signal exists in lieu of ground truth.",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "status",
+    "task_tracks",
+    "partial_solution_evidence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Unique benchmark record identifier"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source collection identifier",
+      "examples": ["voynich", "decode_undecrypted", "rohonc", "famous_short"]
+    },
+    "source_record_id": {
+      "type": "string",
+      "description": "Identifier in the original source system"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "task_tracks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "image2transcription",
+          "transcription2plaintext",
+          "image2plaintext",
+          "image2hypothesis"
+        ]
+      },
+      "description": "image2hypothesis is unique to the unsolved area: open-ended analysis with no automated scoring, evaluated against a human rubric or by community review."
+    },
+    "rights_class": {
+      "type": "string",
+      "enum": ["open", "linked_only", "hold_for_review"],
+      "description": "Same semantics as the main schema."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["unsolved", "disputed", "partial_solution"],
+      "description": "unsolved = no widely accepted solution. disputed = one or more claimed solutions exist without consensus. partial_solution = some sections solved, others not. Aligned with the main schema's status enum so downstream tooling can share a single vocabulary."
+    },
+    "partial_solution_evidence": {
+      "type": "string",
+      "enum": [
+        "none",
+        "interlineation_visible",
+        "partial_key_published",
+        "partial_plaintext_published",
+        "disputed_solution_published",
+        "adjacent_corpus_solved"
+      ],
+      "description": "What signal exists short of ground truth. 'interlineation_visible' = contemporary plaintext written in/near the cipher text on the document itself. 'adjacent_corpus_solved' = closely related records from the same correspondent/volume/key-family have been solved."
+    },
+    "cipher_type": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Cipher family classification if hypothesized; leave empty or ['unknown'] otherwise."
+    },
+    "symbol_set": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "symbol_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "plaintext_language": {
+      "type": "string",
+      "description": "ISO 639-1 code of the (hypothesized) plaintext language. In the unsolved area this is speculative by definition — use empty string for truly unknown cases (e.g. Voynich). Named the same as in the main schema for vocabulary consistency."
+    },
+    "synthetic": {
+      "type": "boolean",
+      "default": false,
+      "description": "True for records generated programmatically rather than drawn from a historical manuscript. Rare in the unsolved area (synthetic records are by construction solvable) but included for schema parity with the main schema."
+    },
+    "image_provenance": {
+      "type": "object",
+      "description": "Structured record of where/how the image was fetched. Parity with the main schema's field of the same name.",
+      "properties": {
+        "iiif_service": {"type": "string", "format": "uri"},
+        "requested_width": {"type": "integer", "minimum": 1},
+        "fetched_at": {"type": "string", "format": "date"},
+        "folio_offset": {"type": "integer"}
+      },
+      "additionalProperties": true
+    },
+    "date_or_century": {
+      "type": "string"
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "provenance": {
+      "type": "string"
+    },
+    "image_files": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "transcription_diplomatic_file": {
+      "type": "string"
+    },
+    "transcription_canonical_file": {
+      "type": "string"
+    },
+    "manuscript_page": {
+      "type": ["integer", "string"]
+    },
+    "length_chars": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Approximate cipher-character count, for length-based filtering."
+    },
+    "notable_attempts": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Citations for notable but inconclusive or disputed decipherment attempts."
+    },
+    "curation_notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
