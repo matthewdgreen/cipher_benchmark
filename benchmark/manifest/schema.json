@@ -160,8 +160,8 @@
       "additionalProperties": true
     },
     "manuscript_page": {
-      "type": ["integer", "string"],
-      "description": "Original manuscript page or folio identifier (integer for numbered pages, string for folio notation like '0001r')"
+      "type": "string",
+      "description": "Original manuscript page or folio identifier. Always a string: numbered pages serialize as e.g. \"42\"; folio notation uses e.g. \"f3r\" or \"0001r\"."
     },
     "curation_notes": {
       "type": "string",
