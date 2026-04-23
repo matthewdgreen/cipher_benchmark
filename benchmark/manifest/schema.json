@@ -144,6 +144,21 @@
       "type": "boolean",
       "description": "Whether the document contains mixed cipher and cleartext"
     },
+    "synthetic": {
+      "type": "boolean",
+      "default": false,
+      "description": "True if this record was generated programmatically rather than drawn from a historical manuscript. Consumers aggregating performance statistics should partition on this field."
+    },
+    "generation_config": {
+      "type": "object",
+      "description": "For synthetic records, captures the generator identity and parameters needed to reproduce. Omitted for historical records.",
+      "properties": {
+        "generator": {"type": "string"},
+        "seed": {"type": ["integer", "string"]},
+        "params": {"type": "object", "additionalProperties": true}
+      },
+      "additionalProperties": true
+    },
     "manuscript_page": {
       "type": ["integer", "string"],
       "description": "Original manuscript page or folio identifier (integer for numbered pages, string for folio notation like '0001r')"
