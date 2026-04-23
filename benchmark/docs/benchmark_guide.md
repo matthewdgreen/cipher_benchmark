@@ -270,7 +270,7 @@ The `rights_class` reflects the *most restrictive* layer. If images are open but
 
 | Source | Images | Transcriptions | Plaintext | Current class | Path to `open` |
 |--------|--------|---------------|-----------|---------------|-----------------|
-| **Copiale** | Scans hosted by Stockholm Univ. | Published in Knight/Megyesi/Schaefer 2011 (ACL, CC BY-NC-SA 3.0) | Same paper | `linked_only` (pending update — Megyesi 2026-04 confirmed image reuse OK; re-classification in follow-up) | Manifest relabel + release note |
+| **Copiale** | Scans hosted by Stockholm Univ. (reuse confirmed OK by Megyesi, 2026-04-18) | Published in Knight/Megyesi/Schaefer 2011 (ACL, CC BY-NC-SA 3.0) | Same paper | `open` | — |
 | **Borg** | Vatican Library IIIF (personal/study use) | Stockholm University research | Stockholm University research | `linked_only` | Awaiting Vatican position on facsimile redistribution |
 | **DECODE/Gallica** | Gallica IIIF (non-commercial reuse w/ attribution) | Pending DECODE access | Pending DECODE access | `open` for images | Resolve DECODE API access for transcription layers |
 | **Synthetic (`*_ss_synth*`)** | n/a | Generated from Project Gutenberg PD texts | Generated | `open` | — |
@@ -362,7 +362,7 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 - **Date:** Mid-18th century
 - **Provenance:** Private collection; scans hosted by Stockholm University. A parallel manuscript exists at Niedersächsisches Landesarchiv, Wolfenbüttel.
 - **Solution:** Knight, Megyesi, Schaefer (2011). "The Copiale Cipher." ACL Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities.
-- **Rights status:** `linked_only` — image redistribution rights pending clarification from the DECRYPT team at Stockholm University.
+- **Rights status:** `open` — image reuse confirmed by Beáta Megyesi (DECRYPT, Stockholm University), 2026-04-18.
 - **Tracks supported:** A (image2transcription), B (transcription2plaintext), C (image2plaintext)
 
 ### Borg Cipher (MSS Borg.lat.898)
