@@ -55,8 +55,8 @@ manifest.
 
 ## Schema (as of 2026-04-23)
 
-The main schema has been tightened through a rollout labeled S1–S7 (see
-`benchmark/manifest/schema_proposed_patch.md` for history). Current invariants:
+The main schema has been tightened through a rollout labeled S1–S7
+(commits `a80adee` → `d0c56f8` on 2026-04-23). Current invariants:
 
 - **Required fields:** `id`, `source`, `status`, `task_tracks`, `rights_class`.
 - **Conditional:** non-synthetic records must carry at least one of

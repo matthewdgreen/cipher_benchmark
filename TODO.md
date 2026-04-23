@@ -4,8 +4,8 @@ Last swept: 2026-04-23.
 
 ## Schema And Curation (post S1–S7 rollout)
 
-- [x] Apply S1–S7 schema hardening (2026-04-23). Every change documented in
-  `benchmark/manifest/schema_proposed_patch.md` (historical rollout doc).
+- [x] Apply S1–S7 schema hardening (2026-04-23). Rollout committed across
+  commits `a80adee` → `d0c56f8`.
 - [x] Backfill `synthetic: true` on the 240 generated records.
 - [x] Backfill `rights_class` (synthetic → `open`).
 - [x] Coerce integer `manuscript_page` values to string (101 records).

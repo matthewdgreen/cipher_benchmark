@@ -85,7 +85,6 @@ benchmark/                    # The main benchmark dataset (solved / scorable)
   manifest/
     schema.json               #     JSON Schema for validation
     records.jsonl             #     Record manifest
-    schema_proposed_patch.md  #     (historical) rollout doc for S1-S7 schema changes
   splits/                     #   Predefined test suite definitions
   docs/                       #   Documentation
   evaluation/                 #   Scoring scripts (planned)

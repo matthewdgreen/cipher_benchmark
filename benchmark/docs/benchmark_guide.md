@@ -152,9 +152,9 @@ free-text `curation_notes`:
 
 ### Schema evolution
 
-The schema was hardened across six commits on 2026-04-23. The rollout doc
-`benchmark/manifest/schema_proposed_patch.md` documents the before/after of
-each change (S1–S7). Idempotent migration scripts live in `scripts/`:
+The schema was hardened across six commits on 2026-04-23 (S1–S7 rollout,
+commits `a80adee` → `d0c56f8`). Idempotent migration scripts live in
+`scripts/`:
 
 - `backfill_synthetic_flag.py` — tags records from `*_synth*` sources
 - `backfill_rights_class.py` — sets `open` on flagged synthetics; refuses

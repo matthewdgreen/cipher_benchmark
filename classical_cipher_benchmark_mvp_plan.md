@@ -6,9 +6,7 @@
 > documents:
 >
 > - **Schema** (Section 10): superseded by `benchmark/manifest/schema.json`
->   (and the S1–S7 hardening documented in
->   `benchmark/manifest/schema_proposed_patch.md`, since removed after all
->   changes landed).
+>   (with the S1–S7 hardening landed 2026-04-23, commits `a80adee` → `d0c56f8`).
 > - **File layout** (Section 11): superseded by the "Repository Structure"
 >   section of the top-level `README.md` and the "Directory Structure"
 >   section of `benchmark/docs/benchmark_guide.md`.
