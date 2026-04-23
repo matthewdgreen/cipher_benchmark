@@ -1,5 +1,24 @@
 # MVP Plan: Benchmark for AI-Enabled Classical Cipher Decoding Tools
 
+> **Status (2026-04-23):** This document is the **original MVP specification**
+> and is retained as a design record. Much of what it proposed is now live
+> in the repository; several sections below are superseded by later
+> documents:
+>
+> - **Schema** (Section 10): superseded by `benchmark/manifest/schema.json`
+>   (and the S1–S7 hardening documented in
+>   `benchmark/manifest/schema_proposed_patch.md`, since removed after all
+>   changes landed).
+> - **File layout** (Section 11): superseded by the "Repository Structure"
+>   section of the top-level `README.md` and the "Directory Structure"
+>   section of `benchmark/docs/benchmark_guide.md`.
+> - **Immediate next steps** (Section 22): completed through the Voynich
+>   intake and unsolved-area seeding.
+> - **Unsolved challenge appendix** (Section 25): superseded by the live
+>   `benchmark/unsolved/` area and its README.
+>
+> The `TODO.md` file is the current source of truth for outstanding work.
+
 ## 1. Purpose
 
 Build an initial public benchmark for evaluating **classical cipher decoding tools**, especially AI-enabled systems, on **real-world historical material** rather than purely synthetic ciphertext.

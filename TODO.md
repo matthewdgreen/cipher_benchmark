@@ -1,5 +1,41 @@
 # Cipher Benchmark TODO
 
+Last swept: 2026-04-23.
+
+## Schema And Curation (post S1–S7 rollout)
+
+- [x] Apply S1–S7 schema hardening (2026-04-23). Every change documented in
+  `benchmark/manifest/schema_proposed_patch.md` (historical rollout doc).
+- [x] Backfill `synthetic: true` on the 240 generated records.
+- [x] Backfill `rights_class` (synthetic → `open`).
+- [x] Coerce integer `manuscript_page` values to string (101 records).
+- [x] Relabel 101 Copiale records to `rights_class: open` per Megyesi 2026-04-18.
+- [ ] Populate `image_provenance` on existing DECODE/Gallica records (155)
+  now that the structured field exists. Data is already in free-text
+  `curation_notes`; refactor `scripts/create_decode_gallica_pilot.py` to
+  emit the structured field on future runs and backfill existing records.
+- [ ] Populate `date_earliest_year` / `date_latest_year` opportunistically
+  (DECODE records carry parseable date strings).
+- [ ] Run the full Voynich intake (`scripts/create_voynich_intake.py`
+  without `--limit`) and commit the produced records into
+  `benchmark/unsolved/manifest/records.jsonl`.
+
+## Unsolved Area
+
+- [x] Seed `benchmark/unsolved/` with relaxed schema + README +
+  per-source Voynich README.
+- [x] Write Voynich intake script (Beinecke IIIF).
+- [ ] Run full Voynich intake and commit ~211 folio records.
+- [ ] Fetch a community-standard Voynich transcription (ZL/EVA IVTFF)
+  into `benchmark/unsolved/sources/voynich/transcriptions/`.
+- [ ] Build `decode_undecrypted/` intake (blocked on DECODE login).
+- [ ] Build `famous_short/` with one record per cipher (Zodiac Z13/Z32,
+  Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man,
+  Ricky McCormick, Scorpion S1–S5, Shugborough, Feynman #2/#3,
+  Paul Rubin, Henry Debosnys).
+- [ ] Evaluate Rohonc Codex rights; include if feasible.
+- [ ] Draft the Track D (`image2hypothesis`) evaluation rubric.
+
 ## Agentic Parity Support
 
 ### 1. Benchmark Hygiene
