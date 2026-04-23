@@ -1,8 +1,8 @@
 # Classical Cipher Benchmark: Dataset Guide
 
-**Version:** 0.1
-**Date:** 2026-04-20
-**Status:** Draft — Borg/Copiale and multilingual synthetic Track B records loaded; DECODE/Gallica Track A records in progress
+**Version:** 0.2
+**Date:** 2026-04-23
+**Status:** Draft — Borg/Copiale and multilingual synthetic Track B records loaded; DECODE/Gallica Track A records in progress; schema hardened via S1–S7 rollout; unsolved-benchmark area seeded with Voynich intake.
 
 ---
 
@@ -62,14 +62,16 @@ Each record in `manifest/records.jsonl` is a JSON object. The full schema is in 
 | Field | Type | Description |
 |-------|------|-------------|
 | `id` | string | Unique record ID (pattern: `[a-z0-9_]+`), e.g. `copiale_p050` |
-| `source` | string | Source collection identifier, e.g. `copiale`, `decode`, `hcportal` |
+| `source` | string | Source collection identifier, e.g. `copiale`, `borg`, `decode_gallica`, `tool_builtins` |
 | `status` | string | Solution verification status (see Section 6) |
 | `task_tracks` | array | Which tracks this record supports (see Section 4) |
+| `rights_class` | string | Redistribution category (see Section 5). Required as of schema S3 (2026-04-23) |
 
 ### Conditionally Required Fields
 
 | Field | Required when | Description |
 |-------|---------------|-------------|
+| `source_url` or `source_record_id` | Non-synthetic records (S4) | At least one upstream-archive pointer. Synthetic records are exempt. |
 | `image_files` | Track A or Track C | Relative paths to page image files |
 | `transcription_diplomatic_file` | Track A | Relative path to diplomatic transcription |
 | `transcription_canonical_file` | Track B | Relative path to canonical transcription |
@@ -81,28 +83,83 @@ Each record in `manifest/records.jsonl` is a JSON object. The full schema is in 
 |-------|------|-------------|
 | `source_url` | string (URI) | URL to the source record or project |
 | `source_record_id` | string | Identifier in the original source system |
-| `rights_class` | string | Redistribution category (see Section 5) |
 | `cipher_type` | array | Cipher family, e.g. `["homophonic_substitution"]` |
 | `symbol_set` | array | Symbol types, e.g. `["alphabetic", "diacritical"]` |
 | `symbol_count` | integer | Distinct cipher symbols on this page |
 | `plaintext_language` | string | ISO 639-1 code, e.g. `de`, `fr`, `la` |
-| `date_or_century` | string | Document date or period |
+| `date_or_century` | string | Document date or period (free text) |
+| `date_earliest_year` | integer | Earliest plausible composition year (S7) |
+| `date_latest_year` | integer | Latest plausible composition year (S7) |
 | `page_count` | integer | Always 1 for page-level records |
 | `provenance` | string | Holding archive and location |
 | `solution_reference` | string | Citation for the decipherment |
 | `has_key` | boolean | Whether the cipher key is known |
 | `has_inline_plaintext` | boolean | Whether the page mixes cipher and cleartext |
-| `manuscript_page` | integer | Original page number in the manuscript |
+| `synthetic` | boolean | True for programmatically generated records (S2) |
+| `generation_config` | object | Generator identity + params for synthetic records (S2) |
+| `image_provenance` | object | IIIF service URL, requested width, folio offset, fetch date (S5) |
+| `manuscript_page` | string | Original page or folio identifier; integer pages serialize as `"42"`, folio as `"f3r"` (S6, 2026-04-23) |
 | `curation_notes` | string | Free-text notes from curators |
 | `word_boundaries` | boolean | Whether canonical transcription preserves word boundaries |
 | `token_count` | integer | Number of cipher tokens |
 | `word_count` | integer | Approximate plaintext word count |
 | `notes` | string | Short source- or generation-specific notes |
 
-Track-B-only generated records may omit image files and diplomatic
-transcriptions. Historical manuscript records should include `source_record_id`
-and `rights_class`; generated records should include those fields when possible
-but are allowed to remain data-only records while curation is in progress.
+The schema sets `additionalProperties: false`, so undocumented fields are
+rejected. Track-B-only generated records may omit image files and diplomatic
+transcriptions.
+
+### Synthetic records
+
+Programmatically generated records carry `synthetic: true` and a
+`generation_config` object documenting how to reproduce them:
+
+```json
+{
+  "synthetic": true,
+  "generation_config": {
+    "generator": "synthetic_simple_substitution",
+    "params": {
+      "language": "de",
+      "cipher_family": "simple_substitution",
+      "word_boundaries": true,
+      "source_tag": "de_ss_synth"
+    }
+  }
+}
+```
+
+Consumers aggregating performance statistics should partition on `synthetic`
+to avoid mixing generated and historical scores.
+
+### Image provenance
+
+For records whose images come from a live archive (Gallica IIIF, Beinecke
+IIIF), prefer populating `image_provenance` over embedding provenance in
+free-text `curation_notes`:
+
+```json
+{
+  "image_provenance": {
+    "iiif_service": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10226245c",
+    "requested_width": 1200,
+    "fetched_at": "2026-04-18",
+    "folio_offset": 548,
+    "offset_source": "data_staging/gallica_folio_offsets.json"
+  }
+}
+```
+
+### Schema evolution
+
+The schema was hardened across six commits on 2026-04-23. The rollout doc
+`benchmark/manifest/schema_proposed_patch.md` documents the before/after of
+each change (S1–S7). Idempotent migration scripts live in `scripts/`:
+
+- `backfill_synthetic_flag.py` — tags records from `*_synth*` sources
+- `backfill_rights_class.py` — sets `open` on flagged synthetics; refuses
+  non-synthetic records, so new imports that forget the field fail loudly
+- `coerce_manuscript_page_to_string.py` — int→str normalization
 
 ---
 
@@ -213,7 +270,11 @@ The `rights_class` reflects the *most restrictive* layer. If images are open but
 
 | Source | Images | Transcriptions | Plaintext | Current class | Path to `open` |
 |--------|--------|---------------|-----------|---------------|-----------------|
-| **Copiale** | Scans hosted by Stockholm Univ.; rights unclear (private collection) | Published in Knight/Megyesi/Schaefer 2011 (ACL, CC BY-NC-SA 3.0) | Same paper | `linked_only` | Awaiting response from Megyesi team on image redistribution rights |
+| **Copiale** | Scans hosted by Stockholm Univ. | Published in Knight/Megyesi/Schaefer 2011 (ACL, CC BY-NC-SA 3.0) | Same paper | `linked_only` (pending update — Megyesi 2026-04 confirmed image reuse OK; re-classification in follow-up) | Manifest relabel + release note |
+| **Borg** | Vatican Library IIIF (personal/study use) | Stockholm University research | Stockholm University research | `linked_only` | Awaiting Vatican position on facsimile redistribution |
+| **DECODE/Gallica** | Gallica IIIF (non-commercial reuse w/ attribution) | Pending DECODE access | Pending DECODE access | `open` for images | Resolve DECODE API access for transcription layers |
+| **Synthetic (`*_ss_synth*`)** | n/a | Generated from Project Gutenberg PD texts | Generated | `open` | — |
+| **tool_builtins** | n/a | Bundled with external solver tools | Bundled | `linked_only` | Audit per-tool license |
 
 *(Additional sources will be added as they are incorporated into the benchmark.)*
 
@@ -318,7 +379,31 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 - **Tracks supported:** A (image2transcription), B (transcription2plaintext), C (image2plaintext)
 - **Notes:** 31 pages contain mixed cleartext passages (marked with `<CLEARTEXT>` in diplomatic transcription). Plaintext is corrected Latin from Urban Örneholm's interpretation.
 
-*(Additional sources — DECODE database records, British Library manuscripts, HCPortal, ICDAR competition data — are under investigation. See `source_audit.md` in the repository root.)*
+### DECODE / Gallica (BnF manuscripts)
+
+- **Records:** 155 page records (Track A only pending DECODE transcription access)
+- **Cipher type:** Varied — nomenclator, homophonic, polyalphabetic; see per-record `cipher_type`
+- **Provenance:** Bibliothèque nationale de France, volumes in the Mélanges de Colbert / Baluze / Clairambault / Cinq cents de Colbert / Espagnol series
+- **Images:** Gallica IIIF at 1200px. Per-volume folio-to-scan offsets for "bis" volumes are resolved in `data_staging/gallica_folio_offsets.json`; 2 volumes remain `hold_for_review` (Mel137bis, Mel142bis).
+- **Intake script:** `scripts/create_decode_gallica_pilot.py`
+- **Rights:** `open` (Gallica non-commercial reuse with attribution)
+
+### Multilingual synthetic simple substitution
+
+- **Records:** 240 (30 × {de, en, fr, it} × {word-boundary, no-word-boundary})
+- **Cipher type:** Simple substitution
+- **Source text:** Project Gutenberg public-domain corpora
+- **Tracks supported:** B only (generated from plaintext; no manuscript image)
+- **Flags:** `synthetic: true`, `generation_config` populated
+- **Rights:** `open`
+
+### Tool-bundled parity records
+
+- **Records:** 3 (`goldbug`, `horacemann`, `zodiac408`) imported from the Zenith solver checkout
+- **Purpose:** Parity smoke tests against external solver outputs
+- **Pending import:** Additional Zenith/zkdecrypto-lite bundled ciphers (see `AGENTS.md`)
+
+*(Additional sources — British Library manuscripts, HCPortal, ICDAR competition data — are under investigation. See `source_audit.md` in the repository root. For unsolved historical ciphers, see `benchmark/unsolved/README.md`.)*
 
 ---
 
@@ -339,5 +424,25 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 
 - **Predefined test suites** (`splits/`): Standard test definitions at multiple difficulty levels (single-page, 10-page, full-document). See Section 4a for the test definition format.
 - **Evaluation scripts** (`evaluation/`): Scoring code for each track (symbol error rate for Track A, plaintext accuracy for Tracks B and C).
-- **Additional sources**: DECODE database records, British Library cipher manuscripts, HCPortal material, ICDAR 2024 competition data. See `source_audit.md` for current status.
+- **Additional sources**: DECODE database records (with plaintext/transcription once API access resolves), British Library cipher manuscripts, HCPortal material, ICDAR 2024 competition data. See `source_audit.md` for current status.
 - **Difficulty annotations**: Per-record difficulty estimates based on cipher complexity, symbol count, and solution method.
+- **Unsolved area expansion**: Voynich folios (intake script ready), DECODE undecrypted subset, Rohonc Codex, and a famous-short challenge set (Zodiac Z13/Z32, Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man, etc.). See `benchmark/unsolved/README.md`.
+
+## 12. Unsolved Area
+
+A parallel area at `benchmark/unsolved/` holds ciphers with no widely
+accepted solution. It uses its own relaxed schema
+(`benchmark/unsolved/manifest/schema.json`) aligned with the main schema's
+vocabulary but with:
+
+- Required `partial_solution_evidence` field recording what signal exists
+  short of ground truth (`interlineation_visible`, `partial_key_published`,
+  etc.)
+- `status` enum restricted to `unsolved` / `disputed` / `partial_solution`
+- Optional `notable_attempts` array for citing inconclusive prior work
+- Task-track enum extended with `image2hypothesis` (Track D) — open-ended
+  analysis with no automated scoring
+
+See `benchmark/unsolved/README.md` for the full evaluation model (scoring
+against adjacent solved records, against partial evidence, or unscored
+archive of candidate outputs).

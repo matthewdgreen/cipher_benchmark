@@ -17,19 +17,25 @@ data, curation scripts, manifests, splits, images, transcriptions, and plaintext
 ## Current Shape
 
 - Main dataset root: `benchmark/`
-- Manifest: `benchmark/manifest/records.jsonl`
-- Schema: `benchmark/manifest/schema.json`
+- Main manifest: `benchmark/manifest/records.jsonl`
+- Main schema: `benchmark/manifest/schema.json`
 - Splits: `benchmark/splits/*.jsonl`
 - Source docs: `benchmark/docs/`
+- **Unsolved area:** `benchmark/unsolved/` (parallel, relaxed schema; see
+  `benchmark/unsolved/README.md` for scope and evaluation model).
 - Raw/staging data: `data_staging/`
 
-As of April 20, 2026, the manifest contains 896 records:
+As of April 23, 2026, the main manifest contains 896 records:
 
 - Borg: 397
 - Copiale: 101
 - DECODE/Gallica: 155
-- Multilingual synthetic simple substitution: 240
+- Multilingual synthetic simple substitution: 240 (all flagged `synthetic: true`)
 - Tool-bundled parity records: 3
+
+The unsolved area has a Voynich intake script ready (`scripts/create_voynich_intake.py`,
+~211 folios). Records produced there live in `benchmark/unsolved/manifest/records.jsonl`
+and validate against a separate schema.
 
 Tool-bundled coverage is intentionally still partial. The benchmark currently
 has only three imported Zenith smoke records (`goldbug`, `horacemann`,
@@ -43,16 +49,53 @@ has only three imported Zenith smoke records (`goldbug`, `horacemann`,
 
 Future curation should inventory these files before importing them. Add solved
 and scorable records to parity splits; add unsolved, transformed, unsupported,
-or special-family ciphers only with explicit diagnostic metadata.
+or special-family ciphers only with explicit diagnostic metadata — or, for
+genuinely unsolved items, route to `benchmark/unsolved/` instead of the main
+manifest.
+
+## Schema (as of 2026-04-23)
+
+The main schema has been tightened through a rollout labeled S1–S7 (see
+`benchmark/manifest/schema_proposed_patch.md` for history). Current invariants:
+
+- **Required fields:** `id`, `source`, `status`, `task_tracks`, `rights_class`.
+- **Conditional:** non-synthetic records must carry at least one of
+  `source_url` / `source_record_id` (`allOf`/`if`/`then`).
+- **Synthetic provenance:** records may set `synthetic: true` and carry a
+  `generation_config` object (`{generator, seed, params}`). All 240 existing
+  synthetic records are flagged.
+- **Manuscript page normalization:** `manuscript_page` is `type: string` only
+  (integer pages serialize as `"42"`, folio notation as `"f3r"`).
+- **Image provenance:** optional `image_provenance` object captures IIIF
+  service URL, requested width, folio offset, fetch date. Prefer populating
+  this over baking provenance into free-text `curation_notes`.
+- **Date bounds:** optional `date_earliest_year` / `date_latest_year` integers
+  complement the free-text `date_or_century` for filtering.
+
+Idempotent migration helpers:
+
+- `scripts/backfill_synthetic_flag.py` — marks records from `*_synth` sources
+- `scripts/backfill_rights_class.py` — refuses to guess for non-synthetic
+  records; safe to re-run
+- `scripts/coerce_manuscript_page_to_string.py` — one-way int→str coercion
+
+When adding a new source, the ordering is: (a) run any intake script under
+`scripts/create_*.py`, (b) run the backfills if the importer didn't set the
+required fields, (c) run the validator.
 
 ## Working Rules
 
-- Treat `benchmark/manifest/records.jsonl` as the source of truth for counts.
+- Treat `benchmark/manifest/records.jsonl` as the source of truth for counts
+  in the main benchmark; `benchmark/unsolved/manifest/records.jsonl` is
+  parallel and separately owned.
 - Keep benchmark curation separate from Decipher solver code.
 - Prefer adding explicit metadata over inferring intent from file names.
 - Do not mark external-tool corpus coverage as complete merely because the
   `tool_builtins` source exists; track which bundled files have actually been
   imported.
+- Do not route unsolved historical ciphers into the main manifest — use the
+  unsolved area. The main schema assumes scorable ground truth is available
+  or in progress.
 - Run Decipher's validator after manifest/schema/split changes:
 
 ```bash
