@@ -18,7 +18,13 @@
     "source": {
       "type": "string",
       "description": "Source dataset or collection identifier",
-      "examples": ["copiale", "decode", "hcportal", "icdar"]
+      "examples": [
+        "copiale",
+        "borg",
+        "decode_gallica",
+        "synthetic_simple_substitution",
+        "tool_builtins"
+      ]
     },
     "source_record_id": {
       "type": "string",
@@ -75,7 +81,28 @@
     },
     "date_or_century": {
       "type": "string",
-      "description": "Date or approximate period of the original document"
+      "description": "Date or approximate period of the original document (free text, e.g. '1582' or '16c')"
+    },
+    "date_earliest_year": {
+      "type": "integer",
+      "description": "Earliest plausible year (inclusive) for the record's original composition. Optional; populated when date_or_century yields a parseable lower bound."
+    },
+    "date_latest_year": {
+      "type": "integer",
+      "description": "Latest plausible year (inclusive). Optional; populated when date_or_century yields a parseable upper bound."
+    },
+    "image_provenance": {
+      "type": "object",
+      "description": "Structured record of where and how the page image was fetched. Populate for records whose images come from a live archive (IIIF, HTTP). Parallel to the same field in the unsolved schema.",
+      "properties": {
+        "iiif_service": {"type": "string", "format": "uri"},
+        "request_url_template": {"type": "string"},
+        "requested_width": {"type": "integer", "minimum": 1},
+        "fetched_at": {"type": "string", "format": "date"},
+        "folio_offset": {"type": "integer"},
+        "offset_source": {"type": "string", "description": "Path/reference to the offset table used (e.g. 'data_staging/gallica_folio_offsets.json')"}
+      },
+      "additionalProperties": true
     },
     "page_count": {
       "type": "integer",
