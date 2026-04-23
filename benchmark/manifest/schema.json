@@ -187,5 +187,22 @@
       "description": "Short source- or generation-specific notes."
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "$comment": "S4: non-synthetic records must carry at least one source pointer.",
+      "if": {
+        "anyOf": [
+          {"not": {"required": ["synthetic"]}},
+          {"properties": {"synthetic": {"const": false}}}
+        ]
+      },
+      "then": {
+        "anyOf": [
+          {"required": ["source_url"]},
+          {"required": ["source_record_id"]}
+        ]
+      }
+    }
+  ]
 }
