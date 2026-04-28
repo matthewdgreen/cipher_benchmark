@@ -34,10 +34,21 @@ As of April 28, 2026, the main manifest contains 898 records:
 - Tool-bundled parity records: 3
 - Curated Zodiac records: 2
 
-The unsolved area has a Voynich intake script ready (`scripts/create_voynich_intake.py`,
-~211 folios) and seeded Zodiac diagnostic variants. Records produced there live
+The unsolved area currently contains seed Voynich folios, Zodiac diagnostic
+variants, and Scorpion S1/S5 records. It also has a Voynich intake script ready
+(`scripts/create_voynich_intake.py`, ~211 folios). Records produced there live
 in `benchmark/unsolved/manifest/records.jsonl` and validate against a separate
 schema.
+
+Scorpion S1/S5 are documentation-rich exploratory records under
+`benchmark/unsolved/sources/scorpion/`. They include local copies of the public
+cipher images, a released-letter excerpt as an associated document, tentative
+v0.2 diplomatic/canonical transcriptions supplied from a preliminary
+family-label pass, and a split at
+`benchmark/unsolved/splits/scorpion_tests.jsonl`. Treat those transcriptions as
+usable for initial solver experiments only; do not make final benchmark claims
+until a vetted glyph-ID pass reconciles the public source's reported symbol
+counts.
 
 Tool-bundled coverage is intentionally still partial. The benchmark currently
 has three imported Zenith smoke records (`goldbug`, `horacemann`,
@@ -99,6 +110,10 @@ required fields, (c) run the validator.
 - Do not route unsolved historical ciphers into the main manifest — use the
   unsolved area. The main schema assumes scorable ground truth is available
   or in progress.
+- For Scorpion specifically, keep the current v0.2 family-label transcriptions
+  marked as tentative. They may over-merge visually distinct glyphs and should
+  be replaced or supplemented by a vetted global glyph-ID transcription before
+  any headline evaluation.
 - Run Decipher's validator after manifest/schema/split changes:
 
 ```bash

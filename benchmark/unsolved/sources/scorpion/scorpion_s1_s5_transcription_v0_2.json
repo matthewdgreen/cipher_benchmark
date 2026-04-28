@@ -1,0 +1,2626 @@
+{
+  "title": "Scorpion S1 and S5 first-pass diplomatic transcription",
+  "version": "0.2",
+  "transcription_notes": [
+    "This file contains a diplomatic layer: every cell has a unique position_id, so the underlying scan is not required for row/column ordering.",
+    "The family_label_v0_1 field is an exploratory visual family label, not a final normalized alphabet.",
+    "The family labels are intentionally useful for clustering and search, but they over-merge some variants relative to published unique-symbol counts.",
+    "S1 is given in the original 7x10 row-major layout.",
+    "S5 is given in the original 15x12 row-major layout. Nick Pelling's 16-column rearrangement was used only as a check on linear order and repeats.",
+    "The black strike-through between S5 rows 13 and 14 is not treated as a ciphertext row."
+  ],
+  "sources": [
+    "https://cipherfoundation.org/modern-ciphers/scorpion-ciphers/",
+    "https://cipherfoundation.blogitania.com/wp-content/uploads/sites/4/2015/08/scorpion3.jpg",
+    "https://cipherfoundation.blogitania.com/wp-content/uploads/sites/4/2015/08/scorpion4.jpg",
+    "https://ciphermysteries.com/2015/05/18/might-this-be-how-to-solve-scorpion-cipher-s5"
+  ],
+  "ciphers": {
+    "S1": {
+      "layout": "7 rows x 10 columns",
+      "rows_position_ids": [
+        [
+          "S1_001",
+          "S1_002",
+          "S1_003",
+          "S1_004",
+          "S1_005",
+          "S1_006",
+          "S1_007",
+          "S1_008",
+          "S1_009",
+          "S1_010"
+        ],
+        [
+          "S1_011",
+          "S1_012",
+          "S1_013",
+          "S1_014",
+          "S1_015",
+          "S1_016",
+          "S1_017",
+          "S1_018",
+          "S1_019",
+          "S1_020"
+        ],
+        [
+          "S1_021",
+          "S1_022",
+          "S1_023",
+          "S1_024",
+          "S1_025",
+          "S1_026",
+          "S1_027",
+          "S1_028",
+          "S1_029",
+          "S1_030"
+        ],
+        [
+          "S1_031",
+          "S1_032",
+          "S1_033",
+          "S1_034",
+          "S1_035",
+          "S1_036",
+          "S1_037",
+          "S1_038",
+          "S1_039",
+          "S1_040"
+        ],
+        [
+          "S1_041",
+          "S1_042",
+          "S1_043",
+          "S1_044",
+          "S1_045",
+          "S1_046",
+          "S1_047",
+          "S1_048",
+          "S1_049",
+          "S1_050"
+        ],
+        [
+          "S1_051",
+          "S1_052",
+          "S1_053",
+          "S1_054",
+          "S1_055",
+          "S1_056",
+          "S1_057",
+          "S1_058",
+          "S1_059",
+          "S1_060"
+        ],
+        [
+          "S1_061",
+          "S1_062",
+          "S1_063",
+          "S1_064",
+          "S1_065",
+          "S1_066",
+          "S1_067",
+          "S1_068",
+          "S1_069",
+          "S1_070"
+        ]
+      ],
+      "rows_family_labels": [
+        [
+          "T_TOP",
+          "K",
+          "A",
+          "BLK_BOWL",
+          "BLK_SQ_HOLE",
+          "GAMMA",
+          "O",
+          "BENT7",
+          "BLK_HALFOVAL",
+          "OVAL_SPLIT"
+        ],
+        [
+          "ARCH_DOT",
+          "FEMALE",
+          "O",
+          "HORIZ_BAR",
+          "Y",
+          "Q",
+          "L",
+          "BLK_HALFOVAL",
+          "BLK_T",
+          "CROSSHAIR"
+        ],
+        [
+          "S",
+          "CARET",
+          "O",
+          "BLK_TRAP",
+          "BLK_TALL_T",
+          "BOX_DOT",
+          "BOX_TRI",
+          "N",
+          "OPEN_5",
+          "BLK_DOME"
+        ],
+        [
+          "B",
+          "BENT7",
+          "O",
+          "RECT_OPEN",
+          "M",
+          "BLK_OVAL_TOPHOLE",
+          "T_RIGHT",
+          "R",
+          "CROSSHAIR",
+          "RECT_VERT"
+        ],
+        [
+          "U",
+          "BLK_BOX_TRI",
+          "BLK_VERT_SLIT",
+          "BLK_SQ_HOLE",
+          "BLK_OVAL_2HOLE",
+          "SLASH",
+          "O",
+          "R",
+          "L",
+          "BLK_CIRCLE_BAR"
+        ],
+        [
+          "BLK_OVAL_2HOLE",
+          "BLK_BOX_TRI",
+          "BLK_OVAL",
+          "L",
+          "OVAL_SPLIT",
+          "ROMAN2",
+          "S",
+          "CARET",
+          "BLK_TRAP",
+          "SMILE"
+        ],
+        [
+          "K",
+          "TRI_DOT",
+          "Z",
+          "RECT_OPEN",
+          "E3",
+          "OMEGA",
+          "L",
+          "RECT_VERT",
+          "BLK_SQ_HOLE",
+          "I"
+        ]
+      ],
+      "cells": [
+        {
+          "cipher": "S1",
+          "linear_index": 1,
+          "row": 1,
+          "col": 1,
+          "position_id": "S1_001",
+          "family_label_v0_1": "T_TOP"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 2,
+          "row": 1,
+          "col": 2,
+          "position_id": "S1_002",
+          "family_label_v0_1": "K"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 3,
+          "row": 1,
+          "col": 3,
+          "position_id": "S1_003",
+          "family_label_v0_1": "A"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 4,
+          "row": 1,
+          "col": 4,
+          "position_id": "S1_004",
+          "family_label_v0_1": "BLK_BOWL"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 5,
+          "row": 1,
+          "col": 5,
+          "position_id": "S1_005",
+          "family_label_v0_1": "BLK_SQ_HOLE"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 6,
+          "row": 1,
+          "col": 6,
+          "position_id": "S1_006",
+          "family_label_v0_1": "GAMMA"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 7,
+          "row": 1,
+          "col": 7,
+          "position_id": "S1_007",
+          "family_label_v0_1": "O"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 8,
+          "row": 1,
+          "col": 8,
+          "position_id": "S1_008",
+          "family_label_v0_1": "BENT7"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 9,
+          "row": 1,
+          "col": 9,
+          "position_id": "S1_009",
+          "family_label_v0_1": "BLK_HALFOVAL"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 10,
+          "row": 1,
+          "col": 10,
+          "position_id": "S1_010",
+          "family_label_v0_1": "OVAL_SPLIT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 11,
+          "row": 2,
+          "col": 1,
+          "position_id": "S1_011",
+          "family_label_v0_1": "ARCH_DOT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 12,
+          "row": 2,
+          "col": 2,
+          "position_id": "S1_012",
+          "family_label_v0_1": "FEMALE"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 13,
+          "row": 2,
+          "col": 3,
+          "position_id": "S1_013",
+          "family_label_v0_1": "O"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 14,
+          "row": 2,
+          "col": 4,
+          "position_id": "S1_014",
+          "family_label_v0_1": "HORIZ_BAR"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 15,
+          "row": 2,
+          "col": 5,
+          "position_id": "S1_015",
+          "family_label_v0_1": "Y"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 16,
+          "row": 2,
+          "col": 6,
+          "position_id": "S1_016",
+          "family_label_v0_1": "Q"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 17,
+          "row": 2,
+          "col": 7,
+          "position_id": "S1_017",
+          "family_label_v0_1": "L"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 18,
+          "row": 2,
+          "col": 8,
+          "position_id": "S1_018",
+          "family_label_v0_1": "BLK_HALFOVAL"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 19,
+          "row": 2,
+          "col": 9,
+          "position_id": "S1_019",
+          "family_label_v0_1": "BLK_T"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 20,
+          "row": 2,
+          "col": 10,
+          "position_id": "S1_020",
+          "family_label_v0_1": "CROSSHAIR"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 21,
+          "row": 3,
+          "col": 1,
+          "position_id": "S1_021",
+          "family_label_v0_1": "S"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 22,
+          "row": 3,
+          "col": 2,
+          "position_id": "S1_022",
+          "family_label_v0_1": "CARET"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 23,
+          "row": 3,
+          "col": 3,
+          "position_id": "S1_023",
+          "family_label_v0_1": "O"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 24,
+          "row": 3,
+          "col": 4,
+          "position_id": "S1_024",
+          "family_label_v0_1": "BLK_TRAP"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 25,
+          "row": 3,
+          "col": 5,
+          "position_id": "S1_025",
+          "family_label_v0_1": "BLK_TALL_T"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 26,
+          "row": 3,
+          "col": 6,
+          "position_id": "S1_026",
+          "family_label_v0_1": "BOX_DOT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 27,
+          "row": 3,
+          "col": 7,
+          "position_id": "S1_027",
+          "family_label_v0_1": "BOX_TRI"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 28,
+          "row": 3,
+          "col": 8,
+          "position_id": "S1_028",
+          "family_label_v0_1": "N"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 29,
+          "row": 3,
+          "col": 9,
+          "position_id": "S1_029",
+          "family_label_v0_1": "OPEN_5"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 30,
+          "row": 3,
+          "col": 10,
+          "position_id": "S1_030",
+          "family_label_v0_1": "BLK_DOME"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 31,
+          "row": 4,
+          "col": 1,
+          "position_id": "S1_031",
+          "family_label_v0_1": "B"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 32,
+          "row": 4,
+          "col": 2,
+          "position_id": "S1_032",
+          "family_label_v0_1": "BENT7"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 33,
+          "row": 4,
+          "col": 3,
+          "position_id": "S1_033",
+          "family_label_v0_1": "O"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 34,
+          "row": 4,
+          "col": 4,
+          "position_id": "S1_034",
+          "family_label_v0_1": "RECT_OPEN"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 35,
+          "row": 4,
+          "col": 5,
+          "position_id": "S1_035",
+          "family_label_v0_1": "M"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 36,
+          "row": 4,
+          "col": 6,
+          "position_id": "S1_036",
+          "family_label_v0_1": "BLK_OVAL_TOPHOLE"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 37,
+          "row": 4,
+          "col": 7,
+          "position_id": "S1_037",
+          "family_label_v0_1": "T_RIGHT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 38,
+          "row": 4,
+          "col": 8,
+          "position_id": "S1_038",
+          "family_label_v0_1": "R"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 39,
+          "row": 4,
+          "col": 9,
+          "position_id": "S1_039",
+          "family_label_v0_1": "CROSSHAIR"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 40,
+          "row": 4,
+          "col": 10,
+          "position_id": "S1_040",
+          "family_label_v0_1": "RECT_VERT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 41,
+          "row": 5,
+          "col": 1,
+          "position_id": "S1_041",
+          "family_label_v0_1": "U"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 42,
+          "row": 5,
+          "col": 2,
+          "position_id": "S1_042",
+          "family_label_v0_1": "BLK_BOX_TRI"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 43,
+          "row": 5,
+          "col": 3,
+          "position_id": "S1_043",
+          "family_label_v0_1": "BLK_VERT_SLIT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 44,
+          "row": 5,
+          "col": 4,
+          "position_id": "S1_044",
+          "family_label_v0_1": "BLK_SQ_HOLE"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 45,
+          "row": 5,
+          "col": 5,
+          "position_id": "S1_045",
+          "family_label_v0_1": "BLK_OVAL_2HOLE"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 46,
+          "row": 5,
+          "col": 6,
+          "position_id": "S1_046",
+          "family_label_v0_1": "SLASH"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 47,
+          "row": 5,
+          "col": 7,
+          "position_id": "S1_047",
+          "family_label_v0_1": "O"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 48,
+          "row": 5,
+          "col": 8,
+          "position_id": "S1_048",
+          "family_label_v0_1": "R"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 49,
+          "row": 5,
+          "col": 9,
+          "position_id": "S1_049",
+          "family_label_v0_1": "L"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 50,
+          "row": 5,
+          "col": 10,
+          "position_id": "S1_050",
+          "family_label_v0_1": "BLK_CIRCLE_BAR"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 51,
+          "row": 6,
+          "col": 1,
+          "position_id": "S1_051",
+          "family_label_v0_1": "BLK_OVAL_2HOLE"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 52,
+          "row": 6,
+          "col": 2,
+          "position_id": "S1_052",
+          "family_label_v0_1": "BLK_BOX_TRI"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 53,
+          "row": 6,
+          "col": 3,
+          "position_id": "S1_053",
+          "family_label_v0_1": "BLK_OVAL"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 54,
+          "row": 6,
+          "col": 4,
+          "position_id": "S1_054",
+          "family_label_v0_1": "L"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 55,
+          "row": 6,
+          "col": 5,
+          "position_id": "S1_055",
+          "family_label_v0_1": "OVAL_SPLIT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 56,
+          "row": 6,
+          "col": 6,
+          "position_id": "S1_056",
+          "family_label_v0_1": "ROMAN2"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 57,
+          "row": 6,
+          "col": 7,
+          "position_id": "S1_057",
+          "family_label_v0_1": "S"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 58,
+          "row": 6,
+          "col": 8,
+          "position_id": "S1_058",
+          "family_label_v0_1": "CARET"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 59,
+          "row": 6,
+          "col": 9,
+          "position_id": "S1_059",
+          "family_label_v0_1": "BLK_TRAP"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 60,
+          "row": 6,
+          "col": 10,
+          "position_id": "S1_060",
+          "family_label_v0_1": "SMILE"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 61,
+          "row": 7,
+          "col": 1,
+          "position_id": "S1_061",
+          "family_label_v0_1": "K"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 62,
+          "row": 7,
+          "col": 2,
+          "position_id": "S1_062",
+          "family_label_v0_1": "TRI_DOT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 63,
+          "row": 7,
+          "col": 3,
+          "position_id": "S1_063",
+          "family_label_v0_1": "Z"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 64,
+          "row": 7,
+          "col": 4,
+          "position_id": "S1_064",
+          "family_label_v0_1": "RECT_OPEN"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 65,
+          "row": 7,
+          "col": 5,
+          "position_id": "S1_065",
+          "family_label_v0_1": "E3"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 66,
+          "row": 7,
+          "col": 6,
+          "position_id": "S1_066",
+          "family_label_v0_1": "OMEGA"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 67,
+          "row": 7,
+          "col": 7,
+          "position_id": "S1_067",
+          "family_label_v0_1": "L"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 68,
+          "row": 7,
+          "col": 8,
+          "position_id": "S1_068",
+          "family_label_v0_1": "RECT_VERT"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 69,
+          "row": 7,
+          "col": 9,
+          "position_id": "S1_069",
+          "family_label_v0_1": "BLK_SQ_HOLE"
+        },
+        {
+          "cipher": "S1",
+          "linear_index": 70,
+          "row": 7,
+          "col": 10,
+          "position_id": "S1_070",
+          "family_label_v0_1": "I"
+        }
+      ]
+    },
+    "S5": {
+      "layout": "15 rows x 12 columns",
+      "rows_position_ids": [
+        [
+          "S5_001",
+          "S5_002",
+          "S5_003",
+          "S5_004",
+          "S5_005",
+          "S5_006",
+          "S5_007",
+          "S5_008",
+          "S5_009",
+          "S5_010",
+          "S5_011",
+          "S5_012"
+        ],
+        [
+          "S5_013",
+          "S5_014",
+          "S5_015",
+          "S5_016",
+          "S5_017",
+          "S5_018",
+          "S5_019",
+          "S5_020",
+          "S5_021",
+          "S5_022",
+          "S5_023",
+          "S5_024"
+        ],
+        [
+          "S5_025",
+          "S5_026",
+          "S5_027",
+          "S5_028",
+          "S5_029",
+          "S5_030",
+          "S5_031",
+          "S5_032",
+          "S5_033",
+          "S5_034",
+          "S5_035",
+          "S5_036"
+        ],
+        [
+          "S5_037",
+          "S5_038",
+          "S5_039",
+          "S5_040",
+          "S5_041",
+          "S5_042",
+          "S5_043",
+          "S5_044",
+          "S5_045",
+          "S5_046",
+          "S5_047",
+          "S5_048"
+        ],
+        [
+          "S5_049",
+          "S5_050",
+          "S5_051",
+          "S5_052",
+          "S5_053",
+          "S5_054",
+          "S5_055",
+          "S5_056",
+          "S5_057",
+          "S5_058",
+          "S5_059",
+          "S5_060"
+        ],
+        [
+          "S5_061",
+          "S5_062",
+          "S5_063",
+          "S5_064",
+          "S5_065",
+          "S5_066",
+          "S5_067",
+          "S5_068",
+          "S5_069",
+          "S5_070",
+          "S5_071",
+          "S5_072"
+        ],
+        [
+          "S5_073",
+          "S5_074",
+          "S5_075",
+          "S5_076",
+          "S5_077",
+          "S5_078",
+          "S5_079",
+          "S5_080",
+          "S5_081",
+          "S5_082",
+          "S5_083",
+          "S5_084"
+        ],
+        [
+          "S5_085",
+          "S5_086",
+          "S5_087",
+          "S5_088",
+          "S5_089",
+          "S5_090",
+          "S5_091",
+          "S5_092",
+          "S5_093",
+          "S5_094",
+          "S5_095",
+          "S5_096"
+        ],
+        [
+          "S5_097",
+          "S5_098",
+          "S5_099",
+          "S5_100",
+          "S5_101",
+          "S5_102",
+          "S5_103",
+          "S5_104",
+          "S5_105",
+          "S5_106",
+          "S5_107",
+          "S5_108"
+        ],
+        [
+          "S5_109",
+          "S5_110",
+          "S5_111",
+          "S5_112",
+          "S5_113",
+          "S5_114",
+          "S5_115",
+          "S5_116",
+          "S5_117",
+          "S5_118",
+          "S5_119",
+          "S5_120"
+        ],
+        [
+          "S5_121",
+          "S5_122",
+          "S5_123",
+          "S5_124",
+          "S5_125",
+          "S5_126",
+          "S5_127",
+          "S5_128",
+          "S5_129",
+          "S5_130",
+          "S5_131",
+          "S5_132"
+        ],
+        [
+          "S5_133",
+          "S5_134",
+          "S5_135",
+          "S5_136",
+          "S5_137",
+          "S5_138",
+          "S5_139",
+          "S5_140",
+          "S5_141",
+          "S5_142",
+          "S5_143",
+          "S5_144"
+        ],
+        [
+          "S5_145",
+          "S5_146",
+          "S5_147",
+          "S5_148",
+          "S5_149",
+          "S5_150",
+          "S5_151",
+          "S5_152",
+          "S5_153",
+          "S5_154",
+          "S5_155",
+          "S5_156"
+        ],
+        [
+          "S5_157",
+          "S5_158",
+          "S5_159",
+          "S5_160",
+          "S5_161",
+          "S5_162",
+          "S5_163",
+          "S5_164",
+          "S5_165",
+          "S5_166",
+          "S5_167",
+          "S5_168"
+        ],
+        [
+          "S5_169",
+          "S5_170",
+          "S5_171",
+          "S5_172",
+          "S5_173",
+          "S5_174",
+          "S5_175",
+          "S5_176",
+          "S5_177",
+          "S5_178",
+          "S5_179",
+          "S5_180"
+        ]
+      ],
+      "rows_family_labels": [
+        [
+          "ARROW",
+          "PSI",
+          "EQ3",
+          "BLK_SLANT_RECT",
+          "BLK_BOWL",
+          "BOX_TRI",
+          "HLOW",
+          "HDOT",
+          "BOX_BLK_TRI",
+          "TRI",
+          "SLASH3",
+          "OVAL_SPLIT"
+        ],
+        [
+          "PSI",
+          "H",
+          "HDOT",
+          "BLK_DOME",
+          "ARROW",
+          "OVAL_VERT",
+          "C_LEFT",
+          "T_BAR",
+          "B_LOWER",
+          "PLUS_ARROW",
+          "CIRC_PLUS",
+          "LOLLIPOP"
+        ],
+        [
+          "QGAP",
+          "P_CURVE",
+          "BOX_TRI_DOT",
+          "CROSS_SLASH",
+          "ARROW_SMALL",
+          "SEVEN",
+          "ARCH_DOT",
+          "BOX_TRI",
+          "NOTE",
+          "CIRC_X",
+          "BULLSEYE",
+          "TRI"
+        ],
+        [
+          "BLK_SQUARE",
+          "BLK_OVAL",
+          "BOWTIE",
+          "BOX_DOT",
+          "FLAG",
+          "CROSS_VERTICAL",
+          "HOOK7",
+          "B_TRI",
+          "BOX_X",
+          "U_CUP",
+          "BOX_BLK_TRI",
+          "CIRC_X"
+        ],
+        [
+          "NOTE",
+          "BLK_TRI",
+          "BOX_BLK_CENTRE",
+          "TRI",
+          "BLK_BOWTIE",
+          "LT",
+          "X",
+          "TRI_DOT",
+          "D_TRI",
+          "ROMAN2",
+          "PBOX2",
+          "SLASH_CIRCLE"
+        ],
+        [
+          "DIAMOND_EYE",
+          "H",
+          "O_QUARTER",
+          "ZIG_HOOK",
+          "BOX_2DOTS",
+          "FEMALE",
+          "BOX_DOT",
+          "BOX_2DOTS",
+          "R",
+          "LT",
+          "O",
+          "S"
+        ],
+        [
+          "REV2",
+          "BOX_TRI",
+          "E",
+          "E3",
+          "OVAL_BLK",
+          "BRACKET_C",
+          "Y",
+          "BULLSEYE",
+          "NOTE",
+          "UTAIL",
+          "BLK_TRI",
+          "G"
+        ],
+        [
+          "CORNER7",
+          "LT",
+          "Q",
+          "FLAG_PENNANT",
+          "BOX_DOT",
+          "HDOT",
+          "C",
+          "W",
+          "PI",
+          "H",
+          "V",
+          "O"
+        ],
+        [
+          "Z_SHAPE",
+          "B",
+          "CIRC_X",
+          "B_LOWER2",
+          "CRESCENT",
+          "BOX_TRI",
+          "CROSSHAIR",
+          "LOLLIPOP",
+          "DOLLAR",
+          "PLUS",
+          "EIGHT",
+          "PBOX2"
+        ],
+        [
+          "SUN",
+          "UTAIL",
+          "BLK_SLANT_RECT",
+          "X",
+          "GT_ANGLE",
+          "CROSSHAIR",
+          "L",
+          "BOX_X",
+          "ARROW_UPRIGHT",
+          "CRESCENT",
+          "BLK_TRI_INRECT",
+          "S"
+        ],
+        [
+          "TRIDENT_DOT",
+          "X_DOT",
+          "BIRD",
+          "E3",
+          "ARCH",
+          "BOX_2DOTS",
+          "BOX_4DOTS",
+          "L_SHAPE",
+          "ARROW",
+          "P_LOOP",
+          "DASH",
+          "MALE"
+        ],
+        [
+          "T",
+          "PLUS_BASE",
+          "BOX_CROSS",
+          "TRI_DOT",
+          "PLUS",
+          "BOX_BLK_TRI",
+          "ARCH_HORIZ",
+          "BOX_DOT",
+          "P",
+          "STEP",
+          "PERCENT",
+          "K"
+        ],
+        [
+          "DOT_GT",
+          "FEMALE",
+          "OBELISK",
+          "B_LOWER2",
+          "CIRC_X",
+          "THETA",
+          "CIRCLE_DIAG",
+          "TRI_DOT",
+          "O",
+          "PLUS",
+          "BOX_BLK_TRI",
+          "W"
+        ],
+        [
+          "BLK_OVAL_HORIZ",
+          "PLAY",
+          "ARCH_DOT",
+          "BULLSEYE",
+          "D",
+          "WINDOW",
+          "OBELISK",
+          "LAMBDA",
+          "OVAL_SPLIT_ALT",
+          "T_TRI",
+          "CIRC_PLUS",
+          "BOX_DOT"
+        ],
+        [
+          "REV2",
+          "PSI2",
+          "X_SPLIT",
+          "BLK_DOME2",
+          "BOX_BULLSEYE",
+          "PLAY",
+          "HDOT",
+          "BLK_SQUARE",
+          "PLUS",
+          "GAMMA",
+          "OBELISK",
+          "CIRC_SPLIT"
+        ]
+      ],
+      "cells": [
+        {
+          "cipher": "S5",
+          "linear_index": 1,
+          "row": 1,
+          "col": 1,
+          "position_id": "S5_001",
+          "family_label_v0_1": "ARROW"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 2,
+          "row": 1,
+          "col": 2,
+          "position_id": "S5_002",
+          "family_label_v0_1": "PSI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 3,
+          "row": 1,
+          "col": 3,
+          "position_id": "S5_003",
+          "family_label_v0_1": "EQ3"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 4,
+          "row": 1,
+          "col": 4,
+          "position_id": "S5_004",
+          "family_label_v0_1": "BLK_SLANT_RECT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 5,
+          "row": 1,
+          "col": 5,
+          "position_id": "S5_005",
+          "family_label_v0_1": "BLK_BOWL"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 6,
+          "row": 1,
+          "col": 6,
+          "position_id": "S5_006",
+          "family_label_v0_1": "BOX_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 7,
+          "row": 1,
+          "col": 7,
+          "position_id": "S5_007",
+          "family_label_v0_1": "HLOW"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 8,
+          "row": 1,
+          "col": 8,
+          "position_id": "S5_008",
+          "family_label_v0_1": "HDOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 9,
+          "row": 1,
+          "col": 9,
+          "position_id": "S5_009",
+          "family_label_v0_1": "BOX_BLK_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 10,
+          "row": 1,
+          "col": 10,
+          "position_id": "S5_010",
+          "family_label_v0_1": "TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 11,
+          "row": 1,
+          "col": 11,
+          "position_id": "S5_011",
+          "family_label_v0_1": "SLASH3"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 12,
+          "row": 1,
+          "col": 12,
+          "position_id": "S5_012",
+          "family_label_v0_1": "OVAL_SPLIT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 13,
+          "row": 2,
+          "col": 1,
+          "position_id": "S5_013",
+          "family_label_v0_1": "PSI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 14,
+          "row": 2,
+          "col": 2,
+          "position_id": "S5_014",
+          "family_label_v0_1": "H"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 15,
+          "row": 2,
+          "col": 3,
+          "position_id": "S5_015",
+          "family_label_v0_1": "HDOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 16,
+          "row": 2,
+          "col": 4,
+          "position_id": "S5_016",
+          "family_label_v0_1": "BLK_DOME"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 17,
+          "row": 2,
+          "col": 5,
+          "position_id": "S5_017",
+          "family_label_v0_1": "ARROW"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 18,
+          "row": 2,
+          "col": 6,
+          "position_id": "S5_018",
+          "family_label_v0_1": "OVAL_VERT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 19,
+          "row": 2,
+          "col": 7,
+          "position_id": "S5_019",
+          "family_label_v0_1": "C_LEFT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 20,
+          "row": 2,
+          "col": 8,
+          "position_id": "S5_020",
+          "family_label_v0_1": "T_BAR"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 21,
+          "row": 2,
+          "col": 9,
+          "position_id": "S5_021",
+          "family_label_v0_1": "B_LOWER"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 22,
+          "row": 2,
+          "col": 10,
+          "position_id": "S5_022",
+          "family_label_v0_1": "PLUS_ARROW"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 23,
+          "row": 2,
+          "col": 11,
+          "position_id": "S5_023",
+          "family_label_v0_1": "CIRC_PLUS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 24,
+          "row": 2,
+          "col": 12,
+          "position_id": "S5_024",
+          "family_label_v0_1": "LOLLIPOP"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 25,
+          "row": 3,
+          "col": 1,
+          "position_id": "S5_025",
+          "family_label_v0_1": "QGAP"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 26,
+          "row": 3,
+          "col": 2,
+          "position_id": "S5_026",
+          "family_label_v0_1": "P_CURVE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 27,
+          "row": 3,
+          "col": 3,
+          "position_id": "S5_027",
+          "family_label_v0_1": "BOX_TRI_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 28,
+          "row": 3,
+          "col": 4,
+          "position_id": "S5_028",
+          "family_label_v0_1": "CROSS_SLASH"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 29,
+          "row": 3,
+          "col": 5,
+          "position_id": "S5_029",
+          "family_label_v0_1": "ARROW_SMALL"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 30,
+          "row": 3,
+          "col": 6,
+          "position_id": "S5_030",
+          "family_label_v0_1": "SEVEN"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 31,
+          "row": 3,
+          "col": 7,
+          "position_id": "S5_031",
+          "family_label_v0_1": "ARCH_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 32,
+          "row": 3,
+          "col": 8,
+          "position_id": "S5_032",
+          "family_label_v0_1": "BOX_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 33,
+          "row": 3,
+          "col": 9,
+          "position_id": "S5_033",
+          "family_label_v0_1": "NOTE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 34,
+          "row": 3,
+          "col": 10,
+          "position_id": "S5_034",
+          "family_label_v0_1": "CIRC_X"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 35,
+          "row": 3,
+          "col": 11,
+          "position_id": "S5_035",
+          "family_label_v0_1": "BULLSEYE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 36,
+          "row": 3,
+          "col": 12,
+          "position_id": "S5_036",
+          "family_label_v0_1": "TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 37,
+          "row": 4,
+          "col": 1,
+          "position_id": "S5_037",
+          "family_label_v0_1": "BLK_SQUARE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 38,
+          "row": 4,
+          "col": 2,
+          "position_id": "S5_038",
+          "family_label_v0_1": "BLK_OVAL"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 39,
+          "row": 4,
+          "col": 3,
+          "position_id": "S5_039",
+          "family_label_v0_1": "BOWTIE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 40,
+          "row": 4,
+          "col": 4,
+          "position_id": "S5_040",
+          "family_label_v0_1": "BOX_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 41,
+          "row": 4,
+          "col": 5,
+          "position_id": "S5_041",
+          "family_label_v0_1": "FLAG"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 42,
+          "row": 4,
+          "col": 6,
+          "position_id": "S5_042",
+          "family_label_v0_1": "CROSS_VERTICAL"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 43,
+          "row": 4,
+          "col": 7,
+          "position_id": "S5_043",
+          "family_label_v0_1": "HOOK7"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 44,
+          "row": 4,
+          "col": 8,
+          "position_id": "S5_044",
+          "family_label_v0_1": "B_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 45,
+          "row": 4,
+          "col": 9,
+          "position_id": "S5_045",
+          "family_label_v0_1": "BOX_X"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 46,
+          "row": 4,
+          "col": 10,
+          "position_id": "S5_046",
+          "family_label_v0_1": "U_CUP"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 47,
+          "row": 4,
+          "col": 11,
+          "position_id": "S5_047",
+          "family_label_v0_1": "BOX_BLK_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 48,
+          "row": 4,
+          "col": 12,
+          "position_id": "S5_048",
+          "family_label_v0_1": "CIRC_X"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 49,
+          "row": 5,
+          "col": 1,
+          "position_id": "S5_049",
+          "family_label_v0_1": "NOTE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 50,
+          "row": 5,
+          "col": 2,
+          "position_id": "S5_050",
+          "family_label_v0_1": "BLK_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 51,
+          "row": 5,
+          "col": 3,
+          "position_id": "S5_051",
+          "family_label_v0_1": "BOX_BLK_CENTRE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 52,
+          "row": 5,
+          "col": 4,
+          "position_id": "S5_052",
+          "family_label_v0_1": "TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 53,
+          "row": 5,
+          "col": 5,
+          "position_id": "S5_053",
+          "family_label_v0_1": "BLK_BOWTIE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 54,
+          "row": 5,
+          "col": 6,
+          "position_id": "S5_054",
+          "family_label_v0_1": "LT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 55,
+          "row": 5,
+          "col": 7,
+          "position_id": "S5_055",
+          "family_label_v0_1": "X"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 56,
+          "row": 5,
+          "col": 8,
+          "position_id": "S5_056",
+          "family_label_v0_1": "TRI_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 57,
+          "row": 5,
+          "col": 9,
+          "position_id": "S5_057",
+          "family_label_v0_1": "D_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 58,
+          "row": 5,
+          "col": 10,
+          "position_id": "S5_058",
+          "family_label_v0_1": "ROMAN2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 59,
+          "row": 5,
+          "col": 11,
+          "position_id": "S5_059",
+          "family_label_v0_1": "PBOX2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 60,
+          "row": 5,
+          "col": 12,
+          "position_id": "S5_060",
+          "family_label_v0_1": "SLASH_CIRCLE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 61,
+          "row": 6,
+          "col": 1,
+          "position_id": "S5_061",
+          "family_label_v0_1": "DIAMOND_EYE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 62,
+          "row": 6,
+          "col": 2,
+          "position_id": "S5_062",
+          "family_label_v0_1": "H"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 63,
+          "row": 6,
+          "col": 3,
+          "position_id": "S5_063",
+          "family_label_v0_1": "O_QUARTER"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 64,
+          "row": 6,
+          "col": 4,
+          "position_id": "S5_064",
+          "family_label_v0_1": "ZIG_HOOK"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 65,
+          "row": 6,
+          "col": 5,
+          "position_id": "S5_065",
+          "family_label_v0_1": "BOX_2DOTS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 66,
+          "row": 6,
+          "col": 6,
+          "position_id": "S5_066",
+          "family_label_v0_1": "FEMALE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 67,
+          "row": 6,
+          "col": 7,
+          "position_id": "S5_067",
+          "family_label_v0_1": "BOX_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 68,
+          "row": 6,
+          "col": 8,
+          "position_id": "S5_068",
+          "family_label_v0_1": "BOX_2DOTS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 69,
+          "row": 6,
+          "col": 9,
+          "position_id": "S5_069",
+          "family_label_v0_1": "R"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 70,
+          "row": 6,
+          "col": 10,
+          "position_id": "S5_070",
+          "family_label_v0_1": "LT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 71,
+          "row": 6,
+          "col": 11,
+          "position_id": "S5_071",
+          "family_label_v0_1": "O"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 72,
+          "row": 6,
+          "col": 12,
+          "position_id": "S5_072",
+          "family_label_v0_1": "S"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 73,
+          "row": 7,
+          "col": 1,
+          "position_id": "S5_073",
+          "family_label_v0_1": "REV2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 74,
+          "row": 7,
+          "col": 2,
+          "position_id": "S5_074",
+          "family_label_v0_1": "BOX_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 75,
+          "row": 7,
+          "col": 3,
+          "position_id": "S5_075",
+          "family_label_v0_1": "E"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 76,
+          "row": 7,
+          "col": 4,
+          "position_id": "S5_076",
+          "family_label_v0_1": "E3"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 77,
+          "row": 7,
+          "col": 5,
+          "position_id": "S5_077",
+          "family_label_v0_1": "OVAL_BLK"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 78,
+          "row": 7,
+          "col": 6,
+          "position_id": "S5_078",
+          "family_label_v0_1": "BRACKET_C"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 79,
+          "row": 7,
+          "col": 7,
+          "position_id": "S5_079",
+          "family_label_v0_1": "Y"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 80,
+          "row": 7,
+          "col": 8,
+          "position_id": "S5_080",
+          "family_label_v0_1": "BULLSEYE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 81,
+          "row": 7,
+          "col": 9,
+          "position_id": "S5_081",
+          "family_label_v0_1": "NOTE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 82,
+          "row": 7,
+          "col": 10,
+          "position_id": "S5_082",
+          "family_label_v0_1": "UTAIL"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 83,
+          "row": 7,
+          "col": 11,
+          "position_id": "S5_083",
+          "family_label_v0_1": "BLK_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 84,
+          "row": 7,
+          "col": 12,
+          "position_id": "S5_084",
+          "family_label_v0_1": "G"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 85,
+          "row": 8,
+          "col": 1,
+          "position_id": "S5_085",
+          "family_label_v0_1": "CORNER7"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 86,
+          "row": 8,
+          "col": 2,
+          "position_id": "S5_086",
+          "family_label_v0_1": "LT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 87,
+          "row": 8,
+          "col": 3,
+          "position_id": "S5_087",
+          "family_label_v0_1": "Q"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 88,
+          "row": 8,
+          "col": 4,
+          "position_id": "S5_088",
+          "family_label_v0_1": "FLAG_PENNANT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 89,
+          "row": 8,
+          "col": 5,
+          "position_id": "S5_089",
+          "family_label_v0_1": "BOX_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 90,
+          "row": 8,
+          "col": 6,
+          "position_id": "S5_090",
+          "family_label_v0_1": "HDOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 91,
+          "row": 8,
+          "col": 7,
+          "position_id": "S5_091",
+          "family_label_v0_1": "C"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 92,
+          "row": 8,
+          "col": 8,
+          "position_id": "S5_092",
+          "family_label_v0_1": "W"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 93,
+          "row": 8,
+          "col": 9,
+          "position_id": "S5_093",
+          "family_label_v0_1": "PI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 94,
+          "row": 8,
+          "col": 10,
+          "position_id": "S5_094",
+          "family_label_v0_1": "H"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 95,
+          "row": 8,
+          "col": 11,
+          "position_id": "S5_095",
+          "family_label_v0_1": "V"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 96,
+          "row": 8,
+          "col": 12,
+          "position_id": "S5_096",
+          "family_label_v0_1": "O"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 97,
+          "row": 9,
+          "col": 1,
+          "position_id": "S5_097",
+          "family_label_v0_1": "Z_SHAPE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 98,
+          "row": 9,
+          "col": 2,
+          "position_id": "S5_098",
+          "family_label_v0_1": "B"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 99,
+          "row": 9,
+          "col": 3,
+          "position_id": "S5_099",
+          "family_label_v0_1": "CIRC_X"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 100,
+          "row": 9,
+          "col": 4,
+          "position_id": "S5_100",
+          "family_label_v0_1": "B_LOWER2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 101,
+          "row": 9,
+          "col": 5,
+          "position_id": "S5_101",
+          "family_label_v0_1": "CRESCENT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 102,
+          "row": 9,
+          "col": 6,
+          "position_id": "S5_102",
+          "family_label_v0_1": "BOX_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 103,
+          "row": 9,
+          "col": 7,
+          "position_id": "S5_103",
+          "family_label_v0_1": "CROSSHAIR"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 104,
+          "row": 9,
+          "col": 8,
+          "position_id": "S5_104",
+          "family_label_v0_1": "LOLLIPOP"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 105,
+          "row": 9,
+          "col": 9,
+          "position_id": "S5_105",
+          "family_label_v0_1": "DOLLAR"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 106,
+          "row": 9,
+          "col": 10,
+          "position_id": "S5_106",
+          "family_label_v0_1": "PLUS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 107,
+          "row": 9,
+          "col": 11,
+          "position_id": "S5_107",
+          "family_label_v0_1": "EIGHT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 108,
+          "row": 9,
+          "col": 12,
+          "position_id": "S5_108",
+          "family_label_v0_1": "PBOX2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 109,
+          "row": 10,
+          "col": 1,
+          "position_id": "S5_109",
+          "family_label_v0_1": "SUN"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 110,
+          "row": 10,
+          "col": 2,
+          "position_id": "S5_110",
+          "family_label_v0_1": "UTAIL"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 111,
+          "row": 10,
+          "col": 3,
+          "position_id": "S5_111",
+          "family_label_v0_1": "BLK_SLANT_RECT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 112,
+          "row": 10,
+          "col": 4,
+          "position_id": "S5_112",
+          "family_label_v0_1": "X"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 113,
+          "row": 10,
+          "col": 5,
+          "position_id": "S5_113",
+          "family_label_v0_1": "GT_ANGLE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 114,
+          "row": 10,
+          "col": 6,
+          "position_id": "S5_114",
+          "family_label_v0_1": "CROSSHAIR"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 115,
+          "row": 10,
+          "col": 7,
+          "position_id": "S5_115",
+          "family_label_v0_1": "L"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 116,
+          "row": 10,
+          "col": 8,
+          "position_id": "S5_116",
+          "family_label_v0_1": "BOX_X"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 117,
+          "row": 10,
+          "col": 9,
+          "position_id": "S5_117",
+          "family_label_v0_1": "ARROW_UPRIGHT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 118,
+          "row": 10,
+          "col": 10,
+          "position_id": "S5_118",
+          "family_label_v0_1": "CRESCENT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 119,
+          "row": 10,
+          "col": 11,
+          "position_id": "S5_119",
+          "family_label_v0_1": "BLK_TRI_INRECT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 120,
+          "row": 10,
+          "col": 12,
+          "position_id": "S5_120",
+          "family_label_v0_1": "S"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 121,
+          "row": 11,
+          "col": 1,
+          "position_id": "S5_121",
+          "family_label_v0_1": "TRIDENT_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 122,
+          "row": 11,
+          "col": 2,
+          "position_id": "S5_122",
+          "family_label_v0_1": "X_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 123,
+          "row": 11,
+          "col": 3,
+          "position_id": "S5_123",
+          "family_label_v0_1": "BIRD"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 124,
+          "row": 11,
+          "col": 4,
+          "position_id": "S5_124",
+          "family_label_v0_1": "E3"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 125,
+          "row": 11,
+          "col": 5,
+          "position_id": "S5_125",
+          "family_label_v0_1": "ARCH"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 126,
+          "row": 11,
+          "col": 6,
+          "position_id": "S5_126",
+          "family_label_v0_1": "BOX_2DOTS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 127,
+          "row": 11,
+          "col": 7,
+          "position_id": "S5_127",
+          "family_label_v0_1": "BOX_4DOTS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 128,
+          "row": 11,
+          "col": 8,
+          "position_id": "S5_128",
+          "family_label_v0_1": "L_SHAPE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 129,
+          "row": 11,
+          "col": 9,
+          "position_id": "S5_129",
+          "family_label_v0_1": "ARROW"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 130,
+          "row": 11,
+          "col": 10,
+          "position_id": "S5_130",
+          "family_label_v0_1": "P_LOOP"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 131,
+          "row": 11,
+          "col": 11,
+          "position_id": "S5_131",
+          "family_label_v0_1": "DASH"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 132,
+          "row": 11,
+          "col": 12,
+          "position_id": "S5_132",
+          "family_label_v0_1": "MALE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 133,
+          "row": 12,
+          "col": 1,
+          "position_id": "S5_133",
+          "family_label_v0_1": "T"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 134,
+          "row": 12,
+          "col": 2,
+          "position_id": "S5_134",
+          "family_label_v0_1": "PLUS_BASE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 135,
+          "row": 12,
+          "col": 3,
+          "position_id": "S5_135",
+          "family_label_v0_1": "BOX_CROSS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 136,
+          "row": 12,
+          "col": 4,
+          "position_id": "S5_136",
+          "family_label_v0_1": "TRI_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 137,
+          "row": 12,
+          "col": 5,
+          "position_id": "S5_137",
+          "family_label_v0_1": "PLUS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 138,
+          "row": 12,
+          "col": 6,
+          "position_id": "S5_138",
+          "family_label_v0_1": "BOX_BLK_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 139,
+          "row": 12,
+          "col": 7,
+          "position_id": "S5_139",
+          "family_label_v0_1": "ARCH_HORIZ"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 140,
+          "row": 12,
+          "col": 8,
+          "position_id": "S5_140",
+          "family_label_v0_1": "BOX_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 141,
+          "row": 12,
+          "col": 9,
+          "position_id": "S5_141",
+          "family_label_v0_1": "P"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 142,
+          "row": 12,
+          "col": 10,
+          "position_id": "S5_142",
+          "family_label_v0_1": "STEP"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 143,
+          "row": 12,
+          "col": 11,
+          "position_id": "S5_143",
+          "family_label_v0_1": "PERCENT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 144,
+          "row": 12,
+          "col": 12,
+          "position_id": "S5_144",
+          "family_label_v0_1": "K"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 145,
+          "row": 13,
+          "col": 1,
+          "position_id": "S5_145",
+          "family_label_v0_1": "DOT_GT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 146,
+          "row": 13,
+          "col": 2,
+          "position_id": "S5_146",
+          "family_label_v0_1": "FEMALE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 147,
+          "row": 13,
+          "col": 3,
+          "position_id": "S5_147",
+          "family_label_v0_1": "OBELISK"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 148,
+          "row": 13,
+          "col": 4,
+          "position_id": "S5_148",
+          "family_label_v0_1": "B_LOWER2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 149,
+          "row": 13,
+          "col": 5,
+          "position_id": "S5_149",
+          "family_label_v0_1": "CIRC_X"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 150,
+          "row": 13,
+          "col": 6,
+          "position_id": "S5_150",
+          "family_label_v0_1": "THETA"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 151,
+          "row": 13,
+          "col": 7,
+          "position_id": "S5_151",
+          "family_label_v0_1": "CIRCLE_DIAG"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 152,
+          "row": 13,
+          "col": 8,
+          "position_id": "S5_152",
+          "family_label_v0_1": "TRI_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 153,
+          "row": 13,
+          "col": 9,
+          "position_id": "S5_153",
+          "family_label_v0_1": "O"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 154,
+          "row": 13,
+          "col": 10,
+          "position_id": "S5_154",
+          "family_label_v0_1": "PLUS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 155,
+          "row": 13,
+          "col": 11,
+          "position_id": "S5_155",
+          "family_label_v0_1": "BOX_BLK_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 156,
+          "row": 13,
+          "col": 12,
+          "position_id": "S5_156",
+          "family_label_v0_1": "W"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 157,
+          "row": 14,
+          "col": 1,
+          "position_id": "S5_157",
+          "family_label_v0_1": "BLK_OVAL_HORIZ"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 158,
+          "row": 14,
+          "col": 2,
+          "position_id": "S5_158",
+          "family_label_v0_1": "PLAY"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 159,
+          "row": 14,
+          "col": 3,
+          "position_id": "S5_159",
+          "family_label_v0_1": "ARCH_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 160,
+          "row": 14,
+          "col": 4,
+          "position_id": "S5_160",
+          "family_label_v0_1": "BULLSEYE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 161,
+          "row": 14,
+          "col": 5,
+          "position_id": "S5_161",
+          "family_label_v0_1": "D"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 162,
+          "row": 14,
+          "col": 6,
+          "position_id": "S5_162",
+          "family_label_v0_1": "WINDOW"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 163,
+          "row": 14,
+          "col": 7,
+          "position_id": "S5_163",
+          "family_label_v0_1": "OBELISK"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 164,
+          "row": 14,
+          "col": 8,
+          "position_id": "S5_164",
+          "family_label_v0_1": "LAMBDA"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 165,
+          "row": 14,
+          "col": 9,
+          "position_id": "S5_165",
+          "family_label_v0_1": "OVAL_SPLIT_ALT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 166,
+          "row": 14,
+          "col": 10,
+          "position_id": "S5_166",
+          "family_label_v0_1": "T_TRI"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 167,
+          "row": 14,
+          "col": 11,
+          "position_id": "S5_167",
+          "family_label_v0_1": "CIRC_PLUS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 168,
+          "row": 14,
+          "col": 12,
+          "position_id": "S5_168",
+          "family_label_v0_1": "BOX_DOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 169,
+          "row": 15,
+          "col": 1,
+          "position_id": "S5_169",
+          "family_label_v0_1": "REV2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 170,
+          "row": 15,
+          "col": 2,
+          "position_id": "S5_170",
+          "family_label_v0_1": "PSI2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 171,
+          "row": 15,
+          "col": 3,
+          "position_id": "S5_171",
+          "family_label_v0_1": "X_SPLIT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 172,
+          "row": 15,
+          "col": 4,
+          "position_id": "S5_172",
+          "family_label_v0_1": "BLK_DOME2"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 173,
+          "row": 15,
+          "col": 5,
+          "position_id": "S5_173",
+          "family_label_v0_1": "BOX_BULLSEYE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 174,
+          "row": 15,
+          "col": 6,
+          "position_id": "S5_174",
+          "family_label_v0_1": "PLAY"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 175,
+          "row": 15,
+          "col": 7,
+          "position_id": "S5_175",
+          "family_label_v0_1": "HDOT"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 176,
+          "row": 15,
+          "col": 8,
+          "position_id": "S5_176",
+          "family_label_v0_1": "BLK_SQUARE"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 177,
+          "row": 15,
+          "col": 9,
+          "position_id": "S5_177",
+          "family_label_v0_1": "PLUS"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 178,
+          "row": 15,
+          "col": 10,
+          "position_id": "S5_178",
+          "family_label_v0_1": "GAMMA"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 179,
+          "row": 15,
+          "col": 11,
+          "position_id": "S5_179",
+          "family_label_v0_1": "OBELISK"
+        },
+        {
+          "cipher": "S5",
+          "linear_index": 180,
+          "row": 15,
+          "col": 12,
+          "position_id": "S5_180",
+          "family_label_v0_1": "CIRC_SPLIT"
+        }
+      ]
+    }
+  }
+}

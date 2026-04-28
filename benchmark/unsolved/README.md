@@ -76,6 +76,11 @@ Exclude:
     Shugborough, Feynman #2/#3, Paul Rubin, Henry Debosnys.
     One record per cipher.
 
+Initial Scorpion intake has started under `sources/scorpion/` with S1 and S5
+as image-linked, documentation-rich records. These records intentionally do not
+yet include canonical symbol transcriptions: the next curation step is a vetted
+Scorpion glyph-ID pass over the public images.
+
 ## Layout
 
 ```

@@ -121,6 +121,11 @@ Last swept: 2026-04-23.
   - Store concise summaries in context layers; store full text/images as
     associated document files and expose them only through explicit solver
     policy or agent tools.
+  - [x] Initial Scorpion intake: S1/S5 records now link public cipher images,
+    include a released-letter excerpt as an associated document, and provide
+    tentative v0.2 Track-B-style transcriptions for exploratory solver runs.
+  - [ ] Complete Scorpion curation with a vetted glyph-ID transcription pass
+    before making headline Track B or solver-performance claims.
 - [ ] Add `related_records` links where one cipher has same-author,
   same-manuscript, same-key-family, or known-solution neighbors.
 - [ ] Add dirty-transcription stress variants.

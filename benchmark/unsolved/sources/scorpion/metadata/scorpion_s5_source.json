@@ -1,0 +1,26 @@
+{
+  "id": "scorpion_s5",
+  "source": "scorpion",
+  "cipher_label": "S5",
+  "grid": {
+    "rows": 15,
+    "columns": 12,
+    "cells": 180
+  },
+  "reported_unique_symbols": 155,
+  "source_page_url": "https://cipherfoundation.org/modern-ciphers/scorpion-ciphers/",
+  "source_image_url": "http://cipherfoundation.blogitania.com/wp-content/uploads/sites/4/2015/08/scorpion4.jpg",
+  "reported_image_dimensions": {
+    "width": 527,
+    "height": 766
+  },
+  "curation_status": "local_image_and_tentative_family_transcription_v0_2",
+  "notes": "Source page identifies S5 as a 12 x 15 grid with 155 unique symbols among 180 cells. Local image and tentative family-label transcription v0.2 are now available; family labels over-merge variants and should be replaced by a vetted glyph map.",
+  "local_image_file": "sources/scorpion/images/scorpion_s5.jpg",
+  "transcription_canonical_file": "sources/scorpion/transcriptions/scorpion_s5_family_v0_2.canonical.txt",
+  "transcription_diplomatic_file": "sources/scorpion/transcriptions/scorpion_s5_family_v0_2.diplomatic.txt",
+  "position_diplomatic_file": "sources/scorpion/transcriptions/scorpion_s5_position_ids_v0_2.diplomatic.txt",
+  "transcription_metadata_file": "sources/scorpion/metadata/scorpion_s5_transcription_v0_2.json",
+  "family_label_count_v0_2": 121,
+  "image_sha256": "f89a1111159d5ddf855d61de418b0ea645baacc46ab232c4ef088b6ba8ffefc5"
+}
