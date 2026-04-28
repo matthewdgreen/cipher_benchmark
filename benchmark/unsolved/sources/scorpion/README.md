@@ -42,10 +42,17 @@ and Markdown form. From that, we derive two layers:
 - `*_family_v0_2.canonical.txt`: repeated S-tokens derived from the
   exploratory `family_label_v0_1` field, suitable for initial Decipher
   experiments.
+- `scorpion_s1_s5_shared_family_hypothesis_v0_2.canonical.txt`: a synthetic,
+  hypothesis-only S1+S5 composite using a single global v0.2 family-label
+  alphabet. Shared tentative family labels receive the same S-token across S1
+  and S5. This is not an original document and should only be used to test a
+  possible shared-key/shared-alphabet hypothesis.
 
 Important caveat: the family-label layer over-merges visual variants relative
 to the public unique-symbol counts. S1 is reported as 53 unique symbols but
 the v0.2 family layer has 48. S5 is reported as 155 unique symbols but the
-v0.2 family layer has 121. Use this for exploratory solver runs only; a future
-glyph-normalization pass should create a proper Scorpion glyph ID map from the
-source images before any benchmark claim.
+v0.2 family layer has 121. The synthetic S1+S5 composite has 250 tokens and
+148 global v0.2 family-label symbols, including 21 tentative labels shared by
+both component ciphertexts. Use all of this for exploratory solver runs only;
+a future glyph-normalization pass should create a proper Scorpion glyph ID map
+from the source images before any benchmark claim.

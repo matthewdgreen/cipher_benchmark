@@ -77,9 +77,12 @@ Exclude:
     One record per cipher.
 
 Initial Scorpion intake has started under `sources/scorpion/` with S1 and S5
-as image-linked, documentation-rich records. These records intentionally do not
-yet include canonical symbol transcriptions: the next curation step is a vetted
-Scorpion glyph-ID pass over the public images.
+as image-linked, documentation-rich records. They now include tentative v0.2
+family-label canonical transcriptions for exploratory solver runs, plus a
+clearly marked synthetic S1+S5 shared-key/shared-alphabet hypothesis case. The
+next curation step is still a vetted Scorpion glyph-ID pass over the public
+images; do not treat the v0.2 labels or synthetic composite as benchmark-grade
+evidence.
 
 ## Layout
 

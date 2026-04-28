@@ -45,10 +45,12 @@ Scorpion S1/S5 are documentation-rich exploratory records under
 cipher images, a released-letter excerpt as an associated document, tentative
 v0.2 diplomatic/canonical transcriptions supplied from a preliminary
 family-label pass, and a split at
-`benchmark/unsolved/splits/scorpion_tests.jsonl`. Treat those transcriptions as
-usable for initial solver experiments only; do not make final benchmark claims
-until a vetted glyph-ID pass reconciles the public source's reported symbol
-counts.
+`benchmark/unsolved/splits/scorpion_tests.jsonl`. There is also a separate
+synthetic hypothesis split at `benchmark/unsolved/splits/scorpion_synthetic_tests.jsonl`
+that concatenates S1+S5 under a shared global v0.2 family-label alphabet.
+Treat those transcriptions as usable for initial solver experiments only; do
+not make final benchmark claims until a vetted glyph-ID pass reconciles the
+public source's reported symbol counts.
 
 Tool-bundled coverage is intentionally still partial. The benchmark currently
 has three imported Zenith smoke records (`goldbug`, `horacemann`,
