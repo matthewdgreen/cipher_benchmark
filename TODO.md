@@ -108,6 +108,21 @@ Last swept: 2026-04-23.
 ## Agentic Advantage Support
 
 - [ ] Add context-scaling splits for Borg and Copiale.
+- [ ] Populate tiered `context_layers` beyond the initial generated backfill.
+  - Keep `minimal` to archival/provenance facts only.
+  - Keep `standard` to language, cipher-family, symbol, and transcript facts.
+  - Use `historical` for stronger non-solution background, such as author,
+    manuscript genre, known surrounding events, or likely plaintext domain.
+  - Use explicit `contains_solution` / `contains_plaintext_hint` flags so
+    solvers can run clean context-ablation experiments.
+- [ ] Add `associated_documents` for long companion material.
+  - Examples: Scorpion plaintext notes/letters, envelopes, newspaper clippings,
+    manuscript catalog notes, or long source commentary.
+  - Store concise summaries in context layers; store full text/images as
+    associated document files and expose them only through explicit solver
+    policy or agent tools.
+- [ ] Add `related_records` links where one cipher has same-author,
+  same-manuscript, same-key-family, or known-solution neighbors.
 - [ ] Add dirty-transcription stress variants.
 - [ ] Add nomenclator/codeword stress cases.
 - [ ] Add Track C image-to-plaintext experiments.

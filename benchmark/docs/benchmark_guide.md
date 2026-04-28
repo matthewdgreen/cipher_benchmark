@@ -244,6 +244,41 @@ Predefined test suites (e.g., "single-page difficulty", "10-page difficulty", "f
 
 ---
 
+## 4b. Context Layers And Related Material
+
+Every record may carry structured `context_layers` for controlled
+context-aware evaluation. These are short, solver-facing summaries, not raw
+source dumps:
+
+- **`minimal`**: archival/provenance facts such as source, date, task track,
+  manuscript/page ID, and holding institution. This should not include
+  cipher-type or plaintext hints.
+- **`standard`**: benchmark facts such as hypothesized/plaintext language,
+  cipher-family labels, symbol set, symbol count, token count, and whether
+  word boundaries are preserved.
+- **`historical`**: stronger non-solution background such as manuscript genre,
+  known historical setting, author/source family, or likely domain of the
+  plaintext.
+
+Each layer declares whether it contains solution material, plaintext hints, or
+cipher-type hints. This lets a solver run the same target under different
+policies, for example `none`, `minimal`, `standard`, `historical`, or
+`related_solutions`.
+
+Use `related_records` for same-manuscript, same-author, same-key-family, or
+known-solution neighbors. A relationship may point to records in either the
+main benchmark or the unsolved area, and it must indicate whether a related
+solution is available.
+
+Long companion material belongs in `associated_documents`, not directly in a
+context layer. For example, Scorpion-style accompanying plaintext notes,
+letters, envelopes, newspaper clippings, or lengthy catalog descriptions
+should be stored as referenced text/image files with concise summaries. Agentic
+tools can then expose those documents on demand under an explicit context
+policy instead of injecting many pages of prose into every run.
+
+---
+
 ## 5. Rights Classes
 
 Each record has a `rights_class` that governs how it can be distributed. This reflects the combined rights status of three independent layers: the manuscript image, the transcription, and the plaintext/solution.
@@ -402,6 +437,15 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 - **Records:** 3 (`goldbug`, `horacemann`, `zodiac408`) imported from the Zenith solver checkout
 - **Purpose:** Parity smoke tests against external solver outputs
 - **Pending import:** Additional Zenith/zkdecrypto-lite bundled ciphers (see `AGENTS.md`)
+
+### Zodiac curated records
+
+- **Records:** 2 solved/scorable main records (`zodiac408_zenith_global`,
+  `zodiac340_zenith_original`) plus unsolved/diagnostic variants under
+  `benchmark/unsolved/sources/zodiac/`
+- **Cipher type:** Homophonic substitution and transposition+homophonic
+- **Purpose:** Global Zodiac glyph IDs and parity/diagnostic tests for
+  Z408/Z340-style solvers
 
 *(Additional sources — British Library manuscripts, HCPortal, ICDAR competition data — are under investigation. See `source_audit.md` in the repository root. For unsolved historical ciphers, see `benchmark/unsolved/README.md`.)*
 

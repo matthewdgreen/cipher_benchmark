@@ -1,0 +1,76 @@
+[
+  {
+    "transformer_name": "NDownMAcross",
+    "data": {
+      "rangeStart": 0,
+      "rangeEnd": 8,
+      "down": 1,
+      "across": 2
+    }
+  },
+  {
+    "transformer_name": "ShiftCharactersRight",
+    "data": {
+      "rangeStart": 241,
+      "rangeEnd": 254
+    }
+  },
+  {
+    "transformer_name": "LockCharacters",
+    "data": {
+      "rangeStart": 164,
+      "rangeEnd": 169
+    }
+  },
+  {
+    "transformer_name": "NDownMAcross",
+    "data": {
+      "rangeStart": 9,
+      "rangeEnd": 17,
+      "down": 1,
+      "across": 2
+    }
+  },
+  {
+    "transformer_name": "Reverse",
+    "data": {
+      "rangeStart": 306,
+      "rangeEnd": 309
+    }
+  },
+  {
+    "transformer_name": "Reverse",
+    "data": {
+      "rangeStart": 314,
+      "rangeEnd": 315
+    }
+  },
+  {
+    "transformer_name": "Reverse",
+    "data": {
+      "rangeStart": 316,
+      "rangeEnd": 317
+    }
+  },
+  {
+    "transformer_name": "Reverse",
+    "data": {
+      "rangeStart": 322,
+      "rangeEnd": 324
+    }
+  },
+  {
+    "transformer_name": "Reverse",
+    "data": {
+      "rangeStart": 325,
+      "rangeEnd": 326
+    }
+  },
+  {
+    "transformer_name": "Reverse",
+    "data": {
+      "rangeStart": 327,
+      "rangeEnd": 334
+    }
+  }
+]

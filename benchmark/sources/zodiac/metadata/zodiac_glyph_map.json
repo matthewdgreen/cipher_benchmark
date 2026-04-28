@@ -1,0 +1,3169 @@
+{
+  "schema": "zodiac_glyph_map_v1",
+  "id_policy": "Z### IDs denote real Zodiac glyphs as represented by Zenith symbolic tokens. ZV### IDs denote variant-only/artificial symbols that do not yet have a vetted visual glyph identity.",
+  "normalization_caveat": "zkdecrypto byte values are source-scoped. The same byte can denote different Zenith glyph tokens in different files, so consumers must use source_symbol_to_id with the full source key.",
+  "glyph_ids": {
+    "Z001": {
+      "display": "9",
+      "canonical_zenith_symbol": "9",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "9"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "9"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xBC"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xBC"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xBC"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xBC"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xBC"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xBC"
+        }
+      ]
+    },
+    "Z002": {
+      "display": "%",
+      "canonical_zenith_symbol": "%",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "%"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "%"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xBA"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xBA"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xBA"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xBA"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xBA"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xBA"
+        }
+      ]
+    },
+    "Z003": {
+      "display": "P",
+      "canonical_zenith_symbol": "P",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "P"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "P"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x50"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x50"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x50"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x50"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x50"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x50"
+        }
+      ]
+    },
+    "Z004": {
+      "display": "/",
+      "canonical_zenith_symbol": "/",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "/"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "/"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x2F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x2F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x2F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x2F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x2F"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x2F"
+        }
+      ]
+    },
+    "Z005": {
+      "display": "Z",
+      "canonical_zenith_symbol": "Z",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "Z"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "Z"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x5A"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x5A"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x5A"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x5A"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x5A"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x5A"
+        }
+      ]
+    },
+    "Z006": {
+      "display": "U",
+      "canonical_zenith_symbol": "U",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "U"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "U"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x75"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x75"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x75"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x75"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x75"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x75"
+        }
+      ]
+    },
+    "Z007": {
+      "display": "B",
+      "canonical_zenith_symbol": "B",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "B"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "B"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x42"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x42"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x42"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x42"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x42"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x42"
+        }
+      ]
+    },
+    "Z008": {
+      "display": "k",
+      "canonical_zenith_symbol": "k",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "k"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "k"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xCB"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xCB"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xCB"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xCB"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xCB"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xCB"
+        }
+      ]
+    },
+    "Z009": {
+      "display": "O",
+      "canonical_zenith_symbol": "O",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "O"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "O"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x4F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x4F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x4F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x4F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x4F"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x4F"
+        }
+      ]
+    },
+    "Z010": {
+      "display": "R",
+      "canonical_zenith_symbol": "R",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "R"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "R"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x52"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x52"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x52"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x52"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x52"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x52"
+        }
+      ]
+    },
+    "Z011": {
+      "display": "=",
+      "canonical_zenith_symbol": "=",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "="
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xA5"
+        }
+      ]
+    },
+    "Z012": {
+      "display": "p",
+      "canonical_zenith_symbol": "p",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "p"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "p"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xD0"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xD0"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xD0"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xD0"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xD0"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xD0"
+        }
+      ]
+    },
+    "Z013": {
+      "display": "X",
+      "canonical_zenith_symbol": "X",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "X"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "X"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x58"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x58"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x58"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x58"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x58"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x58"
+        }
+      ]
+    },
+    "Z014": {
+      "display": "W",
+      "canonical_zenith_symbol": "W",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "W"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "W"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x57"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x57"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x57"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x57"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x57"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x57"
+        }
+      ]
+    },
+    "Z015": {
+      "display": "V",
+      "canonical_zenith_symbol": "V",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "V"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "V"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x56"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x56"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x56"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x56"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x56"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x56"
+        }
+      ]
+    },
+    "Z016": {
+      "display": "+",
+      "canonical_zenith_symbol": "+",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "+"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "+"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x2B"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x2B"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x2B"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x2B"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x2B"
+        }
+      ]
+    },
+    "Z017": {
+      "display": "e",
+      "canonical_zenith_symbol": "e",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "e"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xC5"
+        }
+      ]
+    },
+    "Z018": {
+      "display": "G",
+      "canonical_zenith_symbol": "G",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "G"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "G"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x47"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x47"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x47"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x47"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x47"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x47"
+        }
+      ]
+    },
+    "Z019": {
+      "display": "Y",
+      "canonical_zenith_symbol": "Y",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "Y"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "Y"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x79"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x79"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x79"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x79"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x79"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x79"
+        }
+      ]
+    },
+    "Z020": {
+      "display": "F",
+      "canonical_zenith_symbol": "F",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "F"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "F"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x46"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x46"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x46"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x46"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x46"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x46"
+        }
+      ]
+    },
+    "Z021": {
+      "display": "6",
+      "canonical_zenith_symbol": "6",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "6"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "6"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xB0"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB0"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB0"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB0"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB0"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB0"
+        }
+      ]
+    },
+    "Z022": {
+      "display": "H",
+      "canonical_zenith_symbol": "H",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "H"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "H"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x48"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x48"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x48"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x48"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x48"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x48"
+        }
+      ]
+    },
+    "Z023": {
+      "display": "@",
+      "canonical_zenith_symbol": "@",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "@"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "@"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xB9"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB9"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB9"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB9"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB9"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB9"
+        }
+      ]
+    },
+    "Z024": {
+      "display": "K",
+      "canonical_zenith_symbol": "K",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "K"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "K"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x4B"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x4B"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x4B"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x4B"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x4B"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x4B"
+        }
+      ]
+    },
+    "Z025": {
+      "display": "!",
+      "canonical_zenith_symbol": "!",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "!"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x82"
+        }
+      ]
+    },
+    "Z026": {
+      "display": "q",
+      "canonical_zenith_symbol": "q",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "q"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "q"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xD1"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xD1"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xD1"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xD1"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xD1"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xD1"
+        }
+      ]
+    },
+    "Z027": {
+      "display": "M",
+      "canonical_zenith_symbol": "M",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "M"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "M"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x4D"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x4D"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x4D"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x4D"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x4D"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x4D"
+        }
+      ]
+    },
+    "Z028": {
+      "display": "J",
+      "canonical_zenith_symbol": "J",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "J"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "J"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x4A"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x4A"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x4A"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x4A"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x4A"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x4A"
+        }
+      ]
+    },
+    "Z029": {
+      "display": "^",
+      "canonical_zenith_symbol": "^",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "^"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "^"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x5E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x5E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x5E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x5E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x5E"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x5E"
+        }
+      ]
+    },
+    "Z030": {
+      "display": "I",
+      "canonical_zenith_symbol": "I",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "I"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x49"
+        }
+      ]
+    },
+    "Z031": {
+      "display": "7",
+      "canonical_zenith_symbol": "7",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "7"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "7"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xBD"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xBD"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xBD"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xBD"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xBD"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xBD"
+        }
+      ]
+    },
+    "Z032": {
+      "display": "T",
+      "canonical_zenith_symbol": "T",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "T"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "T"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x54"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x54"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x54"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x54"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x54"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x54"
+        }
+      ]
+    },
+    "Z033": {
+      "display": "t",
+      "canonical_zenith_symbol": "t",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "t"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "t"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xD4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xD4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xD4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xD4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xD4"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xD4"
+        }
+      ]
+    },
+    "Z034": {
+      "display": "N",
+      "canonical_zenith_symbol": "N",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "N"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "N"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x4E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x4E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x4E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x4E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x4E"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x4E"
+        }
+      ]
+    },
+    "Z035": {
+      "display": "Q",
+      "canonical_zenith_symbol": "Q",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "Q"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x51"
+        }
+      ]
+    },
+    "Z036": {
+      "display": "D",
+      "canonical_zenith_symbol": "D",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "D"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "D"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x44"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x44"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x44"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x44"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x44"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x44"
+        }
+      ]
+    },
+    "Z037": {
+      "display": "5",
+      "canonical_zenith_symbol": "5",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "5"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "5"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xB5"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB5"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB5"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB5"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB5"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB5"
+        }
+      ]
+    },
+    "Z038": {
+      "display": ")",
+      "canonical_zenith_symbol": ")",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": ")"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": ")"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xA3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xA3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xA3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xA3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xA3"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xA3"
+        }
+      ]
+    },
+    "Z039": {
+      "display": "S",
+      "canonical_zenith_symbol": "S",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "S"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "S"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x53"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x53"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x53"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x53"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x53"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x53"
+        }
+      ]
+    },
+    "Z040": {
+      "display": "(",
+      "canonical_zenith_symbol": "(",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "("
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "("
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xA2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xA2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xA2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xA2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xA2"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xA2"
+        }
+      ]
+    },
+    "Z041": {
+      "display": "#",
+      "canonical_zenith_symbol": "#",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "#"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "#"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xB7"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB7"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB7"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB7"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB7"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB7"
+        }
+      ]
+    },
+    "Z042": {
+      "display": "A",
+      "canonical_zenith_symbol": "A",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "A"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "A"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x41"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x41"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x41"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x41"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x41"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x41"
+        }
+      ]
+    },
+    "Z043": {
+      "display": "f",
+      "canonical_zenith_symbol": "f",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "f"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "f"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xC6"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xC6"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xC6"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xC6"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xC6"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xC6"
+        }
+      ]
+    },
+    "Z044": {
+      "display": "l",
+      "canonical_zenith_symbol": "l",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "l"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "l"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xCC"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xCC"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xCC"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xCC"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xCC"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xCC"
+        }
+      ]
+    },
+    "Z045": {
+      "display": "E",
+      "canonical_zenith_symbol": "E",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "E"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "E"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x45"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x45"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x45"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x45"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x45"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x45"
+        }
+      ]
+    },
+    "Z046": {
+      "display": "L",
+      "canonical_zenith_symbol": "L",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "L"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "L"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x4C"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x4C"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x4C"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x4C"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x4C"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x4C"
+        }
+      ]
+    },
+    "Z047": {
+      "display": "d",
+      "canonical_zenith_symbol": "d",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "d"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "d"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xC4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xC4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xC4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xC4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xC4"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xC4"
+        }
+      ]
+    },
+    "Z048": {
+      "display": "r",
+      "canonical_zenith_symbol": "r",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "r"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xD2"
+        }
+      ]
+    },
+    "Z049": {
+      "display": "`",
+      "canonical_zenith_symbol": "`",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "`"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0x5C"
+        }
+      ]
+    },
+    "Z050": {
+      "display": "8",
+      "canonical_zenith_symbol": "8",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "8"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "8"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xBE"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xBE"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xBE"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xBE"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xBE"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xBE"
+        }
+      ]
+    },
+    "Z051": {
+      "display": "z",
+      "canonical_zenith_symbol": "z",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "z"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "z"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xA4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xA4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xA4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xA4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xA4"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xA4"
+        }
+      ]
+    },
+    "Z052": {
+      "display": "c",
+      "canonical_zenith_symbol": "c",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "c"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "c"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xC3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xC3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xC3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xC3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xC3"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xC3"
+        }
+      ]
+    },
+    "Z053": {
+      "display": "j",
+      "canonical_zenith_symbol": "j",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "j"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "j"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xCA"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xCA"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xCA"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xCA"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xCA"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xCA"
+        }
+      ]
+    },
+    "Z054": {
+      "display": "_",
+      "canonical_zenith_symbol": "_",
+      "sources": [
+        {
+          "source": "zenith:zodiac408.json",
+          "symbol": "_"
+        },
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "_"
+        },
+        {
+          "source": "zkdecrypto:408.zodiac.solved.txt:byte",
+          "symbol": "0xB8"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB8"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB8"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB8"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB8"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB8"
+        }
+      ]
+    },
+    "Z055": {
+      "display": ">",
+      "canonical_zenith_symbol": ">",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": ">"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x3E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x3E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x3E"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x3E"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x3E"
+        }
+      ]
+    },
+    "Z056": {
+      "display": "|",
+      "canonical_zenith_symbol": "|",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "|"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x49"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x49"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x49"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x49"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x49"
+        }
+      ]
+    },
+    "Z057": {
+      "display": "1",
+      "canonical_zenith_symbol": "1",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "1"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB2"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB2"
+        }
+      ]
+    },
+    "Z058": {
+      "display": "2",
+      "canonical_zenith_symbol": "2",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB1"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB1"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB1"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB1"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB1"
+        }
+      ]
+    },
+    "Z059": {
+      "display": ".",
+      "canonical_zenith_symbol": ".",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "."
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x95"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x95"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x95"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x95"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x95"
+        }
+      ]
+    },
+    "Z060": {
+      "display": "<",
+      "canonical_zenith_symbol": "<",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "<"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x3C"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x3C"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x3C"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x3C"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x3C"
+        }
+      ]
+    },
+    "Z061": {
+      "display": "*",
+      "canonical_zenith_symbol": "*",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "*"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xBB"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xBB"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xBB"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xBB"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xBB"
+        }
+      ]
+    },
+    "Z062": {
+      "display": "y",
+      "canonical_zenith_symbol": "y",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "y"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x9F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x9F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x9F"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x9F"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x9F"
+        }
+      ]
+    },
+    "Z063": {
+      "display": ":",
+      "canonical_zenith_symbol": ":",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": ":"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x84"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x84"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x84"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x84"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x84"
+        }
+      ]
+    },
+    "Z064": {
+      "display": "3",
+      "canonical_zenith_symbol": "3",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB4"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB4"
+        }
+      ]
+    },
+    "Z065": {
+      "display": "&",
+      "canonical_zenith_symbol": "&",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "&"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x88"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x88"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x88"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x88"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x88"
+        }
+      ]
+    },
+    "Z066": {
+      "display": "4",
+      "canonical_zenith_symbol": "4",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "4"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xB3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xB3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xB3"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xB3"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xB3"
+        }
+      ]
+    },
+    "Z067": {
+      "display": "-",
+      "canonical_zenith_symbol": "-",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "-"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x2D"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x2D"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x2D"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x2D"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x2D"
+        }
+      ]
+    },
+    "Z068": {
+      "display": "C",
+      "canonical_zenith_symbol": "C",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "C"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x43"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x43"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x43"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x43"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x43"
+        }
+      ]
+    },
+    "Z069": {
+      "display": ";",
+      "canonical_zenith_symbol": ";",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": ";"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0x83"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x83"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x83"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0x83"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0x83"
+        }
+      ]
+    },
+    "Z070": {
+      "display": "b",
+      "canonical_zenith_symbol": "b",
+      "sources": [
+        {
+          "source": "zenith:zodiac340-original.json",
+          "symbol": "b"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.unsolved.txt:byte",
+          "symbol": "0xC2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0xC2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0xC2"
+        },
+        {
+          "source": "zkdecrypto:340.zodiac.oxcart.txt:byte",
+          "symbol": "0xC2"
+        },
+        {
+          "source": "zkdecrypto:153.zodiac.unsolved.txt:byte",
+          "symbol": "0xC2"
+        }
+      ]
+    },
+    "ZV001": {
+      "display": "0x55",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.noplus.txt:byte",
+          "symbol": "0x55"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV002": {
+      "display": "0x21",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x21"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV003": {
+      "display": "0x24",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x24"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV004": {
+      "display": "0x30",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x30"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV005": {
+      "display": "0x3D",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x3D"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV006": {
+      "display": "0x51",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x51"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV007": {
+      "display": "0x60",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x60"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV008": {
+      "display": "0x61",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x61"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV009": {
+      "display": "0x65",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x65"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV010": {
+      "display": "0x67",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x67"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV011": {
+      "display": "0x68",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x68"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV012": {
+      "display": "0x69",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x69"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV013": {
+      "display": "0x6D",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x6D"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV014": {
+      "display": "0x6E",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x6E"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV015": {
+      "display": "0x6F",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x6F"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV016": {
+      "display": "0x72",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x72"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV017": {
+      "display": "0x73",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x73"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV018": {
+      "display": "0x76",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x76"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV019": {
+      "display": "0x77",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x77"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV020": {
+      "display": "0x78",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x78"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV021": {
+      "display": "0x7B",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x7B"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV022": {
+      "display": "0x7D",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x7D"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    },
+    "ZV023": {
+      "display": "0x7E",
+      "canonical_zenith_symbol": null,
+      "variant_only": true,
+      "sources": [
+        {
+          "source": "zkdecrypto:340.zodiac.uniplus.txt:byte",
+          "symbol": "0x7E"
+        }
+      ],
+      "notes": "Variant-only byte not crosswalked to a real Zodiac glyph. This commonly occurs in synthetic zkdecrypto variants such as uniplus."
+    }
+  },
+  "source_symbol_to_id": {
+    "zenith:zodiac408.json": {
+      "9": "Z001",
+      "%": "Z002",
+      "P": "Z003",
+      "/": "Z004",
+      "Z": "Z005",
+      "U": "Z006",
+      "B": "Z007",
+      "k": "Z008",
+      "O": "Z009",
+      "R": "Z010",
+      "=": "Z011",
+      "p": "Z012",
+      "X": "Z013",
+      "W": "Z014",
+      "V": "Z015",
+      "+": "Z016",
+      "e": "Z017",
+      "G": "Z018",
+      "Y": "Z019",
+      "F": "Z020",
+      "6": "Z021",
+      "H": "Z022",
+      "@": "Z023",
+      "K": "Z024",
+      "!": "Z025",
+      "q": "Z026",
+      "M": "Z027",
+      "J": "Z028",
+      "^": "Z029",
+      "I": "Z030",
+      "7": "Z031",
+      "T": "Z032",
+      "t": "Z033",
+      "N": "Z034",
+      "Q": "Z035",
+      "D": "Z036",
+      "5": "Z037",
+      ")": "Z038",
+      "S": "Z039",
+      "(": "Z040",
+      "#": "Z041",
+      "A": "Z042",
+      "f": "Z043",
+      "l": "Z044",
+      "E": "Z045",
+      "L": "Z046",
+      "d": "Z047",
+      "r": "Z048",
+      "`": "Z049",
+      "8": "Z050",
+      "z": "Z051",
+      "c": "Z052",
+      "j": "Z053",
+      "_": "Z054"
+    },
+    "zenith:zodiac340-original.json": {
+      "H": "Z022",
+      "E": "Z045",
+      "R": "Z010",
+      ">": "Z055",
+      "p": "Z012",
+      "l": "Z044",
+      "^": "Z029",
+      "V": "Z015",
+      "P": "Z003",
+      "k": "Z008",
+      "|": "Z056",
+      "1": "Z057",
+      "L": "Z046",
+      "T": "Z032",
+      "G": "Z018",
+      "2": "Z058",
+      "d": "Z047",
+      "N": "Z034",
+      "+": "Z016",
+      "B": "Z007",
+      "(": "Z040",
+      "#": "Z041",
+      "O": "Z009",
+      "%": "Z002",
+      "D": "Z036",
+      "W": "Z014",
+      "Y": "Z019",
+      ".": "Z059",
+      "<": "Z060",
+      "*": "Z061",
+      "K": "Z024",
+      "f": "Z043",
+      ")": "Z038",
+      "y": "Z062",
+      ":": "Z063",
+      "c": "Z052",
+      "M": "Z027",
+      "U": "Z006",
+      "Z": "Z005",
+      "z": "Z051",
+      "J": "Z028",
+      "S": "Z039",
+      "7": "Z031",
+      "8": "Z050",
+      "3": "Z064",
+      "_": "Z054",
+      "9": "Z001",
+      "t": "Z033",
+      "j": "Z053",
+      "5": "Z037",
+      "F": "Z020",
+      "&": "Z065",
+      "4": "Z066",
+      "/": "Z004",
+      "-": "Z067",
+      "C": "Z068",
+      "q": "Z026",
+      ";": "Z069",
+      "X": "Z013",
+      "@": "Z023",
+      "b": "Z070",
+      "A": "Z042",
+      "6": "Z021"
+    },
+    "zkdecrypto:408.zodiac.solved.txt:byte": {
+      "0xBC": "Z001",
+      "0xBA": "Z002",
+      "0x50": "Z003",
+      "0x2F": "Z004",
+      "0x5A": "Z005",
+      "0x75": "Z006",
+      "0x42": "Z007",
+      "0xCB": "Z008",
+      "0x4F": "Z009",
+      "0x52": "Z010",
+      "0xA5": "Z011",
+      "0xD0": "Z012",
+      "0x58": "Z013",
+      "0x57": "Z014",
+      "0x56": "Z015",
+      "0x2B": "Z016",
+      "0xC5": "Z017",
+      "0x47": "Z018",
+      "0x79": "Z019",
+      "0x46": "Z020",
+      "0xB0": "Z021",
+      "0x48": "Z022",
+      "0xB9": "Z023",
+      "0x4B": "Z024",
+      "0x82": "Z025",
+      "0xD1": "Z026",
+      "0x4D": "Z027",
+      "0x4A": "Z028",
+      "0x5E": "Z029",
+      "0x49": "Z030",
+      "0xBD": "Z031",
+      "0x54": "Z032",
+      "0xD4": "Z033",
+      "0x4E": "Z034",
+      "0x51": "Z035",
+      "0x44": "Z036",
+      "0xB5": "Z037",
+      "0xA3": "Z038",
+      "0x53": "Z039",
+      "0xA2": "Z040",
+      "0xB7": "Z041",
+      "0x41": "Z042",
+      "0xC6": "Z043",
+      "0xCC": "Z044",
+      "0x45": "Z045",
+      "0x4C": "Z046",
+      "0xC4": "Z047",
+      "0xD2": "Z048",
+      "0x5C": "Z049",
+      "0xBE": "Z050",
+      "0xA4": "Z051",
+      "0xC3": "Z052",
+      "0xCA": "Z053",
+      "0xB8": "Z054"
+    },
+    "zkdecrypto:340.zodiac.unsolved.txt:byte": {
+      "0x48": "Z022",
+      "0x45": "Z045",
+      "0x52": "Z010",
+      "0x3E": "Z055",
+      "0xD0": "Z012",
+      "0xCC": "Z044",
+      "0x5E": "Z029",
+      "0x56": "Z015",
+      "0x50": "Z003",
+      "0xCB": "Z008",
+      "0x49": "Z056",
+      "0xB2": "Z057",
+      "0x4C": "Z046",
+      "0x54": "Z032",
+      "0x47": "Z018",
+      "0xB1": "Z058",
+      "0xC4": "Z047",
+      "0x4E": "Z034",
+      "0x2B": "Z016",
+      "0x42": "Z007",
+      "0xA2": "Z040",
+      "0xB7": "Z041",
+      "0x4F": "Z009",
+      "0xBA": "Z002",
+      "0x44": "Z036",
+      "0x57": "Z014",
+      "0x79": "Z019",
+      "0x95": "Z059",
+      "0x3C": "Z060",
+      "0xBB": "Z061",
+      "0x4B": "Z024",
+      "0xC6": "Z043",
+      "0xA3": "Z038",
+      "0x9F": "Z062",
+      "0x84": "Z063",
+      "0xC3": "Z052",
+      "0x4D": "Z027",
+      "0x75": "Z006",
+      "0x5A": "Z005",
+      "0xA4": "Z051",
+      "0x4A": "Z028",
+      "0x53": "Z039",
+      "0xBD": "Z031",
+      "0xBE": "Z050",
+      "0xB4": "Z064",
+      "0xB8": "Z054",
+      "0xBC": "Z001",
+      "0xD4": "Z033",
+      "0xCA": "Z053",
+      "0xB5": "Z037",
+      "0x46": "Z020",
+      "0x88": "Z065",
+      "0xB3": "Z066",
+      "0x2F": "Z004",
+      "0x2D": "Z067",
+      "0x43": "Z068",
+      "0xD1": "Z026",
+      "0x83": "Z069",
+      "0x58": "Z013",
+      "0xB9": "Z023",
+      "0xC2": "Z070",
+      "0x41": "Z042",
+      "0xB0": "Z021"
+    },
+    "zkdecrypto:340.zodiac.noplus.txt:byte": {
+      "0x2D": "Z067",
+      "0x2F": "Z004",
+      "0x3C": "Z060",
+      "0x3E": "Z055",
+      "0x41": "Z042",
+      "0x42": "Z007",
+      "0x43": "Z068",
+      "0x44": "Z036",
+      "0x45": "Z045",
+      "0x46": "Z020",
+      "0x47": "Z018",
+      "0x48": "Z022",
+      "0x49": "Z056",
+      "0x4A": "Z028",
+      "0x4B": "Z024",
+      "0x4C": "Z046",
+      "0x4D": "Z027",
+      "0x4E": "Z034",
+      "0x4F": "Z009",
+      "0x50": "Z003",
+      "0x52": "Z010",
+      "0x53": "Z039",
+      "0x54": "Z032",
+      "0x55": "ZV001",
+      "0x56": "Z015",
+      "0x57": "Z014",
+      "0x58": "Z013",
+      "0x5A": "Z005",
+      "0x5E": "Z029",
+      "0x75": "Z006",
+      "0x79": "Z019",
+      "0x83": "Z069",
+      "0x84": "Z063",
+      "0x88": "Z065",
+      "0x95": "Z059",
+      "0x9F": "Z062",
+      "0xA2": "Z040",
+      "0xA3": "Z038",
+      "0xA4": "Z051",
+      "0xB0": "Z021",
+      "0xB1": "Z058",
+      "0xB2": "Z057",
+      "0xB3": "Z066",
+      "0xB4": "Z064",
+      "0xB5": "Z037",
+      "0xB7": "Z041",
+      "0xB8": "Z054",
+      "0xB9": "Z023",
+      "0xBA": "Z002",
+      "0xBB": "Z061",
+      "0xBC": "Z001",
+      "0xBD": "Z031",
+      "0xBE": "Z050",
+      "0xC2": "Z070",
+      "0xC3": "Z052",
+      "0xC4": "Z047",
+      "0xC6": "Z043",
+      "0xCA": "Z053",
+      "0xCB": "Z008",
+      "0xCC": "Z044",
+      "0xD0": "Z012",
+      "0xD1": "Z026",
+      "0xD4": "Z033"
+    },
+    "zkdecrypto:340.zodiac.uniplus.txt:byte": {
+      "0x21": "ZV002",
+      "0x24": "ZV003",
+      "0x2B": "Z016",
+      "0x2D": "Z067",
+      "0x2F": "Z004",
+      "0x30": "ZV004",
+      "0x3C": "Z060",
+      "0x3D": "ZV005",
+      "0x3E": "Z055",
+      "0x41": "Z042",
+      "0x42": "Z007",
+      "0x43": "Z068",
+      "0x44": "Z036",
+      "0x45": "Z045",
+      "0x46": "Z020",
+      "0x47": "Z018",
+      "0x48": "Z022",
+      "0x49": "Z056",
+      "0x4A": "Z028",
+      "0x4B": "Z024",
+      "0x4C": "Z046",
+      "0x4D": "Z027",
+      "0x4E": "Z034",
+      "0x4F": "Z009",
+      "0x50": "Z003",
+      "0x51": "ZV006",
+      "0x52": "Z010",
+      "0x53": "Z039",
+      "0x54": "Z032",
+      "0x56": "Z015",
+      "0x57": "Z014",
+      "0x58": "Z013",
+      "0x5A": "Z005",
+      "0x5E": "Z029",
+      "0x60": "ZV007",
+      "0x61": "ZV008",
+      "0x65": "ZV009",
+      "0x67": "ZV010",
+      "0x68": "ZV011",
+      "0x69": "ZV012",
+      "0x6D": "ZV013",
+      "0x6E": "ZV014",
+      "0x6F": "ZV015",
+      "0x72": "ZV016",
+      "0x73": "ZV017",
+      "0x75": "Z006",
+      "0x76": "ZV018",
+      "0x77": "ZV019",
+      "0x78": "ZV020",
+      "0x79": "Z019",
+      "0x7B": "ZV021",
+      "0x7D": "ZV022",
+      "0x7E": "ZV023",
+      "0x83": "Z069",
+      "0x84": "Z063",
+      "0x88": "Z065",
+      "0x95": "Z059",
+      "0x9F": "Z062",
+      "0xA2": "Z040",
+      "0xA3": "Z038",
+      "0xA4": "Z051",
+      "0xB0": "Z021",
+      "0xB1": "Z058",
+      "0xB2": "Z057",
+      "0xB3": "Z066",
+      "0xB4": "Z064",
+      "0xB5": "Z037",
+      "0xB7": "Z041",
+      "0xB8": "Z054",
+      "0xB9": "Z023",
+      "0xBA": "Z002",
+      "0xBB": "Z061",
+      "0xBC": "Z001",
+      "0xBD": "Z031",
+      "0xBE": "Z050",
+      "0xC2": "Z070",
+      "0xC3": "Z052",
+      "0xC4": "Z047",
+      "0xC6": "Z043",
+      "0xCA": "Z053",
+      "0xCB": "Z008",
+      "0xCC": "Z044",
+      "0xD0": "Z012",
+      "0xD1": "Z026",
+      "0xD4": "Z033"
+    },
+    "zkdecrypto:340.zodiac.oxcart.txt:byte": {
+      "0x2B": "Z016",
+      "0x2D": "Z067",
+      "0x2F": "Z004",
+      "0x3C": "Z060",
+      "0x3E": "Z055",
+      "0x41": "Z042",
+      "0x42": "Z007",
+      "0x43": "Z068",
+      "0x44": "Z036",
+      "0x45": "Z045",
+      "0x46": "Z020",
+      "0x47": "Z018",
+      "0x48": "Z022",
+      "0x49": "Z056",
+      "0x4A": "Z028",
+      "0x4B": "Z024",
+      "0x4C": "Z046",
+      "0x4D": "Z027",
+      "0x4E": "Z034",
+      "0x4F": "Z009",
+      "0x50": "Z003",
+      "0x52": "Z010",
+      "0x53": "Z039",
+      "0x54": "Z032",
+      "0x56": "Z015",
+      "0x57": "Z014",
+      "0x58": "Z013",
+      "0x5A": "Z005",
+      "0x5E": "Z029",
+      "0x75": "Z006",
+      "0x79": "Z019",
+      "0x83": "Z069",
+      "0x84": "Z063",
+      "0x88": "Z065",
+      "0x95": "Z059",
+      "0x9F": "Z062",
+      "0xA2": "Z040",
+      "0xA3": "Z038",
+      "0xA4": "Z051",
+      "0xB0": "Z021",
+      "0xB1": "Z058",
+      "0xB2": "Z057",
+      "0xB3": "Z066",
+      "0xB4": "Z064",
+      "0xB5": "Z037",
+      "0xB7": "Z041",
+      "0xB8": "Z054",
+      "0xB9": "Z023",
+      "0xBA": "Z002",
+      "0xBB": "Z061",
+      "0xBC": "Z001",
+      "0xBD": "Z031",
+      "0xBE": "Z050",
+      "0xC2": "Z070",
+      "0xC3": "Z052",
+      "0xC4": "Z047",
+      "0xC6": "Z043",
+      "0xCA": "Z053",
+      "0xCB": "Z008",
+      "0xCC": "Z044",
+      "0xD0": "Z012",
+      "0xD1": "Z026",
+      "0xD4": "Z033"
+    },
+    "zkdecrypto:153.zodiac.unsolved.txt:byte": {
+      "0x2B": "Z016",
+      "0x2D": "Z067",
+      "0x2F": "Z004",
+      "0x3C": "Z060",
+      "0x3E": "Z055",
+      "0x41": "Z042",
+      "0x42": "Z007",
+      "0x43": "Z068",
+      "0x44": "Z036",
+      "0x45": "Z045",
+      "0x46": "Z020",
+      "0x47": "Z018",
+      "0x48": "Z022",
+      "0x49": "Z056",
+      "0x4A": "Z028",
+      "0x4B": "Z024",
+      "0x4C": "Z046",
+      "0x4D": "Z027",
+      "0x4E": "Z034",
+      "0x4F": "Z009",
+      "0x50": "Z003",
+      "0x52": "Z010",
+      "0x53": "Z039",
+      "0x54": "Z032",
+      "0x56": "Z015",
+      "0x57": "Z014",
+      "0x58": "Z013",
+      "0x5A": "Z005",
+      "0x5E": "Z029",
+      "0x75": "Z006",
+      "0x79": "Z019",
+      "0x83": "Z069",
+      "0x84": "Z063",
+      "0x88": "Z065",
+      "0x95": "Z059",
+      "0x9F": "Z062",
+      "0xA2": "Z040",
+      "0xA3": "Z038",
+      "0xA4": "Z051",
+      "0xB0": "Z021",
+      "0xB1": "Z058",
+      "0xB2": "Z057",
+      "0xB3": "Z066",
+      "0xB4": "Z064",
+      "0xB5": "Z037",
+      "0xB7": "Z041",
+      "0xB8": "Z054",
+      "0xB9": "Z023",
+      "0xBA": "Z002",
+      "0xBB": "Z061",
+      "0xBC": "Z001",
+      "0xBD": "Z031",
+      "0xBE": "Z050",
+      "0xC2": "Z070",
+      "0xC3": "Z052",
+      "0xC4": "Z047",
+      "0xC6": "Z043",
+      "0xCA": "Z053",
+      "0xCB": "Z008",
+      "0xCC": "Z044",
+      "0xD0": "Z012",
+      "0xD1": "Z026",
+      "0xD4": "Z033"
+    }
+  }
+}

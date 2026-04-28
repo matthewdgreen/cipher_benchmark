@@ -132,6 +132,107 @@
     },
     "curation_notes": {
       "type": "string"
+    },
+    "context_layers": {
+      "type": "object",
+      "description": "Tiered, solver-facing context blocks. Runners may select one or more layers to test blind, minimal, standard, or stronger context-aware analysis. Context text must not imply an accepted solution unless contains_solution is true.",
+      "patternProperties": {
+        "^[a-z][a-z0-9_]*$": {
+          "type": "object",
+          "required": ["text", "contains_solution", "source_fields"],
+          "properties": {
+            "label": {"type": "string"},
+            "text": {"type": "string"},
+            "contains_solution": {"type": "boolean"},
+            "contains_plaintext_hint": {"type": "boolean"},
+            "contains_cipher_type_hint": {"type": "boolean"},
+            "source_fields": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Manifest or metadata fields used to build this context layer."
+            },
+            "related_record_ids": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Related record IDs referenced by this layer."
+            },
+            "notes": {"type": "string"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "related_records": {
+      "type": "array",
+      "description": "Related benchmark or unsolved records that may optionally be exposed to a solver under an explicit context policy.",
+      "items": {
+        "type": "object",
+        "required": ["record_id", "relationship"],
+        "properties": {
+          "record_id": {"type": "string"},
+          "relationship": {"type": "string"},
+          "area": {
+            "type": "string",
+            "enum": ["benchmark", "unsolved"],
+            "default": "benchmark"
+          },
+          "solution_available": {"type": "boolean"},
+          "safe_context_layers": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Context policies/layers under which this relationship may be exposed."
+          },
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "associated_documents": {
+      "type": "array",
+      "description": "Long-form or auxiliary documents associated with this record, such as accompanying plaintext letters, envelopes, notes, newspaper clippings, or source commentary. Store concise summaries in context_layers; expose full text/images only through explicit context policies or agent tools.",
+      "items": {
+        "type": "object",
+        "required": ["id", "document_type", "title"],
+        "properties": {
+          "id": {"type": "string"},
+          "document_type": {
+            "type": "string",
+            "enum": [
+              "plaintext_note",
+              "letter",
+              "envelope",
+              "newspaper_article",
+              "image",
+              "transcription",
+              "metadata_note",
+              "other"
+            ]
+          },
+          "title": {"type": "string"},
+          "summary": {"type": "string"},
+          "language": {"type": "string"},
+          "date_or_century": {"type": "string"},
+          "rights_class": {
+            "type": "string",
+            "enum": ["open", "linked_only", "hold_for_review"]
+          },
+          "text_file": {"type": "string"},
+          "image_files": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "source_url": {"type": "string", "format": "uri"},
+          "contains_solution": {"type": "boolean"},
+          "contains_plaintext_hint": {"type": "boolean"},
+          "safe_context_layers": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false

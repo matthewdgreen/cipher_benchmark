@@ -25,21 +25,24 @@ data, curation scripts, manifests, splits, images, transcriptions, and plaintext
   `benchmark/unsolved/README.md` for scope and evaluation model).
 - Raw/staging data: `data_staging/`
 
-As of April 23, 2026, the main manifest contains 896 records:
+As of April 28, 2026, the main manifest contains 898 records:
 
 - Borg: 397
 - Copiale: 101
 - DECODE/Gallica: 155
 - Multilingual synthetic simple substitution: 240 (all flagged `synthetic: true`)
 - Tool-bundled parity records: 3
+- Curated Zodiac records: 2
 
 The unsolved area has a Voynich intake script ready (`scripts/create_voynich_intake.py`,
-~211 folios). Records produced there live in `benchmark/unsolved/manifest/records.jsonl`
-and validate against a separate schema.
+~211 folios) and seeded Zodiac diagnostic variants. Records produced there live
+in `benchmark/unsolved/manifest/records.jsonl` and validate against a separate
+schema.
 
 Tool-bundled coverage is intentionally still partial. The benchmark currently
-has only three imported Zenith smoke records (`goldbug`, `horacemann`,
-`zodiac408`). The downloaded tool corpora contain more material:
+has three imported Zenith smoke records (`goldbug`, `horacemann`,
+`zodiac408`) plus a separate curated Zodiac source with global glyph IDs for
+Z408/Z340. The downloaded tool corpora contain more material:
 
 - Zenith source checkout includes 11 cipher JSON resources: `goldbug`,
   `hamptonfull`, `horacemann`, `jameshampton1`, `kryptos1`, `kryptos2`,
@@ -131,3 +134,23 @@ Agentic-advantage splits should include an explicit hypothesis, for example:
 Only use these after parity has been checked. The aim is to identify cases where
 context, OCR/transcription repair, diagnosis, branching, cribs, or manuscript
 metadata let the agent outperform native non-agentic solvers.
+
+## Context Layers And Associated Documents
+
+Benchmark records may carry tiered `context_layers` for controlled
+context-aware evaluation:
+
+- `minimal`: archival/provenance facts only, no cipher-type or plaintext hints.
+- `standard`: language, cipher-family, symbol, length, and transcription facts.
+- `historical`: stronger non-solution background, such as manuscript genre,
+  author/source family, or surrounding historical events.
+
+Each layer must disclose whether it contains a solution, plaintext hint, or
+cipher-type hint. Long companion material should not be pasted into
+`context_layers`; put it in `associated_documents` with a concise summary and
+file/source references. Solver tooling can later expose these documents through
+explicit policies or on-demand agent tools.
+
+Use `related_records` for links to same-manuscript, same-author,
+same-key-family, or known-solution neighbors. Solution-bearing related records
+must only be exposed under an explicit related-solution policy.
