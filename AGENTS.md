@@ -25,7 +25,7 @@ data, curation scripts, manifests, splits, images, transcriptions, and plaintext
   `benchmark/unsolved/README.md` for scope and evaluation model).
 - Raw/staging data: `data_staging/`
 
-As of April 28, 2026, the main manifest contains 898 records:
+As of April 28, 2026, the main manifest contains 900 records:
 
 - Borg: 397
 - Copiale: 101
@@ -33,12 +33,13 @@ As of April 28, 2026, the main manifest contains 898 records:
 - Multilingual synthetic simple substitution: 240 (all flagged `synthetic: true`)
 - Tool-bundled parity records: 3
 - Curated Zodiac records: 2
+- Kryptos solved calibration records: 2
 
 The unsolved area currently contains seed Voynich folios, Zodiac diagnostic
-variants, and Scorpion S1/S5 records. It also has a Voynich intake script ready
-(`scripts/create_voynich_intake.py`, ~211 folios). Records produced there live
-in `benchmark/unsolved/manifest/records.jsonl` and validate against a separate
-schema.
+variants, Scorpion S1/S5 records, and Kryptos K4. It also has a Voynich intake
+script ready (`scripts/create_voynich_intake.py`, ~211 folios). Records
+produced there live in `benchmark/unsolved/manifest/records.jsonl` and validate
+against a separate schema.
 
 Scorpion S1/S5 are documentation-rich exploratory records under
 `benchmark/unsolved/sources/scorpion/`. They include local copies of the public
@@ -55,7 +56,9 @@ public source's reported symbol counts.
 Tool-bundled coverage is intentionally still partial. The benchmark currently
 has three imported Zenith smoke records (`goldbug`, `horacemann`,
 `zodiac408`) plus a separate curated Zodiac source with global glyph IDs for
-Z408/Z340. The downloaded tool corpora contain more material:
+Z408/Z340, plus solved Kryptos K1/K2 calibration records in the main manifest.
+Kryptos K4 lives in the unsolved area. The downloaded tool corpora contain
+more material:
 
 - Zenith source checkout includes 11 cipher JSON resources: `goldbug`,
   `hamptonfull`, `horacemann`, `jameshampton1`, `kryptos1`, `kryptos2`,
@@ -87,6 +90,10 @@ The main schema has been tightened through a rollout labeled S1–S7
   this over baking provenance into free-text `curation_notes`.
 - **Date bounds:** optional `date_earliest_year` / `date_latest_year` integers
   complement the free-text `date_or_century` for filtering.
+- **Known cipher parameters:** optional `known_cipher_parameters` stores
+  solution-bearing calibration metadata, such as keyed-Vigenere tableau/key
+  parameters for Kryptos K1/K2. These fields are for replay/calibration and
+  must not be exposed in blind or standard solver context.
 
 Idempotent migration helpers:
 

@@ -8,9 +8,9 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Current Status
 
-**MVP in progress.** Main manifest: 898 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, and curated Zodiac sources. A parallel **unsolved-benchmark area** has also been seeded for open-ended evaluation on famous unsolved ciphers (Voynich, Zodiac variants, etc.). Additional sources under investigation.
+**MVP in progress.** Main manifest: 900 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, and Kryptos sources. A parallel **unsolved-benchmark area** has also been seeded for open-ended evaluation on famous unsolved ciphers (Voynich, Zodiac variants, Scorpion, Kryptos K4, etc.). Additional sources under investigation.
 
-### Main benchmark (`benchmark/manifest/records.jsonl`, 898 records)
+### Main benchmark (`benchmark/manifest/records.jsonl`, 900 records)
 
 | Source | Records | Cipher Type | Tracks | Status |
 |--------|---------|-------------|--------|--------|
@@ -20,6 +20,7 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 | Multilingual synthetic substitution (de/en/fr/it × WB/no-WB) | 240 | Simple substitution | B only | Complete; flagged `synthetic: true` |
 | External tool built-ins | 3 | Reference ciphers | B only | Parity smoke records |
 | Curated Zodiac | 2 | Homophonic / transposition+homophonic | B only | Global Zodiac glyph IDs; Z408/Z340 parity records |
+| Kryptos solved sections | 2 | Keyed Vigenere-style polyalphabetic | B only | K1/K2 calibration records with known-key replay metadata |
 | ICDAR 2024 | — | Various | — | Data staged; redistribution TBD |
 
 ### Unsolved area (`benchmark/unsolved/manifest/records.jsonl`)
@@ -31,7 +32,7 @@ A separate area for historical ciphers with **no widely accepted solution**, org
 | Voynich Manuscript (Beinecke MS 408) | Intake script ready | `scripts/create_voynich_intake.py` pulls ~211 folios via Beinecke IIIF |
 | DECODE undecrypted subset | Planned | Blocked on DECODE login |
 | Rohonc Codex | Planned | Rights TBD |
-| Famous short (Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, etc.) | Planned | Challenge set, one record per cipher |
+| Famous short (Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, etc.) | Started | Kryptos K4, Zodiac variants, Scorpion S1/S5 seeded; more records planned |
 | Zodiac variants | Seeded | Z340/variant diagnostics with global Zodiac glyph IDs |
 
 ## Quick Start

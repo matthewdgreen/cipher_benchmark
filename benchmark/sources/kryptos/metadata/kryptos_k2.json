@@ -1,0 +1,16 @@
+{
+  "source": "Kryptos public cipher text, cross-checked against local Zenith/AZdecrypt sources",
+  "zenith_source_file": "/Users/mgreen/Dropbox/src2/decipher/other_tools/zenith-src/zenith-inference/src/main/resources/ciphers/kryptos2.json",
+  "azdecrypt_source_file": "/Users/mgreen/Dropbox/src2/decipher/other_tools/azdecrypt-src/AZdecrypt/Ciphers/Vigenère/Kryptos 2.txt",
+  "plaintext_normalized": "ITWASTOTALLYINVISIBLEHOWSTHATPOSSIBLETHEYUSEDTHEEARTHSMAGNETICFIELDXTHEINFORMATIONWASGATHEREDANDTRANSMITTEDUNDERGRUUNDTOANUNKNOWNLOCATIONXDOESLANGLEYKNOWABOUTTHISTHEYSHOULDITSBURIEDOUTTHERESOMEWHEREXWHOKNOWSTHEEXACTLOCATIONONLYWWTHISWASHISLASTMESSAGEXTHIRTYEIGHTDEGREESFIFTYSEVENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREESEIGHTMINUTESFORTYFOURSECONDSWESTIDBYROWS",
+  "ciphertext_normalized": "VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKK?DQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVH?DWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGEWJLLAETG",
+  "known_cipher_note": "Solved Kryptos section; keyed Vigenere-style alphabet.",
+  "known_cipher_parameters": {
+    "type": "keyed_vigenere",
+    "periodic_key": "ABSCISSA",
+    "alphabet_keyword": "KRYPTOS",
+    "keyed_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+    "key_advances_over_skipped_symbols": false,
+    "notes": "Solution-bearing calibration parameters for known-key replay. Do not expose these in blind or standard agent context."
+  }
+}

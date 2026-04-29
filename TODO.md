@@ -33,6 +33,8 @@ Last swept: 2026-04-23.
   Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man,
   Ricky McCormick, Scorpion S1–S5, Shugborough, Feynman #2/#3,
   Paul Rubin, Henry Debosnys).
+  - Started: Scorpion S1/S5, Zodiac variants/Z153, and Kryptos K4 are now
+    seeded in the unsolved area.
 - [ ] Evaluate Rohonc Codex rights; include if feasible.
 - [ ] Draft the Track D (`image2hypothesis`) evaluation rubric.
 
@@ -78,6 +80,16 @@ Last swept: 2026-04-23.
 - [x] Import initial smoke records with clear provenance and usable plaintext/key data.
   - Current imported records: `tool_zenith_goldbug`, `tool_zenith_horacemann`, `tool_zenith_zodiac408`.
 - [x] Keep unsolved famous ciphers marked as diagnostic/unsupported, not solved parity tasks.
+- [x] Import first Kryptos calibration records.
+  - `kryptos_k1` and `kryptos_k2` are solved keyed-Vigenere-style records in
+    the main benchmark.
+  - K1/K2 now include solution-bearing `known_cipher_parameters` for
+    keyed-Vigenere replay; these must stay out of blind/standard context.
+  - K2 plaintext has been aligned to the imported ciphertext/keyed tableau
+    calibration text ending `ID BY ROWS`; source `?` tokens are retained in
+    the canonical transcription as skipped/unknown ciphertext symbols.
+  - `kryptos_k4` is an unsolved challenge record in the unsolved area.
+  - K3 is intentionally left for a later transposition-specific import.
 - [ ] Complete external-tool corpus inventory.
   - Zenith bundled JSON ciphers currently observed in `../decipher/other_tools/zenith-src/zenith-inference/src/main/resources/ciphers/`: `goldbug`, `hamptonfull`, `horacemann`, `jameshampton1`, `kryptos1`, `kryptos2`, `kryptos3`, `kryptos4`, `zodiac340-original`, `zodiac340-transformed`, `zodiac408`.
   - zkdecrypto-lite currently has 24 bundled `cipher/*.txt` files under `../decipher/other_tools/zkdecrypto-src/zkdecrypto-lite/cipher/`.

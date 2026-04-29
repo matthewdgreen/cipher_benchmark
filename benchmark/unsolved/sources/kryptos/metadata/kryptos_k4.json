@@ -1,0 +1,10 @@
+{
+  "source": "Kryptos public cipher text, cross-checked against local Zenith/AZdecrypt sources",
+  "zenith_source_file": "/Users/mgreen/Dropbox/src2/decipher/other_tools/zenith-src/zenith-inference/src/main/resources/ciphers/kryptos4.json",
+  "azdecrypt_source_file": "/Users/mgreen/Dropbox/src2/decipher/other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Kryptos 4.txt",
+  "ciphertext_normalized": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+  "known_public_cribs": [
+    "BERLIN",
+    "CLOCK"
+  ]
+}

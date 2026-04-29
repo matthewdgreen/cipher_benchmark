@@ -141,6 +141,19 @@
       "type": "boolean",
       "description": "Whether the cipher key is known"
     },
+    "known_cipher_parameters": {
+      "type": "object",
+      "description": "Solution-bearing solver calibration parameters, such as a known key or transform. These must not be exposed in blind or ordinary context tiers.",
+      "properties": {
+        "type": {"type": "string"},
+        "periodic_key": {"type": "string"},
+        "alphabet_keyword": {"type": "string"},
+        "keyed_alphabet": {"type": "string"},
+        "key_advances_over_skipped_symbols": {"type": "boolean"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
     "has_inline_plaintext": {
       "type": "boolean",
       "description": "Whether the document contains mixed cipher and cleartext"
