@@ -1,0 +1,15 @@
+{
+  "id": "neutral_probe_001",
+  "purpose": "Neutral solved calibration record for keyed-tableau periodic search without Kryptos-specific naming or visible cipher-family hints.",
+  "plaintext_character_stream_length": 215,
+  "ciphertext_character_stream_length": 215,
+  "generation": {
+    "generator": "decipher.analysis.polyalphabetic.encode_quagmire_plaintext",
+    "plaintext_normalization": "A-Z letters only; spaces and punctuation omitted before encryption",
+    "quagmire_type": "quag3",
+    "alphabet_keyword": "DERIVED",
+    "cycleword": "ELLIPTIC",
+    "keyed_alphabet": "DERIVABCFGHJKLMNOPQSTUWXYZ"
+  },
+  "visibility_note": "This file is solution-bearing metadata. Do not expose it in blind, minimal, standard, or historical agent context."
+}
