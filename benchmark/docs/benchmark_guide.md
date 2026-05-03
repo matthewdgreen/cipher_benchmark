@@ -310,6 +310,9 @@ The `rights_class` reflects the *most restrictive* layer. If images are open but
 | **DECODE/Gallica** | Gallica IIIF (non-commercial reuse w/ attribution) | Pending DECODE access | Pending DECODE access | `open` for images | Resolve DECODE API access for transcription layers |
 | **Synthetic (`*_ss_synth*`)** | n/a | Generated from Project Gutenberg PD texts | Generated | `open` | — |
 | **tool_builtins** | n/a | Bundled with external solver tools | Bundled | `linked_only` | Audit per-tool license |
+| **zodiac** | n/a | Widely published; Zenith solver source | Widely published | `linked_only` | Formal rights clearance pending |
+| **kryptos** | n/a | Widely published (K1–K3 solutions in public record) | Widely published | `linked_only` | Formal rights clearance pending |
+| **neutral_probe** | n/a | Original benchmark work | Original benchmark work | `open` | — |
 
 *(Additional sources will be added as they are incorporated into the benchmark.)*
 
@@ -440,12 +443,28 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 
 ### Zodiac curated records
 
-- **Records:** 2 solved/scorable main records (`zodiac408_zenith_global`,
-  `zodiac340_zenith_original`) plus unsolved/diagnostic variants under
-  `benchmark/unsolved/sources/zodiac/`
-- **Cipher type:** Homophonic substitution and transposition+homophonic
-- **Purpose:** Global Zodiac glyph IDs and parity/diagnostic tests for
-  Z408/Z340-style solvers
+- **Records:** 2 solved/scorable main records (`zodiac408_zenith_global`, `zodiac340_zenith_original`) + 5 unsolved/diagnostic variants under `benchmark/unsolved/sources/zodiac/`
+- **Cipher type:** Homophonic substitution (Z408); transposition + homophonic (Z340)
+- **Purpose:** Global Zodiac glyph IDs and parity/diagnostic tests for Z408/Z340-style solvers
+- **Rights:** `linked_only` (Zenith solver source; rights under review)
+
+### Kryptos solved calibration records
+
+- **Records:** 3 in the main benchmark: `kryptos_k1`, `kryptos_k2` (keyed-Vigenère polyalphabetic, solved by Gillogly 1999 / Stein et al.), `kryptos_k3` (pure transposition via TransMatrix, solved by Gillogly 1999)
+- **Cipher type:** Keyed Vigenère (K1/K2); pure transposition / TransMatrix (K3)
+- **Plaintext language:** English
+- **Date:** Installed 1990 (CIA headquarters, Langley VA). Sculptor: Jim Sanborn.
+- **Tracks supported:** B only (transcription2plaintext)
+- **Rights:** `linked_only` — ciphertext is widely published; plaintext for K1–K3 is in the public record. No redistribution claims asserted here, but rights have not been formally cleared.
+- **Special field:** `known_cipher_parameters` in `metadata/kryptos_k*.json` stores solution-bearing calibration data (keyed-Vigenère tableau+key for K1/K2; TransMatrix w1/w2/direction for K3). **These parameters must not be exposed in blind or standard solver context.**
+- **Unsolved:** K4 (97 characters, unsolved since 1990) lives in `benchmark/unsolved/` as a Track D challenge record.
+
+### Neutral probe
+
+- **Records:** 1 (`neutral_probe_001`)
+- **Cipher type:** Simple substitution with a known, explicitly declared alphabet
+- **Purpose:** Alphabet-agnostic diagnostic — establishes a solver baseline independent of any specific historical cipher convention
+- **Rights:** `open`
 
 *(Additional sources — British Library manuscripts, HCPortal, ICDAR competition data — are under investigation. See `source_audit.md` in the repository root. For unsolved historical ciphers, see `benchmark/unsolved/README.md`.)*
 
@@ -470,7 +489,7 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 - **Evaluation scripts** (`evaluation/`): Scoring code for each track (symbol error rate for Track A, plaintext accuracy for Tracks B and C).
 - **Additional sources**: DECODE database records (with plaintext/transcription once API access resolves), British Library cipher manuscripts, HCPortal material, ICDAR 2024 competition data. See `source_audit.md` for current status.
 - **Difficulty annotations**: Per-record difficulty estimates based on cipher complexity, symbol count, and solution method.
-- **Unsolved area expansion**: Voynich folios (intake script ready), DECODE undecrypted subset, Rohonc Codex, and a famous-short challenge set (Zodiac Z13/Z32, Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man, etc.). See `benchmark/unsolved/README.md`.
+- **Unsolved area expansion**: Voynich full intake (script ready; 3 seed folios committed), DECODE undecrypted subset (blocked on login), Rohonc Codex (rights TBD), and remaining famous-short records (Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man, etc. — Kryptos K4, Zodiac variants, and Scorpion S1/S5 already seeded). See `benchmark/unsolved/README.md`.
 
 ## 12. Unsolved Area
 

@@ -8,32 +8,35 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Current Status
 
-**MVP in progress.** Main manifest: 900 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, and Kryptos sources. A parallel **unsolved-benchmark area** has also been seeded for open-ended evaluation on famous unsolved ciphers (Voynich, Zodiac variants, Scorpion, Kryptos K4, etc.). Additional sources under investigation.
+**MVP in progress.** Main manifest: 902 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, Kryptos, and neutral-probe sources. A parallel **unsolved-benchmark area** (12 records) covers open-ended evaluation on famous unsolved ciphers (Voynich, Zodiac variants, Scorpion, Kryptos K4). Additional sources under investigation.
 
-### Main benchmark (`benchmark/manifest/records.jsonl`, 900 records)
+### Main benchmark (`benchmark/manifest/records.jsonl`, 902 records)
 
 | Source | Records | Cipher Type | Tracks | Status |
 |--------|---------|-------------|--------|--------|
 | Copiale cipher | 101 | Homophonic substitution | A, B, C | Complete |
 | Borg cipher (MSS Borg.lat.898) | 397 | Monoalphabetic substitution | A, B, C | Complete |
 | DECODE/Gallica (BnF manuscripts) | 155 | Nomenclator, homophonic | A only | Images downloaded; transcription pending |
-| Multilingual synthetic substitution (de/en/fr/it × WB/no-WB) | 240 | Simple substitution | B only | Complete; flagged `synthetic: true` |
+| Multilingual synthetic substitution (de/en/fr/it × WB/no-WB) | 240 | Simple substitution | B only | Complete; `synthetic: true` |
 | External tool built-ins | 3 | Reference ciphers | B only | Parity smoke records |
-| Curated Zodiac | 2 | Homophonic / transposition+homophonic | B only | Global Zodiac glyph IDs; Z408/Z340 parity records |
-| Kryptos solved sections | 2 | Keyed Vigenere-style polyalphabetic | B only | K1/K2 calibration records with known-key replay metadata |
+| Curated Zodiac | 2 | Homophonic / transposition+homophonic | B only | Global glyph IDs; Z408/Z340 parity records |
+| Kryptos solved sections | 3 | Keyed-Vigenère (K1/K2), transposition/TransMatrix (K3) | B only | Calibration records with known-key replay metadata; K4 in unsolved area |
+| Neutral probe | 1 | Simple substitution | B only | Alphabet-agnostic diagnostic baseline |
 | ICDAR 2024 | — | Various | — | Data staged; redistribution TBD |
 
 ### Unsolved area (`benchmark/unsolved/manifest/records.jsonl`)
 
 A separate area for historical ciphers with **no widely accepted solution**, organized for tool evaluation without ground-truth scoring. See [`benchmark/unsolved/README.md`](benchmark/unsolved/README.md) for scope rules, the relaxed schema, and the evaluation model (including Track D: `image2hypothesis`).
 
-| Source | Status | Notes |
-|--------|--------|-------|
-| Voynich Manuscript (Beinecke MS 408) | Intake script ready | `scripts/create_voynich_intake.py` pulls ~211 folios via Beinecke IIIF |
-| DECODE undecrypted subset | Planned | Blocked on DECODE login |
-| Rohonc Codex | Planned | Rights TBD |
-| Famous short (Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, etc.) | Started | Kryptos K4, Zodiac variants, Scorpion S1/S5 seeded; more records planned |
-| Zodiac variants | Seeded | Z340/variant diagnostics with global Zodiac glyph IDs |
+| Source | Records | Status | Notes |
+|--------|---------|--------|-------|
+| Voynich Manuscript (Beinecke MS 408) | 3 seed folios | Script ready | `scripts/create_voynich_intake.py` pulls ~211 folios via Beinecke IIIF |
+| Zodiac (unsolved variants) | 5 | Seeded | Z340 + Z153 diagnostic variants with zkdecrypto glyph IDs |
+| Scorpion ciphers | 3 | Seeded | S1/S5 image-linked records + S1+S5 shared-key hypothesis (v0.2, pre-benchmark-grade) |
+| Kryptos K4 | 1 | Seeded | K4 unsolved challenge; K1–K3 in main benchmark |
+| DECODE undecrypted subset | — | Planned | Blocked on DECODE login |
+| Rohonc Codex | — | Planned | Rights TBD |
+| Famous short (Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man, etc.) | — | Planned | One record per cipher |
 
 ## Quick Start
 
@@ -85,6 +88,12 @@ benchmark/                    # The main benchmark dataset (solved / scorable)
       transcriptions/ plaintext/ keys/
     tool_builtins/            #     Reference ciphers bundled with external tools
       transcriptions/ plaintext/ metadata/
+    zodiac/                   #     Curated Zodiac records (Z408/Z340 parity)
+      transcriptions/ plaintext/ metadata/
+    kryptos/                  #     Kryptos K1/K2/K3 calibration records
+      transcriptions/ plaintext/ metadata/
+    neutral_probe/            #     Alphabet-agnostic diagnostic baseline
+      transcriptions/ plaintext/
   manifest/
     schema.json               #     JSON Schema for validation
     records.jsonl             #     Record manifest
@@ -96,8 +105,11 @@ benchmark/                    # The main benchmark dataset (solved / scorable)
       schema.json             #   Relaxed schema (aligned with main)
       records.jsonl
     sources/
-      voynich/                #   Beinecke MS 408 intake
+      voynich/                #   Beinecke MS 408 (3 seed folios; full intake pending)
         images/ transcriptions/ metadata/
+      zodiac/                 #   Zodiac unsolved diagnostic variants (5 records)
+      scorpion/               #   Scorpion S1/S5 + shared-key hypothesis (3 records)
+      kryptos/                #   Kryptos K4 challenge record
     README.md                 #   Scope + evaluation model
 scripts/                      # Data processing and curation scripts
   create_*.py                 #   Intake pipelines (decode_gallica, voynich)
