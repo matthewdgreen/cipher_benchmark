@@ -33,7 +33,7 @@ As of April 28, 2026, the main manifest contains 900 records:
 - Multilingual synthetic simple substitution: 240 (all flagged `synthetic: true`)
 - Tool-bundled parity records: 3
 - Curated Zodiac records: 2
-- Kryptos solved calibration records: 2
+- Kryptos solved calibration records: 3
 
 The unsolved area currently contains seed Voynich folios, Zodiac diagnostic
 variants, Scorpion S1/S5 records, and Kryptos K4. It also has a Voynich intake
@@ -56,8 +56,8 @@ public source's reported symbol counts.
 Tool-bundled coverage is intentionally still partial. The benchmark currently
 has three imported Zenith smoke records (`goldbug`, `horacemann`,
 `zodiac408`) plus a separate curated Zodiac source with global glyph IDs for
-Z408/Z340, plus solved Kryptos K1/K2 calibration records in the main manifest.
-Kryptos K4 lives in the unsolved area. The downloaded tool corpora contain
+Z408/Z340, plus solved Kryptos K1/K2/K3 calibration records in the main
+manifest. Kryptos K4 lives in the unsolved area. The downloaded tool corpora contain
 more material:
 
 - Zenith source checkout includes 11 cipher JSON resources: `goldbug`,
@@ -92,8 +92,9 @@ The main schema has been tightened through a rollout labeled S1–S7
   complement the free-text `date_or_century` for filtering.
 - **Known cipher parameters:** optional `known_cipher_parameters` stores
   solution-bearing calibration metadata, such as keyed-Vigenere tableau/key
-  parameters for Kryptos K1/K2. These fields are for replay/calibration and
-  must not be exposed in blind or standard solver context.
+  parameters for Kryptos K1/K2 or TransMatrix parameters for Kryptos K3. These
+  fields are for replay/calibration and must not be exposed in blind or
+  standard solver context.
 
 Idempotent migration helpers:
 

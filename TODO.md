@@ -83,13 +83,18 @@ Last swept: 2026-04-23.
 - [x] Import first Kryptos calibration records.
   - `kryptos_k1` and `kryptos_k2` are solved keyed-Vigenere-style records in
     the main benchmark.
+  - `kryptos_k3` is a solved pure-transposition/TransMatrix record in the
+    main benchmark. Its runnable transcription excludes the final
+    nonalphabetic `?` marker from the local source copy and records the
+    original source text in metadata.
   - K1/K2 now include solution-bearing `known_cipher_parameters` for
     keyed-Vigenere replay; these must stay out of blind/standard context.
+  - K3 includes solution-bearing `known_cipher_parameters` for TransMatrix
+    replay/search calibration; these must stay out of blind/standard context.
   - K2 plaintext has been aligned to the imported ciphertext/keyed tableau
     calibration text ending `ID BY ROWS`; source `?` tokens are retained in
     the canonical transcription as skipped/unknown ciphertext symbols.
   - `kryptos_k4` is an unsolved challenge record in the unsolved area.
-  - K3 is intentionally left for a later transposition-specific import.
 - [ ] Complete external-tool corpus inventory.
   - Zenith bundled JSON ciphers currently observed in `../decipher/other_tools/zenith-src/zenith-inference/src/main/resources/ciphers/`: `goldbug`, `hamptonfull`, `horacemann`, `jameshampton1`, `kryptos1`, `kryptos2`, `kryptos3`, `kryptos4`, `zodiac340-original`, `zodiac340-transformed`, `zodiac408`.
   - zkdecrypto-lite currently has 24 bundled `cipher/*.txt` files under `../decipher/other_tools/zkdecrypto-src/zkdecrypto-lite/cipher/`.

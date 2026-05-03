@@ -73,6 +73,23 @@ SOLVED = [
             "keyed-Vigenere support rather than the clean A-Z first slice."
         ),
     },
+    {
+        "id": "kryptos_k3",
+        "zenith_file": "kryptos3.json",
+        "azdecrypt_file": AZDECRYPT_CIPHERS / "Transposition" / "Kryptos 3.txt",
+        "manuscript_page": "K3",
+        "cipher_type": ["transposition", "transmatrix", "kryptos"],
+        "transmatrix": {"w1": 24, "w2": 8, "direction": "cw"},
+        "drop_non_az": True,
+        "notes": (
+            "Kryptos K3 solved pure-transposition calibration record. Public "
+            "solutions describe this section as a transposition; this benchmark "
+            "stores a Blake-compatible TransMatrix replay/search parameterization "
+            "for provenance and regression testing. The final nonalphabetic '?' "
+            "marker in the local Zenith transcription is excluded from the "
+            "runnable A-Z ciphertext."
+        ),
+    },
 ]
 
 UNSOLVED = {
@@ -91,7 +108,7 @@ UNSOLVED = {
 def main() -> None:
     import_solved()
     import_unsolved()
-    print("Imported/updated Kryptos K1/K2 solved records and K4 unsolved record.")
+    print("Imported/updated Kryptos K1/K2/K3 solved records and K4 unsolved record.")
 
 
 def import_solved() -> None:
@@ -106,10 +123,11 @@ def import_solved() -> None:
     records, order = load_manifest(manifest_path)
 
     for spec in SOLVED:
-        ciphertext = load_zenith_cipher(spec["zenith_file"])
+        source_ciphertext = load_zenith_cipher(spec["zenith_file"])
+        ciphertext = [token for token in source_ciphertext if "A" <= token <= "Z"] if spec.get("drop_non_az") else source_ciphertext
         record_id = spec["id"]
         canonical = format_canonical_letters(ciphertext)
-        plaintext = spec["plaintext"].strip()
+        plaintext = solved_plaintext(spec, ciphertext)
         normalized_plain = normalize_letters(plaintext)
 
         (transcriptions / f"{record_id}.canonical.txt").write_text(canonical + "\n", encoding="utf-8")
@@ -122,7 +140,8 @@ def import_solved() -> None:
                     "azdecrypt_source_file": str(spec["azdecrypt_file"]),
                     "plaintext_normalized": normalized_plain,
                     "ciphertext_normalized": "".join(ciphertext),
-                    "known_cipher_note": "Solved Kryptos section; keyed Vigenere-style alphabet.",
+                    "source_ciphertext_normalized": "".join(source_ciphertext),
+                    "known_cipher_note": known_cipher_note(spec),
                     "known_cipher_parameters": known_cipher_parameters(spec),
                 },
                 indent=2,
@@ -149,7 +168,7 @@ def import_solved() -> None:
             "date_or_century": "1990",
             "page_count": 1,
             "provenance": "Kryptos sculpture by Jim Sanborn at CIA headquarters; local ciphertext from Zenith/AZdecrypt source checkouts.",
-            "solution_reference": "Publicly known Kryptos K1/K2 solution text; ciphertext cross-checked against bundled solver references.",
+            "solution_reference": "Publicly known Kryptos K1/K2/K3 solution text; ciphertext cross-checked against bundled solver references.",
             "transcription_canonical_file": f"sources/kryptos/transcriptions/{record_id}.canonical.txt",
             "plaintext_file": f"sources/kryptos/plaintext/{record_id}.txt",
             "has_key": True,
@@ -161,6 +180,7 @@ def import_solved() -> None:
             "notes": spec["notes"],
             "known_cipher_parameters": known_cipher_parameters(spec),
             "context_layers": solved_context_layers(spec),
+            "related_records": solved_related_records(record_id),
             "associated_documents": [
                 {
                     "id": f"{record_id}_metadata",
@@ -256,6 +276,14 @@ def import_unsolved() -> None:
                 "safe_context_layers": ["related_metadata", "related_solutions", "max"],
                 "notes": "Solved Kryptos K2 reference; expose plaintext only under explicit related-solution policy.",
             },
+            {
+                "record_id": "kryptos_k3",
+                "relationship": "same_artwork_solved_reference",
+                "area": "benchmark",
+                "solution_available": True,
+                "safe_context_layers": ["related_metadata", "related_solutions", "max"],
+                "notes": "Solved Kryptos K3 pure-transposition reference; expose plaintext only under explicit related-solution policy.",
+            },
         ],
         "associated_documents": [
             {
@@ -279,6 +307,7 @@ def import_unsolved() -> None:
 
 
 def solved_context_layers(spec: dict[str, Any]) -> OrderedDict[str, Any]:
+    family_text = solved_family_text(spec)
     return OrderedDict([
         (
             "minimal",
@@ -301,7 +330,7 @@ def solved_context_layers(spec: dict[str, Any]) -> OrderedDict[str, Any]:
                 "label": "Standard cipher metadata",
                 "text": (
                     f"{spec['manuscript_page']} is an English alphabetic Kryptos section "
-                    "classified here as a keyed Vigenere-style polyalphabetic cipher. "
+                    f"classified here as {family_text}. "
                     "It is a solved calibration record, but this context layer does not "
                     "include the plaintext or key."
                 ),
@@ -327,6 +356,27 @@ def solved_context_layers(spec: dict[str, Any]) -> OrderedDict[str, Any]:
             },
         ),
     ])
+
+
+def solved_family_text(spec: dict[str, Any]) -> str:
+    if spec.get("transmatrix"):
+        return "a pure transposition cipher"
+    return "a keyed Vigenere-style polyalphabetic cipher"
+
+
+def solved_related_records(record_id: str) -> list[dict[str, Any]]:
+    return [
+        {
+            "record_id": other_id,
+            "relationship": "same_artwork_solved_reference",
+            "area": "benchmark",
+            "solution_available": True,
+            "safe_context_layers": ["related_metadata", "related_solutions", "max"],
+            "notes": "Another solved Kryptos section; expose plaintext only under explicit related-solution policy.",
+        }
+        for other_id in ("kryptos_k1", "kryptos_k2", "kryptos_k3")
+        if other_id != record_id
+    ]
 
 
 def unsolved_context_layers() -> OrderedDict[str, Any]:
@@ -419,7 +469,66 @@ def normalize_letters(text: str) -> str:
     return re.sub(r"[^A-Z]", "", text.upper())
 
 
+def solved_plaintext(spec: dict[str, Any], ciphertext: list[str]) -> str:
+    if spec.get("transmatrix"):
+        params = spec["transmatrix"]
+        return "".join(
+            transmatrix(
+                ciphertext,
+                int(params["w1"]),
+                int(params["w2"]),
+                str(params.get("direction", "cw")).lower() in {"cw", "clockwise"},
+            )
+        )
+    return spec["plaintext"].strip()
+
+
+def matrix_rotate(tokens: list[str], width: int, clockwise: bool) -> list[str]:
+    if width <= 1 or width >= len(tokens):
+        return list(tokens)
+    rows = (len(tokens) + width - 1) // width
+    out: list[str] = []
+    if clockwise:
+        for col in range(width):
+            for row in range(rows - 1, -1, -1):
+                idx = row * width + col
+                if idx < len(tokens):
+                    out.append(tokens[idx])
+    else:
+        for col in range(width - 1, -1, -1):
+            for row in range(rows):
+                idx = row * width + col
+                if idx < len(tokens):
+                    out.append(tokens[idx])
+    return out
+
+
+def transmatrix(tokens: list[str], w1: int, w2: int, clockwise: bool) -> list[str]:
+    return matrix_rotate(matrix_rotate(tokens, w1, clockwise), w2, clockwise)
+
+
+def known_cipher_note(spec: dict[str, Any]) -> str:
+    if spec.get("transmatrix"):
+        return "Solved Kryptos section; pure transposition with known TransMatrix parameters."
+    return "Solved Kryptos section; keyed Vigenere-style alphabet."
+
+
 def known_cipher_parameters(spec: dict[str, Any]) -> OrderedDict[str, Any]:
+    if spec.get("transmatrix"):
+        params = spec["transmatrix"]
+        return OrderedDict([
+            ("type", "transmatrix"),
+            ("w1", params["w1"]),
+            ("w2", params["w2"]),
+            ("direction", params.get("direction", "cw")),
+            (
+                "notes",
+                (
+                    "Solution-bearing calibration parameters for known transform replay. "
+                    "Do not expose these in blind or standard agent context."
+                ),
+            ),
+        ])
     return OrderedDict([
         ("type", "keyed_vigenere"),
         ("periodic_key", spec["periodic_key"]),
@@ -438,6 +547,19 @@ def known_cipher_parameters(spec: dict[str, Any]) -> OrderedDict[str, Any]:
 
 def write_solved_split() -> None:
     split_path = BENCHMARK / "splits" / "kryptos_tests.jsonl"
+    rows = [
+        {
+            "test_id": "kryptos_k3_transmatrix",
+            "track": "transcription2plaintext",
+            "cipher_system": "kryptos3 pure transposition transmatrix",
+            "target_records": ["kryptos_k3"],
+            "context_records": ["kryptos_k1", "kryptos_k2"],
+            "description": "Kryptos K3 solved TransMatrix pure-transposition calibration record.",
+            "known_cipher_type": "transposition",
+            "recommended_agent_tool": "observe_cipher_id_then_transposition_tools",
+            "word_boundaries": False,
+        },
+    ]
     rows = [
         {
             "test_id": "kryptos_k1_keyed_vigenere",
@@ -461,7 +583,7 @@ def write_solved_split() -> None:
             "recommended_agent_tool": "observe_cipher_id_then_periodic_tools",
             "word_boundaries": False,
         },
-    ]
+    ] + rows
     split_path.write_text(
         "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in rows),
         encoding="utf-8",
