@@ -1,0 +1,32 @@
+# Folio f67v1 from ZL3b-n.txt
+# Header: <! $Q=I $P=F $F=a $B=1 $I=A $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@L0	damamm<!long tail m>	damamm
+2	&L0	dairkal	dairkal
+3	&L0	okal.ary	okal.ary
+4	&L0	dar.echkalal	dar.echkalal
+5	&L0	okol.aldy	okol.aldy
+6	&L0	dchesykchy	dchesykchy
+7	&L0	ykeodar	ykeodar
+8	&L0	deeeoskol	deeeoskol
+9	&L0	ockhosam	ockhosam
+10	&L0	kochardy	kochardy
+11	&L0	ochodare	ochodare
+12	&L0	ols,aiiny	ols,aiiny
+13	@Ro	otorkeol.orsheey.dary	otorkeol.orsheey.dary
+14	@Ro	okechey.cheody.cheky	okechey.cheody.cheky
+15	@Ro	otechodor.odcheey	otechodor.odcheey
+16	@Ro	chockhey.chockhy	chockhey.chockhy
+17	@Ro	yteeey.keeochy.dair.ockey	yteeey.keeochy.dair.ockey
+18	@Ro	keechey.chy.koldy	keechey.chy.koldy
+19	@Ro	pchodaiin.otch.oekeey.dy	pchodaiin.otch.oekeey.dy
+20	@Ro	dcheeos.qokeeeody.eeis.olcheeg	dcheeos.qokeeeody.eeis.olcheeg
+21	@Ro	ykeeo.cheo.daiin.ypcheg.oty	ykeeo.cheo.daiin.ypcheg.oty
+22	@Ro	opcheey.chso.cheey.chedaly	opcheey.chso.cheey.chedaly
+23	@Ro	ykeeey.qokeey.olokeey.s	ykeeey.qokeey.olokeey.s
+24	@Ro	osheey.keeody.cheedals	osheey.keeody.cheedals
+25	@Ro	okar.shey.qokche[o:a]r.daiiin	okar.shey.qokcheor.daiiin
+26	@Ro	oeees.ote[ch:ee]y.o,keey	oeees.otechy.o,keey
+27	@Ro	okeeodaiin.saii.dairal	okeeodaiin.saii.dairal
+28	@Ro	oksheeody.or.aral	oksheeody.or.aral
+29	@Ro	olar.aroky	olar.aroky

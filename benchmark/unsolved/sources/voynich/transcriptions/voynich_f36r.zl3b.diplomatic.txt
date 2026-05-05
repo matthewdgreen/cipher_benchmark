@@ -1,0 +1,12 @@
+# Folio f36r from ZL3b-n.txt
+# Header: <! $Q=E $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pcha@151;dan.qorain.chcfhal.soiin.cphor.shaiin.cthy.dair	pcha@151;dan.qorain.chcfhal.soiin.cphor.shaiin.cthy.dair
+2	+P0	oral.shor.ytaiin.qotaiin.qooldy.chty.chol,dy.tor	oral.shor.ytaiin.qotaiin.qooldy.chty.chol,dy.tor
+3	+P0	qotchy.tchy.daiin.@152;aiin.dolsain<$>	qotchy.tchy.daiin.@152;aiin.dolsain
+4	+P0	<%>podaiir.cphy.qoypchol.som<->{c'y}<->chy.dchy.fchom,dar	podaiir.cphy.qoypchol.somc'ychy.dchy.fchom,dar
+5	+P0	daiin.qor.chol.ctholy.s<->o<->r<->chy.sy<->chytaroiin	daiin.qor.chol.ctholy.sorchy.sychytaroiin
+6	+P0	okaiin.cthor.y,kaiiin.s<->dain.an<->dan	okaiin.cthor.y,kaiiin.sdain.andan
+7	+P0	qotol.cthol.okol,dy.okchy<->ytorory<->sold	qotol.cthol.okol,dy.okchyytororysold
+8	+P0	ytchor.cthol.chaiin.yd	ytchor.cthol.chaiin.yd
+9	+P0	ytodaly.daiin.otaro<$>	ytodaly.daiin.otaro

@@ -1,0 +1,33 @@
+# Folio f88v from ZL3b-n.txt
+# Header: <! $Q=O $P=D $F=b $B=2 $I=P $L=A $H=1 $C=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lc	okalyd	okalyd
+2	@Lf	cheocthy	cheocthy
+3	@Lf	cpheor	cpheor
+4	@Lf	otar.arody	otar.arody
+5	@Lf	otokol	otokol
+6	@P0	<%>teodal.lkeo,cheor.roshckhy.sorshy<->aiin.cheokal.saldaiin	teodal.lkeo,cheor.roshckhy.sorshyaiin.cheokal.saldaiin
+7	+P0	dshor.shor.qokeody.qokeo,lchey.chkeor.qokeey.daiin.qokeom	dshor.shor.qokeody.qokeo,lchey.chkeor.qokeey.daiin.qokeom
+8	+P0	qoaiin.cheoy.olcheody.qoekeol.cho.chckhy.qoeey.key.cheokam	qoaiin.cheoy.olcheody.qoekeol.cho.chckhy.qoeey.key.cheokam
+9	+P0	choeey.keeod,y.s,aiin.chody.okearcheol.archeey.sairal	choeey.keeod,y.s,aiin.chody.okearcheol.archeey.sairal
+10	+P0	dar.cheorol.chekol,daraly<$>	dar.cheorol.chekol,daraly
+11	@Lc	otoram	otoram
+12	@Lf	otor[a:y]	otora
+13	@Lf	cheosdy	cheosdy
+14	@Lf	okaiin	okaiin
+15	@P0	<%>kosholdy.qotody.opykey.oldaiin.qoteody.yfolaiin.oraiin	kosholdy.qotody.opykey.oldaiin.qoteody.yfolaiin.oraiin
+16	+P0	ysheod.sheo.sheody.qokeody.qoky.chees.cheody.qokeody.dal	ysheod.sheo.sheody.qokeody.qoky.chees.cheody.qokeody.dal
+17	+P0	qokeey.qokeody.chor.oteody.qockhol.okol.cheedy.qokody	qokeey.qokeody.chor.oteody.qockhol.okol.cheedy.qokody
+18	+P0	ykeeor.chockhy.otol.cheeol.cheody.qotody.soteol.ch[o:e]tam	ykeeor.chockhy.otol.cheeol.cheody.qotody.soteol.chotam
+19	+P0	odaiin.sheo,ol.qokeey.olaiin.cheody.chocthey.oteody,dy	odaiin.sheo,ol.qokeey.olaiin.cheody.chocthey.oteody,dy
+20	+P0	[s:]qokeodaiin<!corr?>.cheody.oteol.cheockhy.chody<$>	s:qokeodaiin.cheody.oteol.cheockhy.chody
+21	+P0	<%>toair{ch'}y.oteeody.cpheody.ykchey.dam.cheor.chaly,korain	toairch'y.oteeody.cpheody.ykchey.dam.cheor.chaly,korain
+22	+P0	dairodain.ykeodain.dain.shedy.qoteo.lchdy.qokeo,r,ain	dairodain.ykeodain.dain.shedy.qoteo.lchdy.qokeo,r,ain
+23	+P0	tol,keeodaiin.qoky.sheol.daiin.chees.aiin.chokar.daim[d:g]	tol,keeodaiin.qoky.sheol.daiin.chees.aiin.chokar.daimd
+24	+P0	daiin.sheor.sheedy.daiin.sho{ikh}y.qokeody.do{ikh}y.dair	daiin.sheor.sheedy.daiin.shoikhy.qokeody.doikhy.dair
+25	+P0	ykeey.sheor.tos.checkhy.dain.cheos.cheockhy.saldy	ykeey.sheor.tos.checkhy.dain.cheos.cheockhy.saldy
+26	+P0	saiin.choky.cheor.shy<$>	saiin.choky.cheor.shy
+27	@Lc	daramdal	daramdal
+28	@Lf	otydary	otydary
+29	@Lf	otdordy	otdordy
+30	@Lf	dararda[?:]	dararda?:

@@ -1,0 +1,12 @@
+# Folio f48r from ZL3b-n.txt
+# Header: <! $Q=F $P=O $F=z $B=1 $I=H $L=B $H=5 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pshdaiin.ypchdy.opchey.{c@162;h}y.dal.sheodaiin.sheokeol.ykeeody.olaiin.opaldy	pshdaiin.ypchdy.opchey.c@162;hy.dal.sheodaiin.sheokeol.ykeeody.olaiin.opaldy
+2	+P0	daiin.yteeol.cheody.kechodshey.qotedy.chtaiin.otchdy.tedain.okain.ckhy	daiin.yteeol.cheody.kechodshey.qotedy.chtaiin.otchdy.tedain.okain.ckhy
+3	+P0	sheody.she.teoteey.oteodaiin.ody.qoteo.l.kedy.dol,odal.qotar.opchety.ldy	sheody.she.teoteey.oteodaiin.ody.qoteo.l.kedy.dol,odal.qotar.opchety.ldy
+4	+P0	tolkeol,dain.otaiin.ykeedy.chet.ytedy,tedy.qokdy.tshdy.chetedy.ctheety.r	tolkeol,dain.otaiin.ykeedy.chet.ytedy,tedy.qokdy.tshdy.chetedy.ctheety.r
+5	+P0	yteey.teol.okeody.cheockhy.olsheey.qoekaiin.octhey.cholkar.aiin.cthar.od	yteey.teol.okeody.cheockhy.olsheey.qoekaiin.octhey.cholkar.aiin.cthar.od
+6	+P0	alshey.lkeedy.ytchedy.qokedy.lotal.qotol.otal,ched.o,key.ykeey.da[l:?]dy	alshey.lkeedy.ytchedy.qokedy.lotal.qotol.otal,ched.o,key.ykeey.daldy
+7	+P0	tocthy.qokeol.yteedy.lolkeol.otolches.al.ar.ykeeodam.okedy.okam	tocthy.qokeol.yteedy.lolkeol.otolches.al.ar.ykeeodam.okedy.okam
+8	+Pr	otchdain.shol.oteol.oteoly.ykeey.dam,dr	otchdain.shol.oteol.oteoly.ykeey.dam,dr
+9	+Pc	yteched.ar.olkey.okeoam<$>	yteched.ar.olkey.okeoam

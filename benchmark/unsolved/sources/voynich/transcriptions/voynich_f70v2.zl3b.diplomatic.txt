@@ -1,0 +1,36 @@
+# Folio f70v2 from ZL3b-n.txt
+# Header: <! $Q=J $P=G $F=z $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!10:30>okcheo.dar.otey.ykeey.tchy.otsheo.oteotey.she[y:o].shecth.opcheoldair.dateey.sal.ody.choteey.choeteedy.oteoteotsho.yteos.alain.sheodaly.{c@162;h}o.aiin.cholkal.chokear.oteody.cholaiin.oteeoal.al.sheeos.okey.chol,dy.otees.cho.s.ola[r:n].otoaiin.oteeody.sos.todaiin.chokain.otalal.oteeam	okcheo.dar.otey.ykeey.tchy.otsheo.oteotey.shey.shecth.opcheoldair.dateey.sal.ody.choteey.choeteedy.oteoteotsho.yteos.alain.sheodaly.c@162;ho.aiin.cholkal.chokear.oteody.cholaiin.oteeoal.al.sheeos.okey.chol,dy.otees.cho.s.olar.otoaiin.oteeody.sos.todaiin.chokain.otalal.oteeam
+2	@Lz	<!09:00>otalalg	otalalg
+3	&Lz	<!10:00>ykary	ykary
+4	&Lz	<!10:30>otar?	otar?
+5	&Lz	<!11:00>oty	oty
+6	&Lz	<!11:30>oky.ody	oky.ody
+7	&Lz	<!00:00>oty.ar	oty.ar
+8	&Lz	<!00:30>okala	okala
+9	&Lz	<!01:00>otody	otody
+10	&Lz	<!01:30>otald	otald
+11	&Lz	<!02:00>otaldar	otaldar
+12	&Lz	<!02:45>okody	okody
+13	&Lz	<!03:15>opysam	opysam
+14	&Lz	<!04:00>ch{ckhh}y	chckhhy
+15	&Lz	<!04:30>otaly	otaly
+16	&Lz	<!05:30>otal.arar	otal.arar
+17	&Lz	<!06:30>otaldy	otaldy
+18	&Lz	<!07:00>okeoly	okeoly
+19	&Lz	<!08:00>okydy	okydy
+20	&Lz	<!08:30>okee[s:r]	okees
+21	@Cc	<!09:00>daii@197;amdy.otar.am.aral.otair,chedaiin.oteey.dair.shchey.daiin.chalaly.oteody.chotol.chedy.oteotey.oteeeor,ar.alody.daiir.oteedar.oteey.teey.dalal.cheoltey.oteedy.sheeteey.?okeeol.ykeeos.shey.ykair.arar.alos	daii@197;amdy.otar.am.aral.otair,chedaiin.oteey.dair.shchey.daiin.chalaly.oteody.chotol.chedy.oteotey.oteeeor,ar.alody.daiir.oteedar.oteey.teey.dalal.cheoltey.oteedy.sheeteey.?okeeol.ykeeos.shey.ykair.arar.alos
+22	@Lz	<!10:00>otar.am	otar.am
+23	&Lz	<!11:00>otar,al	otar,al
+24	&Lz	<!00:00>otalar	otalar
+25	&Lz	<!01:30>otalam	otalam
+26	&Lz	<!03:00>dolaram	dolaram
+27	&Lz	<!04:00>okaram	okaram
+28	&Lz	<!05:00>oteosal	oteosal
+29	&Lz	<!06:30>salols	salols
+30	&Lz	<!08:00>okaldal	okaldal
+31	&Lz	<!09:00>ykolaiin	ykolaiin
+32	@Cc	<!09:00>otal.daly.oteoal.dal,aildy.otaiin.ar.oteey.shal.o.qoteeal.ar.al.otaiin.al.teodaiin.oteeo,cthey.oteeos.oteos.aiin.daim	otal.daly.oteoal.dal,aildy.otaiin.ar.oteey.shal.o.qoteeal.ar.al.otaiin.al.teodaiin.oteeo,cthey.oteeos.oteos.aiin.daim
+33	@Lz	otolal	otolal

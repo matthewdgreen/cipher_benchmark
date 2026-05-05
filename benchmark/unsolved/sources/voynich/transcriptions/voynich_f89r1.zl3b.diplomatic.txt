@@ -1,0 +1,30 @@
+# Folio f89r1 from ZL3b-n.txt
+# Header: <! $Q=O $P=F $F=y $B=2 $I=P $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lc	okchshy	okchshy
+2	@Lf	qkol	qkol
+3	@Lf	oldam	oldam
+4	@Lf	otoldy	otoldy
+5	@Lf	ararchodaiin	ararchodaiin
+6	@P0	<%>qoar,shar.qopcholy.qokod.chepy,dar.sheey.okor,sheeos.oldain	qoar,shar.qopcholy.qokod.chepy,dar.sheey.okor,sheeos.oldain
+7	+P0	dshody.qocthy.chockhy.dal.chedy.qokeody.daldaiin.chodaiin.dal	dshody.qocthy.chockhy.dal.chedy.qokeody.daldaiin.chodaiin.dal
+8	+P0	qokeol.chol.qodaiin.chol.cheody.qokechy.daiin.ctheody.dam	qokeol.chol.qodaiin.chol.cheody.qokechy.daiin.ctheody.dam
+9	+P0	yshor.s<->oiiin.daiin.qokeey.daiin.ckhol.qokain.cheamy	yshor.soiiin.daiin.qokeey.daiin.ckhol.qokain.cheamy
+10	+P0	tdain.s<->chol.cheoky.cheody.qokar.dal.chor.{ckhh}y.daiin<$>	tdain.schol.cheoky.cheody.qokar.dal.chor.ckhhy.daiin
+11	@Lc	ykyd	ykyd
+12	@Lf	chol,ches	chol,ches
+13	@Lf	otorain	otorain
+14	@Lf	okaiin,dan	okaiin,dan
+15	@P0	<%>tcheol.qoeair.sheol.qocphey.saiin.cheocphey.dal,darolg	tcheol.qoeair.sheol.qocphey.saiin.cheocphey.dal,darolg
+16	+P0	om,sheey.qokey,l.daiin.dalchom.ch{ckhhh}y.chol.cheos.aiin.dy	om,sheey.qokey,l.daiin.dalchom.chckhhhy.chol.cheos.aiin.dy
+17	+P0	qeaiin.cheyl.seey.qotey.qokeeol.daiin.{ykh}edy.daiin.dam	qeaiin.cheyl.seey.qotey.qokeeol.daiin.ykhedy.daiin.dam
+18	+P0	dals,al.dal.cheody.dainaldy.al,daldal<$>	dals,al.dal.cheody.dainaldy.al,daldal
+19	+P0	<%>pshol.sheo.qoa{ith}y.cheocphy.s,sheyr.qokair,ydam.daly	pshol.sheo.qoaithy.cheocphy.s,sheyr.qokair,ydam.daly
+20	+P0	daim.cheom.qoa{ith}y.air.cheody.ldain.dal.chom.chtaii@197;	daim.cheom.qoaithy.air.cheody.ldain.dal.chom.chtaii@197;
+21	+P0	taiin.dam.shoety.dal.qokchy.ykchdy.otcham.ol.sshr,aiin	taiin.dam.shoety.dal.qokchy.ykchdy.otcham.ol.sshr,aiin
+22	+P0	ycheeo,r.sheol.qockhedy.yty.sheody.qotol.chead,chey.dal	ycheeo,r.sheol.qockhedy.yty.sheody.qotol.chead,chey.dal
+23	+P0	dain.oteos.cheody.cheodain.daiin.chodaiin<$>	dain.oteos.cheody.cheodain.daiin.chodaiin
+24	@Lc	ykocfhy	ykocfhy
+25	@Lf	saldam	saldam
+26	@Lf	[s:r]ydarary	sydarary
+27	@Lf	yd{cpo}dy	ydcpody

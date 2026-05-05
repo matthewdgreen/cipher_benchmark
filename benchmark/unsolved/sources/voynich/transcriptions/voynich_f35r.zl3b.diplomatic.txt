@@ -1,0 +1,18 @@
+# Folio f35r from ZL3b-n.txt
+# Header: <! $Q=E $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>{c@132;h}oo.r,choly,{c@196;h}y.choty.char.dy	c@132;hoo.r,choly,c@196;hy.choty.char.dy
+2	+P0	qokeeaiin.chokaiin.qo,tchy.daiin	qokeeaiin.chokaiin.qo,tchy.daiin
+3	+P0	dchaiin.cthey.qotchey.taiin.cthory	dchaiin.cthey.qotchey.taiin.cthory
+4	+P0	qotchy.shet,chy.ckhol.cheey.daiin.dainl	qotchy.shet,chy.ckhol.cheey.daiin.dainl
+5	+P0	otchor.sho.tcheey.scheey.daiin.dain,or	otchor.sho.tcheey.scheey.daiin.dain,or
+6	+P0	schaiin.char.chan.daiin	schaiin.char.chan.daiin
+7	+P0	shosaiin.tchor.choky	shosaiin.tchor.choky
+8	+P0	qokeey.ky,kaiin.daiin<$>	qokeey.ky,kaiin.daiin
+9	+P0	<%>paiin.chear.aiin.chear.shorchaiin	paiin.chear.aiin.chear.shorchaiin
+10	+P0	o,aiin.chaiin.ckhy.r.chl.s.chochy.daiin	o,aiin.chaiin.ckhy.r.chl.s.chochy.daiin
+11	+P0	sh[{oh}:ch]eaiin.chol.cthaiin.l,chaiin.lchal,dal<->dair,aldy.n	shoheaiin.chol.cthaiin.l,chaiin.lchal,daldair,aldy.n
+12	+P0	olor.chy.chaiin.chy.taiin.kchey.koldy<->chetchaiin	olor.chy.chaiin.chy.taiin.kchey.koldychetchaiin
+13	+P0	qokoiin.chaiin.qokchaiin.lshy.lodaly<->oteey.taiin	qokoiin.chaiin.qokchaiin.lshy.lodalyoteey.taiin
+14	+P0	cthol.chol.aiin.qotchy.otchor.daiin<->shol.qotaiin	cthol.chol.aiin.qotchy.otchor.daiinshol.qotaiin
+15	+P0	ochor.s.chiin.daiin.ytain<$>	ochor.s.chiin.daiin.ytain

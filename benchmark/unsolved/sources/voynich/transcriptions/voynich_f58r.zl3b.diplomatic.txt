@@ -1,0 +1,44 @@
+# Folio f58r from ZL3b-n.txt
+# Header: <! $Q=H $P=C $F=b $B=2 $I=S $L=A $H=3>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>kor,cholfy.shofchy.otoralchy.chofchol.sholy.otaly.dal,m	kor,cholfy.shofchy.otoralchy.chofchol.sholy.otaly.dal,m
+2	+P0	dshodal.or.ckhy.olchear.char.tal.ytal.ytar.olchokal	dshodal.or.ckhy.olchear.char.tal.ytal.ytar.olchokal
+3	+P0	ykechod.dalaldam.ytam.choty.otchy.otaly.shoty.s	ykechod.dalaldam.ytam.choty.otchy.otaly.shoty.s
+4	+P0	dshor.sholar.aiin,shalom.shaly.dalchy.oteom.dal.sholala@210;	dshor.sholar.aiin,shalom.shaly.dalchy.oteom.dal.sholala@210;
+5	+P0	qor.dchair,am.otar.otar.char.ar.al.char.ar,ary.ytalar.cham	qor.dchair,am.otar.otar.char.ar.al.char.ar,ary.ytalar.cham
+6	+P0	torchey.otaiin.chary.oteor,y.otal.dalchor.ykeey.choltam	torchey.otaiin.chary.oteor,y.otal.dalchor.ykeey.choltam
+7	+P0	saiin.cholkeey.dal.shom.sholteol.ytalody.otey.cheoly.o.tchy	saiin.cholkeey.dal.shom.sholteol.ytalody.otey.cheoly.o.tchy
+8	+P0	toleeshal.oleeam.dalor.chy.oteodchy.yteochy.otey,kal,dy.alam	toleeshal.oleeam.dalor.chy.oteodchy.yteochy.otey,kal,dy.alam
+9	+P0	sholaiin.cheey.yteodaiin.qoar.aiin.arary.sheey.daiin.e,alam	sholaiin.cheey.yteodaiin.qoar.aiin.arary.sheey.daiin.e,alam
+10	+P0	tal.ar.am.shar.chepchey.otar.aldy.otal,cheam.qokaiin.ote.[s:r]y	tal.ar.am.shar.chepchey.otar.aldy.otal,cheam.qokaiin.ote.sy
+11	+P0	qocphody.qokalam.chairal.qo{ct}aiin.otalal.dalor.orar	qocphody.qokalam.chairal.qoctaiin.otalal.dalor.orar
+12	+P0	shoar,ar.choldal.otalchal.dal.choldy.okalys.airaldy.shar	shoar,ar.choldal.otalchal.dal.choldy.okalys.airaldy.shar
+13	+P0	ytar.sheear.cheoldy.ykeol.cheal.cheody.chal.chaiin.ol.oly	ytar.sheear.cheoldy.ykeol.cheal.cheody.chal.chaiin.ol.oly
+14	+P0	sharam.okair.chekaiin.ytchaly.dalchal.ykal.okalal.oly.chal	sharam.okair.chekaiin.ytchaly.dalchal.ykal.okalal.oly.chal
+15	+P0	daiir.shal.qopaim.cholaly.dy.shedy<!rare 'ed' in A language><$>	daiir.shal.qopaim.cholaly.dy.shedy
+16	+P0	<%>typchey.ar.air.ytashy.qotyshey.pchdy.dshaly.pydaly.choky,opy	typchey.ar.air.ytashy.qotyshey.pchdy.dshaly.pydaly.choky,opy
+17	+P0	ysholshy.qotoly.daiin.ykal.dalchdy.qoky.dal.ytchody.s.olar,aly	ysholshy.qotoly.daiin.ykal.dalchdy.qoky.dal.ytchody.s.olar,aly
+18	+P0	darar.shol.cholraly.cholaiin.odaiin.chaly.dalar.aiin.okal.otal	darar.shol.cholraly.cholaiin.odaiin.chaly.dalar.aiin.okal.otal
+19	+P0	todal.qotey.chaly.dal.qokaldy.otary.okalal.{ch'}ees.chal.[o:a]chaly	todal.qotey.chaly.dal.qokaldy.otary.okalal.ch'ees.chal.ochaly
+20	+P0	ysheockhy.olchey.oleesey.alaiin.olkeal.daldy.otalar.ar.aroda[i:?]m	ysheockhy.olchey.oleesey.alaiin.olkeal.daldy.otalar.ar.arodaim
+21	+P0	tcheos.ycheor.sheain.okey.qotaily.daiin.chy.cholkor.olkeol.oty	tcheos.ycheor.sheain.okey.qotaily.daiin.chy.cholkor.olkeol.oty
+22	+P0	dcholy.ytar.chol.dal.qoaiir.chalolky.osal.chotam.chal.olsee[g:m]	dcholy.ytar.chol.dal.qoaiir.chalolky.osal.chotam.chal.olseeg
+23	+P0	shol.[a:o]leedy.chotar.okeal.sheody.qokalchar.otal.choky.sar	shol.aleedy.chotar.okeal.sheody.qokalchar.otal.choky.sar
+24	+P0	tazain.oteeos.okeal.ar.otalor.cheoekar.cheky.otaka[s:r]	tazain.oteeos.okeal.ar.otalor.cheoekar.cheky.otakas
+25	+P0	oar.cheekey.oteeoaly.otar.alkar.or,aldar<$>	oar.cheekey.oteeoaly.otar.alkar.or,aldar
+26	+P0	<%>kshar.shoky.opcheear.ofadain.opsheolaiin.opydaiin.podaiir	kshar.shoky.opcheear.ofadain.opsheolaiin.opydaiin.podaiir
+27	+P0	yteor.oty.chaltar.ar.sheeetchy.tal,al,chear.chear.chor,ar,am	yteor.oty.chaltar.ar.sheeetchy.tal,al,chear.chear.chor,ar,am
+28	+P0	yshealkair.odalaly.dalal.chy.s,air.shokar.olaldy.okalody	yshealkair.odalaly.dalal.chy.s,air.shokar.olaldy.okalody
+29	+P0	odalar.cheor.sar.alol,daly.cheom.chor,ar,aldam.chal.cheal.[r:s],omy	odalar.cheor.sar.alol,daly.cheom.chor,ar,aldam.chal.cheal.r,omy
+30	+P0	ytor.ar.alom.qokalor.chdy.dair.chody.cheol.okolchy.otaldy	ytor.ar.alom.qokalor.chdy.dair.chody.cheol.okolchy.otaldy
+31	+P0	odshchol.taiin.okal,or.chol,ol,ekar.otarchol.chol.kam.qokal	odshchol.taiin.okal,or.chol,ol,ekar.otarchol.chol.kam.qokal
+32	+P0	oqotaly.qokaiin.chtaldy.qoky.dar.al.chol,taly.qokaldy	oqotaly.qokaiin.chtaldy.qoky.dar.al.chol,taly.qokaldy
+33	+P0	scho{cthh}y.dalols.qokalos.cheor.oekeody.qokaly.qokar.dy	schocthhy.dalols.qokalos.cheor.oekeody.qokaly.qokar.dy
+34	+P0	yssheol.chokey.dalol.shokalol.qokaly.kaldy.ytaipom	yssheol.chokey.dalol.shokalol.qokaly.kaldy.ytaipom
+35	+P0	dto[s:r].sheol.qokor.sharal.ckhol.shol,ar.aiin.sheoctham	dtos.sheol.qokor.sharal.ckhol.shol,ar.aiin.sheoctham
+36	+P0	skaiin.shokal.chockhy.qoky.chcthy.ykeeshy.shoekar	skaiin.shokal.chockhy.qoky.chcthy.ykeeshy.shoekar
+37	+P0	opolkeor.olchocfhy.cphol.chykaldy.cholols.chkaiin,olfcham	opolkeor.olchocfhy.cphol.chykaldy.cholols.chkaiin,olfcham
+38	+P0	s,ysheos.okaly.cheos.otey.ykar.ls.aiin.okaiin.ytolkal	s,ysheos.okaly.cheos.otey.ykar.ls.aiin.okaiin.ytolkal
+39	+P0	dtshol.dytal.okar,olol.sheol.qockhy.qokaly.salol.dalam	dtshol.dytal.okar,olol.sheol.qockhy.qokaly.salol.dalam
+40	+P0	y[r:?]oleeey.ar,airaly.pchody.tshaly.alols.ykaly.kar.aram	yroleeey.ar,airaly.pchody.tshaly.alols.ykaly.kar.aram
+41	+P0	dchol.chokal.saiin.dal.okal,s,alchey<$>	dchol.chokal.saiin.dal.okal,s,alchey

@@ -1,0 +1,4 @@
+# Folio f116v from ZL3b-n.txt
+# Header: <! $Q=T $P=X $F=z $B=1 $I=T $H=3 $X=V>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lx	oror.sheey<!valsch vbren so nim gaf mich o>	oror.sheey

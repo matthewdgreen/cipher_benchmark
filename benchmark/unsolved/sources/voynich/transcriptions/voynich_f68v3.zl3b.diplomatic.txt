@@ -1,0 +1,22 @@
+# Folio f68v3 from ZL3b-n.txt
+# Header: <! $Q=I $P=L $F=z $B=1 $I=C $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tchedy.chepchy.daiidy.shol.kcheoly.choteol.shol.s.chey.shodaiin.chetshedy.otsho.qooto.seeey	tchedy.chepchy.daiidy.shol.kcheoly.choteol.shol.s.chey.shodaiin.chetshedy.otsho.qooto.seeey
+2	+P0	sshey.kcheol.sheey.qety.sheey.otchol.chal,sheey.daiin.sheody.qokol.aiir.chor.cheoty.oty	sshey.kcheol.sheey.qety.sheey.otchol.chal,sheey.daiin.sheody.qokol.aiir.chor.cheoty.oty
+3	+P0	sho.chokar.sor.chor.cheky.daiin.dar.aiiin<->ytey.tol.cheeetchol.sam	sho.chokar.sor.chor.cheky.daiin.dar.aiiinytey.tol.cheeetchol.sam
+4	+P0	dcheey.qo{ckhh}y.chydy<$>	dcheey.qockhhy.chydy
+5	@Cc	<!08:30>oky.otol.ees.choty.cheda[s:r].otchdy.s.ar.oekaiin.oteol.dar.cheo.dais.qoeeo,kaiin.okchey.dal.cheky.ykos.[y:q]akeg.s.ol.ay.ykoees.yty.dy.dy.chody.otol.ol,ees.oty.dar.qotay.otoy.chey.kodar.dar.sheody.shees.daiin.oteeoaly.oteeosol.ol.okol.olsey.tol.cheol.okeey.choekcheey.okchy.qokchshy.dchol.chshek	oky.otol.ees.choty.chedas.otchdy.s.ar.oekaiin.oteol.dar.cheo.dais.qoeeo,kaiin.okchey.dal.cheky.ykos.yakeg.s.ol.ay.ykoees.yty.dy.dy.chody.otol.ol,ees.oty.dar.qotay.otoy.chey.kodar.dar.sheody.shees.daiin.oteeoaly.oteeosol.ol.okol.olsey.tol.cheol.okeey.choekcheey.okchy.qokchshy.dchol.chshek
+6	@Ri	ocheal.qoeey.keody.cheoky.okeey.chody.dy.ote?m	ocheal.qoeey.keody.cheoky.okeey.chody.dy.ote?m
+7	@Ri	r.al.chdail.schekol.okeody	r.al.chdail.schekol.okeody
+8	@Ri	okeol.cheody.qoekeey.ocheky.eeody.okchdy.oko.okos	okeol.cheody.qoekeey.ocheky.eeody.okchdy.oko.okos
+9	@Ri	shoekechy.sheky.okolchey.okol[m:k]om	shoekechy.sheky.okolchey.okolmom
+10	@Ri	qokeody.okeey.chekchy.chckhy.okal,ody.chedy	qokeody.okeey.chekchy.chckhy.okal,ody.chedy
+11	@Ri	ycheeo.key.qokal.okeeg	ycheeo.key.qokal.okeeg
+12	@Ri	ochey.chekchy.dkeeeg.cheekey.teokechey.saiir	ochey.chekchy.dkeeeg.cheekey.teokechey.saiir
+13	@Ri	ydaiil.ol.chek.okchyd	ydaiil.ol.chek.okchyd
+14	@Cc	<!09:00>okosy.okchy.okol.choekey.okeoeeey.ol.yko[?n:in].otairo[s:r].orol.orkeeey.olkeeoly.ykeeol	okosy.okchy.okol.choekey.okeoeeey.ol.yko?n.otairos.orol.orkeeey.olkeeoly.ykeeol
+15	@L0	otodol	otodol
+16	=L0	opcholdg	opcholdg
+17	@Pb	<%>roar.ykeol.<!space>darol.daly	roar.ykeol.darol.daly
+18	+Pb	solaiin.{ckhh}y.olekeey.dy	solaiin.ckhhy.olekeey.dy
+19	+Pb	ykeol.ctheepoey.dar<$>	ykeol.ctheepoey.dar

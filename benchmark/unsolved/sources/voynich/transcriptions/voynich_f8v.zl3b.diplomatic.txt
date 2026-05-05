@@ -1,0 +1,20 @@
+# Folio f8v from ZL3b-n.txt
+# Header: <! $Q=A $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>{c@216;h}od.soo{c@196;h}<->sol.shol.otol.chol.opcheaiin.opydaiin.saiin	c@216;hod.sooc@196;hsol.shol.otol.chol.opcheaiin.opydaiin.saiin
+2	+P0	shcthal.sar<->chor.sheaiin.shor.chykchy.otaiin.{ct}y	shcthal.sarchor.sheaiin.shor.chykchy.otaiin.cty
+3	+P0	qody.cheal.sy<->chory<->chear.shol.chaiin.shaiin.dolas	qody.cheal.sychorychear.shol.chaiin.shaiin.dolas
+4	+P0	dshol.shol<->dol<->chean.cthar.shealy.daiin.chary	dshol.sholdolchean.cthar.shealy.daiin.chary
+5	+P0	chol.chol.dar<->otchar.etaiin.cthol.dar	chol.chol.darotchar.etaiin.cthol.dar
+6	+P0	daiin.cthan<->ytchy.chey,kaiin.dain.ar	daiin.cthanytchy.chey,kaiin.dain.ar
+7	+P0	sho.kchol<->dar.shey.cthar.chotain.ry	sho.kcholdar.shey.cthar.chotain.ry
+8	+P0	okcholksh<->chol.chol.chol.cthaiin.dain	okcholkshchol.chol.chol.cthaiin.dain
+9	+P0	shol.orchl<->chokchy.chol.cthor.chaiin	shol.orchlchokchy.chol.cthor.chaiin
+10	+P0	scharchy<->oeesody.kchey.pchy.cpharom	scharchyoeesody.kchey.pchy.cpharom
+11	+P0	sorain<$>	sorain
+12	+P0	<%>pchar.cho.rol.dal<->shear.chchotaiin.chal.daiin	pchar.cho.rol.dalshear.chchotaiin.chal.daiin
+13	+P0	kchor.otchar.oky<->chokain.keoky.otorchy.satar	kchor.otchar.okychokain.keoky.otorchy.satar
+14	+P0	shor.okol.lokaiin<->shol.kol.char.cthey.tchy.ckham	shor.okol.lokaiinshol.kol.char.cthey.tchy.ckham
+15	+P0	or.chol.chan.ch{ck}y<->chor.cheain.char.cheeky.chor.ry	or.chol.chan.chckychor.cheain.char.cheeky.chor.ry
+16	+P0	chor.cheor.chear<->oteey.dchor.chodey.cho.raiin	chor.cheor.chearoteey.dchor.chodey.cho.raiin
+17	+P0	dain.chear.daiin<$>	dain.chear.daiin

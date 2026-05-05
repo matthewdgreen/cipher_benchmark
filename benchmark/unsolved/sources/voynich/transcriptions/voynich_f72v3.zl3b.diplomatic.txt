@@ -1,0 +1,36 @@
+# Folio f72v3 from ZL3b-n.txt
+# Header: <! $Q=K $P=H $F=z $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!09:00>soees,otchs.otedar.oteody.oteodal.oteos.oteokchd?.oteody.sheokeey.sheody.shedykeal.ckhodys.okoleeolar.okeey.shedy.otey,sho.shol.teody.okolshey.ykeed?y.y.okechdy.olaiin.shokeedy.chol.choepchey.teey,teody.ches.okechedy.otechol.cheor.cheey.daiin.oyteeedar.???.shecthy.otycheedy.oteeoly.chokary	soees,otchs.otedar.oteody.oteodal.oteos.oteokchd?.oteody.sheokeey.sheody.shedykeal.ckhodys.okoleeolar.okeey.shedy.otey,sho.shol.teody.okolshey.ykeed?y.y.okechdy.olaiin.shokeedy.chol.choepchey.teey,teody.ches.okechedy.otechol.cheor.cheey.daiin.oyteeedar.???.shecthy.otycheedy.oteeoly.chokary
+2	@Lz	<!10:00>ocham	ocham
+3	&Lz	<!11:00>orchey	orchey
+4	&Lz	<!11:30>okam	okam
+5	&Lz	<!00:00>okey	okey
+6	&Lz	<!00:30>otcheody	otcheody
+7	&Lz	<!01:00>okyeeshy	okyeeshy
+8	&Lz	<!01:30>[{c'y}:??]ofaiin	c'yofaiin
+9	&Lz	<!02:00>okaly	okaly
+10	&Lz	<!02:45>ot[o:a]ly	otoly
+11	&Lz	<!03:30>ofalals	ofalals
+12	&Lz	<!04:00>sheeos.o{cfhh}y	sheeos.ocfhhy
+13	&Lz	<!05:00>daiin,chepy	daiin,chepy
+14	&Lz	<!06:00>oteey.deeal	oteey.deeal
+15	&Lz	<!07:00>chealpy	chealpy
+16	&Lz	<!07:30>okeeol	okeeol
+17	&Lz	<!08:30>okaly	okaly
+18	&Lz	<!09:00>okaldy	okaldy
+19	&Lz	<!09:30>okeolyd	okeolyd
+20	@Cc	<!09:00>ototeey.r.chlyiintee.or.oteey.oteeody.cheokey.okeoekol.oteor.aiin.yoleeedy.okeos,alyshy.okeey.okeeey.okeedaly.cholainy.okedy.chees,y.okeeol.chey.otey.oldy.chdy,del.okeeoloky.oty.aiin.chas.oteey.okea???	ototeey.r.chlyiintee.or.oteey.oteeody.cheokey.okeoekol.oteor.aiin.yoleeedy.okeos,alyshy.okeey.okeeey.okeedaly.cholainy.okedy.chees,y.okeeol.chey.otey.oldy.chdy,del.okeeoloky.oty.aiin.chas.oteey.okea???
+21	@Lz	<!10:30>choleey	choleey
+22	&Lz	<!11:30>oky	oky
+23	&Lz	<!00:30>ch{cthh}y	chcthhy
+24	&Lz	<!01:00>laly	laly
+25	&Lz	<!02:00>oeedy	oeedy
+26	&Lz	<!03:00>odairan	odairan
+27	&Lz	<!04:00>okary	okary
+28	&Lz	<!05:00>oeesaiin	oeesaiin
+29	&Lz	<!06:30>oteesed	oteesed
+30	&Lz	<!07:30>opal	opal
+31	&Lz	<!08:30>otaly	otaly
+32	&Lz	<!09:30>otaly,yty	otaly,yty
+33	@Cc	<!08:45>okesee[s:r],ar,chkeeol.okeolaiin.chalal.ykeeodarar.oleeody,shedy.solar.aldy.oteor.cheor	okesees,ar,chkeeol.okeolaiin.chalal.ykeeodarar.oleeody,shedy.solar.aldy.oteor.cheor

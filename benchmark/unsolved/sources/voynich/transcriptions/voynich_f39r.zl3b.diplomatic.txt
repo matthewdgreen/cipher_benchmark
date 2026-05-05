@@ -1,0 +1,19 @@
+# Folio f39r from ZL3b-n.txt
+# Header: <! $Q=E $P=M $F=y $B=2 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tedo,chshd.cphhofy.chdain.shey.f[sh:se]y,dy.orain.cheepaiin.ofy.shey.k[a:o]ly.dy	tedo,chshd.cphhofy.chdain.shey.fshy,dy.orain.cheepaiin.ofy.shey.kaly.dy
+2	+P0	olchey.cheky.qokedy.shekshey.qolain.ch{ckh'h}y.chdy.dair.shckhey.dold	olchey.cheky.qokedy.shekshey.qolain.chckh'hy.chdy.dair.shckhey.dold
+3	+P0	qokalchdy.chekaiin.checkhy.darshed.qokeedar.eeedy.dar.ar.cheey.dyckhy	qokalchdy.chekaiin.checkhy.darshed.qokeedar.eeedy.dar.ar.cheey.dyckhy
+4	+P0	tchedy.chdy.olaiin.chedy.shckhdchy.chol.or.ordy.chees.aly.okalcheg	tchedy.chdy.olaiin.chedy.shckhdchy.chol.or.ordy.chees.aly.okalcheg
+5	+P0	dchdy.chdy.ykaiin<$>	dchdy.chdy.ykaiin
+6	+P0	<%>pchdaiin.she,dam.qofchedy.shedy.kchdy.dydy.opchekaiin.sho{ckhh}y.shdalo.ry	pchdaiin.she,dam.qofchedy.shedy.kchdy.dydy.opchekaiin.shockhhy.shdalo.ry
+7	+P0	dchdar.chedy.cholal.qokedar.chdy.chckhdy.dar.ar.al.ydy.eee,s.aiiin	dchdar.chedy.cholal.qokedar.chdy.chckhdy.dar.ar.al.ydy.eee,s.aiiin
+8	+P0	lchedy.shedy.qokaiin.chkeey.fchedy.okam.ch{cfhh}y.saiin.chckhy.daisog	lchedy.shedy.qokaiin.chkeey.fchedy.okam.chcfhhy.saiin.chckhy.daisog
+9	+P0	tchedy.shol.odal.qokaiin.shdaiin<$>	tchedy.shol.odal.qokaiin.shdaiin
+10	+P0	<%>pchdar.shedy.ar.aiir.okair.ykeols.shedy.qockhdy.laiin.{c'y}ky	pchdar.shedy.ar.aiir.okair.ykeols.shedy.qockhdy.laiin.c'yky
+11	+P0	dshdy.ar.aiin.y.yk[en:{cr}].chdy.ykal.olkaiin.qokaldar.cheol.dar.aiin	dshdy.ar.aiin.y.yken.chdy.ykal.olkaiin.qokaldar.cheol.dar.aiin
+12	+P0	tolchda[iin:ii?]<!corr?>.chckhy.s,aiin.olor.chls.aiin.oky.ches.aiin.dal	tolchdaiin.chckhy.s,aiin.olor.chls.aiin.oky.ches.aiin.dal
+13	+P0	ytor.chdar.shey.qokaiin.chor.kar.sheolkedy.otedy.tedy.s,aiin	ytor.chdar.shey.qokaiin.chor.kar.sheolkedy.otedy.tedy.s,aiin
+14	+P0	daiin.shckhy.chekl.ol,daiin.chedy.ykeey.daiin.otal.chdam.qokam	daiin.shckhy.chekl.ol,daiin.chedy.ykeey.daiin.otal.chdam.qokam
+15	+P0	qolkain.ol,cheol.daiin.dar.ol.dld.[ar:iir].ador.aiin.ofcheefar	qolkain.ol,cheol.daiin.dar.ol.dld.ar.ador.aiin.ofcheefar
+16	+Pc	oteol.cholkal.qokal.dar.ykdy<$>	oteol.cholkal.qokal.dar.ykdy

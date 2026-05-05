@@ -1,0 +1,14 @@
+# Folio f40r from ZL3b-n.txt
+# Header: <! $Q=E $P=O $F=z $B=1 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pchey.k,eodar.aldydy<->qoky.okal.shdy.olkedy.opches.ar.ordaiin	pchey.k,eodar.aldydyqoky.okal.shdy.olkedy.opches.ar.ordaiin
+2	+P0	qokar.okar.okedy.dar<->ykchey.kaiin.ok[a:o]s,chedy.okar.a,ralos	qokar.okar.okedy.darykchey.kaiin.okas,chedy.okar.a,ralos
+3	+P0	shy.qokal.chdy.chckhd<->otor.aiir.o,ky.okolchy.qokar.okam	shy.qokal.chdy.chckhdotor.aiir.o,ky.okolchy.qokar.okam
+4	+P0	or.aiin.chekody.dar<->qokol.okaiin.okar.oky.okoldy.ol	or.aiin.chekody.darqokol.okaiin.okar.oky.okoldy.ol
+5	+P0	lokar.qokar.okar<->okol.ol.chedy.qokchd.ar.ar.or.da[g:m]	lokar.qokar.okarokol.ol.chedy.qokchd.ar.ar.or.dag
+6	+P0	tor.or.ar.shok.or.am<->o,lshedy.qokam.chdy.kar.oraiin	tor.or.ar.shok.or.amo,lshedy.qokam.chdy.kar.oraiin
+7	+P0	yaiin.chekaiin.oky<->ycheey<$>	yaiin.chekaiin.okyycheey
+8	+P0	<%>ksheo.keeey.dar.ai[g:m]<->kcheo.cfhdy.or,ain.chefal.daiin.dg	ksheo.keeey.dar.aigkcheo.cfhdy.or,ain.chefal.daiin.dg
+9	+P0	taiin.ol.olaiin.or<->dain.okaiin.okaiin.okaiin.daram	taiin.ol.olaiin.ordain.okaiin.okaiin.okaiin.daram
+10	+P0	saiin.olcheey.chdy<->ychey.ka@154;ar.oky.ykedy.okair.ody	saiin.olcheey.chdyychey.ka@154;ar.oky.ykedy.okair.ody
+11	+P0	toar.ykaiin.ory.dal<$>	toar.ykaiin.ory.dal

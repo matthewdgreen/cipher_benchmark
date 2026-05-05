@@ -1,0 +1,14 @@
+# Folio f45r from ZL3b-n.txt
+# Header: <! $Q=F $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pykydal.sha{ikh}y.oty.shey.qop.char.opchal.ypchor.ofchar	pykydal.shaikhy.oty.shey.qop.char.opchal.ypchor.ofchar
+2	+P0	shor.cthy.qoky.qokol.qokaiin.chol.chol.ykaiin.dar.om	shor.cthy.qoky.qokol.qokaiin.chol.chol.ykaiin.dar.om
+3	+P0	qo.chcthy.kchol.daiin.qoaiin.cthy.chaiin.ykeey.cthom	qo.chcthy.kchol.daiin.qoaiin.cthy.chaiin.ykeey.cthom
+4	+P0	lor.y.kaiin.ykeol.ykeol.cham<$>	lor.y.kaiin.ykeol.ykeol.cham
+5	+P0	<%>kol,sho.pchor.kchey.ty.opchaldy.otshy.qokchy.dol,daiin	kol,sho.pchor.kchey.ty.opchaldy.otshy.qokchy.dol,daiin
+6	+P0	otchar.okchar.daiin.ytchody.tcholol.otar.dal.dary	otchar.okchar.daiin.ytchody.tcholol.otar.dal.dary
+7	+P0	lchar.qor.y.kar.dar<$>	lchar.qor.y.kar.dar
+8	+P0	<%>tchol.cthy.qodaiin.cthy.dain.{@246;thh}ey.otydal.daiin.[g:d]	tchol.cthy.qodaiin.cthy.dain.@246;thhey.otydal.daiin.g
+9	+P0	@201;or.or.chain.dain.ykolody.ytaiin.qotchol.kol.dy	@201;or.or.chain.dain.ykolody.ytaiin.qotchol.kol.dy
+10	+P0	okaiin.shar.yky.oky.kair.daldy.dalor.cheol.dal	okaiin.shar.yky.oky.kair.daldy.dalor.cheol.dal
+11	+P0	l.okaiin.okcho.laldan.daldaiin<$>	l.okaiin.okcho.laldan.daldaiin

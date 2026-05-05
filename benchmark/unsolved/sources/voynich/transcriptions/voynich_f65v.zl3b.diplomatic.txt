@@ -1,0 +1,9 @@
+# Folio f65v from ZL3b-n.txt
+# Header: <! $Q=H $P=F $F=y $B=2 $I=H $H=3>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>cphy.fchecfhy.dy<->dchepain.shety.qopy.fol.chpdy	cphy.fchecfhy.dydchepain.shety.qopy.fol.chpdy
+2	+P0	daiin.sheek.l,ody<->yteo.qop[s:r].air.cheot[ee:ch]y.dal[o:a]m	daiin.sheek.l,odyyteo.qops.air.cheoteey.dalom
+3	+P0	ytal.cheot.shky.y<->[s:?]as.cheody<$>	ytal.cheot.shky.ysas.cheody
+4	+P0	<%>toeedy.otar.shedy<->yteey.sheody.qok[es:?]d.yfchey	toeedy.otar.shedyyteey.sheody.qokesd.yfchey
+5	+P0	dshedy.okeody.qokd<->shckhy.choky.chokeody.okey,dy	dshedy.okeody.qokdshckhy.choky.chokeody.okey,dy
+6	+P0	qo.ytchey.sh,{ckhh}cphy<->ykchedy.chedy.shckhdy<$>	qo.ytchey.sh,ckhhcphyykchedy.chedy.shckhdy

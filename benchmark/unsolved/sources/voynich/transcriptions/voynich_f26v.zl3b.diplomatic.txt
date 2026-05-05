@@ -1,0 +1,12 @@
+# Folio f26v from ZL3b-n.txt
+# Header: <! $Q=D $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pchedar.qodary.daiiin.pcheety.s,air.shedy.ypchedy.ypchdy.qopy.shdy	pchedar.qodary.daiiin.pcheety.s,air.shedy.ypchedy.ypchdy.qopy.shdy
+2	+P0	saraiir.chekedy.qokedy.otedy.sar,y,etedy.qokedy.or.a{i'h}e.alys.chedy	saraiir.chekedy.qokedy.otedy.sar,y,etedy.qokedy.or.ai'he.alys.chedy
+3	+P0	pchdar.opar.dar.cheeol.ofchdy.otedy.{c@176;h}dy.odar.chedy.ytedy.okchdy.g	pchdar.opar.dar.cheeol.ofchdy.otedy.c@176;hdy.odar.chedy.ytedy.okchdy.g
+4	+P0	y[ckhe:{ck}ee]ody.qokedy.deey.saldy.okedor.or.cheos.oraiin.okeo.chekaiin	yckheody.qokedy.deey.saldy.okedor.or.cheos.oraiin.okeo.chekaiin
+5	+P0	deeol.cheody.qoteedy.qokody.qotedy.qotedy.opchedy.ofchy.chs.ar	deeol.cheody.qoteedy.qokody.qotedy.qotedy.opchedy.ofchy.chs.ar
+6	+P0	toeedy.keody.shedy.dar.chedy.sches.or,cheeky.dar.chey.cheky.yteedy	toeedy.keody.shedy.dar.chedy.sches.or,cheeky.dar.chey.cheky.yteedy
+7	+P0	pchedy.dar.cheoet.chy.sair.chees.odaiiin.chkeeey.ykey.sheey	pchedy.dar.cheoet.chy.sair.chees.odaiiin.chkeeey.ykey.sheey
+8	+P0	tchedy.okeeos.cheeos.ysaiin.okcheey.keody.s,aiin.cheeos.qokes.ory	tchedy.okeeos.cheeos.ysaiin.okcheey.keody.s,aiin.cheeos.qokes.ory
+9	+P0	ysheey.okeshy.shody.peshy.todydy<$>	ysheey.okeshy.shody.peshy.todydy

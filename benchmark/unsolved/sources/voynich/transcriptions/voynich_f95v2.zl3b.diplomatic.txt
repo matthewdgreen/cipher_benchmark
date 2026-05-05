@@ -1,0 +1,10 @@
+# Folio f95v2 from ZL3b-n.txt
+# Header: <! $Q=Q $P=I $F=y $B=2 $I=H $L=B $H=3 $C=5>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tchody,podar.shody.qofaiin.ofchdy.otedy.qotedaiin.shor.olsain	tchody,podar.shody.qofaiin.ofchdy.otedy.qotedaiin.shor.olsain
+2	+P0	sol.shedy.qotchey.alor.chdyty.olor.ok[a:o]dy.chody.qotaiin.y.kaipy	sol.shedy.qotchey.alor.chdyty.olor.okady.chody.qotaiin.y.kaipy
+3	+P0	archytaiin.shekoiin.okar.or.aiin.chckhy.okal.otain.okalody	archytaiin.shekoiin.okar.or.aiin.chckhy.okal.otain.okalody
+4	+P0	daiin.<!next line intrudes>olkain.qokan.shar.shekydy.dain.alkain<->okalaiin.s	daiin.olkain.qokan.shar.shekydy.dain.alkainokalaiin.s
+5	+P0	tar.fcheey.shos.aiin.okar.olkaiin.otalain<->okaiin,ar	tar.fcheey.shos.aiin.okar.olkaiin.otalainokaiin,ar
+6	+P0	dain.ykaly.chals<->shedain.olaiin.y<->okain.ldy	dain.ykaly.chalsshedain.olaiin.yokain.ldy
+7	+P0	qokeey.dar.chdykain<->ytasal.otain<$>	qokeey.dar.chdykainytasal.otain

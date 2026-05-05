@@ -1,0 +1,21 @@
+# Folio f71r from ZL3b-n.txt
+# Header: <! $Q=K $P=A $F=a $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!10:00>olkeeody.okody.okeeedy.oky,chy.okeodar.okeoky.oteody.oto.otol.oteeyar.yko,oar.aiin.oekeeey.okeo,keo,keody.okeodar,chy.s.aiin.otokeoar.or.ar.al.otol.al.shckhy.oteeeodar.oteody.otol,aiin.shoekey.solalald.cheeokeeo.[ch:?]oe[k:t]y.choly	olkeeody.okody.okeeedy.oky,chy.okeodar.okeoky.oteody.oto.otol.oteeyar.yko,oar.aiin.oekeeey.okeo,keo,keody.okeodar,chy.s.aiin.otokeoar.or.ar.al.otol.al.shckhy.oteeeodar.oteody.otol,aiin.shoekey.solalald.cheeokeeo.choeky.choly
+2	@Lz	<!10:00>oteos.arar	oteos.arar
+3	&Lz	<!11:00>okldam	okldam
+4	&Lz	<!00:00>oteoaldy	oteoaldy
+5	&Lz	<!01:00>oteolar	oteolar
+6	&Lz	<!02:00>okeoaly	okeoaly
+7	&Lz	<!03:00>otaleky	otaleky
+8	&Lz	<!04:30>otalsar	otalsar
+9	&Lz	<!05:30>cheary	cheary
+10	&Lz	<!07:00>oteotey.rary	oteotey.rary
+11	&Lz	<!08:30>otalaly	otalaly
+12	@Cc	<!10:00>oteody.oteos.o{ckhh}y.oteeschey.lsheotey.okalody.shs.shey.oteey.otechar.chek[a:?]l.okody.eeedy.oteodal.eeokol.lkchol.daiin.okeeees.ykees.al.ok[ee:a]y.otey.oteo,shaly.o	oteody.oteos.ockhhy.oteeschey.lsheotey.okalody.shs.shey.oteey.otechar.chekal.okody.eeedy.oteodal.eeokol.lkchol.daiin.okeeees.ykees.al.okeey.otey.oteo,shaly.o
+13	@Lz	<!11:00>otolchdy	otolchdy
+14	&Lz	<!00:30>otoloaram	otoloaram
+15	&Lz	<!03:30>oteeol	oteeol
+16	&Lz	<!05:30>otolchd	otolchd
+17	&Lz	<!08:00>otaldar	otaldar
+18	@Cc	<!10:00>oteeol.otal,chs.char.cheky.chotshy.okeeody.oteey.chekea'.okeol	oteeol.otal,chs.char.cheky.chotshy.okeeody.oteey.chekea'.okeol

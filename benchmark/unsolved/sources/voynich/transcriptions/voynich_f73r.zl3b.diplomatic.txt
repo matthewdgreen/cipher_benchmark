@@ -1,0 +1,36 @@
+# Folio f73r from ZL3b-n.txt
+# Header: <! $Q=L $P=A $F=a $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lz	<!11:15>otaly	otaly
+2	&Lz	<!11:45>chockhy	chockhy
+3	&Lz	<!00:30>otedy	otedy
+4	&Lz	<!01:00>yteeody	yteeody
+5	@Cc	<!11:00>ypolcheey.salchedal.chepchey.daraly.oteos,air,ar.oteosdal.chot[oe:ee]y.soteees,alshey.[{oh}:ch]es.al,chees.che[o:a]ly.jeiii?.choteey.cheteey.cheteeeos,aiin.chetchody.chedar.ar.cheteey.ote{co}s,ar.airalor.shetee.yteey.cheody.ykeydam.oteos.alar.alcheky	ypolcheey.salchedal.chepchey.daraly.oteos,air,ar.oteosdal.chotoey.soteees,alshey.ohes.al,chees.cheoly.jeiii?.choteey.cheteey.cheteeeos,aiin.chetchody.chedar.ar.cheteey.otecos,ar.airalor.shetee.yteey.cheody.ykeydam.oteos.alar.alcheky
+6	@Lz	<!11:00>otaly	otaly
+7	&Lz	<!11:30>okeody	okeody
+8	&Lz	<!00:00>oteedyl	oteedyl
+9	&Lz	<!00:30>[y:o]keedy	ykeedy
+10	&Lz	<!01:00>okeey	okeey
+11	&Lz	<!02:00>okeedy	okeedy
+12	&Lz	<!02:30>ykeeory	ykeeory
+13	&Lz	<!03:30>oteeosy	oteeosy
+14	&Lz	<!04:30>shekal	shekal
+15	&Lz	<!05:30>oteedyy	oteedyy
+16	&Lz	<!06:30>oked[a:o]l	okedal
+17	&Lz	<!07:00>chdy	chdy
+18	&Lz	<!08:00>dalshey	dalshey
+19	&Lz	<!08:45>opaiin	opaiin
+20	&Lz	<!09:30>okeos	okeos
+21	&Lz	<!10:00>otey	otey
+22	@Cc	<!10:30>oteey.dar.al.opaiin.olalaiin.s.air,am.chopchedy.chdar.oram.otareees.olteey.okees.otar,chey.oteas,ochor.oparchey.daiin.qocheey.s,cheey.dal.cheesy	oteey.dar.al.opaiin.olalaiin.s.air,am.chopchedy.chdar.oram.otareees.olteey.okees.otar,chey.oteas,ochor.oparchey.daiin.qocheey.s,cheey.dal.cheesy
+23	@Lz	<!11:30>okary	okary
+24	&Lz	<!01:00>okeeody	okeeody
+25	&Lz	<!02:00>oyteedy	oyteedy
+26	&Lz	<!03:00>oky	oky
+27	&Lz	<!04:30>chefy	chefy
+28	&Lz	<!06:00>otal	otal
+29	&Lz	<!07:00>chek	chek
+30	&Lz	<!08:30>ar	ar
+31	&Lz	<!09:30>kar	kar
+32	&Lz	<!10:30>okeeos	okeeos
+33	@Cc	<!10:00>osaiin.chedain.oteey.chedaly.okechs.chepcheesaly.oteodal	osaiin.chedain.oteey.chedaly.okechs.chepcheesaly.oteodal

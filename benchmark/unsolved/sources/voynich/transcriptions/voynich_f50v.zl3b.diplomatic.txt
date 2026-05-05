@@ -1,0 +1,14 @@
+# Folio f50v from ZL3b-n.txt
+# Header: <! $Q=G $P=D $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tchy.do.ldar.shotchdy.qokchdy.opchedy.qokol.shor.ofar,fardam	tchy.do.ldar.shotchdy.qokchdy.opchedy.qokol.shor.ofar,fardam
+2	+P0	tchodain.oeeey.okaiin.shedy.qokaly.chdy.oky.keody.cheey.okain	tchodain.oeeey.okaiin.shedy.qokaly.chdy.oky.keody.cheey.okain
+3	+P0	pochedy.qokody.checkhy.shckhy.dalol.ykeeey.qokedy.okain.okal	pochedy.qokody.checkhy.shckhy.dalol.ykeeey.qokedy.okain.okal
+4	+P0	dar.qoain.olaiin.ol[s:r].aiin.o,l.okeedy.okchdy.otar.chckhey.or	dar.qoain.olaiin.ols.aiin.o,l.okeedy.okchdy.otar.chckhey.or
+5	+P0	y,chy.tair.chckhy.qekaiin.qodaiin.olcheky.chedy.chkedy.okedyd	y,chy.tair.chckhy.qekaiin.qodaiin.olcheky.chedy.chkedy.okedyd
+6	+P0	daiin.kedair.okal.chody.qokedy.okar.okchey.okedy.ota[r:s].chkeey	daiin.kedair.okal.chody.qokedy.okar.okchey.okedy.otar.chkeey
+7	+P0	tedaiin.odaiin.or.okaiin.ykor.daiin.choky.qotchdy.k[{cy}:ey].dairam	tedaiin.odaiin.or.okaiin.ykor.daiin.choky.qotchdy.kcy.dairam
+8	+P0	ykar.okair.otor.qokedy.ykchol.kar.chckhy.olkaiin.okain.qo'd<!corr?>	ykar.okair.otor.qokedy.ykchol.kar.chckhy.olkaiin.okain.qo'd
+9	+P0	ytsheod.ain.sheshy.echedy.kchdy<->otaiin.okaiin.[o:a]ky	ytsheod.ain.sheshy.echedy.kchdyotaiin.okaiin.oky
+10	+P0	dchedy.okaiin.olchdy.oloeedy<->ykeeod,ar.aro[o:a]d	dchedy.okaiin.olchdy.oloeedyykeeod,ar.arood
+11	+P0	lchey.kar.ykchy.kchdy<$>	lchey.kar.ykchy.kchdy

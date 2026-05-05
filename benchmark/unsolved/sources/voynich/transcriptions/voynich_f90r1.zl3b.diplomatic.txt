@@ -1,0 +1,12 @@
+# Folio f90r1 from ZL3b-n.txt
+# Header: <! $Q=O $P=L $F=z $B=1 $I=H $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>poleeol.qokeol.qokchod.choly.ctho[g:m]	poleeol.qokeol.qokchod.choly.cthog
+2	+P0	yshol.tor.sheor.qotchor.qoky.darala	yshol.tor.sheor.qotchor.qoky.darala
+3	+P0	dair.shkeea.s.sary.okar.ykorshy.lkaldy	dair.shkeea.s.sary.okar.ykorshy.lkaldy
+4	+P0	talchor.chodaiin.chocfhor.qokchor.chockhy<->okchod.qofchol	talchor.chodaiin.chocfhor.qokchor.chockhyokchod.qofchol
+5	+P0	ytor.ckhy.lpychol.sho.ol.okachey.[r:s].sheom.kchol.dchy.dasady	ytor.ckhy.lpychol.sho.ol.okachey.r.sheom.kchol.dchy.dasady
+6	+P0	tol.otchol.shorydar.qokeos.okeoschso.chol,ytod.qokeos.dolshy	tol.otchol.shorydar.qokeos.okeoschso.chol,ytod.qokeos.dolshy
+7	+P0	dar.chos.qocthy.qokcha.shko.qokol.oteey.chofy.ykeody.qokod	dar.chos.qocthy.qokcha.shko.qokol.oteey.chofy.ykeody.qokod
+8	+P0	kor.sheol.qodar.oko.ykeey.qokeey.qodar.qokeed.s.choky	kor.sheol.qodar.oko.ykeey.qokeey.qodar.qokeed.s.choky
+9	+Pr	ykodar.qoekchy.shokol.okam<$>	ykodar.qoekchy.shokol.okam

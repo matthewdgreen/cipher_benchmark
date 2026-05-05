@@ -1,0 +1,16 @@
+# Folio f96r from ZL3b-n.txt
+# Header: <! $Q=Q $P=K $F=z $B=1 $I=H $L=A $H=1 $C=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tor.cheeor.ckheos.olsheeosol.cpheol.cpheor.chodar	tor.cheeor.ckheos.olsheeosol.cpheol.cpheor.chodar
+2	+P0	ytol.oteeor.sheol.oteey.qokeody.qokeeody.cthey	ytol.oteeor.sheol.oteey.qokeody.qokeeody.cthey
+3	+P0	toaiin.{cthh}odal.chos.ckheody.keody.chodol.oty	toaiin.cthhodal.chos.ckheody.keody.chodol.oty
+4	+P0	or.chor.chkchol.chokchor.s.or.sheockhy.choly	or.chor.chkchol.chokchor.s.or.sheockhy.choly
+5	+P0	daiin.chodaiin.cthey.tol.sheor.qokeol.okol	daiin.chodaiin.cthey.tol.sheor.qokeol.okol
+6	+P0	lor.ckheey.chol.cholody.cheol.ctheor.sor	lor.ckheey.chol.cholody.cheol.ctheor.sor
+7	+P0	oiir.or.ckhor.chkey.ckhocthy.or.chockhy	oiir.or.ckhor.chkey.ckhocthy.or.chockhy
+8	+P0	ykeor.[se:sh]cheeol.sheol.qokeeey.chol.daiin	ykeor.secheeol.sheol.qokeeey.chol.daiin
+9	+P0	todar.sheo.cthody.shokocfhy.chopcho.dory	todar.sheo.cthody.shokocfhy.chopcho.dory
+10	+P0	otchodol.shocthody.shockhy.otchodor.cho{cty}	otchodol.shocthody.shockhy.otchodor.chocty
+11	+P0	teol.cheody.shodol.qokchod<->s<->aiin.chokey	teol.cheody.shodol.qokchodsaiin.chokey
+12	+P0	dcheor.cheol.cheodaiin.ol<->dy<->d<->chs<->archeody	dcheor.cheol.cheodaiin.oldydchsarcheody
+13	+P0	oteodsho.qotchos<$>	oteodsho.qotchos

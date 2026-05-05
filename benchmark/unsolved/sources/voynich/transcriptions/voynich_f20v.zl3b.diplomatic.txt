@@ -1,0 +1,14 @@
+# Folio f20v from ZL3b-n.txt
+# Header: <! $Q=C $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>faiis,ar.okoy.shy,pofochey.opchy.qopy.choldy.opydy.cphy	faiis,ar.okoy.shy,pofochey.opchy.qopy.choldy.opydy.cphy
+2	+P0	sos.ykoiin.cheol.chol.choiin.checthy.otol.chol.chodaiin.oty	sos.ykoiin.cheol.chol.choiin.checthy.otol.chol.chodaiin.oty
+3	+P0	okchy.sho,kchol.shol.chcthy.qoty.chy.tolshy.qotchy	okchy.sho,kchol.shol.chcthy.qoty.chy.tolshy.qotchy
+4	+P0	sho.or.aiin.shol.daiin<$>	sho.or.aiin.shol.daiin
+5	+P0	<%>tshol.folchol.otor.shol.shor.fshodchy.otchy.chcphy.dy	tshol.folchol.otor.shol.shor.fshodchy.otchy.chcphy.dy
+6	+P0	doiiin.chockhy.da[n:r].cheo{ikh}y.shos.cheos.char.[{ith}:cth]aiin	doiiin.chockhy.dan.cheoikhy.shos.cheos.char.ithaiin
+7	+P0	shocthy.sho.cthy.daiin.sheoy.tey.s<->soaiin	shocthy.sho.cthy.daiin.sheoy.tey.ssoaiin
+8	+P0	shain.choraly.sho.ar.chy.daiin.d.s	shain.choraly.sho.ar.chy.daiin.d.s
+9	+P0	ykchy.keody.cho.cthy.chol.shd.qoty.d@244;	ykchy.keody.cho.cthy.chol.shd.qoty.d@244;
+10	+P0	shokaiin.chocthy.chol.daiin.chy.chor.ety	shokaiin.chocthy.chol.daiin.chy.chor.ety
+11	+P0	okoiin.chey.{@200;ph}ol.chory<$>	okoiin.chey.@200;phol.chory

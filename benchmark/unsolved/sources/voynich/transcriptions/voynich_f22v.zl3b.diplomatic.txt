@@ -1,0 +1,19 @@
+# Folio f22v from ZL3b-n.txt
+# Header: <! $Q=C $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pysaiinor.ofchar.oky.tchy.otdy<->sor.shy.qo'd	pysaiinor.ofchar.oky.tchy.otdysor.shy.qo'd
+2	+P0	daiin.y,kaiin.qotchy.kchy.[o:y]tchyd<->dshor.ychy	daiin.y,kaiin.qotchy.kchy.otchyddshor.ychy
+3	+P0	qoky.kchorl.otchy.cthy.otchyky<->ytchol.otam	qoky.kchorl.otchy.cthy.otchykyytchol.otam
+4	+P0	otchaiin.shoty.qoky<->saiin<->odaiin.ytaiin	otchaiin.shoty.qokysaiinodaiin.ytaiin
+5	+P0	dor.y,kcheor.daiin<$>	dor.y,kcheor.daiin
+6	+P0	<%>fshor.shy,tchor.otaiin	fshor.shy,tchor.otaiin
+7	+P0	ychor.chor.qokchol.chory	ychor.chor.qokchol.chory
+8	+P0	qotchy.cthy.qokol.daiin.dam	qotchy.cthy.qokol.daiin.dam
+9	+P0	okshor.shody.chol.tchol.otaiin,daiin	okshor.shody.chol.tchol.otaiin,daiin
+10	+P0	qokchy.daiin.s<->or.ytal	qokchy.daiin.sor.ytal
+11	+P0	sokaiin.oty.dy	sokaiin.oty.dy
+12	+P0	ychky.daiin.cthy	ychky.daiin.cthy
+13	+P0	okchain.chkoldy.shotoly	okchain.chkoldy.shotoly
+14	+P0	qotch[y:?].olshly.shol.daiin	qotchy.olshly.shol.daiin
+15	+P0	sho.cthy.chocthy.qokchy.dory	sho.cthy.chocthy.qokchy.dory
+16	+Pc	saiinchy.daldalol<$>	saiinchy.daldalol

@@ -1,0 +1,15 @@
+# Folio f54r from ZL3b-n.txt
+# Header: <! $Q=G $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>podaiin.shodal.qopchol.cfhe[o:a]dy<->opcheol.chocphy	podaiin.shodal.qopchol.cfheodyopcheol.chocphy
+2	+P0	ytodaiin.otchey.otchey.qockhodal<->sockhody.sar	ytodaiin.otchey.otchey.qockhodalsockhody.sar
+3	+P0	daiir.cthody.ot[a:o]l.[e:o]kchody.ol.s.or.y<->ytchey.dam	daiir.cthody.otal.ekchody.ol.s.or.yytchey.dam
+4	+P0	tor.ockhol.shokchy.kol,chom.[s:r]<->chey<->ctheot[o:a]l	tor.ockhol.shokchy.kol,chom.scheyctheotol
+5	+P0	sar.sh.okeodain.chokey<$>	sar.sh.okeodain.chokey
+6	+P0	<%>korar[e:i].ckhos.shofom.cher.chom.kcheor<->she.qkchol.dam	korare.ckhos.shofom.cher.chom.kcheorshe.qkchol.dam
+7	+P0	dor.s.sheey.ksheody.sho.or.cheey.chety<->sol.de[sh:?].dam.dam	dor.s.sheey.ksheody.sho.or.cheey.chetysol.desh.dam.dam
+8	+P0	t[o:a]shey.kodl.ckho.dar.sheekal.s.aiin<->okeam.etchal	toshey.kodl.ckho.dar.sheekal.s.aiinokeam.etchal
+9	+P0	oaiin.or.ol.sal.qokor.chor.ckhol.s<->s,sho.chol.daiin	oaiin.or.ol.sal.qokor.chor.ckhol.ss,sho.chol.daiin
+10	+P0	tor.ol.dol.or.chol.chol.ckhol.okol.oky<->ytchor.ol,koldy	tor.ol.dol.or.chol.chol.ckhol.okol.okyytchor.ol,koldy
+11	+P0	daiin.okor.or.ol.ckhol.chor.cho@165;.dam<->or.sho.chol.dom	daiin.okor.or.ol.ckhol.chor.cho@165;.damor.sho.chol.dom
+12	+P0	yor.shodal.o.aiin.al.dol.choek,air,o,ldam<$>	yor.shodal.o.aiin.al.dol.choek,air,o,ldam

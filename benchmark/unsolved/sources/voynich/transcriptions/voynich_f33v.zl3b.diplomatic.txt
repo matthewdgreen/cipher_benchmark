@@ -1,0 +1,14 @@
+# Folio f33v from ZL3b-n.txt
+# Header: <! $Q=E $P=B $F=a $B=1 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tar,ar.daiin<->ydain.cthey.dols<->sheky.ar,aiin.{cs}	tar,ar.daiinydain.cthey.dolssheky.ar,aiin.cs
+2	+P0	kchdy.dam.dy<->oky<->otal.dain.chdy<->ytam.otam.cham	kchdy.dam.dyokyotal.dain.chdyytam.otam.cham
+3	+P0	dar.chckhy.dy<->dyky<->ckhdy.oky.d[a:ch]m<->okar,dy.kam,dy	dar.chckhy.dydykyckhdy.oky.damokar,dy.kam,dy
+4	+P0	tokar.shdy.dal<->qokar.shd<->otody.chedy<->ykedy.dodl.dain	tokar.shdy.dalqokar.shdotody.chedyykedy.dodl.dain
+5	+P0	tchdy.chody.okaiin<->chckhy.dor.arl<->cthy.dy,ty,dy<->ykar.cheky.dy	tchdy.chody.okaiinchckhy.dor.arlcthy.dy,ty,dyykar.cheky.dy
+6	+P0	ycheo.dar.olaiin.okar.chdy.chdy.oldy<->okar.chdy<$>	ycheo.dar.olaiin.okar.chdy.chdy.oldyokar.chdy
+7	+P0	<%>tshdy.shefchdy.shckhdy.oltedy.daiin.oky<->cheol.orain<->chdyshdy.porar	tshdy.shefchdy.shckhdy.oltedy.daiin.okycheol.orainchdyshdy.porar
+8	+P0	dar,ar.sheey.keedy.okchy.okar.okedy.chy<->daiin.dy'.dy<->dar.aiin.okary	dar,ar.sheey.keedy.okchy.okar.okedy.chydaiin.dy'.dydar.aiin.okary
+9	+P0	sar.or,aiin.chor.or.shkair.shol.or.chckhy<->ar,aiin<->okain.dal.dy	sar.or,aiin.chor.or.shkair.shol.or.chckhyar,aiinokain.dal.dy
+10	+P0	lcho,ar.or.chey.lodaiin.o,or.okeedy.okaly	lcho,ar.or.chey.lodaiin.o,or.okeedy.okaly
+11	+P0	tar.al.keey.oram<$>	tar.al.keey.oram

@@ -1,0 +1,13 @@
+# Folio f13v from ZL3b-n.txt
+# Header: <! $Q=B $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>koair.chtoiin.otchy.kchod.otol.otchy.octhos	koair.chtoiin.otchy.kchod.otol.otchy.octhos
+2	+P0	oko.qokol.chodal.otchol.cphol.choty	oko.qokol.chodal.otchol.cphol.choty
+3	+P0	qokchy.qokod.chy.otchy.cthody	qokchy.qokod.chy.otchy.cthody
+4	+P0	o,l,s.chey.okos.oa[iin:in].okshy.qo{cky}	o,l,s.chey.okos.oaiin.okshy.qocky
+5	+P0	qoky.daiin<$>	qoky.daiin
+6	+P0	<%>foldaiin.olcphy.shol.dy<->oty.shor.qotyd<->dairod	foldaiin.olcphy.shol.dyoty.shor.qotyddairod
+7	+P0	dain.okal.chy.qokchory<->dchy.kok[y:a]daiin<->shon	dain.okal.chy.qokchorydchy.kokydaiinshon
+8	+P0	otchy.daiin.y,dain.ykol<->okchy.o,kald<->d,y,taiin	otchy.daiin.y,dain.ykolokchy.o,kaldd,y,taiin
+9	+P0	tchtod.otal.cthor.ytal<->y.cho,tal<->sho.qocthy	tchtod.otal.cthor.ytaly.cho,talsho.qocthy
+10	+P0	y,ol.chy.kchey.kchor.dal<$>	y,ol.chy.kchey.kchor.dal

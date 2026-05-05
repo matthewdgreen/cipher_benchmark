@@ -1,0 +1,18 @@
+# Folio f46r from ZL3b-n.txt
+# Header: <! $Q=F $P=K $F=x $B=3 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pcheocphy.qotedy.chety.dy.chepchx.yfcheky.o[s:r]aiin.shee.qoteol.daiin.shee.dy.daly	pcheocphy.qotedy.chety.dy.chepchx.yfcheky.osaiin.shee.qoteol.daiin.shee.dy.daly
+2	+P0	sodaiin.sheeoly.qoor.sheo,teoly.chckhy.daiin.sh[{ck}:ek].sheet.shedy.xo[r:s].aiin.sheckhy	sodaiin.sheeoly.qoor.sheo,teoly.chckhy.daiin.shck.sheet.shedy.xor.aiin.sheckhy
+3	+P0	daiin.shor.ykal.che[{kh}:{th}]y.daiin.she.dalshedy.qokol.s.aiin.shee.ykar.daiin	daiin.shor.ykal.chekhy.daiin.she.dalshedy.qokol.s.aiin.shee.ykar.daiin
+4	+P0	tshedar.chol.kaldy.chckhy.qokaldy.chekal.chckhy.sheky.sheky.dalo{cthh}y	tshedar.chol.kaldy.chckhy.qokaldy.chekal.chckhy.sheky.sheky.dalocthhy
+5	+P0	okeedy.shekeey.ykey.shedy.chdy.shky.qotsheod.ytedy.ytey.che[o:a]r<$>	okeedy.shekeey.ykey.shedy.chdy.shky.qotsheod.ytedy.ytey.cheor
+6	+P0	<%>tedy.d[y:o]tedy.shee.keedy.ypchedy.chdalor.sheedy.odo[s:r],aiin.opchedy.dykedy.chdam	tedy.dytedy.shee.keedy.ypchedy.chdalor.sheedy.odos,aiin.opchedy.dykedy.chdam
+7	+P0	xol.shol.qokaiin.ytchdy.qokchdy.s,ar.chdy.cthy.otedy.chedy.qokar.chcthy.m	xol.shol.qokaiin.ytchdy.qokchdy.s,ar.chdy.cthy.otedy.chedy.qokar.chcthy.m
+8	+P0	dsheol.chy.chckhy.shy.shdy.chky.chody.cthdy.s.cheos.chey<$>	dsheol.chy.chckhy.shy.shdy.chky.chody.cthdy.s.cheos.chey
+9	+P0	<%>tshdy.shdy.fchedy.dyfchdy.shol.kees,ytaly.fchdy.dy.karal.shky.yty.dardam	tshdy.shdy.fchedy.dyfchdy.shol.kees,ytaly.fchdy.dy.karal.shky.yty.dardam
+10	+P0	tchey.shy.chkal.chd.qokdy.shdy.adoldy.olaiir.sheol<$>	tchey.shy.chkal.chd.qokdy.shdy.adoldy.olaiir.sheol
+11	+P0	<%>pchdair.shd.shep,daiin.shdy.o{ifh}edy.qopchdy.ldy.shear.opdarshdy.s.@136;yfchedy	pchdair.shd.shep,daiin.shdy.oifhedy.qopchdy.ldy.shear.opdarshdy.s.@136;yfchedy
+12	+P0	techy.daiin.sheockhy.choky.r.aiin.ches.shey.kar.sheckhy.chdy.chckham	techy.daiin.sheockhy.choky.r.aiin.ches.shey.kar.sheckhy.chdy.chckham
+13	+P0	ar,akaiin.shol.okeey.chol.dar.ols.lain.y<$>	ar,akaiin.shol.okeey.chol.dar.ols.lain.y
+14	+P0	<%>otchealkar.sholkshy.qokar.cheol.okal.dam.chdam.qokam	otchealkar.sholkshy.qokar.cheol.okal.dam.chdam.qokam
+15	+P0	qokar.shol,kal.[a:o]lkeody<$>	qokar.shol,kal.alkeody

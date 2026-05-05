@@ -1,0 +1,25 @@
+# Folio f67v2 from ZL3b-n.txt
+# Header: <! $Q=I $P=E $F=a $B=1 $I=C $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@La	otchdy	otchdy
+2	@La	otararain	otararain
+3	@Pb	<%>tol.or.ain.am.otoly.sair.[g:m]	tol.or.ain.am.otoly.sair.g
+4	+Pb	daiin.[t:k]aedaiin.ar.okor<!corr?><$>	daiin.taedaiin.ar.okor
+5	@Pb	<%>okeey.keoy.salal	okeey.keoy.salal
+6	+Pb	ykaralam.olalade.odam<$>	ykaralam.olalade.odam
+7	@Pb	<%>taol.daig.sakar.dam	taol.daig.sakar.dam
+8	+Pb	solair.cphey.solal.daly<$>	solair.cphey.solal.daly
+9	@Pb	<%>okeal.o?ol.ar.okaldam	okeal.o?ol.ar.okaldam
+10	+Pb	koain.opal.ol.of[o:y]lain.oar<$>	koain.opal.ol.ofolain.oar
+11	@Ro	dcheeor.ochepalain	dcheeor.ochepalain
+12	@Ri	oeolales.ai[s:r]ar	oeolales.aisar
+13	@Ro	okydseog.oeepoaly	okydseog.oeepoaly
+14	@Ri	o?r.ykaly.char	o?r.ykaly.char
+15	@Ro	o.chekais.okolaim	o.chekais.okolaim
+16	@Ri	okar.alet.olkao	okar.alet.olkao
+17	@Ro	qokoaiin.ocfhhy	qokoaiin.ocfhhy
+18	@Ri	okeeey.oekchdy	okeeey.oekchdy
+19	@La	soaiin.dalam	soaiin.dalam
+20	+La	sary.okora[l:n]	sary.okoral
+21	@La	oko???	oko???
+22	@La	okchos,am	okchos,am

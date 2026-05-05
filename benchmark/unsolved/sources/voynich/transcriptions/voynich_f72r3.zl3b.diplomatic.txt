@@ -1,0 +1,37 @@
+# Folio f72r3 from ZL3b-n.txt
+# Header: <! $Q=K $P=F $F=z $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!10:00 after wide gap>okeey.chekoy.oteo.ykeey.chedaiin.okeeol.cheeor.chocthar.ar.oteody.oteedy.okeolaiin.oteey.okarar.???.???teo.sheol.al.alaiiin.okeos.alaiin.okor.o,keodar.okee.s,ar,aiin.chekackhy.chokees.oteedy.chekar.okar,choly.ches,os.oiin.okeeey.cheey.ches.okeody.chealdy.shocthy.choteey.sheoly.{oh}eol.sheey.chorain	okeey.chekoy.oteo.ykeey.chedaiin.okeeol.cheeor.chocthar.ar.oteody.oteedy.okeolaiin.oteey.okarar.???.???teo.sheol.al.alaiiin.okeos.alaiin.okor.o,keodar.okee.s,ar,aiin.chekackhy.chokees.oteedy.chekar.okar,choly.ches,os.oiin.okeeey.cheey.ches.okeody.chealdy.shocthy.choteey.sheoly.oheol.sheey.chorain
+2	@Lz	<!10:30>olkalaiin	olkalaiin
+3	&Lz	<!11:00>olalsy	olalsy
+4	&Lz	<!00:00>oraiinam	oraiinam
+5	&Lz	<!01:00>osarsheeeo	osarsheeeo
+6	&Lz	<!02:00>oto@192;aiin	oto@192;aiin
+7	&Lz	<!02:30>opoiiin[o:?]in.al,[ch:a]es	opoiiinoin.al,ches
+8	&Lz	<!04:00>ypaiin.alaly	ypaiin.alaly
+9	&Lz	<!05:00>oteey,daiin	oteey,daiin
+10	&Lz	<!06:30>oeeodaiin	oeeodaiin
+11	&Lz	<!07:00>ofsholdy	ofsholdy
+12	&Lz	<!07:00>opoeey.okaiin	opoeey.okaiin
+13	&Lz	<!10:00>ykolairol	ykolairol
+14	@Cc	<!09:00>otochedy.otey.o,koey.sheedy.oteodar.ykeolol.y,air.oteos.cheo,l,aiin.ykeeoly.otaiin.shear.oiiin.oral.o,tealy.cheokeor.oteody.o{ck}es.otees,chteos,doteey.sosor.oteol.shol.cheeg.okeody.{ch'}eol.shey.sheysy.shoteey.cheor.yoeteey.okeeol.chy.okeeo.ykoly	otochedy.otey.o,koey.sheedy.oteodar.ykeolol.y,air.oteos.cheo,l,aiin.ykeeoly.otaiin.shear.oiiin.oral.o,tealy.cheokeor.oteody.ockes.otees,chteos,doteey.sosor.oteol.shol.cheeg.okeody.ch'eol.shey.sheysy.shoteey.cheor.yoeteey.okeeol.chy.okeeo.ykoly
+15	@Lz	<!11:00>oralkam	oralkam
+16	&Lz	<!00:00>ytairal	ytairal
+17	&Lz	<!01:00>oeee[s:r]aiin	oeeesaiin
+18	&Lz	<!01:30>ory	ory
+19	&Lz	<!02:30>ochey,fydy	ochey,fydy
+20	&Lz	<!03:30>of???.o.eeesaly	of???.o.eeesaly
+21	&Lz	<!05:00>ykaraiin.airal	ykaraiin.airal
+22	&Lz	<!06:30>okalar	okalar
+23	&Lz	<!08:00>orara	orara
+24	&Lz	<!09:00>olaiin.ola{ikh}y	olaiin.olaikhy
+25	&Lz	<!10:00>olfsheoral	olfsheoral
+26	@Cc	<!09:00>oteey.[a:?]rary.eee[r:s],che@212;shees.opcholalaiin.oteeor.am.sheal.o[k:t]aipchy.oteees,ar.am.olaiin.otedar.olol.choty.oteol.sheshdy.chedy.chedy.dy.shes.eedy.sheol.shy,ckhol	oteey.arary.eeer,che@212;shees.opcholalaiin.oteeor.am.sheal.okaipchy.oteees,ar.am.olaiin.otedar.olol.choty.oteol.sheshdy.chedy.chedy.dy.shes.eedy.sheol.shy,ckhol
+27	@Lz	<!10:30>opalal	opalal
+28	&Lz	<!00:00>yfary	yfary
+29	&Lz	<!01:30>oraiiral	oraiiral
+30	&Lz	<!03:00>ytoar.shar	ytoar.shar
+31	&Lz	<!06:00>octho	octho
+32	&Lz	<!07:30>aral	aral
+33	&Lz	<!09:00>oletal	oletal
+34	@Cc	<!09:00>okeos.aiin,olaiin.oraiin.octheolarl.okeeody.oteos.aiin,koly	okeos.aiin,olaiin.oraiin.octheolarl.okeeody.oteos.aiin,koly

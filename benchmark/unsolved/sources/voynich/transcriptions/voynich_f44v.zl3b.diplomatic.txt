@@ -1,0 +1,16 @@
+# Folio f44v from ZL3b-n.txt
+# Header: <! $Q=F $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tsho.qotshy.cthol.d.chor.otol.shol.tol.qotshol.otoldy	tsho.qotshy.cthol.d.chor.otol.shol.tol.qotshol.otoldy
+2	+P0	yolkol.cheol.qokchain.daly.otchol.daiin.shol.qotor.ar	yolkol.cheol.qokchain.daly.otchol.daiin.shol.qotor.ar
+3	+P0	tol.okchor.shcthy.otol.daiin.cthy.cthy<$>	tol.okchor.shcthy.otol.daiin.cthy.cthy
+4	+P0	<%>yokalod.shaiin.shor.shorody.shky.sho.y,tchy.opchod.opy	yokalod.shaiin.shor.shorody.shky.sho.y,tchy.opchod.opy
+5	+P0	oain.shol.cthy.cphaiin.ykchor.otchy.qoty.ytchear.cthain	oain.shol.cthy.cphaiin.ykchor.otchy.qoty.ytchear.cthain
+6	+P0	tol.dair.ytaiin.dol,y.kchain.oty,keey.otchol.ytaiin,dy	tol.dair.ytaiin.dol,y.kchain.oty,keey.otchol.ytaiin,dy
+7	+P0	ok[y:o],tchaiin.cthol.dy.cheol.ololy<$>	oky,tchaiin.cthol.dy.cheol.ololy
+8	+P0	<%>tsheody.cthaiin.odaiin.shol.shey.cthy<->ykoda<->ol	tsheody.cthaiin.odaiin.shol.shey.cthyykodaol
+9	+P0	dshor.cthees.l,o,lkeees.ckhy.chcthy.lo	dshor.cthees.l,o,lkeees.ckhy.chcthy.lo
+10	+P0	lsho.qokchy.tshy.cphaiin.cthal.kal	lsho.qokchy.tshy.cphaiin.cthal.kal
+11	+P0	okal.chol.chol.choky.okaiin.cthy.otal	okal.chol.chol.choky.okaiin.cthy.otal
+12	+P0	ychey.teol.chaiin.chcthy.ctho.cthol	ychey.teol.chaiin.chcthy.ctho.cthol
+13	+P0	lchor.shol.dairl<$>	lchor.shol.dairl

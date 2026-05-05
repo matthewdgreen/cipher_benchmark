@@ -1,0 +1,9 @@
+# Folio f90r2 from ZL3b-n.txt
+# Header: <! $Q=O $P=M $F=z $B=1 $I=H $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>toealchs.shakol.sheo.qoekeey<->soeeol.qoteody	toealchs.shakol.sheo.qoekeeysoeeol.qoteody
+2	+P0	saiin.ckheo.saiin.qockhey.s.ykeeody<->s,cheey.chos.ckhs	saiin.ckheo.saiin.qockhey.s.ykeeodys,cheey.chos.ckhs
+3	+P0	dsheeos.qokeod.qokeo.chol.ol.okal<->saiin.ctheo,s,ar	dsheeos.qokeod.qokeo.chol.ol.okalsaiin.ctheo,s,ar
+4	+P0	al.s.oin.cheo.ro.sokeey.qokeeas<->al.aral.oy[r:s]	al.s.oin.cheo.ro.sokeey.qokeeasal.aral.oyr
+5	+P0	ychor.ckhor.qoeeor.okaiin.dom<->olcheo.rodaiin	ychor.ckhor.qoeeor.okaiin.domolcheo.rodaiin
+6	+P0	daiin.qokor.okoiin.daiin<$>	daiin.qokor.okoiin.daiin

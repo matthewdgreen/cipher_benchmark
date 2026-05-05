@@ -1,0 +1,24 @@
+# Folio f6v from ZL3b-n.txt
+# Header: <! $Q=A $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>koary,sar.[ch:{oh}]eekar<!funny o, @246;?>.qoor.shor.chapchy.s.chear.char.otchy	koary,sar.cheekar.qoor.shor.chapchy.s.chear.char.otchy
+2	+P0	oees.chor.chckhy.qoekchar.chea[s:r].odaiiin.kchey.chor,chaiin	oees.chor.chckhy.qoekchar.cheas.odaiiin.kchey.chor,chaiin
+3	+P0	qoair.ckhy.chol.oechockhy.chekchoy.ckhy.okol<->rychos	qoair.ckhy.chol.oechockhy.chekchoy.ckhy.okolrychos
+4	+P0	y,shckhy.ytchoy.s.os.y.jajy.dchy.dey.okody<->ytody	y,shckhy.ytchoy.s.os.y.jajy.dchy.dey.okodyytody
+5	+P0	dair.{c'ha},chodam.dam.okor.oty<->doldom<$>	dair.c'ha,chodam.dam.okor.otydoldom
+6	+P0	<%>tchody.shocthol.cho{cthh}y.s	tchody.shocthol.chocthhy.s
+7	+P0	ychos.ychol.daiin.cthol.dol	ychos.ychol.daiin.cthol.dol
+8	+P0	ychor.chor.okchey.qokom	ychor.chor.okchey.qokom
+9	+P0	oeeo,dal.chor.cthom.s	oeeo,dal.chor.cthom.s
+10	+P0	qokchod.ychear.kchdy	qokchod.ychear.kchdy
+11	+P0	lor.char.otam.ctho,m,dy	lor.char.otam.ctho,m,dy
+12	+P0	ytcho[s:r].shy.qokam.cthy	ytchos.shy.qokam.cthy
+13	+P0	yodaiin.cthy.s.chor.oees.or	yodaiin.cthy.s.chor.oees.or
+14	+P0	qokor.chol.cthol.tchalody	qokor.chol.cthol.tchalody
+15	+P0	chockhy.s.or.chy.s,ain.ar	chockhy.s.or.chy.s,ain.ar
+16	+P0	ochy.cthar.cth[a:o]r.cthy	ochy.cthar.cthar.cthy
+17	+P0	y,chaies.ckhal.cthodam.dy	y,chaies.ckhal.cthodam.dy
+18	+P0	ytchocthol.ches.{ith}or	ytchocthol.ches.ithor
+19	+P0	ocholy.kchos.chy.dor	ocholy.kchos.chy.dor
+20	+P0	dchor.choldar.okol.daiin	dchor.choldar.okol.daiin
+21	+P0	ycheor.chor.octham<$>	ycheor.chor.octham

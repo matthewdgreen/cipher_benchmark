@@ -1,0 +1,17 @@
+# Folio f18r from ZL3b-n.txt
+# Header: <! $Q=C $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pdrairdy.darod{cf}.yoar.ykchol.dar.om.chckhy<->octhor.dal	pdrairdy.darodcf.yoar.ykchol.dar.om.chckhyocthor.dal
+2	+P0	otshol.qokchol.chykchy.okchal.daiin.dy<->chol.dain	otshol.qokchol.chykchy.okchal.daiin.dychol.dain
+3	+P0	qokchor.chor.{c@139;h}{@246;k}ey.or,chey.qokchol.dy<->ytcharg	qokchor.chor.c@139;h@246;key.or,chey.qokchol.dyytcharg
+4	+P0	chor.[cth:{ith}]or.okeor.ykchol.okain<$>	chor.cthor.okeor.ykchol.okain
+5	+P0	<%>tchor.shor.cthaiin.cthol.chlol.chom	tchor.shor.cthaiin.cthol.chlol.chom
+6	+P0	ychy.kchor.dair.ytol.chcthy.dar.dar.dal	ychy.kchor.dair.ytol.chcthy.dar.dar.dal
+7	+P0	oshor.shaiin.cthy.sholdy.doldy<->doldaiin	oshor.shaiin.cthy.sholdy.doldydoldaiin
+8	+P0	qokchor.ckhol.olody.okal,dy<->dary	qokchor.ckhol.olody.okal,dydary
+9	+P0	chol.chcthal.okshal.chykald	chol.chcthal.okshal.chykald
+10	+P0	dar.shor.qokchol.ol.ydaiin	dar.shor.qokchol.ol.ydaiin
+11	+P0	sotchaiin.chokchy.chckhol.chor.g	sotchaiin.chokchy.chckhol.chor.g
+12	+P0	ychair.cthol.daiin.qokchy.cthy	ychair.cthol.daiin.qokchy.cthy
+13	+P0	or.shaiin.cth[a:o]r.cthal.okal.dar	or.shaiin.cthar.cthal.okal.dar
+14	+Pc	ychekch,y.kchaiin<$>	ychekch,y.kchaiin

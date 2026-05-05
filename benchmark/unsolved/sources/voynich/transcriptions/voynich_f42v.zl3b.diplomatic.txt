@@ -1,0 +1,19 @@
+# Folio f42v from ZL3b-n.txt
+# Header: <! $Q=F $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>@156;cho.{cto}.sheey.qocho.taiin.shols<->chol.chor.dain	@156;cho.cto.sheey.qocho.taiin.sholschol.chor.dain
+2	+P0	dshey.tchey.y.kchey.chtchy.{c@245;h}y.dan<->dain.otol.daiin	dshey.tchey.y.kchey.chtchy.c@245;hy.dandain.otol.daiin
+3	+P0	sho.chotody.chotol.oky.chol.chol<->dl.chcthy.otoy	sho.chotody.chotol.oky.chol.choldl.chcthy.otoy
+4	+P0	qotchy.chkchy.sar.dy<->odaiil<->ykchy.o,kol,dg	qotchy.chkchy.sar.dyodaiilykchy.o,kol,dg
+5	+P0	chokeeo,r.chey.chetan<->s,ary<->okol.chetaiin	chokeeo,r.chey.chetans,aryokol.chetaiin
+6	+P0	okeokear.cheotchar<->sy<->saiin.cthar,d,am	okeokear.cheotcharsysaiin.cthar,d,am
+7	+P0	chok.sheo,key.keeeyd<->chekeesshy	chok.sheo,key.keeeydchekeesshy
+8	+P0	sodal.saiin<$>	sodal.saiin
+9	+P0	<%>posheor.sho.char.chekchey.qokod<->sho.cpheo.rchy	posheor.sho.char.chekchey.qokodsho.cpheo.rchy
+10	+P0	schor.okchey.chy.shol.olor.cheaiin<->{ct}chy.tcheeb,d	schor.okchey.chy.shol.olor.cheaiinctchy.tcheeb,d
+11	+P0	qo.aiin.qokeey.kchol.cheal.o,t,eold<->shey.teaiin,d	qo.aiin.qokeey.kchol.cheal.o,t,eoldshey.teaiin,d
+12	+P0	ch[o:a]tcheey.chol.ol.chaiin.oteeaiin<->chkchy.taiin,y	chotcheey.chol.ol.chaiin.oteeaiinchkchy.taiin,y
+13	+P0	sho.chey.teor.shey.che{cthh}y.daiin<->chokeey.daiin	sho.chey.teor.shey.checthhy.daiinchokeey.daiin
+14	+P0	qoteey.chy.kchy.cthy.{cts}ees.choly<->sarar.aral	qoteey.chy.kchy.cthy.ctsees.cholysarar.aral
+15	+P0	chokey.chol.okey	chokey.chol.okey
+16	=Pt	okor.odeey<$>	okor.odeey

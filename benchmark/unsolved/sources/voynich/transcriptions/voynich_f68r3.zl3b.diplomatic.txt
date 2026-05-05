@@ -1,0 +1,25 @@
+# Folio f68r3 from ZL3b-n.txt
+# Header: <! $Q=I $P=J $F=z $B=1 $I=A $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!09:30>odeed.oteedy,cheoteey.oshchey.chokol.cheody.chedy.oteodaiin.otchodal.sol.cheor.oteo.choteey.oeteody.opcheody.dchedy.daiin.oteeody.dascheedy.oteeody.qoeee{ct}{c@204;}g.dcheeo.okeodly.do.ls.oschaiin.cheockhedchy.chodal.cheod[a:y].chol,al.oteodched.okedy.qokeey.shoky.dol.daleeed.okeoeiiir	odeed.oteedy,cheoteey.oshchey.chokol.cheody.chedy.oteodaiin.otchodal.sol.cheor.oteo.choteey.oeteody.opcheody.dchedy.daiin.oteeody.dascheedy.oteeody.qoeeectc@204;g.dcheeo.okeodly.do.ls.oschaiin.cheockhedchy.chodal.cheoda.chol,al.oteodched.okedy.qokeey.shoky.dol.daleeed.okeoeiiir
+2	@Ri	toees.ykeo,she.qokolchey.qokchdy	toees.ykeo,she.qokolchey.qokchdy
+3	@Ri	tochedy.chocphy.qokchdy.dyl.okald	tochedy.chocphy.qokchdy.dyl.okald
+4	@Ri	dchy,kchy.daiir.chok.ockhydar	dchy,kchy.daiir.chok.ockhydar
+5	@Ri	qokol.chdchol.qoteey.che,kechy.okchdy	qokol.chdchol.qoteey.che,kechy.okchdy
+6	@Ri	dchokchy.{c'hh}y.okey.oteos.okolshy	dchokchy.c'hhy.okey.oteos.okolshy
+7	@Ri	pchody.qokchy.dshol.d{c'y},o,tgolg?	pchody.qokchy.dshol.dc'y,o,tgolg?
+8	@Ri	keeoty.oteey.daiin.dcheeody.oteey	keeoty.oteey.daiin.dcheeody.oteey
+9	@Ri	dchey.qokeey.dcheey.daiir.otchal	dchey.qokeey.dcheey.daiir.otchal
+10	@Ls	dchol,day	dchol,day
+11	@Ls	doaro	doaro
+12	@La	oalcheol	oalcheol
+13	@Ls	okos	okos
+14	=Ls	otary	otary
+15	@Ls	chky.oky	chky.oky
+16	+Ls	e.cphy	e.cphy
+17	+Ls	okolchy	okolchy
+18	@Ls	o.cthyd	o.cthyd
+19	+Ls	otydg	otydg
+20	=Ls	darall	darall
+21	*Ls	okchody	okchody
+22	@Cc	<!09:30>otcheody.chokchy.okol.cheol.dar.cho.keol.dolaiin.okeol.oly	otcheody.chokchy.okol.cheol.dar.cho.keol.dolaiin.okeol.oly

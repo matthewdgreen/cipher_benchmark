@@ -1,0 +1,25 @@
+# Folio f102r2 from ZL3b-n.txt
+# Header: <! $Q=S $P=M $F=z $B=1 $I=P $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lc	kodaiig	kodaiig
+2	@P0	<%>lsais.azg.cheey.cfhey.por,aiin.chefol,y	lsais.azg.cheey.cfhey.por,aiin.chefol,y
+3	+P0	ycheor.olaiin.olsho.qokol.olaiin.oldam	ycheor.olaiin.olsho.qokol.olaiin.oldam
+4	+P0	daiin.ckheeol.oldor.okol.cheodor.sor.airam	daiin.ckheeol.oldor.okol.cheodor.sor.airam
+5	+P0	tor.sheo.or.chey.qoor.yteor.chol.choky	tor.sheo.or.chey.qoor.yteor.chol.choky
+6	+P0	daiin.okody.qokeody.okeol.dor.chckhy.oteod.s,orsy<$>	daiin.okody.qokeody.okeol.dor.chckhy.oteod.s,orsy
+7	@Lc	ok[?:o]rolda	ok?rolda
+8	@P0	<%>kolor.olaiin.opor.shey.opolkod.odain.sheo.qoeol.shey	kolor.olaiin.opor.shey.opolkod.odain.sheo.qoeol.shey
+9	+P0	dor.oiin.okeody.qokeol.sheoy.qo[o:d]chey.ckheol.sheey.skeekyd	dor.oiin.okeody.qokeol.sheoy.qoochey.ckheol.sheey.skeekyd
+10	+P0	shockhy.qockhey.sol.eeey.dol.cheol.doaiin.qkeeey.cthey	shockhy.qockhey.sol.eeey.dol.cheol.doaiin.qkeeey.cthey
+11	+P0	kockhas.okor.ykeey.okeey.qokeey.dol.ol.sheody.okey.da,l,{cthhh}y	kockhas.okor.ykeey.okeey.qokeey.dol.ol.sheody.okey.da,l,cthhhy
+12	+P0	ytchy.o,l,ockhy.okeey.cheody.saiin.dol.ockhy.okeady<$>	ytchy.o,l,ockhy.okeey.cheody.saiin.dol.ockhy.okeady
+13	@Lc	loeekadag<!top word>	loeekadag
+14	+Lc	oshea??l<!middle word>	oshea??l
+15	+Lc	so???dch<!bottom word>	so???dch
+16	@P0	<%>{c@132;h}ol.d{c@133;h}ody.cthol,soeees.ykeody.qokeey.qotchy.soefchocphy	c@132;hol.dc@133;hody.cthol,soeees.ykeody.qokeey.qotchy.soefchocphy
+17	+P0	ykeockhey.okey.qokeeo.ckhey.qokey.desey.qyoeey.dol.chkey.choky	ykeockhey.okey.qokeeo.ckhey.qokey.desey.qyoeey.dol.chkey.choky
+18	+P0	otol.shey.qockhey.dol.shey.dol.sheey.qokol.daiin.oky.oky	otol.shey.qockhey.dol.shey.dol.sheey.qokol.daiin.oky.oky
+19	+P0	qokeod.okeal.okeo,l.y,cheo.ckhey.q{kh}ody.qokey.ody.keeody.chody	qokeod.okeal.okeo,l.y,cheo.ckhey.qkhody.qokey.ody.keeody.chody
+20	+P0	ykeey.keeol.cheos.ydeeal.cheody.ykeea,d,o,lchey<$>	ykeey.keeol.cheos.ydeeal.cheody.ykeea,d,o,lchey
+21	@Lf	<!212>koldarod	koldarod
+22	@Lf	<!213>odalydary	odalydary

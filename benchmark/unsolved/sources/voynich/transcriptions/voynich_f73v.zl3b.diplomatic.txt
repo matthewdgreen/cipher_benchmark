@@ -1,0 +1,36 @@
+# Folio f73v from ZL3b-n.txt
+# Header: <! $Q=L $P=B $F=a $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lz	<!11:00>okol	okol
+2	&Lz	<!11:45>oteody	oteody
+3	&Lz	<!00:30>oteedy	oteedy
+4	&Lz	<!01:00>eeeody	eeeody
+5	@Cc	<!09:30>otoar.ykeody.okodeey.qopchey.opaiin.qoteedy.dpy.otedy,shedy.qokeody.cheor,al.okegal.oteody.shedy.otesalod.air,chy.ykeesaly.y.keoly,dys.opchey.dy.toly.chfaikchy.ytedar.eeey.qokeey.oty.yteedy.choldy.qokalaiin.ykaipy.orary	otoar.ykeody.okodeey.qopchey.opaiin.qoteedy.dpy.otedy,shedy.qokeody.cheor,al.okegal.oteody.shedy.otesalod.air,chy.ykeesaly.y.keoly,dys.opchey.dy.toly.chfaikchy.ytedar.eeey.qokeey.oty.yteedy.choldy.qokalaiin.ykaipy.orary
+6	@Lz	<!10:00>okeody	okeody
+7	&Lz	<!10:30>sheol	sheol
+8	&Lz	<!11:30>odees	odees
+9	&Lz	<!00:00>ee[r:n]y	eery
+10	&Lz	<!01:00>okeor	okeor
+11	&Lz	<!01:30>ofals	ofals
+12	&Lz	<!02:00>ykeody	ykeody
+13	&Lz	<!03:00>oteody	oteody
+14	&Lz	<!03:30>ypaiin	ypaiin
+15	&Lz	<!04:00>yfaiin,y	yfaiin,y
+16	&Lz	<!05:00>ofcheesy	ofcheesy
+17	&Lz	<!06:00>oraiiny	oraiiny
+18	&Lz	<!07:00>ykeeody	ykeeody
+19	&Lz	<!07:30>okeos	okeos
+20	&Lz	<!08:30>ykeear	ykeear
+21	&Lz	<!09:00>qokeoly	qokeoly
+22	@Cc	<!10:00>oteoto[s:r].alshy.oteolain.chokeedam.otody.qoty.shedy.chdy.tchol.oteody.cheytey.choty.o[k:t]ey,dy.okecholy.otey.chodaiin.chey.okeedy.saly.ar.daly	oteotos.alshy.oteolain.chokeedam.otody.qoty.shedy.chdy.tchol.oteody.cheytey.choty.okey,dy.okecholy.otey.chodaiin.chey.okeedy.saly.ar.daly
+23	@Lz	<!09:30>otedy	otedy
+24	&Lz	<!11:00>eeed	eeed
+25	&Lz	<!01:00>oky	oky
+26	&Lz	<!02:00>oia?	oia?
+27	&Lz	<!02:30>okal	okal
+28	&Lz	<!03:30>ykey	ykey
+29	&Lz	<!05:00>ykeee	ykeee
+30	&Lz	<!06:00>okeod	okeod
+31	&Lz	<!07:30>ykey	ykey
+32	&Lz	<!08:30>ypal	ypal
+33	@Cc	<!09:30>otedchor.alar.olkcho.otolam.o,kees,char,y.ytaly.alaly.otaram	otedchor.alar.olkcho.otolam.o,kees,char,y.ytaly.alaly.otaram

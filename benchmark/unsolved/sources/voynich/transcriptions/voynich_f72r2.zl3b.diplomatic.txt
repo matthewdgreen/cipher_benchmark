@@ -1,0 +1,35 @@
+# Folio f72r2 from ZL3b-n.txt
+# Header: <! $Q=K $P=E $F=z $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lz	<!10:30>ofchdamy	ofchdamy
+2	&Lz	<!11:00>oklairdy	oklairdy
+3	&Lz	<!00:00>okaram	okaram
+4	&Lz	<!00:30>okairy	okairy
+5	&Lz	<!01:00>okealar	okealar
+6	@Cc	<!10:00>oteos.aiin.okeo,daiin.okeey.cheo.keodal.chol.okeol.ol{ckhh}y.oteeykeey.tey.okalaiin.okalchal,chey.al.<!long gap>o.keey.daiin.otar.al.chotaiin.otchey.qoeeeo,s.[ckh:?]al.chekaiin.otaiin.chy.d.r.aiin.al.y.{chh}o.chekaiin.okedal.qokeodal.saiin.otois.otees	oteos.aiin.okeo,daiin.okeey.cheo.keodal.chol.okeol.olckhhy.oteeykeey.tey.okalaiin.okalchal,chey.al.o.keey.daiin.otar.al.chotaiin.otchey.qoeeeo,s.ckhal.chekaiin.otaiin.chy.d.r.aiin.al.y.chho.chekaiin.okedal.qokeodal.saiin.otois.otees
+7	@Lz	<!10:00>otaraldy	otaraldy
+8	&Lz	<!11:00>okalar	okalar
+9	&Lz	<!11:45>okal	okal
+10	&Lz	<!00:15>okaly	okaly
+11	&Lz	<!01:00>okal	okal
+12	&Lz	<!02:00>okeey.ary	okeey.ary
+13	&Lz	<!03:00>oteeary	oteeary
+14	&Lz	<!04:00>otair,dy	otair,dy
+15	&Lz	<!05:00>okaircham	okaircham
+16	&Lz	<!06:00>okeal	okeal
+17	&Lz	<!06:30>otar{cr}	otarcr
+18	&Lz	<!07:30>okaly	okaly
+19	&Lz	<!08:00>orary	orary
+20	&Lz	<!09:00>okyd	okyd
+21	&Lz	<!09:30>otolam	otolam
+22	@Cc	<!10:00>oteey.tey.teodal.chokaly.ol.cheol.ol.aiin.oteo,daiin.shokal.otey.otaiin.otaly,dal.okaly.dalchdy.{ch'}eteeey.okal.shey.qoteeody.sheycthy.chotal,chas.otoees.aiin	oteey.tey.teodal.chokaly.ol.cheol.ol.aiin.oteo,daiin.shokal.otey.otaiin.otaly,dal.okaly.dalchdy.ch'eteeey.okal.shey.qoteeody.sheycthy.chotal,chas.otoees.aiin
+23	@Lz	<!10:30>otal	otal
+24	&Lz	<!11:30>ralal	ralal
+25	&Lz	<!00:30>okam	okam
+26	&Lz	<!02:00>otalshy	otalshy
+27	&Lz	<!03:30>okaldy	okaldy
+28	&Lz	<!05:00>chosar	chosar
+29	&Lz	<!06:30>otam	otam
+30	&Lz	<!08:00>ainaly	ainaly
+31	&Lz	<!09:00>okarcham	okarcham
+32	@Cc	<!09:30>otoar.air,aloy.oka[iin:ii?].otees.chs.chchs,ar.aly.taly.dar.otchey.okaiin.olaiin.@211;y	otoar.air,aloy.okaiin.otees.chs.chchs,ar.aly.taly.dar.otchey.okaiin.olaiin.@211;y

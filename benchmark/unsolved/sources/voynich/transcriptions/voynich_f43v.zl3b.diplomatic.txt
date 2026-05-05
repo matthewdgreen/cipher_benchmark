@@ -1,0 +1,19 @@
+# Folio f43v from ZL3b-n.txt
+# Header: <! $Q=F $P=F $F=c $B=3 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pdsairy.dalteoshy.d[o:a]ly.sheet.or.arodl.lkeo.r.araiin.otedy.opolde	pdsairy.dalteoshy.doly.sheet.or.arodl.lkeo.r.araiin.otedy.opolde
+2	+P0	shedy.octhy.otedy.chedy.dar.ches{kh}y.okeody.oky.okaldy.kchdy.okar	shedy.octhy.otedy.chedy.dar.cheskhy.okeody.oky.okaldy.kchdy.okar
+3	+P0	tody.teedy.qot.chocthy.chky.oky.chdy.okedy.ykaiin.chey.ody.dary	tody.teedy.qot.chocthy.chky.oky.chdy.okedy.ykaiin.chey.ody.dary
+4	+P0	d{ch'h}ey,ykeedy.chees.ain.shy.qocthedy.chey.qokar.checkhy.okam	dch'hey,ykeedy.chees.ain.shy.qocthedy.chey.qokar.checkhy.okam
+5	+P0	qokchedy.oralody.otedol.chcthdy.chtey<$>	qokchedy.oralody.otedol.chcthdy.chtey
+6	+P0	<%>tolkchdy.okedy.qoked[a:o]l.shedy.okedal.shedy.pchdol.otey.dalorain	tolkchdy.okedy.qokedal.shedy.okedal.shedy.pchdol.otey.dalorain
+7	+P0	ytshedy.ykeody.oykeedy.chedy.tedy.chcthy.otam.ot.ytaiin.otas	ytshedy.ykeody.oykeedy.chedy.tedy.chcthy.otam.ot.ytaiin.otas
+8	+P0	shetcheodchs.ochedy.oteody.chedy.chody.daiin.sheody.ykar.chef	shetcheodchs.ochedy.oteody.chedy.chody.daiin.sheody.ykar.chef
+9	+P0	yt[ch:ee]dy.olos.aiin.ockhy<$>	ytchdy.olos.aiin.ockhy
+10	+P0	<%>tarchor.ar.aldar.chdy.daldar.chepy.yteedy.s,ypchey,pchedy.yfor	tarchor.ar.aldar.chdy.daldar.chepy.yteedy.s,ypchey,pchedy.yfor
+11	+P0	ysheey.or,air.yteey.cheody.ar.sheo.qody.chckhy.chdy.choty.she{cthy}	ysheey.or,air.yteey.cheody.ar.sheo.qody.chckhy.chdy.choty.shecthy
+12	+P0	yshee.kedy.dar.chey.qotedy.etaiin.chedy.cthey.oteol.or,aiin.odain	yshee.kedy.dar.chey.qotedy.etaiin.chedy.cthey.oteol.or,aiin.odain
+13	+P0	dshedy.tedy.ckhedy.chekcheey.dy,keody.otedy.cheetam.okedar.amam	dshedy.tedy.ckhedy.chekcheey.dy,keody.otedy.cheetam.okedar.amam
+14	+P0	dykeedain.chedy.okeedy.chedal.olkey.cheky.cho[a:y]l,chedy.oteorom	dykeedain.chedy.okeedy.chedal.olkey.cheky.choal,chedy.oteorom
+15	+P0	oteod.qolkeey.kaldy.chy.darod[y:?].qokeey.kol.dary.taros	oteod.qolkeey.kaldy.chy.darody.qokeey.kol.dary.taros
+16	+P0	ol.eees.aiin.oloaiin.oteos.qoky.chey<$>	ol.eees.aiin.oloaiin.oteos.qoky.chey

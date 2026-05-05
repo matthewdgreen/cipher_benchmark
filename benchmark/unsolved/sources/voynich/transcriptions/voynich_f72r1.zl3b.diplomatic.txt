@@ -1,0 +1,21 @@
+# Folio f72r1 from ZL3b-n.txt
+# Header: <! $Q=K $P=D $F=z $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!11:00>oteeo.cthey.chlol.cheol.olcheor.al.oteey.chedal.oteedy.okeodaly.chol.chokeol.cheo?ky.okaiir.okeedy.sheoltey.cheor.aiin.ydal.okochey.sho.okalshey.shol.chalaiin.chekeol.kol.otos.ar.aiin.otam.otam.chotam.sal.okeo.dar.ar.a[d:j]al.dar.okeeas.aiin.oteey.okaiin	oteeo.cthey.chlol.cheol.olcheor.al.oteey.chedal.oteedy.okeodaly.chol.chokeol.cheo?ky.okaiir.okeedy.sheoltey.cheor.aiin.ydal.okochey.sho.okalshey.shol.chalaiin.chekeol.kol.otos.ar.aiin.otam.otam.chotam.sal.okeo.dar.ar.adal.dar.okeeas.aiin.oteey.okaiin
+2	@Lz	<!09:30>oshod[a:o]dy	oshodady
+3	&Lz	<!10:30>chdaiirdainy	chdaiirdainy
+4	&Lz	<!00:00>oaiin,ar,ary	oaiin,ar,ary
+5	&Lz	<!01:00>okalam	okalam
+6	&Lz	<!02:00>ytalshdy	ytalshdy
+7	&Lz	<!03:00>char.alif	char.alif
+8	&Lz	<!03:30>otaraldy	otaraldy
+9	&Lz	<!05:00>otaiin.otain	otaiin.otain
+10	&Lz	<!07:00>otalef,ys.ainam	otalef,ys.ainam
+11	&Lz	<!08:30>ochol,sharam	ochol,sharam
+12	@Cc	<!09:00>oteodar.ytey.otey.shetey.chokshor.okalal.otaiin.sheolaiin.otaiin.chetey.cheolor.oteo,teeody.otar.chokaiin.okaiin.al.alo.cheedy.otear,ar.cheky.chokal.otar.al,o,qokar	oteodar.ytey.otey.shetey.chokshor.okalal.otaiin.sheolaiin.otaiin.chetey.cheolor.oteo,teeody.otar.chokaiin.okaiin.al.alo.cheedy.otear,ar.cheky.chokal.otar.al,o,qokar
+13	@Lz	<!09:00>ofaralar	ofaralar
+14	&Lz	<!00:00>otchoshy	otchoshy
+15	&Lz	<!02:00>otchdal	otchdal
+16	&Lz	<!04:00>okeey.ary	okeey.ary
+17	&Lz	<!07:00>otainy	otainy
+18	@Cc	<!11:30>okeeols.aroly.okees.alaiin.okeor.chol.o.oteos.aiin.chal.otaiin.[a:o]tchor.chckhy	okeeols.aroly.okees.alaiin.okeor.chol.o.oteos.aiin.chal.otaiin.atchor.chckhy

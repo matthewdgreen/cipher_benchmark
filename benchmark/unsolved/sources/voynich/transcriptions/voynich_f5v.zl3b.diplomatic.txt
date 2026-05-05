@@ -1,0 +1,9 @@
+# Folio f5v from ZL3b-n.txt
+# Header: <! $Q=A $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>k,o,cheor.chor.ytchey.pshod.chols.chodaiin.ytoiiin.daiin	k,o,cheor.chor.ytchey.pshod.chols.chodaiin.ytoiiin.daiin
+2	+P0	dchol.{c'y}.chol.otaiin.dain.cthor.chots.ychopordg	dchol.c'y.chol.otaiin.dain.cthor.chots.ychopordg
+3	+P0	qotcho.ytor.daiin.daiin.otchor.daiin.q'o.darchor.do	qotcho.ytor.daiin.daiin.otchor.daiin.q'o.darchor.do
+4	+P0	qotor.shees.otol.ykoiin.shol,daiin.cthor.okch,y,taiin	qotor.shees.otol.ykoiin.shol,daiin.cthor.okch,y,taiin
+5	+P0	shokeeol.chor.cheotol.otchol.daiin.dal.chol,chotaiin	shokeeol.chor.cheotol.otchol.daiin.dal.chol,chotaiin
+6	+P0	otol.chol.dairodg<$>	otol.chol.dairodg

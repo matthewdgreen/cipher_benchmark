@@ -1,0 +1,12 @@
+# Folio f86v4 from ZL3b-n.txt
+# Header: <! $Q=N $P=N $F=z $B=1 $I=C $L=B $H=2 $C=3>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!09:00>opos.os.sheody.pch???ar.odsheo.qody.cheepchdy.lpchedy.olkar.shdar.dchdor.qopcher,ches.os,eeedar.odaiin.pcheodar.chdair.orarorchy.shar.opchsey.otedy.ch{cphh}y.chedy.sarshed.odar.sheey.scheor.al.cheefar.shetchy.qoteol.otor.shar.qoteshy.do???.ofor.arar.dl	opos.os.sheody.pch???ar.odsheo.qody.cheepchdy.lpchedy.olkar.shdar.dchdor.qopcher,ches.os,eeedar.odaiin.pcheodar.chdair.orarorchy.shar.opchsey.otedy.chcphhy.chedy.sarshed.odar.sheey.scheor.al.cheefar.shetchy.qoteol.otor.shar.qoteshy.do???.ofor.arar.dl
+2	@Cc	<!09:00>oeeey.[o:y].daiin.otedaiin.otedy.oteey.chedaiin.octhedy.chy.shedaiin.chotaiin.oraiin.otodeee[?:o].ar.yteeody.oteedaraiin.shedaiin.chdar.shedy.qotedaiin.chedy.tchdy.chetdy.chedy.qotar.chedy.chckhy.daiin.otedy.seeedy.yteey.sam	oeeey.o.daiin.otedaiin.otedy.oteey.chedaiin.octhedy.chy.shedaiin.chotaiin.oraiin.otodeee?.ar.yteeody.oteedaraiin.shedaiin.chdar.shedy.qotedaiin.chedy.tchdy.chetdy.chedy.qotar.chedy.chckhy.daiin.otedy.seeedy.yteey.sam
+3	@Cc	<!09:00>tchey.dair,alody.shes.qeeor.or.odarchdy.chdy.orcheos.o[s:r],ain.or.otee[d:?].chedees.oteedy.qoty.otedy.shedy.otedy.dar,shd.shy,y.schdy.chdeedy.dodar.oiin.or.oiin.sar,orchedy.qotchdy.dchdes.ar.sheody.opcho.fcheom	tchey.dair,alody.shes.qeeor.or.odarchdy.chdy.orcheos.os,ain.or.oteed.chedees.oteedy.qoty.otedy.shedy.otedy.dar,shd.shy,y.schdy.chdeedy.dodar.oiin.or.oiin.sar,orchedy.qotchdy.dchdes.ar.sheody.opcho.fcheom
+4	@Cc	<!09:00>pchedar.ar.o{cp}or.otees.oes.a[iir:iin].olkeor.dar.ain.desy.doeedey.opchedy.shedaiin.dar.otedy.dain.otey.dam.otedy.daiin.chocthy.dtedair.chody.sheos.otedos.qokechy.pchdeedy.dan.ol.dol.oty.sho.pol.otoldyl	pchedar.ar.ocpor.otees.oes.aiir.olkeor.dar.ain.desy.doeedey.opchedy.shedaiin.dar.otedy.dain.otey.dam.otedy.daiin.chocthy.dtedair.chody.sheos.otedos.qokechy.pchdeedy.dan.ol.dol.oty.sho.pol.otoldyl
+5	@P0	<%>pcheodar.oedy.qokeol.qoeol<->oqokeol.dar.ol.olair,am	pcheodar.oedy.qokeol.qoeoloqokeol.dar.ol.olair,am
+6	+P0	ycheoltar.ol.ol,sheey.qokey.or.aiin.sheeor.sar.al.ol.sheey.qockheey	ycheoltar.ol.ol,sheey.qokey.or.aiin.sheeor.sar.al.ol.sheey.qockheey
+7	+P0	tol,sh,s,or.aiin.ol.keeod.lcheody.okedy.qokeody.qoain.a?	tol,sh,s,or.aiin.ol.keeod.lcheody.okedy.qokeody.qoain.a?
+8	+P0	daiin.ol,keedy.otar.olshedy.okol,aiin.okal,cheockhy.sho{cthh}y.daiin	daiin.ol,keedy.otar.olshedy.okol,aiin.okal,cheockhy.shocthhy.daiin
+9	+Pc	dar.oleey.ol.yy<$>	dar.oleey.ol.yy

@@ -1,0 +1,16 @@
+# Folio f20r from ZL3b-n.txt
+# Header: <! $Q=C $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>kdchody.chopy.cheey.qotchol.qotoeey.dchor.chaiin	kdchody.chopy.cheey.qotchol.qotoeey.dchor.chaiin
+2	+P0	chod,ey.cthey.chotol.odaiir.qotchy.cthody.chodchy	chod,ey.cthey.chotol.odaiir.qotchy.cthody.chodchy
+3	+P0	qoteey.cho,chodaiin.sho.qochy.chey.tcheodal.daral	qoteey.cho,chodaiin.sho.qochy.chey.tcheodal.daral
+4	+P0	ochol.ol.teey.ot[o:a]lchey<$>	ochol.ol.teey.otolchey
+5	+P0	<%>pchocthy.chokoaiin.{cp}y.cheeeb.opchey.shosaiin.@243;	pchocthy.chokoaiin.cpy.cheeeb.opchey.shosaiin.@243;
+6	+P0	choees.okchor.qotol.cheey.daiin.chy.choiin.daiin	choees.okchor.qotol.cheey.daiin.chy.choiin.daiin
+7	+P0	ocho,lshod.daiin.choteol.chol.dol.shol.otaiin	ocho,lshod.daiin.choteol.chol.dol.shol.otaiin
+8	+P0	schodain.cheo.r.cheody<$>	schodain.cheo.r.cheody
+9	+P0	<%>fchodees.shody.qotchey.qokchey.qocphy.chokoldy	fchodees.shody.qotchey.qokchey.qocphy.chokoldy
+10	+P0	ochoaiin.chor.sody.pchodaiin.chetody.choky.dchy.toy	ochoaiin.chor.sody.pchodaiin.chetody.choky.dchy.toy
+11	+P0	dchod.qoteeody.ytchy.qo,tshey.dchaiin.chol,ody	dchod.qoteeody.ytchy.qo,tshey.dchaiin.chol,ody
+12	+P0	shoiin.cheody.otchey.otchy.tchy.qoteey.daiin.dar	shoiin.cheody.otchey.otchy.tchy.qoteey.daiin.dar
+13	+P0	ochaiin.chor.chor,cheey.tchey<$>	ochaiin.chor.chor,cheey.tchey

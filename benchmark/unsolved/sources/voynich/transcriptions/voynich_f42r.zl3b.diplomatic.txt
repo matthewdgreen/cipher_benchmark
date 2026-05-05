@@ -1,0 +1,26 @@
+# Folio f42r from ZL3b-n.txt
+# Header: <! $Q=F $P=C $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>{c@155;h}o.ofaiin.ctha{ih}{c@196;h}y.otcheey.pchear	c@155;ho.ofaiin.cthaihc@196;hy.otcheey.pchear
+2	+P0	solkaiin.char.cheky.otshaiin.daiir[y:a]	solkaiin.char.cheky.otshaiin.daiiry
+3	+P0	toshy.chtshar.chotar.chain.dal	toshy.chtshar.chotar.chain.dal
+4	+P0	shor.chetar.chotai[s:r].dar.cthaiin	shor.chetar.chotais.dar.cthaiin
+5	+P0	qokar.chockhy.chotor.chy.kary	qokar.chockhy.chotor.chy.kary
+6	+Pc	dorain.[{ih}:ch]ar<$>	dorain.ihar
+7	+P0	<%>pcho.chy.kshaiin.shotaiin.cham.shan	pcho.chy.kshaiin.shotaiin.cham.shan
+8	+P0	yshol.chees.cthol.shor.shol.ety.char,y	yshol.chees.cthol.shor.shol.ety.char,y
+9	+P0	qotch[a:o]r.otchol.ctho.kchodan.chkchory	qotchar.otchol.ctho.kchodan.chkchory
+10	+P0	choty.dol.ksheo.cthor.otol.cthol.chol<->shol,dain	choty.dol.ksheo.cthor.otol.cthol.cholshol,dain
+11	+P0	qotor.cho.chody.daiin.shol.ctheey.dar<->chy.daiidy	qotor.cho.chody.daiin.shol.ctheey.darchy.daiidy
+12	+P0	dcheey.chol.shol.chokaiin.choeky.d{cky}<->dain.dal	dcheey.chol.shol.chokaiin.choeky.dckydain.dal
+13	+P0	qopor.shol.shot.shol.shol.daiin.dain.s<->cheam	qopor.shol.shot.shol.shol.daiin.dain.scheam
+14	+P0	sho,kshey.choty.chdain.chodaiin.daiin<->dam	sho,kshey.choty.chdain.chodaiin.daiindam
+15	+Pr	pchody.otshey.dodaiin<$>	pchody.otshey.dodaiin
+16	+P0	<%>pydaiin.sheor.shaiin.tsh.olchy.sholy	pydaiin.sheor.shaiin.tsh.olchy.sholy
+17	+P0	shotol,shol.chety.daiin.chokchy.chkaiin	shotol,shol.chety.daiin.chokchy.chkaiin
+18	+P0	qody.cthochy.otaiin.shy.kshes.chorain	qody.cthochy.otaiin.shy.kshes.chorain
+19	+P0	otchoty.daiin.chot,sho.{ck@191;h}y<!corr?>,{cty},s.os	otchoty.daiin.chot,sho.ck@191;hy,cty,s.os
+20	+P0	shol.chol.shoky.okol.sho.chol.shol.chal	shol.chol.shoky.okol.sho.chol.shol.chal
+21	+P0	shol.chol.chol.shol.{ct}oiin.{c'o}s.odan	shol.chol.chol.shol.ctoiin.c'os.odan
+22	+P0	kchaiin.chos.ckhaiin.choro,r.chaiin	kchaiin.chos.ckhaiin.choro,r.chaiin
+23	+Pr	okchol,shol.kolschees<$>	okchol,shol.kolschees

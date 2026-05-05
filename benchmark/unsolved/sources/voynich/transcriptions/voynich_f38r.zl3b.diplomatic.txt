@@ -1,0 +1,9 @@
+# Folio f38r from ZL3b-n.txt
+# Header: <! $Q=E $P=K $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tolor.chockhy<->oky.choiin.okshol.oly.oky	tolor.chockhyoky.choiin.okshol.oly.oky
+2	+P0	okshey.chodys<->ytoiin.otaiin.otaiin.cthar	okshey.chodysytoiin.otaiin.otaiin.cthar
+3	+P0	qokor.okaiin<->otaiin.qo,kchol.chokokor	qokor.okaiinotaiin.qo,kchol.chokokor
+4	+P0	ychok.chey.chckh<->chy.chk[o:y].r.odaiin.d,aiin.sy	ychok.chey.chckhchy.chko.r.odaiin.d,aiin.sy
+5	+P0	o,kor.chey.kain<->chor.ctho.dain.ckholdy	o,kor.chey.kainchor.ctho.dain.ckholdy
+6	+P0	ysho.sho.kos<->daiin.okoy.chochor.daiin<$>	ysho.sho.kosdaiin.okoy.chochor.daiin

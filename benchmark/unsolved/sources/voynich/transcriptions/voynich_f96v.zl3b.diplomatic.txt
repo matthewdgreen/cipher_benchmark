@@ -1,0 +1,16 @@
+# Folio f96v from ZL3b-n.txt
+# Header: <! $Q=Q $P=L $F=z $B=1 $I=H $L=A $H=1 $C=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>psheessheeor.qoepsheody.odar.ocpheeo<->opar.ysar.osoj	psheessheeor.qoepsheody.odar.ocpheeoopar.ysar.osoj
+2	+P0	ytear.yteor.olcheey.dteodoiin<->saro<->qoches,y,cheom	ytear.yteor.olcheey.dteodoiinsaroqoches,y,cheom
+3	+P0	dcheoteos.cpheos.sor.chcthory<->cth<->ytchey.daiin	dcheoteos.cpheos.sor.chcthorycthytchey.daiin
+4	+P0	dsheos.sheey.teocthey.{ct}eeodody	dsheos.sheey.teocthey.cteeodody
+5	+P0	tockhy.cthey.ckheeody.ar.eeeykey	tockhy.cthey.ckheeody.ar.eeeykey
+6	+P0	yteeody.teodar.alchey.sy	yteeody.teodar.alchey.sy
+7	+P0	sheodal.chorary{cto}l	sheodal.choraryctol
+8	+P0	ycheey.ckheal.daiins	ycheey.ckheal.daiins
+9	+P0	oeol.ckheor.cheoraiin	oeol.ckheor.cheoraiin
+10	+P0	ctheor.oral.char.ckhey	ctheor.oral.char.ckhey
+11	+P0	sar.os.checkhey.so{cthh}	sar.os.checkhey.socthh
+12	+P0	sosar.cheekeo.dain	sosar.cheekeo.dain
+13	+P0	soysar.cheor<$>	soysar.cheor

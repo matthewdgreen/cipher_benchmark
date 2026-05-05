@@ -1,0 +1,12 @@
+# Folio f28v from ZL3b-n.txt
+# Header: <! $Q=D $P=H $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>kshol.qooiiin.shor.pshoiiin.shepchy.qoty.dy.shory	kshol.qooiiin.shor.pshoiiin.shepchy.qoty.dy.shory
+2	+P0	ykcholy.qoty.chy,dy.qokchol.chor.tchy.qokchody.cheor.o	ykcholy.qoty.chy,dy.qokchol.chor.tchy.qokchody.cheor.o
+3	+P0	chor.chol.chy.choiin<$>	chor.chol.chy.choiin
+4	+P0	<%>tshoiin.cheor.chor.o.chty.qotol.sheol.shor.daiin.qoty	tshoiin.cheor.chor.o.chty.qotol.sheol.shor.daiin.qoty
+5	+P0	otol.chol.daiin.chkaiin.shoiin.qotchey.qotshey.daiiin	otol.chol.daiin.chkaiin.shoiin.qotchey.qotshey.daiiin
+6	+Pr	daiin.chkaiin<$>	daiin.chkaiin
+7	*P0	<%>pchol.oiir.chol.tsho.daiin.sho<->t{co}<->chy.chtshy.dair,am	pchol.oiir.chol.tsho.daiin.shotcochy.chtshy.dair,am
+8	+P0	okain.chan.chain.cthor.dain<->yk<->chy<->daiin.cthol	okain.chan.chain.cthor.dainykchydaiin.cthol
+9	+P0	sor.chear.chl.[{c'}:s].choly.dar<$>	sor.chear.chl.c'.choly.dar

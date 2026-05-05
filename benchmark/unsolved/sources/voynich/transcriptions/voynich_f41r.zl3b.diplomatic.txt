@@ -1,0 +1,14 @@
+# Folio f41r from ZL3b-n.txt
+# Header: <! $Q=F $P=A $F=a $B=1 $I=H $L=B $H=5 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pshey,kedal[ee:ch]y.oked.seekeeey<->opshes.[o:y]p[ch:ee]d.qotchedy.shkakeedy	pshey,kedaleey.oked.seekeeeyopshes.opchd.qotchedy.shkakeedy
+2	+P0	ykeeo.alshey,ykedy.kesh,dy.dy<->dor.[y:q]cheoky.qokee[d:?].chpy.qokedy.dy	ykeeo.alshey,ykedy.kesh,dy.dydor.ycheoky.qokeed.chpy.qokedy.dy
+3	+P0	qok.sa[y:?]<!unclear>.[q:y][o:e]kedy.ychdykchdy<->qokedy.qokedy.shekchy.cheky.daly	qok.say.qokedy.ychdykchdyqokedy.qokedy.shekchy.cheky.daly
+4	+P0	chdchy.ytcheeky.ypchedy.schdy<->ytedy.{cthh}y.chees.oteey.otal.da[m:g]	chdchy.ytcheeky.ypchedy.schdyytedy.cthhy.chees.oteey.otal.dam
+5	+P0	qotchy.sal.yteedy.kchdy<->dchedy.k[ee:ch]dy.dchedy.dalain<$>	qotchy.sal.yteedy.kchdydchedy.keedy.dchedy.dalain
+6	+P0	<%>shedey.polchedy.qokeey.chekedy.ytey<->chkeeod<->ypchedpy.shepy.shedy	shedey.polchedy.qokeey.chekedy.yteychkeeodypchedpy.shepy.shedy
+7	+P0	parchdy.kchey.yteedy.qokeod[o:y]<->okedy.chkedy.qokedy.ched[y:e].qokedy	parchdy.kchey.yteedy.qokeodookedy.chkedy.qokedy.chedy.qokedy
+8	+P0	dair.chedy.chckhy.qokey.lchdy<->qokedy.qokal.chekedy.qodar,a[g:j]	dair.chedy.chckhy.qokey.lchdyqokedy.qokal.chekedy.qodar,ag
+9	+P0	qokeedy.okedy.chekedy.chedy<->chckheody.chekol.daiin.cheo.al.otedy	qokeedy.okedy.chekedy.chedychckheody.chekol.daiin.cheo.al.otedy
+10	+P0	sshok.shedy.qekchdy.dchdaldy<->ykedy.qokeedy.qokedy.qokeg	sshok.shedy.qekchdy.dchdaldyykedy.qokeedy.qokedy.qokeg
+11	+P0	ykeod.ykeedy.chekeedy.cheked<$>	ykeod.ykeedy.chekeedy.cheked

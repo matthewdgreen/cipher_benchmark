@@ -1,0 +1,14 @@
+# Folio f95r1 from ZL3b-n.txt
+# Header: <! $Q=Q $P=F $F=y $B=2 $I=H $L=B $H=3 $C=5>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>kshdor.chepchdy.ofaiin.ol.oldaiin.opshol.qokaiin.oty.odain	kshdor.chepchdy.ofaiin.ol.oldaiin.opshol.qokaiin.oty.odain
+2	+P0	ol.chdy.chdy.qokaiin.shdy.qokaiin.chdy,kol,chdy.qoty.oky,dan	ol.chdy.chdy.qokaiin.shdy.qokaiin.chdy,kol,chdy.qoty.oky,dan
+3	+P0	teodaiin.oekeey.qokees.ody.chekaiin.chekaiin.chky.chaiin	teodaiin.oekeey.qokees.ody.chekaiin.chekaiin.chky.chaiin
+4	+P0	ycheey,ky.olkain.chey,kain.cholky.chedy.qokaiin.chy.kaiin.ly	ycheey,ky.olkain.chey,kain.cholky.chedy.qokaiin.chy.kaiin.ly
+5	+P0	atar.chedy.todaiin.qoky.shdaly<$>	atar.chedy.todaiin.qoky.shdaly
+6	+P0	<%>tchdor.or.chekchdy.qokar.chcthy.qotchdy,lshedy.qoky.qofain.dy	tchdor.or.chekchdy.qokar.chcthy.qotchdy,lshedy.qoky.qofain.dy
+7	+P0	ykchedy.sheky.chekar.chdain.chdaiin.okar.chetchdy.chdy.chkam	ykchedy.sheky.chekar.chdain.chdaiin.okar.chetchdy.chdy.chkam
+8	+P0	olkor.chdaiin.cholkaiin.qokeedy.qoky.chey.lchedy.chedy.alod	olkor.chdaiin.cholkaiin.qokeedy.qoky.chey.lchedy.chedy.alod
+9	+P0	tchdy.tchor.chol.tar.chdy.okol.ykoldy.olkeedy.qotaiin.or	tchdy.tchor.chol.tar.chdy.okol.ykoldy.olkeedy.qotaiin.or
+10	+P0	daiin.chckhy.okaiin.chckhy.daiin.ykedy.ep[?:a]iin.okaraiin.ls	daiin.chckhy.okaiin.chckhy.daiin.ykedy.ep?iin.okaraiin.ls
+11	+P0	ykaiin.or.chdy.chekain.ol,dar.ykar.olkeey.ldar.chekal<$>	ykaiin.or.chdy.chekain.ol,dar.ykar.olkeey.ldar.chekal

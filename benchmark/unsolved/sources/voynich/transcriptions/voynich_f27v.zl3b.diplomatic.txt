@@ -1,0 +1,11 @@
+# Folio f27v from ZL3b-n.txt
+# Header: <! $Q=D $P=F $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pochof.chof.cho.sho.soly.shol.ytchar.opchory.kchor,chor	pochof.chof.cho.sho.soly.shol.ytchar.opchory.kchor,chor
+2	+P0	dchy.chkar.otchy.shy.shy.dchy.dshy.kchy.cheo.daidy.dchy	dchy.chkar.otchy.shy.shy.dchy.dshy.kchy.cheo.daidy.dchy
+3	+P0	kchey.kchy.dchokchy.dsho.d{ca}r.chodchy.etcheody.shld	kchey.kchy.dchokchy.dsho.dcar.chodchy.etcheody.shld
+4	+P0	okcho.chy.kch[ee:o]d.chl.chol.kod<->o.oksho.do,cheesg	okcho.chy.kcheed.chl.chol.kodo.oksho.do,cheesg
+5	+P0	qoky.sh,keeo.[s:r]cho,dar.shkol<->chotchy.ctho,dol	qoky.sh,keeo.scho,dar.shkolchotchy.ctho,dol
+6	+P0	dsho.kchrrr.okeedy<->dch[s:r]chy<->sotchdy	dsho.kchrrr.okeedydchschysotchdy
+7	+P0	sho.shoykcho.shdy<->dchd<->chschsy<->otchdy	sho.shoykcho.shdydchdchschsyotchdy
+8	+P0	okshes.okchokshy<$>	okshes.okchokshy

@@ -1,0 +1,27 @@
+# Folio f102v1 from ZL3b-n.txt
+# Header: <! $Q=S $P=P $F=z $B=1 $I=P $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lc	<!234a>keoraiiin	keoraiiin
+2	@Lf	<!234b>okeody	okeody
+3	@Lf	<!235>okeody	okeody
+4	@Lf	<!236>daiisaly	daiisaly
+5	@Lf	<!237>ypary	ypary
+6	@Lf	<!238>opchyt{cy}	opchytcy
+7	@P0	<%>poaiin.ockhey.pchol.doiin.shey.shockhsy.sheocthy.qokeody	poaiin.ockhey.pchol.doiin.shey.shockhsy.sheocthy.qokeody
+8	+P0	dairn.ol.chey.[cth:ckh]eol.qokeor.os,aiin.cheor.qokey.choky	dairn.ol.chey.ctheol.qokeor.os,aiin.cheor.qokey.choky
+9	+P0	teody.ckheey.qokeol.sheky.qockheor.or.cheo,rchol.qoteor.dar	teody.ckheey.qokeol.sheky.qockheor.or.cheo,rchol.qoteor.dar
+10	+P0	kochor.ol.ydaiin.choraiin.sheey.ykeey.kor,shey.qokey.dy	kochor.ol.ydaiin.choraiin.sheey.ykeey.kor,shey.qokey.dy
+11	+P0	sol,chol.qooiin.qokol.cheol.chey.kolcheey.daiin.cheody.dy	sol,chol.qooiin.qokol.cheol.chey.kolcheey.daiin.cheody.dy
+12	+P0	y,cheol.cheol.doiir.shekcheor.s,ar.cheor.{@246;kh}ey.pchodaiin	y,cheol.cheol.doiir.shekcheor.s,ar.cheor.@246;khey.pchodaiin
+13	+P0	toiin.ol.daiin.qkol.cheol.daiin.qokar.oaiin.cheey.[s:r]aiim	toiin.ol.daiin.qkol.cheol.daiin.qokar.oaiin.cheey.saiim
+14	+P0	chor.cheor.ckhey.oteol.a{ikh}eky<$>	chor.cheor.ckhey.oteol.aikheky
+15	@Lc	<!239a>d?indy	d?indy
+16	@Lf	<!239b>ypcholdy	ypcholdy
+17	@Lf	<!240>loralody	loralody
+18	@Lf	<!241>opchdard	opchdard
+19	@P0	<%>fo[i:e]daiin.dair.or.sheol.okeeol.qoteol<->oro{ikh}ey.olkey	foidaiin.dair.or.sheol.okeeol.qoteoloroikhey.olkey
+20	+P0	soiin.shey.qokeey.qoeeol.qokeody.sheody.qoeteey.okeey.dam	soiin.shey.qokeey.qoeeol.qokeody.sheody.qoeteey.okeey.dam
+21	+P0	qoeeody.ychey.okeody.deody.okody.cheodaiin.cheody.[r:s]am	qoeeody.ychey.okeody.deody.okody.cheodaiin.cheody.ram
+22	+P0	yk[ee:ch]ody.chodaiin.qokeos.cheol.qool.chsey.oteody.okchy	ykeeody.chodaiin.qokeos.cheol.qool.chsey.oteody.okchy
+23	+P0	ksheody.sho.qokey.sheody.qockhey.olcheor.odain.okchody	ksheody.sho.qokey.sheody.qockhey.olcheor.odain.okchody
+24	+P0	ysaiin.ckhey.qoor.cheol<$>	ysaiin.ckhey.qoor.cheol

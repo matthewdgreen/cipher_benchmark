@@ -1,0 +1,21 @@
+# Folio f71v from ZL3b-n.txt
+# Header: <! $Q=K $P=B $F=a $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!10:30>osheo.parar.oteeodaiin.she.ateey.daiin.oteokeey.dal.al.oteey.teey,dy.otchy.keey.sheeo.ochey.?chey.otcheodal.sheealody.cheol.otar.okam.oteodar.chpchy.{cp}ar.al.aiin.oteoshar.okeodaly.oteey.teeey.oteey.keor.or.arol.cheols.okaikaly	osheo.parar.oteeodaiin.she.ateey.daiin.oteokeey.dal.al.oteey.teey,dy.otchy.keey.sheeo.ochey.?chey.otcheodal.sheealody.cheol.otar.okam.oteodar.chpchy.cpar.al.aiin.oteoshar.okeodaly.oteey.teeey.oteey.keor.or.arol.cheols.okaikaly
+2	@Lz	<!10:00>char.arom	char.arom
+3	&Lz	<!11:00>chfaly	chfaly
+4	&Lz	<!00:00>okolar	okolar
+5	&Lz	<!01:00>otchody	otchody
+6	&Lz	<!02:00>alcphy	alcphy
+7	&Lz	<!03:00>otaiin	otaiin
+8	&Lz	<!04:30>okaraiin	okaraiin
+9	&Lz	<!05:30>otar.ar,aly	otar.ar,aly
+10	&Lz	<!07:00>opalar.am.dan	opalar.am.dan
+11	&Lz	<!09:00>opalor.ar	opalor.ar
+12	@Cc	<!11:00>chal.oteeos.al.sheky.okalar,ar,okeo,dar.oty.oto,kaiin.chey.tal.otchr.chtos.cheor.shepchol.otor.sheo.shopcho.ar.aly.okeo.cheey.otal.al.shldy.otaly.okol.sheeor	chal.oteeos.al.sheky.okalar,ar,okeo,dar.oty.oto,kaiin.chey.tal.otchr.chtos.cheor.shepchol.otor.sheo.shopcho.ar.aly.okeo.cheey.otal.al.shldy.otaly.okol.sheeor
+13	@Lz	<!10:00>ofa{if}om	ofaifom
+14	&Lz	<!00:00>otalody	otalody
+15	&Lz	<!03:00>otalaiin	otalaiin
+16	&Lz	<!05:30>otar.sh[a:o]r	otar.shar
+17	&Lz	<!08:30>sholshdy	sholshdy
+18	@Cc	<!11:30>okeey.okeosar.otaiin.chkeeal.okal.cheekaiin.okaiin.okchor.dar.oteey.kal	okeey.okeosar.otaiin.chkeeal.okal.cheekaiin.okaiin.okchor.dar.oteey.kal

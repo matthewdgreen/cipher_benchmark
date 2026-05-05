@@ -1,0 +1,35 @@
+# Folio f93r from ZL3b-n.txt
+# Header: <! $Q=Q $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>kodshol.otolsheeos.octhodaly.opalepam.oepchksheey.qotodain.s.oar	kodshol.otolsheeos.octhodaly.opalepam.oepchksheey.qotodain.s.oar
+2	+P0	ycham.s.chol.chotom.cthodar.sheo.s.oteodal.s<->ofchoshy.cthoshol	ycham.s.chol.chotom.cthodar.sheo.s.oteodal.sofchoshy.cthoshol
+3	+P0	dsho.dal.dalody.ytchchy.dam.chody.dal,ol<->schodchy.qotchd	dsho.dal.dalody.ytchchy.dam.chody.dal,olschodchy.qotchd
+4	+P0	sol.shotol.qokchodal.shody.chotol,s<->otol.ytchdg	sol.shotol.qokchodal.shody.chotol,sotol.ytchdg
+5	+P0	ol.chody.cfhol.dol.qokol.otodar<->chodain	ol.chody.cfhol.dol.qokol.otodarchodain
+6	+P0	tar,otor.s.cho.s.chol.sheoees	tar,otor.s.cho.s.chol.sheoees
+7	+P0	shor.shol.ody.cheodaiin.s	shor.shol.ody.cheodaiin.s
+8	+P0	lor,sheeody.chodaiin.s.odar	lor,sheeody.chodaiin.s.odar
+9	+P0	shodam.okcheody.cthoctho'l	shodam.okcheody.cthoctho'l
+10	+P0	ychos.chey.keol.cheol.ckhody	ychos.chey.keol.cheol.ckhody
+11	+P0	okeol.oteol.s,odam.sheo,al.sal	okeol.oteol.s,odam.sheo,al.sal
+12	+P0	qokor.shey.okcheor.sheodom	qokor.shey.okcheor.sheodom
+13	+P0	shodaiin.qotchy.kchol,r	shodaiin.qotchy.kchol,r
+14	+P0	ychey.ckhos.okcheod.chr	ychey.ckhos.okcheod.chr
+15	+P0	ochol.shodal.dol.cheodam	ochol.shodal.dol.cheodam
+16	+P0	choshy.qokor.chckhs	choshy.qokor.chckhs
+17	+P0	tcheo.l.cholchecthody	tcheo.l.cholchecthody
+18	+P0	olkees.shodaiin.shody	olkees.shodaiin.shody
+19	+P0	tchor.shol.r.sheoky	tchor.shol.r.sheoky
+20	+P0	ychockhy.cthol.osos	ychockhy.cthol.osos
+21	+P0	dol.shol.daiin.shcthy	dol.shol.daiin.shcthy
+22	+P0	kchor.cthy.chakal.daiin	kchor.cthy.chakal.daiin
+23	+P0	oain.okor.shody.teols	oain.okor.shody.teols
+24	+P0	ychocthy.chotey.teey,s	ychocthy.chotey.teey,s
+25	+P0	ysaiin.chotar.shody	ysaiin.chotar.shody
+26	+P0	ocheodaiin.tchos.sor	ocheodaiin.tchos.sor
+27	+P0	qokor.cheo.los.ckheody	qokor.cheo.los.ckheody
+28	+P0	ychor.odol.chodaiin.s	ychor.odol.chodaiin.s
+29	+P0	dain.{ck}cho.ctho.ctho[s:e]g	dain.ckcho.ctho.cthosg
+30	+P0	shodaiin.qokcho.cthol	shodaiin.qokcho.cthol
+31	+P0	ol.chol.cthol.olchod	ol.chol.cthol.olchod
+32	+P0	dol.chokal.schos<$>	dol.chokal.schos

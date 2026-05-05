@@ -1,0 +1,11 @@
+# Folio f90v2 from ZL3b-n.txt
+# Header: <! $Q=O $P=O $F=z $B=1 $I=H $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>{c@181;h}da{i@133;h}y.qocfhey.opolraiin.ofchedal.s?<->shese.shodaiin.shea[s:r]	c@181;hdai@133;hy.qocfhey.opolraiin.ofchedal.s?shese.shodaiin.sheas
+2	+P0	podchey.ctheod.{ikh}eeos.cheey.ykeey.s.o[is:?]<->qokchas.s,oin.sam	podchey.ctheod.ikheeos.cheey.ykeey.s.oisqokchas.s,oin.sam
+3	+P0	saiin.sheom.sheey.keeos.ol.cheeor.chy<->shy.tchody.okeeo[m:g]	saiin.sheom.sheey.keeos.ol.cheeor.chyshy.tchody.okeeom
+4	+P0	tchos.oteey.saiin.okeeey<$>	tchos.oteey.saiin.okeeey
+5	+P0	<%>tcheody.cpheal.qoar.cheol.chos,olols<->dshcheal.sheol.qodar	tcheody.cpheal.qoar.cheol.chos,ololsdshcheal.sheol.qodar
+6	+P0	sal.sheol.shey.qokeey.qokeol.cheody.s<->ykeeol,dar,chody.y	sal.sheol.shey.qokeey.qokeol.cheody.sykeeol,dar,chody.y
+7	+P0	shey.s.shee[y:a]l.sheol.sheody.tol.sheo{cty}<->oteey.chodar.chog	shey.s.sheeyl.sheol.sheody.tol.sheoctyoteey.chodar.chog
+8	+P0	teeas.qkeody.qokchy.oteeol.daiin<$>	teeas.qkeody.qokchy.oteeol.daiin

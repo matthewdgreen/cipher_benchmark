@@ -1,0 +1,26 @@
+# Folio f17v from ZL3b-n.txt
+# Header: <! $Q=C $P=B $F=a $B=1 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pchodol.chor.pchy.opydaiin.odal,dy	pchodol.chor.pchy.opydaiin.odal,dy
+2	+P0	ycheey.keeor.cthodal.okol.odaiin.okal	ycheey.keeor.cthodal.okol.odaiin.okal
+3	+P0	oldaig.odaiin.okal.oldaiin.chockhol.olol	oldaig.odaiin.okal.oldaiin.chockhol.olol
+4	+P0	kchor.fchol.cphol.olcheol.ok[eee:eeee]y	kchor.fchol.cphol.olcheol.okeeey
+5	+P0	ychol.chol.dolcheey.tchol.dar.ckhy	ychol.chol.dolcheey.tchol.dar.ckhy
+6	+P0	oekor.or.okaiin.or.otaiin,d	oekor.or.okaiin.or.otaiin,d
+7	+P0	sor.chkeey.poiis.cheor.os.s.aiin	sor.chkeey.poiis.cheor.os.s.aiin
+8	+P0	qokeey.kchar.ol.dy.choldaiin.sy	qokeey.kchar.ol.dy.choldaiin.sy
+9	+P0	ycheol.shol.kchol.choltaiin.ol	ycheol.shol.kchol.choltaiin.ol
+10	+P0	oytor.okeor.okar.okol.daiir,a[r:m]	oytor.okeor.okar.okol.daiir,ar
+11	+P0	qokcheo.qokoiir.ctheol.chol	qokcheo.qokoiir.ctheol.chol
+12	+P0	oy.choy.keaiin.chckhey.ol.chor	oy.choy.keaiin.chckhey.ol.chor
+13	+P0	ykeor.chol.chol.cthol.chkor.sheol	ykeor.chol.chol.cthol.chkor.sheol
+14	+P0	olo.r.okeeol.chodaiin.okeol.tchory	olo.r.okeeol.chodaiin.okeol.tchory
+15	+P0	ychor.cthy.che'eky.cheo.otor.oteol	ychor.cthy.che'eky.cheo.otor.oteol
+16	+P0	okcheol.chol.okeol.cthol.otcheolom	okcheol.chol.okeol.cthol.otcheolom
+17	+P0	qoain.[s:e']ar.she.dol.qopchaiin.cthor	qoain.sar.she.dol.qopchaiin.cthor
+18	+P0	otor.cheeor.ol.chol.dor.chr.or,eees	otor.cheeor.ol.chol.dor.chr.or,eees
+19	+P0	dain.chey.qoaiin.cthor.cholchom	dain.chey.qoaiin.cthor.cholchom
+20	+P0	ykeey.okeey.cheor.chol.sho.odaiin	ykeey.okeey.cheor.chol.sho.odaiin
+21	+P0	oal.sheor.sholor.or.shecthy.cpheor.daiin	oal.sheor.sholor.or.shecthy.cpheor.daiin
+22	+P0	qokeee.dar.chey.keeor.cheeol.ctheey.cthy	qokeee.dar.chey.keeor.cheeol.ctheey.cthy
+23	+P0	chkeey.okeor.sh[a:o]r.okeom<$>	chkeey.okeor.shar.okeom

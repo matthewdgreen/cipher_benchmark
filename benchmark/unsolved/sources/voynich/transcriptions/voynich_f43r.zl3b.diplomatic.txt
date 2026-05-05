@@ -1,0 +1,17 @@
+# Folio f43r from ZL3b-n.txt
+# Header: <! $Q=F $P=E $F=c $B=3 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tarodaiin.ytedy.eeody.ofchtar.chcphedy.ypar.shol.folor.aiin.cphey.dar	tarodaiin.ytedy.eeody.ofchtar.chcphedy.ypar.shol.folor.aiin.cphey.dar
+2	+P0	yteody.oteol.ytedy.ar.chety.dar.aiir.okaldy.daral.otchdy.daiin.dals	yteody.oteol.ytedy.ar.chety.dar.aiir.okaldy.daral.otchdy.daiin.dals
+3	+P0	yty.yty.oty.she.ody.shy.olor.yteedy.kaiin.chky.qotydy.dar.aiin.ykam	yty.yty.oty.she.ody.shy.olor.yteedy.kaiin.chky.qotydy.dar.aiin.ykam
+4	+P0	das,ar.ytey,tedy,kar.arar.she.kalchdy.cholky.qotaly.chedy.oty.otam	das,ar.ytey,tedy,kar.arar.she.kalchdy.cholky.qotaly.chedy.oty.otam
+5	+P0	ykar.ch[e:i]dy.shekody.qotody.qotar.okedy.dar.choetchy.dam.otain.y,tam	ykar.chedy.shekody.qotody.qotar.okedy.dar.choetchy.dam.otain.y,tam
+6	+P0	kchedy.chedy.daly.cheody.cheolkeepchy<$>	kchedy.chedy.daly.cheody.cheolkeepchy
+7	+P0	<%>pshesy.otey,kshdy.opchdy.kedar.okedy.chdy.sho{cphh}y.dyty,dy.pchdy.kedy.dam	pshesy.otey,kshdy.opchdy.kedar.okedy.chdy.shocphhy.dyty,dy.pchdy.kedy.dam
+8	+P0	ytchedy.chedy.cheody.shy.qoiiin.sheeeky.chedy.dain.shy.ykolor.[o:a]taiin.old	ytchedy.chedy.cheody.shy.qoiiin.sheeeky.chedy.dain.shy.ykolor.otaiin.old
+9	+P0	dshedy.qotedy.dor.cheey.odain<$>	dshedy.qotedy.dor.cheey.odain
+10	+P0	<%>pshdar.shed.ody.qotedy.yfchdy.qo{ckhh}dy.opchdy.daiin.qokedy.dydydy.qotar	pshdar.shed.ody.qotedy.yfchdy.qockhhdy.opchdy.daiin.qokedy.dydydy.qotar
+11	+P0	ytchedy.ty.shol.t[o:a]ldy.shody.oteedy.shdy.otolol.shd.olky.ytol.otary.cheky,dy	ytchedy.ty.shol.toldy.shody.oteedy.shdy.otolol.shd.olky.ytol.otary.cheky,dy
+12	+P0	dor.shol.qokol,shedy.qotedy.qokeedy.qokody.okeedy.otedy.shedy.oty.yty,dy.saiin	dor.shol.qokol,shedy.qotedy.qokeedy.qokody.okeedy.otedy.shedy.oty.yty,dy.saiin
+13	+P0	tshed.qosheckhey.odeeedy.qeokeey.qotedy.daiin.shodody.shochol.chckhy.y,kedydy	tshed.qosheckhey.odeeedy.qeokeey.qotedy.daiin.shodody.shochol.chckhy.y,kedydy
+14	+P0	ykeody.checkhy.choteey.odain.ch{ckhhh}y.chokoraiin<$>	ykeody.checkhy.choteey.odain.chckhhhy.chokoraiin

@@ -1,0 +1,13 @@
+# Folio f68v1 from ZL3b-n.txt
+# Header: <! $Q=I $P=N $F=z $B=1 $I=A $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!10:30>shes.ol.keey.shes.chteey.sheely.shes.yee[g:j].shokeolls.ees.aiir.ol.cho.aiin.ykeeykeey.ches.chotey.y,keey.shes.aiin.okeyteey.cthody.ches[o:y]kcho,teody.chockhy.otol.okeody.cheos.chkorchy.dy.dy.shety.oteey.dair.chotedy.chey.dal.daiin.dokeey	shes.ol.keey.shes.chteey.sheely.shes.yeeg.shokeolls.ees.aiir.ol.cho.aiin.ykeeykeey.ches.chotey.y,keey.shes.aiin.okeyteey.cthody.chesokcho,teody.chockhy.otol.okeody.cheos.chkorchy.dy.dy.shety.oteey.dair.chotedy.chey.dal.daiin.dokeey
+2	@Cc	<!10:00 cf ThP>chear.s.oteey.dain.dycheckhy.oteeos.oteol.okeo[r:s].okeeody.sho.ykeod.oteeol.okeeos.or.chos.or.o{cko}.aiin.chol.ykeey.sheo.s.cheoekeey.cheodaiir.cheekchey.chkeody.okchy.teeos.[sh:e'e].cheo,eky.okey.d?leed.s.aly.oteotey.otechs.opain	chear.s.oteey.dain.dycheckhy.oteeos.oteol.okeor.okeeody.sho.ykeod.oteeol.okeeos.or.chos.or.ocko.aiin.chol.ykeey.sheo.s.cheoekeey.cheodaiir.cheekchey.chkeody.okchy.teeos.sh.cheo,eky.okey.d?leed.s.aly.oteotey.otechs.opain
+3	@Ro	dair.apeeety.dy	dair.apeeety.dy
+4	@Ro	sair.aroy[s:r]er	sair.aroyser
+5	@Ro	oteeor.ara[n:?]y	oteeor.arany
+6	@Ro	okechdaral	okechdaral
+7	@Ro	otol.ches.otaly	otol.ches.otaly
+8	@Ro	okeey.chek<!k on top of e>.chekeys	okeey.chek.chekeys
+9	@Ro	dar.shes.shokey	dar.shes.shokey
+10	@Ro	oteodain.sam	oteodain.sam

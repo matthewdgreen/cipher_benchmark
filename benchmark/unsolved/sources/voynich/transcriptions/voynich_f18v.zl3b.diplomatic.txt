@@ -1,0 +1,13 @@
+# Folio f18v from ZL3b-n.txt
+# Header: <! $Q=C $P=D $F=b $B=2 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>told.shor.ytshy.otchdal.dchal.dchy.ytdg	told.shor.ytshy.otchdal.dchal.dchy.ytdg
+2	+P0	qoeees.or.oaiin.shy@140;.okshy.qokchy.qokchy.s.g	qoeees.or.oaiin.shy@140;.okshy.qokchy.qokchy.s.g
+3	+P0	orshy.qoky.qoky.chkchy.qokshy.qokam	orshy.qoky.qoky.chkchy.qokshy.qokam
+4	+P0	qotchy.qokay.qokchy.ykcho.ydl.dar	qotchy.qokay.qokchy.ykcho.ydl.dar
+5	+P0	ychoees.ykchy.qol.kchy.qotchol.daiir,om	ychoees.ykchy.qol.kchy.qotchol.daiir,om
+6	+P0	qotor,chor.otchy.qokeees.chy.s.ar.ykar	qotor,chor.otchy.qokeees.chy.s.ar.ykar
+7	+P0	ychol.dor.chod.qokol.daiin.qokol.dar.dy	ychol.dor.chod.qokol.daiin.qokol.dar.dy
+8	+P0	tolol.sh.cphoy.daror.ddy.ytor.ykam	tolol.sh.cphoy.daror.ddy.ytor.ykam
+9	+P0	okchor.qotchy.qokchy.ytol.doky.dy	okchor.qotchy.qokchy.ytol.doky.dy
+10	+P0	yk[o:a].dshy.dair.ykol.dom<!spots near dom><$>	yko.dshy.dair.ykol.dom

@@ -1,0 +1,18 @@
+# Folio f34r from ZL3b-n.txt
+# Header: <! $Q=E $P=C $F=b $B=2 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pcheoepchy.olar.yl<->yfody.okedody.shod.ololdy.dar.ytey	pcheoepchy.olar.ylyfody.okedody.shod.ololdy.dar.ytey
+2	+P0	ytar.sheody.o,lam<->octhedy.otedy.chdain.oltey.kchy,ty	ytar.sheody.o,lamocthedy.otedy.chdain.oltey.kchy,ty
+3	+P0	qotedy.chyty.chdaly<->dar.chd.otedy.qotol.okedy.dody.ody.kam	qotedy.chyty.chdalydar.chd.otedy.qotol.okedy.dody.ody.kam
+4	+P0	ytedy.daiin.chey.aiin<->shy.chckhy<~>oltchedy.otedy.dam.checthy	ytedy.daiin.chey.aiinshy.chckhyoltchedy.otedy.dam.checthy
+5	+P0	qoteedy.shedy.shedy.ol<->okes.ar<~>ykeed,l.chedy.otey.okaiin	qoteedy.shedy.shedy.olokes.arykeed,l.chedy.otey.okaiin
+6	+P0	oteol.chekey.chetey.oll<->chesy<~>daiin.cheky.fas.aiir.a[m:d]g	oteol.chekey.chetey.ollchesydaiin.cheky.fas.aiir.amg
+7	+P0	qokedy.dal.chdy<->olchy<->ykch[y:?]<~>ykedy.qokchdy.s.as.oldam	qokedy.dal.chdyolchyykchyykedy.qokchdy.s.as.oldam
+8	+P0	{ch'}otchy.qoky<->olk<->checkhy<~>ys,air.air.chodar.ta[m:g]	ch'otchy.qokyolkcheckhyys,air.air.chodar.tam
+9	+P0	ykchdy.qod<->ar<->ch{ct}<->a[{ikh}:ckh]y<~>or.lchey.todaly.okaiin.dardy<$>	ykchdy.qodarchctaikhyor.lchey.todaly.okaiin.dardy
+10	+P0	<%>tcheo.olchckhy.oly<->otchdy.chefalchhs	tcheo.olchckhy.olyotchdy.chefalchhs
+11	+P0	qokeey.sh.kaldaiin<->cheky.cthdaly<->otchedy.chty.s,aiin	qokeey.sh.kaldaiincheky.cthdalyotchedy.chty.s,aiin
+12	+P0	char.aiin.okor,ar.tol<->qokar.chckhy.chdal.ked.qokar.ar.daiin.dam	char.aiin.okor,ar.tolqokar.chckhy.chdal.ked.qokar.ar.daiin.dam
+13	+P0	ykeo.lor.ochey.oly<->okaly.kechdy.qokchdy.chor.ar.aiiin.daly	ykeo.lor.ochey.olyokaly.kechdy.qokchdy.chor.ar.aiiin.daly
+14	+P0	or.ar.y,kar.ol,al.oky<->chody.qokal,chedy.chcthedy.cheky.daram	or.ar.y,kar.ol,al.okychody.qokal,chedy.chcthedy.cheky.daram
+15	+P0	sair.chekar.cheky.shek<->cholchedy.qokedy.yk,cheolchcthy<$>	sair.chekar.cheky.shekcholchedy.qokedy.yk,cheolchcthy

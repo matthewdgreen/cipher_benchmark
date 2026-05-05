@@ -1,0 +1,22 @@
+# Folio f70r1 from ZL3b-n.txt
+# Header: <! $Q=J $P=D $F=z $B=1 $I=C $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!11:00>???ooooooooolar.sasa	???ooooooooolar.sasa
+2	@Cc	<!10:30>oteody.choekeeos.alair,dy.okol.okeey.dasy.ot[a:o]rsheod.okchody.oteos.okes.okeys.[e:i]y.okchol.sairody.o.chopcheopchy.chol,air.shekchy.choteody.oteeshs.opcheody.otol.choky.chody.chotey.sheal,ar.ykeody.oteey.chedaiin.chotar.soly	oteody.choekeeos.alair,dy.okol.okeey.dasy.otarsheod.okchody.oteos.okes.okeys.ey.okchol.sairody.o.chopcheopchy.chol,air.shekchy.choteody.oteeshs.opcheody.otol.choky.chody.chotey.sheal,ar.ykeody.oteey.chedaiin.chotar.soly
+3	+Cc	<!09:30>okeodar.chy.oteody.tochady.okchody.ytar.ytory.okeol.choly.yk,y.okchedy.chkal.ofchon.qokal.opolaiin.okeos.oty.dal.cheokeey,dal.cheo.al.oteeoky.chety.chodalar.okal.chear.aly.oteos,ar.os,al.okolair.dy	okeodar.chy.oteody.tochady.okchody.ytar.ytory.okeol.choly.yk,y.okchedy.chkal.ofchon.qokal.opolaiin.okeos.oty.dal.cheokeey,dal.cheo.al.oteeoky.chety.chodalar.okal.chear.aly.oteos,ar.os,al.okolair.dy
+4	@Ri	<!09:30>yfcheodly	yfcheodly
+5	@Ri	<!10:30>ytcheos,aly	ytcheos,aly
+6	@Ri	<!00:00>otchy.dar.yky	otchy.dar.yky
+7	@Ri	<!01:30>opar.ykchy	opar.ykchy
+8	@Ri	<!03:00>y,saikchy.dam	y,saikchy.dam
+9	@Ri	<!04:30>otair,oroldy	otair,oroldy
+10	@Ri	<!06:00>dchal.daim	dchal.daim
+11	@Ri	<!07:30>yteody.sam	yteody.sam
+12	@Ri	<!08:45>okchy,daldy	okchy,daldy
+13	@Cc	<!11:00>tshey.ol.oteey.ched,ar.oteos.cheor.alal.otar.ar,y.oteodchey.keody.oteos,al.oteeed	tshey.ol.oteey.ched,ar.oteos.cheor.alal.otar.ar,y.oteodchey.keody.oteos,al.oteeed
+14	@Ri	<!09:30>ykeal	ykeal
+15	@Ri	<!11:30>okeody	okeody
+16	@Ri	<!01:30>otody	otody
+17	@Ri	<!03:30>ypolol	ypolol
+18	@Ri	<!05:30>chodal	chodal
+19	@Ri	<!08:30>okasd	okasd

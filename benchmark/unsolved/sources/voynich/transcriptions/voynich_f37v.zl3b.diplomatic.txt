@@ -1,0 +1,26 @@
+# Folio f37v from ZL3b-n.txt
+# Header: <! $Q=E $P=J $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>[t:k]shody.qocthy.qotoldy.chopdain.sol	tshody.qocthy.qotoldy.chopdain.sol
+2	+P0	dor.chol.cthor.orchochor.daiin	dor.chol.cthor.orchochor.daiin
+3	+P0	qokchon.shy.chon.daiin.dy	qokchon.shy.chon.daiin.dy
+4	+P0	dshor.dytory.dshor.daiin	dshor.dytory.dshor.daiin
+5	+P0	dchor.qotol.ykchon.dain	dchor.qotol.ykchon.dain
+6	+P0	yokor.ytchor.saiin.oty	yokor.ytchor.saiin.oty
+7	+P0	qotchor.daiin<$>	qotchor.daiin
+8	+P0	<%>qotor.choiin.chetchy.daiin	qotor.choiin.chetchy.daiin
+9	+P0	dor.chor.sho.daiiin.daiin	dor.chor.sho.daiiin.daiin
+10	+P0	soiin.{ch'}ey.o,koiin.chey.tom	soiin.ch'ey.o,koiin.chey.tom
+11	+P0	qotoiin.choror.cthol.daiin	qotoiin.choror.cthol.daiin
+12	+P0	chor,sh[y:o]ly.sheaiin.do.tody	chor,shyly.sheaiin.do.tody
+13	+P0	sotoiiin<$>	sotoiiin
+14	+P0	<%>todain.cphaiin.cphorods	todain.cphaiin.cphorods
+15	+P0	soiiin.cheoky.daiin.dain	soiiin.cheoky.daiin.dain
+16	+P0	qotor.daiin.chotaiin	qotor.daiin.chotaiin
+17	+P0	sokchor.qokoiiin.ykeeols	sokchor.qokoiiin.ykeeols
+18	+P0	oyteey.daiin.daiinody	oyteey.daiin.daiinody
+19	+P0	daiin.qkaiin.qotal.daiin	daiin.qkaiin.qotal.daiin
+20	+P0	y,cho{ckah}y.ykol,daiin,s	y,chockahy.ykol,daiin,s
+21	+P0	oshctho.do.daiin.cthols	oshctho.do.daiin.cthols
+22	+P0	qotol.ytoiin.cho{cthh}y	qotol.ytoiin.chocthhy
+23	+P0	yto.chol.daiin<$>	yto.chol.daiin

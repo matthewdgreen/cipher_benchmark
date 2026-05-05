@@ -1,0 +1,14 @@
+# Folio f31v from ZL3b-n.txt
+# Header: <! $Q=D $P=N $F=y $B=2 $I=H $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>podair.sheedy.otedy.oteedy.qotolcheo.s.ar,ar.oteey.dk[ch:a]rar.als	podair.sheedy.otedy.oteedy.qotolcheo.s.ar,ar.oteey.dkchrar.als
+2	+P0	ytchos.[o:a]ckhey.okeeo,s.cheody.okeey.keeody.daiin.cheody.keedy	ytchos.ockhey.okeeo,s.cheody.okeey.keeody.daiin.cheody.keedy
+3	+P0	ykeeo.daiin.shedal.okedy.okey.keo,dy.okchey.sair,okees.o.lkedy	ykeeo.daiin.shedal.okedy.okey.keo,dy.okchey.sair,okees.o.lkedy
+4	+P0	dair.cthedy.qokedy.okeody.chedar.oked.al.ockhedy.okeedy.ota[s:d]	dair.cthedy.qokedy.okeody.chedar.oked.al.ockhedy.okeedy.otas
+5	+P0	ykeos.cheeoy.or,aiin<$>	ykeos.cheeoy.or,aiin
+6	+P0	<%>pcheeody.qop.chedal.checfhy.chefchol.or.cheef,alaiin.opal.sheo.otar	pcheeody.qop.chedal.checfhy.chefchol.or.cheef,alaiin.opal.sheo.otar
+7	+P0	olkeedam.ches.chol,keeol.checkhy.okeol.okal.oky.cheokar.okor.ary	olkeedam.ches.chol,keeol.checkhy.okeol.okal.oky.cheokar.okor.ary
+8	+P0	ykaiin.chee,ksheey.ychekeeor.cheor.o,r,checthy.okechoked.lchey.okam	ykaiin.chee,ksheey.ychekeeor.cheor.o,r,checthy.okechoked.lchey.okam
+9	+P0	ytecheol.sheoeky.okeos.aiin.a[{ikh}:ckh]edy.chkaiin.chetchey.ctheey.okear	ytecheol.sheoeky.okeos.aiin.aikhedy.chkaiin.chetchey.ctheey.okear
+10	+P0	dar.choar.al.kar.oeeeos.cheos.aiin.o.ckhey.okeo.kor.okeol.ain	dar.choar.al.kar.oeeeos.cheos.aiin.o.ckhey.okeo.kor.okeol.ain
+11	+P0	saiin.ar.ckheos.chedy.okeey.qoear.oraiin.cheam<$>	saiin.ar.ckheos.chedy.okeey.qoear.oraiin.cheam

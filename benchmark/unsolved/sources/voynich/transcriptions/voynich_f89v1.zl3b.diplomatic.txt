@@ -1,0 +1,27 @@
+# Folio f89v1 from ZL3b-n.txt
+# Header: <! $Q=O $P=J $F=y $B=2 $I=P $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lc	okoraldy	okoraldy
+2	@Lf	oto{ikh}y	otoikhy
+3	@Lf	otchar	otchar
+4	@Lf	darshody	darshody
+5	@P0	<%>koldal.sfal.cfhey.ofcheol.opolsy.daiin.qopol.<!tear>oldaiin.octhody	koldal.sfal.cfhey.ofcheol.opolsy.daiin.qopol.oldaiin.octhody
+6	+P0	dor.sheey.qokol.cheol.cthody.qockhy.dain.yteey.otar.cthol	dor.sheey.qokol.cheol.cthody.qockhy.dain.yteey.otar.cthol
+7	+P0	qokey.daiin.cheey.ctho,dy.qoor.shear.s,ol.chor.chearory	qokey.daiin.cheey.ctho,dy.qoor.shear.s,ol.chor.chearory
+8	+P0	shockhey.orarol.cheoky.qoy,chodair.choky.daiin.otarokar	shockhey.orarol.cheoky.qoy,chodair.choky.daiin.otarokar
+9	+P0	to{chh}o.cthor.okol.chekaiin.os.aiin.ol.cheokchey.qokoiiin.du	tochho.cthor.okol.chekaiin.os.aiin.ol.cheokchey.qokoiiin.du
+10	+P0	tor.sheor.cheeor.cthey.qokol.daiin.chekal.dals.chear.qotam	tor.sheor.cheeor.cthey.qokol.daiin.chekal.dals.chear.qotam
+11	+P0	osheokaiin.s,ain.ol.shodain.qokar.ain.chekal.daiin.dar	osheokaiin.s,ain.ol.shodain.qokar.ain.chekal.daiin.dar
+12	+P0	qokar.odaiin<$>	qokar.odaiin
+13	+P0	<%>tosheo.fcheody.shekey.or,shos.oiir.cphey.qokeody.cheody.daldy	tosheo.fcheody.shekey.or,shos.oiir.cphey.qokeody.cheody.daldy
+14	+P0	ykeey.ykeey.odal.shoky.okol.chody.okoaiin.dal,chdy.daldaldy	ykeey.ykeey.odal.shoky.okol.chody.okoaiin.dal,chdy.daldaldy
+15	+P0	dcheo{cy}.daiin.cthol.daiin.daldy.okeor.ytey.keor.cheyty.ochy	dcheocy.daiin.cthol.daiin.daldy.okeor.ytey.keor.cheyty.ochy
+16	+P0	qokaiin.ykchol.qockhy.okaldy.okal.dal.chodar.okaiin.dalg	qokaiin.ykchol.qockhy.okaldy.okal.dal.chodar.okaiin.dalg
+17	+P0	sal.shol.ykol.daram.sholckhy.dolchey.dalshdy.okeol.dalchy	sal.shol.ykol.daram.sholckhy.dolchey.dalshdy.okeol.dalchy
+18	+P0	qokol.sheol.qokol.dal.chol,dam.qoeey.saiin.ols.chokaiin	qokol.sheol.qokol.dal.chol,dam.qoeey.saiin.ols.chokaiin
+19	+P0	sar.a.da[iin:?].ckhy.qotchy.okol.ycheo.cthody.okol.olkaycthy	sar.a.daiin.ckhy.qotchy.okol.ycheo.cthody.okol.olkaycthy
+20	+P0	sol,chey.okchol.sair.daiin.okal,choldy<$>	sol,chey.okchol.sair.daiin.okal,choldy
+21	@Lc	koeeorain	koeeorain
+22	@Lf	otorshos	otorshos
+23	@Lf	opol,olaiin	opol,olaiin
+24	@Lf	opaldaiin	opaldaiin

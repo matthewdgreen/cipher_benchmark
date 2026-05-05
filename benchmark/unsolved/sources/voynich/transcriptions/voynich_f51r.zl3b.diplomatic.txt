@@ -1,0 +1,18 @@
+# Folio f51r from ZL3b-n.txt
+# Header: <! $Q=G $P=E $F=c $B=3 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tsholdchy.qotchy.opchear.ypchedy	tsholdchy.qotchy.opchear.ypchedy
+2	+P0	dcheodaiin.ckheody.ckhody.chody	dcheodaiin.ckheody.ckhody.chody
+3	+P0	ydchody.ckhey.oty.ckhe[o:a]dar.qoky	ydchody.ckhey.oty.ckheodar.qoky
+4	+P0	daiin.{ct}[e:i]s.okol.cheody.ckhy.cheeey	daiin.ctes.okol.cheody.ckhy.cheeey
+5	+P0	tcheody.qodaiin.okeey.qockhey.taiin	tcheody.qodaiin.okeey.qockhey.taiin
+6	+P0	ycho,daiin.chokaiin.ykchodaiin.ykald	ycho,daiin.chokaiin.ykchodaiin.ykald
+7	+P0	ychos,ar.eeckhy.kcho.qokchy.qotal	ychos,ar.eeckhy.kcho.qokchy.qotal
+8	+P0	oshol.odaiin.[ckhe:{ckhh}]y.ckheody.qokey.otydy	oshol.odaiin.ckhey.ckheody.qokey.otydy
+9	+P0	tol.daiin.daim.qchodal.dal.qody.qoetam	tol.daiin.daim.qchodal.dal.qody.qoetam
+10	+P0	ykchol.d[o:a]r.shey.qokeol.kchey.shol.okam	ykchol.dor.shey.qokeol.kchey.shol.okam
+11	+P0	tchodaiin.[{oph}:cph]eody.qokol.ot[e:i]odaiin.kol,ota[g:m]	tchodaiin.opheody.qokol.oteodaiin.kol,otag
+12	+P0	yoees.ckheey.kol.cheeal.okeor.qockhey.pchodal	yoees.ckheey.kol.cheeal.okeor.qockhey.pchodal
+13	+P0	oaiin.ckhol.yk[i:?]eol.otchey.cpheo,daiin.ykeoldy	oaiin.ckhol.ykieol.otchey.cpheo,daiin.ykeoldy
+14	+P0	daii{ith}y.qodaiin.kaiiidal<->cphodal<->[s:r].al.dam	daiiithy.qodaiin.kaiiidalcphodals.al.dam
+15	+P0	qokol.cheor.ckhal.s.or.aldy<->otal<$>	qokol.cheor.ckhal.s.or.aldyotal

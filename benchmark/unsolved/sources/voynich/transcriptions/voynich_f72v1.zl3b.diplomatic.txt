@@ -1,0 +1,36 @@
+# Folio f72v1 from ZL3b-n.txt
+# Header: <! $Q=K $P=J $F=z $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!09:30>oteos.alar.otar.air.chpaly.oteody.okchesal.otear.alshey.oleealy.sh?tey.oteos.alal.dals,alchol.ytolaiin.ydaiin.chotar.y,tal.oto.shoty.otey.okchedaly.chdar,y.s,ar,otedy.otorar.shedy.opsheytey.opairaly.choshydy.otar.cheedy.otaraiin.cheeky.okolar.ychey.otechety	oteos.alar.otar.air.chpaly.oteody.okchesal.otear.alshey.oleealy.sh?tey.oteos.alal.dals,alchol.ytolaiin.ydaiin.chotar.y,tal.oto.shoty.otey.okchedaly.chdar,y.s,ar,otedy.otorar.shedy.opsheytey.opairaly.choshydy.otar.cheedy.otaraiin.cheeky.okolar.ychey.otechety
+2	@Lz	<!08:45>oeeoty	oeeoty
+3	&Lz	<!09:30>octhy	octhy
+4	&Lz	<!10:00>oteoly	oteoly
+5	&Lz	<!10:30>okeoly	okeoly
+6	&Lz	<!11:00>oeees	oeees
+7	&Lz	<!11:30>o{cfh'h}y	ocfh'hy
+8	&Lz	<!01:45>oees	oees
+9	&Lz	<!01:00>okeeoly	okeeoly
+10	&Lz	<!01:30>odal	odal
+11	&Lz	<!02:00>aiinod	aiinod
+12	&Lz	<!02:45>od[?:ch]dy	od?dy
+13	&Lz	<!03:15>oteod	oteod
+14	&Lz	<!03:45>yteod	yteod
+15	&Lz	<!04:30>ok[?:ch]ody	ok?ody
+16	&Lz	<!05:00>okal	okal
+17	&Lz	<!05:30>ytaly	ytaly
+18	&Lz	<!06:00>oeeeos	oeeeos
+19	&Lz	<!06:30>oteofy	oteofy
+20	&Lz	<!07:30>cheoepy	cheoepy
+21	&Lz	<!08:00>ykeedy	ykeedy
+22	@Cc	<!08:30>otar,ar.otol,topar.oteolaiin.ofa[r:s]al.otshedy.ofalar.alshdy.chpar,aiin.okaly.oka?<!hole>.yaly.opcheolfy.opar.cheo{ck}ey.otolopaiin.shaldy.chepchy.otey.tea[n:r]	otar,ar.otol,topar.oteolaiin.ofaral.otshedy.ofalar.alshdy.chpar,aiin.okaly.oka?.yaly.opcheolfy.opar.cheockey.otolopaiin.shaldy.chepchy.otey.tean
+23	@Lz	<!08:45>oeeoly	oeeoly
+24	&Lz	<!10:00>okydy	okydy
+25	&Lz	<!11:30>okeey	okeey
+26	&Lz	<!00:00>oiiny	oiiny
+27	&Lz	<!01:00>oeey	oeey
+28	&Lz	<!03:00>okedy	okedy
+29	&Lz	<!04:30>ypaim	ypaim
+30	&Lz	<!05:30>okalair	okalair
+31	&Lz	<!06:30>oeeody	oeeody
+32	&Lz	<!07:30>okeol	okeol
+33	@Cc	<!09:30>otalal.dalal.ykeols.oteo,r,aiin.yotoam.oteey.saiin.oteeos,am	otalal.dalal.ykeols.oteo,r,aiin.yotoam.oteey.saiin.oteeos,am

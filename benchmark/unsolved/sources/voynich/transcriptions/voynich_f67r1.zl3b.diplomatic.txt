@@ -1,0 +1,22 @@
+# Folio f67r1 from ZL3b-n.txt
+# Header: <! $Q=I $P=B $F=a $B=1 $I=A $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>teeodaiin.shey.epairody.osaiin.yteeoey.shey.epaiin.o.aiin	teeodaiin.shey.epairody.osaiin.yteeoey.shey.epaiin.o.aiin
+2	+P0	daiir.okeody.qoekeey.sar.oeteody.oteey.keey.keo.keeoda[l:?]	daiir.okeody.qoekeey.sar.oeteody.oteey.keey.keo.keeodal
+3	+P0	ycheo.s.o,iim.[che:eee]os.aiin.okesoe.ar.am.shees.dalaiin.dam	ycheo.s.o,iim.cheos.aiin.okesoe.ar.am.shees.dalaiin.dam
+4	+P0	cheodaiin.[ch:a]ekeey.s.ar.air.s,o,ar.cheey.dair.cthey<$>	cheodaiin.chekeey.s.ar.air.s,o,ar.cheey.dair.cthey
+5	@Cc	<!00:00>soairol.shdy.chokeody.ykeedal.ol.oteodaiin.cho{ikh}edy.ot.chteokaiin.choteedy.otor.epchy.chpar.ar.sheees.deedy.soeteed.octheey.s.o.eokeot.y.choteoky.chockhy.okees.sor.aiin.daram.schdes.chdar.dar.dchschdy.dar.dar.ar.otardar.ykaros	soairol.shdy.chokeody.ykeedal.ol.oteodaiin.choikhedy.ot.chteokaiin.choteedy.otor.epchy.chpar.ar.sheees.deedy.soeteed.octheey.s.o.eokeot.y.choteoky.chockhy.okees.sor.aiin.daram.schdes.chdar.dar.dchschdy.dar.dar.ar.otardar.ykaros
+6	+Cc	<!00:00>dair.al.cheol.dal.oekaiin.sol.daiin.eetees.saiin.ykeos.l.chy.otodaiin.chetejy.otar.dair.ar.chedar.okeedy.ot[e:i]odaiin.ychsy.chekeey.ot.dol.al.cheor.okeo,r.oiin.cheeky.ary.okeo,keds.oshey.shchey.chol.dair.dain.cho.dar.aldy	dair.al.cheol.dal.oekaiin.sol.daiin.eetees.saiin.ykeos.l.chy.otodaiin.chetejy.otar.dair.ar.chedar.okeedy.oteodaiin.ychsy.chekeey.ot.dol.al.cheor.okeo,r.oiin.cheeky.ary.okeo,keds.oshey.shchey.chol.dair.dain.cho.dar.aldy
+7	+Cc	<!00:00>archeo,r.qoikeey.oteeos.cheockhey.oteochedy.okechdar.dararal.okeorar.sotey.dair.yteey.oteo.s.oteees.oteo.otee[s:e']y.sheokeey.oteodal.chokeed.sar.ain.y<!subscript>.oto.keedais.deeety.okeey.teodain.chekchy.dair.chparam	archeo,r.qoikeey.oteeos.cheockhey.oteochedy.okechdar.dararal.okeorar.sotey.dair.yteey.oteo.s.oteees.oteo.oteesy.sheokeey.oteodal.chokeed.sar.ain.y.oto.keedais.deeety.okeey.teodain.chekchy.dair.chparam
+8	@Ri	otaldy	otaldy
+9	@Ri	otoky	otoky
+10	@Ri	seeaiir	seeaiir
+11	@Ri	ykees.ary	ykees.ary
+12	@Ri	sosaiir	sosaiir
+13	@Ri	oteey.dar	oteey.dar
+14	@Ri	yto,daiir	yto,daiir
+15	@Ri	sheosam	sheosam
+16	@Ri	ykeeody	ykeeody
+17	@Ri	okeol.sal	okeol.sal
+18	@Ri	okeey.sar	okeey.sar
+19	@Ri	dalary	dalary

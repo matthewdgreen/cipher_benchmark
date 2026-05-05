@@ -1,0 +1,27 @@
+# Folio f85r2 from ZL3b-n.txt
+# Header: <! $Q=N $P=C $F=a $B=1 $I=C $L=B $H=2 $C=3>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!09:00>odeedy.otedy.opaees.ar.chcthy.otchdy.otody.otar.chepaiin.otodar.otodaiin.opaiin.otaiin.qopchas.otchedy.olkaiin.odar.aloees.otchedy.qotedaiin.odar.octhody.shedaiin.olaiin.olfor.daiin.ol.lkech[ch:?].os.aiin.oteedy.dar.otees.opaiin.chcphdar	odeedy.otedy.opaees.ar.chcthy.otchdy.otody.otar.chepaiin.otodar.otodaiin.opaiin.otaiin.qopchas.otchedy.olkaiin.odar.aloees.otchedy.qotedaiin.odar.octhody.shedaiin.olaiin.olfor.daiin.ol.lkechch.os.aiin.oteedy.dar.otees.opaiin.chcphdar
+2	@Pb	<!N><%>sain.or.or,aiin.opchdy	sain.or.or,aiin.opchdy
+3	+Pb	<!N>qotor.sheedy.shodaiin.olfar,ary	qotor.sheedy.shodaiin.olfar,ary
+4	+Pb	<!N>dair.sheo.oraiin.chol,daiin	dair.sheo.oraiin.chol,daiin
+5	+Pb	<!N>ockhdar.olkar.shoral	ockhdar.olkar.shoral
+6	+Pb	<!N>roseer<$>	roseer
+7	@Pb	<!E><%>pchedeey.olkey.qokedy.sheos.fcheey	pchedeey.olkey.qokedy.sheos.fcheey
+8	+Pb	<!E>otchedy.chotey.qocthey.oteey.ol.oloqorain	otchedy.chotey.qocthey.oteey.ol.oloqorain
+9	+Pb	<!E>daiin.qotaiin.tchedy.otedy.qotchdy.chckhey	daiin.qotaiin.tchedy.otedy.qotchdy.chckhey
+10	+Pb	<!E>ytchedy,qodar.qotedar.qokar.qotchd.qotom	ytchedy,qodar.qotedar.qokar.qotchd.qotom
+11	+Pb	<!E>soiis,aiin.shedaiin.chok{co}m<$>	soiis,aiin.shedaiin.chokcom
+12	@Pb	<!S><%>otchs.shedor.chey,sorain	otchs.shedor.chey,sorain
+13	+Pb	<!S>or.shedy.tedy.sodaiiin.chy	or.shedy.tedy.sodaiiin.chy
+14	+Pb	<!S>ytedar.chz[s:r].aiin.arody	ytedar.chzs.aiin.arody
+15	+Pb	<!S>ypshedy.dar.chedy.or,am	ypshedy.dar.chedy.or,am
+16	+Pb	<!S>oteey.qodaiin.odain.an.chey	oteey.qodaiin.odain.an.chey
+17	+Pb	<!S>orar.oldar.ain<$>	orar.oldar.ain
+18	@Pb	<!W><%>okees.olaiin.qokal.chdy.sary	okees.olaiin.qokal.chdy.sary
+19	+Pb	<!W>qokshedy.qodain.chckhy.ykeedy.chedy	qokshedy.qodain.chckhy.ykeedy.chedy
+20	+Pb	<!W>or,aiin.ckhed[a:y].or.ain.olchey.qokal.shedy	or,aiin.ckheda.or.ain.olchey.qokal.shedy
+21	+Pb	<!W>qokeody.qoekedy.dody.shedy.qodaiin	qokeody.qoekedy.dody.shedy.qodaiin
+22	+Pb	<!W>los,ar.shedy.qokshey.qose?y.or.aiin,og	los,ar.shedy.qokshey.qose?y.or.aiin,og
+23	+Pb	<!W>ol.lcheol.chol.ol.sheoly<$>	ol.lcheol.chol.ol.sheoly
+24	@Cc	<!09:30>okees.ochar.oted[o:a]r.ochedy.otody.olchedy.oteedo.ar.or.airol.otees.ar.aram	okees.ochar.otedor.ochedy.otody.olchedy.oteedo.ar.or.airol.otees.ar.aram

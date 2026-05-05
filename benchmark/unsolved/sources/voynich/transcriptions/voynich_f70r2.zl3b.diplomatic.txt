@@ -1,0 +1,22 @@
+# Folio f70r2 from ZL3b-n.txt
+# Header: <! $Q=J $P=E $F=z $B=1 $I=C $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P1	<%>otchey.sheol.chkey.shep.al.r.ar.chly.sheteal.aram	otchey.sheol.chkey.shep.al.r.ar.chly.sheteal.aram
+2	+P1	dair,cheey.s,cheotey.dshy.dam.chchet.al.yke{c'}y	dair,cheey.s,cheotey.dshy.dam.chchet.al.ykec'y
+3	+P1	ykeeo.y.s.ald.shey.cthy.shekey.qokal,aiir.oteog	ykeeo.y.s.ald.shey.cthy.shekey.qokal,aiir.oteog
+4	+P1	daiin.okeey.shoaiin.{ckhh}ey.otal.shshy.tal.dam	daiin.okeey.shoaiin.ckhhey.otal.shshy.tal.dam
+5	+P1	tal.cheeog.dal.chcthy.qotal.ddl[a:o]r.chal.dal	tal.cheeog.dal.chcthy.qotal.ddlar.chal.dal
+6	+P1	ytar.ar.al.yol.al.aloees.ytaiir.otaldal	ytar.ar.al.yol.al.aloees.ytaiir.otaldal
+7	+P1	daiin.daiin.she.tal.qokal.chol{ckhh}y.dy	daiin.daiin.she.tal.qokal.cholckhhy.dy
+8	+P1	ytals.alal.dalam.dal.cthol.oparam	ytals.alal.dalam.dal.cthol.oparam
+9	+P1	dolshol.shol.shol.sho{cthh}y.dalal,y	dolshol.shol.shol.shocthhy.dalal,y
+10	+P1	shokal.chol,kshody.tol.cheey.okal	shokal.chol,kshody.tol.cheey.okal
+11	+P1	daiin.chotal.qokal.chol.chotals	daiin.chotal.qokal.chol.chotals
+12	+P1	qokal.shkal.dal.shy.qokal.chdy	qokal.shkal.dal.shy.qokal.chdy
+13	+P1	qotal,che,y.key.okechy.chdy.cham	qotal,che,y.key.okechy.chdy.cham
+14	+P1	okaiin.ch{cthh}y.s.or.ary<$>	okaiin.chcthhy.s.or.ary
+15	@Cc	<!10:00>sal.air.am.shedy.chokal.cho{ikh}y.shokeey.choky.chol.dy.okeeal.o,teedy.dgr.dair,aiin.okees.okeear.ar,alekeey.ar,kam.oteoodalry.chekeoar.chokey.dar.dcheoky.otai.do{ith}y.dair.otchetchar.okear.okeeo.lal.kch[g:?].okar.ar,dar	sal.air.am.shedy.chokal.choikhy.shokeey.choky.chol.dy.okeeal.o,teedy.dgr.dair,aiin.okees.okeear.ar,alekeey.ar,kam.oteoodalry.chekeoar.chokey.dar.dcheoky.otai.doithy.dair.otchetchar.okear.okeeo.lal.kchg.okar.ar,dar
+16	+Cc	<!10:00>otar.ar.chedal.oaral.aldaiin.ykeeedaiis.sheo.l,dar.chol.ykees.aiir,dl.cheey.[s:r]keeod.oteeodar.aiin.aral.daiir.sheedal.sheodaiin.choar.chol.chot[e:i]oly.cho.oteey.chotey.choeky.chedy.choteosam.oteodar.o{ckhh}	otar.ar.chedal.oaral.aldaiin.ykeeedaiis.sheo.l,dar.chol.ykees.aiir,dl.cheey.skeeod.oteeodar.aiin.aral.daiir.sheedal.sheodaiin.choar.chol.choteoly.cho.oteey.chotey.choeky.chedy.choteosam.oteodar.ockhh
+17	+Cc	<!09:15>oches,air.chese.ctheey.sheeody.shopcho.yteody.ykaldy.oteeos.aiin.sh[e:?]y.shee.farar.aim.cheoteeodal.sho.choetchaldy.dal.aiir,ches.otesar.dalol.chtam.opaiir.chokeo.oteedy.oteeo.okol.chotal.otol,al.dl	oches,air.chese.ctheey.sheeody.shopcho.yteody.ykaldy.oteeos.aiin.shey.shee.farar.aim.cheoteeodal.sho.choetchaldy.dal.aiir,ches.otesar.dalol.chtam.opaiir.chokeo.oteedy.oteeo.okol.chotal.otol,al.dl
+18	+Cc	<!09:15>otoy.ar,arodchedy.cheocphey.oteeos.ees.cheal.sheeey.okeedaly.cheeoekey.yk[ee:ei]d[{cr}:ar].oteey.s.al.s.air.oteody.oteody.dar.aiir.ody.cheeos,chey.daiin.otoeeseor.air.chedy.okodar.al.sho.chotol.dal,dy	otoy.ar,arodchedy.cheocphey.oteeos.ees.cheal.sheeey.okeedaly.cheeoekey.ykeedcr.oteey.s.al.s.air.oteody.oteody.dar.aiir.ody.cheeos,chey.daiin.otoeeseor.air.chedy.okodar.al.sho.chotol.dal,dy
+19	@Cc	<!12:00>oteesy.ol,chy.oteo.sal.ol.keey.oteol.choky.otcho[sh:ch]a	oteesy.ol,chy.oteo.sal.ol.keey.oteol.choky.otchosha

@@ -1,0 +1,16 @@
+# Folio f95v1 from ZL3b-n.txt
+# Header: <! $Q=Q $P=J $F=y $B=2 $I=H $L=B $H=3 $C=5>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>{c@132;h}olteedy,{c@133;h}oepaiin.oekshy.qofchdaiin.shoyfar.okshy.okain.ar.alfshed	c@132;holteedy,c@133;hoepaiin.oekshy.qofchdaiin.shoyfar.okshy.okain.ar.alfshed
+2	+P0	okshy.tshor.qoksh.qokain.otar.oty.qokedy.otal.ytchdy.qokar.am	okshy.tshor.qoksh.qokain.otar.oty.qokedy.otal.ytchdy.qokar.am
+3	+P0	tchody.qokaiin.y,char.okain.sheody.chedy.chcthykedy.ety.dain.al	tchody.qokaiin.y,char.okain.sheody.chedy.chcthykedy.ety.dain.al
+4	+P0	tchedy.qokal.oty.shekshey.otaldy.okshey.ytshedy.okarar.yty.chdy	tchedy.qokal.oty.shekshey.otaldy.okshey.ytshedy.okarar.yty.chdy
+5	+P0	otal.shedy.odaiin.chey<$>	otal.shedy.odaiin.chey
+6	+P0	<%>tshdal.qokshy.dchdy.shedy.dkshey.chefar.otchdy.ol.shedar.chdam	tshdal.qokshy.dchdy.shedy.dkshey.chefar.otchdy.ol.shedar.chdam
+7	+P0	dshey,kain.qokar.olkar.<!next line intrudes>chy.tar.otar.chdy.kchdy.dolkain.otardy	dshey,kain.qokar.olkar.chy.tar.otar.chdy.kchdy.dolkain.otardy
+8	+P0	dchody.sheos.qodaiin.fchodaiin.chtal.dar.okedy.okchedy<$>	dchody.sheos.qodaiin.fchodaiin.chtal.dar.okedy.okchedy
+9	+P0	<%>tshey,taiin.ol,k,shol,kshed.qokeeod.raiin.qokeey.qoko.skchdy	tshey,taiin.ol,k,shol,kshed.qokeeod.raiin.qokeey.qoko.skchdy
+10	+P0	sain.sheyk.chody.k.chedain.chedaiin.otain.daiin<$>	sain.sheyk.chody.k.chedain.chedaiin.otain.daiin
+11	+P0	<%>pshedar.shedy.kshedy.qotches.or,aiin.shekaiin.otain.tshes.qokain	pshedar.shedy.kshedy.qotches.or,aiin.shekaiin.otain.tshes.qokain
+12	+P0	shotshey.s,aiin.ody.olkchdy.qotaiin.shcthy.dolkchy.tchdaiin.dal	shotshey.s,aiin.ody.olkchdy.qotaiin.shcthy.dolkchy.tchdaiin.dal
+13	+P0	lshee.qodain.okaiin.otody.chcthy<$>	lshee.qodain.okaiin.otody.chcthy

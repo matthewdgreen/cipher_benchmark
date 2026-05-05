@@ -1,0 +1,34 @@
+# Folio f68r2 from ZL3b-n.txt
+# Header: <! $Q=I $P=I $F=z $B=1 $I=A $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tsheeor.chor.sheal,dar.opchey.oeecthy.sheol.dokechy.otcheoly	tsheeor.chor.sheal,dar.opchey.oeecthy.sheol.dokechy.otcheoly
+2	+P0	dchy.ykeechy.dchyky.okeeody.rcheodal.chokeey.cheor.oram	dchy.ykeechy.dchyky.okeeody.rcheodal.chokeey.cheor.oram
+3	+P0	tcheos.otchoky.okchol.okol.sheeor.chodchy.qokchdar	tcheos.otchoky.okchol.okol.sheeor.chodchy.qokchdar
+4	+P0	chor.chesy.or[ee:a]d.qoeeckhy.qockheol.qokeol.cheoal.dcholal	chor.chesy.oreed.qoeeckhy.qockheol.qokeol.cheoal.dcholal
+5	+P0	kcheoey.cheody<->sain.ykeody.chykchy<$>	kcheoey.cheodysain.ykeody.chykchy
+6	@Cc	<!09:30>okeo.ok[a:?]r.ok[y:o].okozy.okaesy.qokool.chio.qoiol	okeo.okar.oky.okozy.okaesy.qokool.chio.qoiol
+7	@Ls	o@167;olch{c@133;h}y	o@167;olchc@133;hy
+8	@Ls	cheorol	cheorol
+9	@Ls	odaiin	odaiin
+10	@Ls	ochory	ochory
+11	@Ls	shdar	shdar
+12	@Ls	dchol	dchol
+13	@Ls	todaraiily	todaraiily
+14	@Ls	olcheesey	olcheesey
+15	@Ls	okchor	okchor
+16	@Ls	oteool	oteool
+17	@Ls	oydchy	oydchy
+18	@Ls	okeeeody	okeeeody
+19	@Ls	cholar	cholar
+20	@Ls	dcheoldy	dcheoldy
+21	@Ls	oteeear	oteeear
+22	@Ls	otoeeo	otoeeo
+23	@Ls	ofcheody	ofcheody
+24	@Ls	otcheodar	otcheodar
+25	@Ls	odair.chol	odair.chol
+26	@Ls	opocphor	opocphor
+27	@Ls	otoshol	otoshol
+28	@Ls	chodar	chodar
+29	@Ls	sheey	sheey
+30	@Ls	ok[eeee:eech]or	okeeeeor
+31	@Cc	<!09:30>okey.okoaiin.okol.o,ky.oeeeo.r.okey.okeeol.cheo.o.@231;@232;@233;@234;	okey.okoaiin.okol.o,ky.oeeeo.r.okey.okeeol.cheo.o.@231;@232;@233;@234;

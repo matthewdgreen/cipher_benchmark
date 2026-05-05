@@ -1,0 +1,16 @@
+# Folio f4r from ZL3b-n.txt
+# Header: <! $Q=A $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1 $X=C>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>kodalchy.chpady.sheol.ol,sheey.qotey<->doiin.chor.ytoy	kodalchy.chpady.sheol.ol,sheey.qoteydoiin.chor.ytoy
+2	+P0	dchor.shol.shol.cthol.shtchy.chaiin.@163;s<->choraiin.chom	dchor.shol.shol.cthol.shtchy.chaiin.@163;schoraiin.chom
+3	+P0	otchol.chol.chy.chaiin.qotaiin<->daiin.shain	otchol.chol.chy.chaiin.qotaiindaiin.shain
+4	+P0	qotchol,chy.yty.daiin.okaiin.cthy<$>	qotchol,chy.yty.daiin.okaiin.cthy
+5	+P0	<%>pydaiin.qotchy.dy,tydy	pydaiin.qotchy.dy,tydy
+6	+P0	chor.shytchy.dytcheey	chor.shytchy.dytcheey
+7	+P0	qotaiin.cthol.daiin.cthom	qotaiin.cthol.daiin.cthom
+8	+P0	shor.shol.shol.cthy.cpholdy	shor.shol.shol.cthy.cpholdy
+9	+P0	daiin.ckhochy.tchy.kor,aiin	daiin.ckhochy.tchy.kor,aiin
+10	+P0	odal.shor.shyshol.cphaiin	odal.shor.shyshol.cphaiin
+11	+P0	qotchoiin.she[o:a]r.qoty	qotchoiin.sheor.qoty
+12	+P0	soiin.chaiin.chaiin	soiin.chaiin.chaiin
+13	+P0	daiin.cthey<$>	daiin.cthey

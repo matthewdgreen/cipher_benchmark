@@ -1,0 +1,459 @@
+{
+  "source": "voynich_zl3b",
+  "source_url": "https://www.voynich.nu/data/ZL3b-n.txt",
+  "symbol_count": 113,
+  "symbols": {
+    "S001": {
+      "glyph_id": "f",
+      "source_unit": "f"
+    },
+    "S002": {
+      "glyph_id": "a",
+      "source_unit": "a"
+    },
+    "S003": {
+      "glyph_id": "c",
+      "source_unit": "c"
+    },
+    "S004": {
+      "glyph_id": "h",
+      "source_unit": "h"
+    },
+    "S005": {
+      "glyph_id": "y",
+      "source_unit": "y"
+    },
+    "S006": {
+      "glyph_id": "s",
+      "source_unit": "s"
+    },
+    "S007": {
+      "glyph_id": "k",
+      "source_unit": "k"
+    },
+    "S008": {
+      "glyph_id": "l",
+      "source_unit": "l"
+    },
+    "S009": {
+      "glyph_id": "r",
+      "source_unit": "r"
+    },
+    "S010": {
+      "glyph_id": "t",
+      "source_unit": "t"
+    },
+    "S011": {
+      "glyph_id": "i",
+      "source_unit": "i"
+    },
+    "S012": {
+      "glyph_id": "n",
+      "source_unit": "n"
+    },
+    "S013": {
+      "glyph_id": "o",
+      "source_unit": "o"
+    },
+    "S014": {
+      "glyph_id": "e",
+      "source_unit": "e"
+    },
+    "S015": {
+      "glyph_id": "d",
+      "source_unit": "d"
+    },
+    "S016": {
+      "glyph_id": "p",
+      "source_unit": "p"
+    },
+    "S017": {
+      "glyph_id": "'",
+      "source_unit": "'"
+    },
+    "S018": {
+      "glyph_id": "?",
+      "source_unit": "?"
+    },
+    "S019": {
+      "glyph_id": "m",
+      "source_unit": "m"
+    },
+    "S020": {
+      "glyph_id": "@192;",
+      "source_unit": "@192;"
+    },
+    "S021": {
+      "glyph_id": "@130;",
+      "source_unit": "@130;"
+    },
+    "S022": {
+      "glyph_id": "q",
+      "source_unit": "q"
+    },
+    "S023": {
+      "glyph_id": "g",
+      "source_unit": "g"
+    },
+    "S024": {
+      "glyph_id": "v",
+      "source_unit": "v"
+    },
+    "S025": {
+      "glyph_id": "@163;",
+      "source_unit": "@163;"
+    },
+    "S026": {
+      "glyph_id": "b",
+      "source_unit": "b"
+    },
+    "S027": {
+      "glyph_id": "@131;",
+      "source_unit": "@131;"
+    },
+    "S028": {
+      "glyph_id": "j",
+      "source_unit": "j"
+    },
+    "S029": {
+      "glyph_id": "@132;",
+      "source_unit": "@132;"
+    },
+    "S030": {
+      "glyph_id": "@196;",
+      "source_unit": "@196;"
+    },
+    "S031": {
+      "glyph_id": "@216;",
+      "source_unit": "@216;"
+    },
+    "S032": {
+      "glyph_id": "@134;",
+      "source_unit": "@134;"
+    },
+    "S033": {
+      "glyph_id": "@135;",
+      "source_unit": "@135;"
+    },
+    "S034": {
+      "glyph_id": "@148;",
+      "source_unit": "@148;"
+    },
+    "S035": {
+      "glyph_id": "@152;",
+      "source_unit": "@152;"
+    },
+    "S036": {
+      "glyph_id": "u",
+      "source_unit": "u"
+    },
+    "S037": {
+      "glyph_id": "@137;",
+      "source_unit": "@137;"
+    },
+    "S038": {
+      "glyph_id": "@138;",
+      "source_unit": "@138;"
+    },
+    "S039": {
+      "glyph_id": "@154;",
+      "source_unit": "@154;"
+    },
+    "S040": {
+      "glyph_id": "z",
+      "source_unit": "z"
+    },
+    "S041": {
+      "glyph_id": "@139;",
+      "source_unit": "@139;"
+    },
+    "S042": {
+      "glyph_id": "@246;",
+      "source_unit": "@246;"
+    },
+    "S043": {
+      "glyph_id": "@140;",
+      "source_unit": "@140;"
+    },
+    "S044": {
+      "glyph_id": "@241;",
+      "source_unit": "@241;"
+    },
+    "S045": {
+      "glyph_id": "@242;",
+      "source_unit": "@242;"
+    },
+    "S046": {
+      "glyph_id": "@243;",
+      "source_unit": "@243;"
+    },
+    "S047": {
+      "glyph_id": "@244;",
+      "source_unit": "@244;"
+    },
+    "S048": {
+      "glyph_id": "@200;",
+      "source_unit": "@200;"
+    },
+    "S049": {
+      "glyph_id": "@162;",
+      "source_unit": "@162;"
+    },
+    "S050": {
+      "glyph_id": "@136;",
+      "source_unit": "@136;"
+    },
+    "S051": {
+      "glyph_id": "@203;",
+      "source_unit": "@203;"
+    },
+    "S052": {
+      "glyph_id": "@145;",
+      "source_unit": "@145;"
+    },
+    "S053": {
+      "glyph_id": "@146;",
+      "source_unit": "@146;"
+    },
+    "S054": {
+      "glyph_id": "@147;",
+      "source_unit": "@147;"
+    },
+    "S055": {
+      "glyph_id": "@176;",
+      "source_unit": "@176;"
+    },
+    "S056": {
+      "glyph_id": "@133;",
+      "source_unit": "@133;"
+    },
+    "S057": {
+      "glyph_id": "@149;",
+      "source_unit": "@149;"
+    },
+    "S058": {
+      "glyph_id": "@150;",
+      "source_unit": "@150;"
+    },
+    "S059": {
+      "glyph_id": "@151;",
+      "source_unit": "@151;"
+    },
+    "S060": {
+      "glyph_id": "@153;",
+      "source_unit": "@153;"
+    },
+    "S061": {
+      "glyph_id": "@155;",
+      "source_unit": "@155;"
+    },
+    "S062": {
+      "glyph_id": "@191;",
+      "source_unit": "@191;"
+    },
+    "S063": {
+      "glyph_id": "@156;",
+      "source_unit": "@156;"
+    },
+    "S064": {
+      "glyph_id": "@245;",
+      "source_unit": "@245;"
+    },
+    "S065": {
+      "glyph_id": "@190;",
+      "source_unit": "@190;"
+    },
+    "S066": {
+      "glyph_id": "@201;",
+      "source_unit": "@201;"
+    },
+    "S067": {
+      "glyph_id": "x",
+      "source_unit": "x"
+    },
+    "S068": {
+      "glyph_id": "@159;",
+      "source_unit": "@159;"
+    },
+    "S069": {
+      "glyph_id": "@161;",
+      "source_unit": "@161;"
+    },
+    "S070": {
+      "glyph_id": "@164;",
+      "source_unit": "@164;"
+    },
+    "S071": {
+      "glyph_id": "@165;",
+      "source_unit": "@165;"
+    },
+    "S072": {
+      "glyph_id": "@166;",
+      "source_unit": "@166;"
+    },
+    "S073": {
+      "glyph_id": "@193;",
+      "source_unit": "@193;"
+    },
+    "S074": {
+      "glyph_id": "@194;",
+      "source_unit": "@194;"
+    },
+    "S075": {
+      "glyph_id": "@167;",
+      "source_unit": "@167;"
+    },
+    "S076": {
+      "glyph_id": "@168;",
+      "source_unit": "@168;"
+    },
+    "S077": {
+      "glyph_id": "@169;",
+      "source_unit": "@169;"
+    },
+    "S078": {
+      "glyph_id": "@170;",
+      "source_unit": "@170;"
+    },
+    "S079": {
+      "glyph_id": "@171;",
+      "source_unit": "@171;"
+    },
+    "S080": {
+      "glyph_id": "I",
+      "source_unit": "I"
+    },
+    "S081": {
+      "glyph_id": "@172;",
+      "source_unit": "@172;"
+    },
+    "S082": {
+      "glyph_id": "@210;",
+      "source_unit": "@210;"
+    },
+    "S083": {
+      "glyph_id": "@195;",
+      "source_unit": "@195;"
+    },
+    "S084": {
+      "glyph_id": "@231;",
+      "source_unit": "@231;"
+    },
+    "S085": {
+      "glyph_id": "@232;",
+      "source_unit": "@232;"
+    },
+    "S086": {
+      "glyph_id": "@233;",
+      "source_unit": "@233;"
+    },
+    "S087": {
+      "glyph_id": "@234;",
+      "source_unit": "@234;"
+    },
+    "S088": {
+      "glyph_id": "@204;",
+      "source_unit": "@204;"
+    },
+    "S089": {
+      "glyph_id": "@178;",
+      "source_unit": "@178;"
+    },
+    "S090": {
+      "glyph_id": "@240;",
+      "source_unit": "@240;"
+    },
+    "S091": {
+      "glyph_id": "@197;",
+      "source_unit": "@197;"
+    },
+    "S092": {
+      "glyph_id": "@211;",
+      "source_unit": "@211;"
+    },
+    "S093": {
+      "glyph_id": "@212;",
+      "source_unit": "@212;"
+    },
+    "S094": {
+      "glyph_id": "@174;",
+      "source_unit": "@174;"
+    },
+    "S095": {
+      "glyph_id": "@175;",
+      "source_unit": "@175;"
+    },
+    "S096": {
+      "glyph_id": "@206;",
+      "source_unit": "@206;"
+    },
+    "S097": {
+      "glyph_id": "@177;",
+      "source_unit": "@177;"
+    },
+    "S098": {
+      "glyph_id": "@207;",
+      "source_unit": "@207;"
+    },
+    "S099": {
+      "glyph_id": "@208;",
+      "source_unit": "@208;"
+    },
+    "S100": {
+      "glyph_id": "@213;",
+      "source_unit": "@213;"
+    },
+    "S101": {
+      "glyph_id": "@214;",
+      "source_unit": "@214;"
+    },
+    "S102": {
+      "glyph_id": "@179;",
+      "source_unit": "@179;"
+    },
+    "S103": {
+      "glyph_id": "@185;",
+      "source_unit": "@185;"
+    },
+    "S104": {
+      "glyph_id": "@180;",
+      "source_unit": "@180;"
+    },
+    "S105": {
+      "glyph_id": "@181;",
+      "source_unit": "@181;"
+    },
+    "S106": {
+      "glyph_id": "@182;",
+      "source_unit": "@182;"
+    },
+    "S107": {
+      "glyph_id": "@183;",
+      "source_unit": "@183;"
+    },
+    "S108": {
+      "glyph_id": "@184;",
+      "source_unit": "@184;"
+    },
+    "S109": {
+      "glyph_id": "@199;",
+      "source_unit": "@199;"
+    },
+    "S110": {
+      "glyph_id": "@186;",
+      "source_unit": "@186;"
+    },
+    "S111": {
+      "glyph_id": "@187;",
+      "source_unit": "@187;"
+    },
+    "S112": {
+      "glyph_id": "@188;",
+      "source_unit": "@188;"
+    },
+    "S113": {
+      "glyph_id": "@189;",
+      "source_unit": "@189;"
+    }
+  }
+}

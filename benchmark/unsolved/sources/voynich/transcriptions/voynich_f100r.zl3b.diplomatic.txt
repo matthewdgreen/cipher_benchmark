@@ -1,0 +1,30 @@
+# Folio f100r from ZL3b-n.txt
+# Header: <! $Q=S $P=C $F=b $B=2 $I=P $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lf	<!115>chosaroshol	chosaroshol
+2	@Lf	<!116>sochorcfhy	sochorcfhy
+3	@Lf	<!117>otear	otear
+4	@Lf	<!118>chofa[r:n]y	chofary
+5	@Lf	<!119>sar,char<->daiindy	sar,chardaiindy
+6	@Lf	<!120>o[r:s]aro	oraro
+7	@Lf	<!121>chalsain	chalsain
+8	@Lf	<!122>soity	soity
+9	@Lf	<!123>sosam	sosam
+10	@Lf	<!124>dakocth	dakocth
+11	@Lf	<!125>sofam	sofam
+12	@P0	<%>pcheol.sheod.qocpheeckhy.shodol.{c@132;h}da,@168;oto.cho[?:ch]os.sheey.ch{cthh'}o.s	pcheol.sheod.qocpheeckhy.shodol.c@132;hda,@168;oto.cho?os.sheey.chcthh'o.s
+13	+P0	dsheor.cthey.qokeey.oteey.ykeeodain.[r:s]orarydaiin.daiin.deeomchol	dsheor.cthey.qokeey.oteey.ykeeodain.rorarydaiin.daiin.deeomchol
+14	+P0	shor.chkeey.qoteey.qokeody.qoteold.qokeol.so.raiin.otal.yk[eee:ech]o	shor.chkeey.qoteey.qokeody.qoteold.qokeol.so.raiin.otal.ykeeeo
+15	+P0	dcheor.shol.qokeeol.chor.chol.qokeeody.dareu<$>	dcheor.shol.qokeeol.chor.chol.qokeeody.dareu
+16	@Lf	<!126/1st half>okeeos	okeeos
+17	@Lf	<!127>shockhey	shockhey
+18	@Lf	<!126/2nd half>orol	orol
+19	@Lf	<!128>olcheom	olcheom
+20	@Lf	<!130>oteol	oteol
+21	@Lf	<!129>okols	okols
+22	@P0	<%>folshody.choldaiin.fchod,ycheol.cphol.qotees.shey.aseso,alcfhy	folshody.choldaiin.fchod,ycheol.cphol.qotees.shey.aseso,alcfhy
+23	+P0	soiin.chol.cphol.shol.shol.qockhol.chor.chol.sho.keey.{chkhh}y.ykeeam	soiin.chol.cphol.shol.shol.qockhol.chor.chol.sho.keey.chkhhy.ykeeam
+24	+P0	saiichor.sheor.qockhody.odeor.yk,sheey.cholsheody.sai.cheol.raiin	saiichor.sheor.qockhody.odeor.yk,sheey.cholsheody.sai.cheol.raiin
+25	+P0	sheor.qkeeody.chol.daiin.ctheol.olcheol.cheky.cheol.cheockhy.okeol	sheor.qkeeody.chol.daiin.ctheol.olcheol.cheky.cheol.cheockhy.okeol
+26	+P0	yaiin.chekeey.chol.cholody.chos.olchor.qokeol.okeeol.cheols.al	yaiin.chekeey.chol.cholody.chos.olchor.qokeol.okeeol.cheols.al
+27	+P0	chol.cheol.cho.chckheody.otolchey<$>	chol.cheol.cho.chckheody.otolchey

@@ -1,0 +1,34 @@
+# Folio f81r from ZL3b-n.txt
+# Header: <! $Q=M $P=M $F=w $B=4 $I=B $L=B $H=2 $C=2>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>polchoy.qokedy.shol.opchedy.olpchedy.ofshdy.oly	polchoy.qokedy.shol.opchedy.olpchedy.ofshdy.oly
+2	+P0	dchey.lshl.alched.qokol.chol.otar,chedy.oky	dchey.lshl.alched.qokol.chol.otar,chedy.oky
+3	+P0	qotey.l,chees.olkal.ol,chedy.okar.shedy	qotey.l,chees.olkal.ol,chedy.okar.shedy
+4	+P0	dchedy.qokain.ol.ol.chcthy.ykeedy,al	dchedy.qokain.ol.ol.chcthy.ykeedy,al
+5	+P0	qol.cheol.okeey.ol.ol.olaiin.ol.or,ain	qol.cheol.okeey.ol.ol.olaiin.ol.or,ain
+6	+P0	sar.ol,eses.oteey.shor.qokeey.ol	sar.ol,eses.oteey.shor.qokeey.ol
+7	+P0	dshees.okain.chcthy.otey.okain	dshees.okain.chcthy.otey.okain
+8	+P0	pchedy.qokeey.oty.qotey.oteey.oly	pchedy.qokeey.oty.qotey.oteey.oly
+9	+P0	qoteesy.qotedy.qokeedy.chcphey	qoteesy.qotedy.qokeedy.chcphey
+10	+P0	chol.dain.otedy.cheey.qotain.ly	chol.dain.otedy.cheey.qotain.ly
+11	+P0	olsheol.olkedy.sheckhedy.oltedy	olsheol.olkedy.sheckhedy.oltedy
+12	+P0	ychedy.tedy.ol.sheedy.qokeey.loly	ychedy.tedy.ol.sheedy.qokeey.loly
+13	+P0	dchol.shedy.qotedy.qol.chedy.chetyry	dchol.shedy.qotedy.qol.chedy.chetyry
+14	+P0	qokechedy.qolsheedy.or,ain.arol.oeeedy	qokechedy.qolsheedy.or,ain.arol.oeeedy
+15	+P0	sain.ol.cheedy.qokeedy.otedy<$>	sain.ol.cheedy.qokeedy.otedy
+16	+P0	<%>polchdy.qopchol.qokor.olpchedy.opol.oraisy	polchdy.qopchol.qokor.olpchedy.opol.oraisy
+17	+P0	y,checthy.okeedy.shey.qokedy.ol.ochedar	y,checthy.okeedy.shey.qokedy.ol.ochedar
+18	+P0	osheedy.shedy.ol.shedy.okeedy.oror	osheedy.shedy.ol.shedy.okeedy.oror
+19	+P0	qokedy.sheedy.chedy.qoteedy.olam	qokedy.sheedy.chedy.qoteedy.olam
+20	+P0	qopchedy.qol.chedy.qokeey.odaiin.rain.daly	qopchedy.qol.chedy.qokeey.odaiin.rain.daly
+21	+P0	dshedy.qokal.olkeey.oteey.olshey.otey,lol	dshedy.qokal.olkeey.oteey.olshey.otey,lol
+22	+P0	qotal.chedy.qol.ol.daiin.ol,chedar.ol.oly	qotal.chedy.qol.ol.daiin.ol,chedar.ol.oly
+23	+P0	[ch:sh]ey.okain.sheckhy.soiin.chey.lchey	chey.okain.sheckhy.soiin.chey.lchey
+24	+P0	par,ody.shecphy.cheol.qotaldar.otedy.oly	par,ody.shecphy.cheol.qotaldar.otedy.oly
+25	+P0	sar.shedy.qol,otain.okair.okal.chedy.dy	sar.shedy.qol,otain.okair.okal.chedy.dy
+26	+P0	pchedy.qokey.oteol.qol.sheor.shedy.qcthdys	pchedy.qokey.oteol.qol.sheor.shedy.qcthdys
+27	+P0	sol.chedy.qokedy.olkedy.dol.qokchedy	sol.chedy.qokedy.olkedy.dol.qokchedy
+28	+P0	qokesdy.chedy.qokar.chey.taiin.otey.lchl	qokesdy.chedy.qokar.chey.taiin.otey.lchl
+29	+P0	y,sheedy.shy.chey.l,chcthy.ytar.olkaiin.ol	y,sheedy.shy.chey.l,chcthy.ytar.olkaiin.ol
+30	+P0	l.shedy.qokedy.sor.olkar.ol,kaiin.olkshdy	l.shedy.qokedy.sor.olkar.ol,kaiin.olkshdy
+31	+P0	sol,shedy.ol.lchedy.shedy.shy.olkedy.ches.ar.or.oraiiin<$>	sol,shedy.ol.lchedy.shedy.shy.olkedy.ches.ar.or.oraiiin

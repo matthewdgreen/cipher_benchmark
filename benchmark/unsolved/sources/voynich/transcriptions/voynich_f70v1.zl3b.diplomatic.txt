@@ -1,0 +1,20 @@
+# Folio f70v1 from ZL3b-n.txt
+# Header: <! $Q=J $P=H $F=z $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!11:00>dalalody.oteoshey.okoksheo.shokey.raiin.otor.ochy.s.a[ir:is].cheody.cheey.oteo,[ch:ee]y.daiir.chcthy.dlal.oteodaiin.ykeody.oteody.sheo.daiin.oteedy.chetalchs.zar.shoteeody.okeeo,dal.cheody.okchoteees.oteeody.cheokeo.otaiin.shes.to,ar.oly.daly.sheal	dalalody.oteoshey.okoksheo.shokey.raiin.otor.ochy.s.air.cheody.cheey.oteo,chy.daiir.chcthy.dlal.oteodaiin.ykeody.oteody.sheo.daiin.oteedy.chetalchs.zar.shoteeody.okeeo,dal.cheody.okchoteees.oteeody.cheokeo.otaiin.shes.to,ar.oly.daly.sheal
+2	@Lz	<!10:30>otalchy.tar.am.dy	otalchy.tar.am.dy
+3	&Lz	<!00:00>opchey.sal	opchey.sal
+4	&Lz	<!01:00>otakaizan	otakaizan
+5	&Lz	<!02:30>okalal	okalal
+6	&Lz	<!03:30>otaly	otaly
+7	&Lz	<!04:30>oalcheg	oalcheg
+8	&Lz	<!06:00>otchodals	otchodals
+9	&Lz	<!07:00>okolshy	okolshy
+10	&Lz	<!08:00>otshshdy	otshshdy
+11	&Lz	<!09:00>otal.ypsharal	otal.ypsharal
+12	@Cc	<!11:00>daiin.okey.otodal.cheokeeo.okeodal.shol.olaiin.saiin.sheo.qokeeol.otchykey.chekeal.oteosaiin.chekey.okeolol.chees.o?eey.opotey.dal,al,s.otecheo.dal	daiin.okey.otodal.cheokeeo.okeodal.shol.olaiin.saiin.sheo.qokeeol.otchykey.chekeal.oteosaiin.chekey.okeolol.chees.o?eey.opotey.dal,al,s.otecheo.dal
+13	@Lz	<!10:30>okoly	okoly
+14	&Lz	<!00:00>otalaiin	otalaiin
+15	&Lz	<!02:00>oteo.alals.araly	oteo.alals.araly
+16	&Lz	<!05:00>oteoeey.otal.okealar	oteoeey.otal.okealar
+17	&Lz	<!08:00>otear.araydy	otear.araydy

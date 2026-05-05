@@ -1,0 +1,4 @@
+# Folio f65r from ZL3b-n.txt
+# Header: <! $Q=H $P=E $F=y $B=2 $I=H $H=3>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lp	otaim,dam.alam	otaim,dam.alam

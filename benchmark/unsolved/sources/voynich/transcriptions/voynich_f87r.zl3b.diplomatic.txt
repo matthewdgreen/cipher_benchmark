@@ -1,0 +1,19 @@
+# Folio f87r from ZL3b-n.txt
+# Header: <! $Q=O $P=A $F=a $B=1 $I=H $L=A $H=1 $C=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>poalshsal.shocphor.ypcho.cpheo.saiin.oteodal.saiin	poalshsal.shocphor.ypcho.cpheo.saiin.oteodal.saiin
+2	+P0	dcheeckhos.chety.cthodal.yteodam.cphecthy.syty	dcheeckhos.chety.cthodal.yteodam.cphecthy.syty
+3	+P0	tchor.oteedy.ykeey.{cthh}ody.keos.sheekchey.saiidy	tchor.oteedy.ykeey.cthhody.keos.sheekchey.saiidy
+4	+P0	soraiin.qockhos.cheodor.ckheokey.chcthody.s.odar	soraiin.qockhos.cheodor.ckheokey.chcthody.s.odar
+5	+P0	daiin.ctheey.ckheckhy.cthody.chor.s,al.dar.chor	daiin.ctheey.ckheckhy.cthody.chor.s,al.dar.chor
+6	+P0	tos.she.keodaiin.pcheos.sheo.so.shkeody.soraiin	tos.she.keodaiin.pcheos.sheo.so.shkeody.soraiin
+7	+P0	y,teeodal.cho.keeody.shy.ko[o:l]<!corr?>,sols.chekol	y,teeodal.cho.keeody.shy.koo,sols.chekol
+8	+P0	solsheor.ysaiin.chor.cheory.kchody	solsheor.ysaiin.chor.cheory.kchody
+9	+P0	sor.shocthey.oteody.dchol.saraiin	sor.shocthey.oteody.dchol.saraiin
+10	+P0	sho.cthos.cheodal.ctheody.qoty<$>	sho.cthos.cheodal.ctheody.qoty
+11	+P0	<%>psheodshy.dal.shee.saldal.shol.aldy	psheodshy.dal.shee.saldal.shol.aldy
+12	+P0	ysheee[r:s].chetchy.teodar.otcheol.tockhy	ysheeer.chetchy.teodar.otcheol.tockhy
+13	+P0	keor.ckheey.shody.qoeeeety.s,chody.daiin	keor.ckheey.shody.qoeeeety.s,chody.daiin
+14	+P0	daiin.shol.cthey.okeol.cheor.okeeo,daiim	daiin.shol.cthey.okeol.cheor.okeeo,daiim
+15	+P0	shos.cheol.cheos.ckhey.saiin.q'ockheo,ldaiin	shos.cheol.cheos.ckhey.saiin.q'ockheo,ldaiin
+16	+P0	yteeo[r:s].cheol.dcheeol<$>	yteeor.cheol.dcheeol

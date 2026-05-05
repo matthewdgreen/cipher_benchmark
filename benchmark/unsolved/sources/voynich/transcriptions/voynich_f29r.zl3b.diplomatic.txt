@@ -1,0 +1,12 @@
+# Folio f29r from ZL3b-n.txt
+# Header: <! $Q=D $P=I $F=w $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>posaiin.she.aiin.chep,oty.chy.qotchy.qoty.cheecthy	posaiin.she.aiin.chep,oty.chy.qotchy.qoty.cheecthy
+2	+P0	dshe.ykchy.choty.oky.cho,l.chchoty.choky.chy,ty,dy	dshe.ykchy.choty.oky.cho,l.chchoty.choky.chy,ty,dy
+3	+P0	qokchy.qoty.kchaiin.shear.cthor<->dchor.choly	qokchy.qoty.kchaiin.shear.cthordchor.choly
+4	+P0	chocthy.qoos.chos<$>	chocthy.qoos.chos
+5	+P0	<%>kcheol.cheor.sheos.sheey.teey.d[a:y]<->shos.o{cty}	kcheol.cheor.sheos.sheey.teey.dashos.octy
+6	+P0	chokshy.shocthy.shor.shor.daiin<->qokaiiin	chokshy.shocthy.shor.shor.daiinqokaiiin
+7	+P0	qokchy.chol.shokchy.qokaiin.choety<->choty.kaiin	qokchy.chol.shokchy.qokaiin.choetychoty.kaiin
+8	+P0	shor.chor.shosheky.shy.qoty,kody<->daiin.cthy	shor.chor.shosheky.shy.qoty,kodydaiin.cthy
+9	+P0	qokshe.qor.chey.kor.cheod.ychom<$>	qokshe.qor.chey.kor.cheod.ychom

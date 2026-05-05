@@ -1,0 +1,11 @@
+# Folio f52r from ZL3b-n.txt
+# Header: <! $Q=G $P=G $F=d $B=4 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>tdokchcfhy.ycphko.ytair.shar.qofy,daiin.ypchy.otchol.dar.yty	tdokchcfhy.ycphko.ytair.shar.qofy,daiin.ypchy.otchol.dar.yty
+2	+P0	oty.shor.ykoldy.qoky.koldal.oteees.dals<->otar,dl	oty.shor.ykoldy.qoky.koldal.oteees.dalsotar,dl
+3	+P0	tchotshey.qoty.okchol.tchody.qotam.oky<->ytoldy	tchotshey.qoty.okchol.tchody.qotam.okyytoldy
+4	+P0	l,shopchy.qoky.qotchy.oty.dar.oty.dam<->ychcthod	l,shopchy.qoky.qotchy.oty.dar.oty.damychcthod
+5	+P0	oky.chor.okchal.okchar.shor.tol.ykair<->ytchdam	oky.chor.okchal.okchar.shor.tol.ykairytchdam
+6	+P0	daiin.shedaiin.qodal.dy.[ch:ee]okam.otchordy<->okchol.do	daiin.shedaiin.qodal.dy.chokam.otchordyokchol.do
+7	+P0	qok[{ch'}:{cs}]y.qockhom.dals.shodaim.tcham.dody<->ykeey.dai[g:m:d].a[m:@175;]	qokch'y.qockhom.dals.shodaim.tcham.dodyykeey.daig.am
+8	+P0	or,cheey.dor.shey.kom.s.cheey.dch[o:a]m.daiin<$>	or,cheey.dor.shey.kom.s.cheey.dchom.daiin

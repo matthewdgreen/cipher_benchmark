@@ -1,0 +1,20 @@
+# Folio f102r1 from ZL3b-n.txt
+# Header: <! $Q=S $P=L $F=z $B=1 $I=P $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lc	<!201a>daarod	daarod
+2	@Lf	<!201b>otodeeodor	otodeeodor
+3	@P0	<%>polaiin.shocthy.qoteol.loiiin.oteeor.cpheodar.sholdaiin	polaiin.shocthy.qoteol.loiiin.oteeor.cpheodar.sholdaiin
+4	+P0	dsheody.okeeoy.kod[?:a].chkeeody.daraiiin.ctheoly.qokcheololain	dsheody.okeeoy.kod?.chkeeody.daraiiin.ctheoly.qokcheololain
+5	+P0	ytol.sheol.she.olaiin.orain.oraroekeol.chol.ekey.qokol.dain	ytol.sheol.she.olaiin.orain.oraroekeol.chol.ekey.qokol.dain
+6	+P0	daiin.ykeeol.oldy.okodaiin<$>	daiin.ykeeol.oldy.okodaiin
+7	@Lc	<!202a>okolaly	okolaly
+8	@P0	<%>pshodaiin.qoorar.chopy<->chofol.daiin.oteol.qoteol.doly	pshodaiin.qoorar.chopychofol.daiin.oteol.qoteol.doly
+9	+P0	daiin.orsheoldy.qokeol<->oteeody.lshodykeodal.qokshdy,sy	daiin.orsheoldy.qokeoloteeody.lshodykeodal.qokshdy,sy
+10	+P0	ycheol.sholdy.chol.chol.ykeeol.dol.doleodaiin.dal.cthedy	ycheol.sholdy.chol.chol.ykeeol.dol.doleodaiin.dal.cthedy
+11	+P0	dcheo.qockhy.sol,sheey.okeody.qokeodol.shockhey.oleeol<$>	dcheo.qockhy.sol,sheey.okeody.qokeodol.shockhey.oleeol
+12	@Lc	<!203a>ddardsh	ddardsh
+13	@P0	<%>teesody.qoeol.olcheor.qokey.okshey.qokeol.sheofol{ckhh}y	teesody.qoeol.olcheor.qokey.okshey.qokeol.sheofolckhhy
+14	+P0	doeey.keeol.qokeo.daor.shey.qoteol.okol.chos.s.or.oeeaiin	doeey.keeol.qokeo.daor.shey.qoteol.okol.chos.s.or.oeeaiin
+15	+P0	or.chol.daiin.dykeor.sheey.qokeody.dor.os.ykeeykam	or.chol.daiin.dykeor.sheey.qokeody.dor.os.ykeeykam
+16	+P0	ddor.chordam<->soraiin.ykeey,dy.okeol.doeoear<->s.aral.dor	ddor.chordamsoraiin.ykeey,dy.okeol.doeoears.aral.dor
+17	+P0	ydar,arody<->oldaiin.sody.chockhy,oly<$>	ydar,arodyoldaiin.sody.chockhy,oly

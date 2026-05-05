@@ -1,0 +1,36 @@
+# Folio f72v2 from ZL3b-n.txt
+# Header: <! $Q=K $P=I $F=z $B=1 $I=Z $H=4 $X=M>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Cc	<!09:30>otos,chs.oty.oteos.oty.chotey.dchy.chopchy.otychal.ctheo,l,shey.tchol,s.choraiin.cheka{iph}y.oteeos,aly.okeedy.cheockhy.ar?k?aly.che??.okedl.okedy.sheos.okeeor.cheey.okeey.teey.cheeey.okeolol.sheeoeky.oekeeo,r,aiin.olalka[in:ir].okolsaiin	otos,chs.oty.oteos.oty.chotey.dchy.chopchy.otychal.ctheo,l,shey.tchol,s.choraiin.chekaiphy.oteeos,aly.okeedy.cheockhy.ar?k?aly.che??.okedl.okedy.sheos.okeeor.cheey.okeey.teey.cheeey.okeolol.sheeoeky.oekeeo,r,aiin.olalkain.okolsaiin
+2	@Lz	<!10:00>oeedey	oeedey
+3	&Lz	<!11:00>oeeodaiin	oeeodaiin
+4	&Lz	<!11:45>okeoram	okeoram
+5	&Lz	<!00:30>air,aim	air,aim
+6	&Lz	<!01:00>oshesy	oshesy
+7	&Lz	<!02:00>oke[a:o]ry	okeary
+8	&Lz	<!02:30>cheoetey	cheoetey
+9	&Lz	<!03:00>cheol[d:?]y	cheoldy
+10	&Lz	<!04:00>sheoeky	sheoeky
+11	&Lz	<!04:30>oteodar	oteodar
+12	&Lz	<!05:30>ofchdysd	ofchdysd
+13	&Lz	<!06:00>oteoyd	oteoyd
+14	&Lz	<!06:30>yteody	yteody
+15	&Lz	<!07:00>okeody	okeody
+16	&Lz	<!08:00>okeoldy	okeoldy
+17	&Lz	<!08:30>ykeeor	ykeeor
+18	&Lz	<!09:00>opaiina[m:r]	opaiinam
+19	&Lz	<!09:30>cheoldy	cheoldy
+20	@Cc	<!10:00>oteesody.otey.oteeos.sheoty.yteeg.dchsaiin.shol.okeees.air,am,shey.qokeodal.oteotey.oteoldy.oteal,chedy.chotalal.okal,cheol.sar,aiin.cheokealy.sardy.otol.chekar.alteol.oltar,ar	oteesody.otey.oteeos.sheoty.yteeg.dchsaiin.shol.okeees.air,am,shey.qokeodal.oteotey.oteoldy.oteal,chedy.chotalal.okal,cheol.sar,aiin.cheokealy.sardy.otol.chekar.alteol.oltar,ar
+21	@Lz	<!10:30>okaiin[:y]	okaiin:y
+22	&Lz	<!11:30>ockhol	ockhol
+23	&Lz	<!00:30>oeedy	oeedy
+24	&Lz	<!01:00>opalg<!nymph has no star>	opalg
+25	&Lz	<!02:00>okeeom	okeeom
+26	&Lz	<!03:00>olkar	olkar
+27	&Lz	<!04:00>oeedaly<!nymph stands on barrel>	oeedaly
+28	&Lz	<!05:00>cheosy	cheosy
+29	&Lz	<!06:30>ofcheay	ofcheay
+30	&Lz	<!07:30>yteedy	yteedy
+31	&Lz	<!08:30>o[n:r]aiin	onaiin
+32	&Lz	<!09:30>okeorar	okeorar
+33	@Cc	<!09:00>otaiin.otshedy.chokeedy.otes,al,al,ar.chetolain.sheodaly.sheokey.okealy.rary	otaiin.otshedy.chokeedy.otes,al,al,ar.chetolain.sheodaly.sheokey.okealy.rary

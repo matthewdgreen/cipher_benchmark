@@ -1,0 +1,16 @@
+# Folio f16r from ZL3b-n.txt
+# Header: <! $Q=B $P=O $F=z $B=1 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pocheody.qopchey.sykaiin.opchy,dor.ychy<->daiin.dy<->chor.orom	pocheody.qopchey.sykaiin.opchy,dor.ychydaiin.dychor.orom
+2	+P0	ychykchy.otey<!corr?>.kol.shor.ody.otody.qoy<->oeesordy	ychykchy.otey.kol.shor.ody.otody.qoyoeesordy
+3	+P0	ydor.sheal.okchy.qoy,koiin.choky.ykair	ydor.sheal.okchy.qoy,koiin.choky.ykair
+4	+Pc	dainod.ychealod<$>	dainod.ychealod
+5	*P0	<%>tchor.chor.chs.y,kch.shocthy.opchy.ty,ky	tchor.chor.chs.y,kch.shocthy.opchy.ty,ky
+6	+P0	oshaiin.dyky.oeees.deeeod.aiin.d,toaiin	oshaiin.dyky.oeees.deeeod.aiin.d,toaiin
+7	+P0	daiin.dalchy.dyky.schy.s,aiin.doal.qoky	daiin.dalchy.dyky.schy.s,aiin.doal.qoky
+8	+P0	shotchy.ydain.yky.shody.otol.daiin	shotchy.ydain.yky.shody.otol.daiin
+9	+P0	saiin.ytaiin<$>	saiin.ytaiin
+10	+P0	<%>toror.dal[y:o],dal.opchy,fchol.ypcho{cfy}.okal	toror.daly,dal.opchy,fchol.ypchocfy.okal
+11	+P0	sokchy.qokol.choty.okchy.cthy.chy,kchy	sokchy.qokol.choty.okchy.cthy.chy,kchy
+12	+P0	dy,cho,kchy.shcthy.shtshy.sho.tchokyd	dy,cho,kchy.shcthy.shtshy.sho.tchokyd
+13	+P0	qok[{oh}:ch]or.dl.dy.shey<$>	qokohor.dl.dy.shey

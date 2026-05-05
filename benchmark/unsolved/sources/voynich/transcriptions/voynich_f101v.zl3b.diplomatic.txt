@@ -1,0 +1,31 @@
+# Folio f101v from ZL3b-n.txt
+# Header: <! $Q=S $P=H $F=y $B=2 $I=P $L=A $H=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@Lf	[s:r]airaly	sairaly
+2	@Lf	otaldy	otaldy
+3	@Lf	otol	otol
+4	@Lf	ytal	ytal
+5	@Lf	dokor	dokor
+6	@Lf	orar	orar
+7	@Lf	otarar	otarar
+8	@Lf	ot[o:a]ly	otoly
+9	@Lf	soraly	soraly
+10	@Lf	okol	okol
+11	@Lf	arom	arom
+12	@Lf	oraram	oraram
+13	@Lf	oraeep	oraeep
+14	@Lf	dytolg	dytolg
+15	@Lf	olkor	olkor
+16	@Lf	dolary	dolary
+17	@Lf	odor	odor
+18	@Lf	olaran	olaran
+19	@P0	<%>tolchor.cheopor.or,ody.cphey,r.shee.fol,s,oiin.otsheey.otch???y,kcho,pcholy.chor.or.choror.sy<->dorar<->okoraiin.orolodain	tolchor.cheopor.or,ody.cphey,r.shee.fol,s,oiin.otsheey.otch???y,kcho,pcholy.chor.or.choror.sydorarokoraiin.orolodain
+20	+P0	or.aiin.or.o.or.odam.chor.s.aiin.okor.cheeor.sheeol.qokol.et???ol.qoor.cheey.qykeod.oeeo.r.choy.s<->okeeody<->chodaiin.cthy.okody.dar	or.aiin.or.o.or.odam.chor.s.aiin.okor.cheeor.sheeol.qokol.et???ol.qoor.cheey.qykeod.oeeo.r.choy.sokeeodychodaiin.cthy.okody.dar
+21	+P0	ycheor.o[?:e]o.dain.cheokal.{ykh}ody.cheeods.oraiin.qoeey.cthey.???eocthy.dain.cheod?.dydy<$>	ycheor.o?o.dain.cheokal.ykhody.cheeods.oraiin.qoeey.cthey.???eocthy.dain.cheod?.dydy
+22	+P0	<%>ksear.lol,keeol.otal.or.ol.aiin.okeod.{ykh}ey.dain.olcheol.???opcheol.cthey.qekeoldy.qocthor.sheody.qo{ckhh}ey.odaiin.shoytolaiin.?sodaiin,dy	ksear.lol,keeol.otal.or.ol.aiin.okeod.ykhey.dain.olcheol.???opcheol.cthey.qekeoldy.qocthor.sheody.qockhhey.odaiin.shoytolaiin.?sodaiin,dy
+23	+P0	yaiin.ol,olor.daiin.okeey.qok.ykeol.daiin.qockhy.daiin.olch???dar.qokeol.dol.oraiin.oldaiin.keeol@138;,rch.qokeeeor.s,ydy.cheor.okeey.choldy.dar	yaiin.ol,olor.daiin.okeey.qok.ykeol.daiin.qockhy.daiin.olch???dar.qokeol.dol.oraiin.oldaiin.keeol@138;,rch.qokeeeor.s,ydy.cheor.okeey.choldy.dar
+24	+P0	teeeol.sheol.qokeor.{ykh}ol.olcho.r.chokey.chor.ctheey.daiin???daiin.cheeody.cheey,keo.cheol.daiiin.deeor.cheedy<$>	teeeol.sheol.qokeor.ykhol.olcho.r.chokey.chor.ctheey.daiin???daiin.cheeody.cheey,keo.cheol.daiiin.deeor.cheedy
+25	+P0	<%>daiin.dair.yteol.chor.qockhol.daiin.ckheey.chey.kchey.da???oiin.okeey.ckheo,l,cheody.kcheol.daiin.etee[o:y]s.ctheody.ctheo.ckhosh[?:e].olchor	daiin.dair.yteol.chor.qockhol.daiin.ckheey.chey.kchey.da???oiin.okeey.ckheo,l,cheody.kcheol.daiin.eteeos.ctheody.ctheo.ckhosh?.olchor
+26	+P0	olaiin.okeol.cheo.kol.ches.sheey.qoor.qokeody.cheor.okeo.???oiin.cheey.cthey.ory.ctheey.qokeey.shol.ody.cheol.oralar.shey.qokar,ary	olaiin.okeol.cheo.kol.ches.sheey.qoor.qokeody.cheor.okeo.???oiin.cheey.cthey.ory.ctheey.qokeey.shol.ody.cheol.oralar.shey.qokar,ary
+27	+P0	sal.chol.choly.okeey.dal.qol.shckheol.chol.cthear.keeol.???cheeo.ol,chs.oraiin.qokeeey.soiin.qodaiin.cheol.qokeey.daiin.cheodam	sal.chol.choly.okeey.dal.qol.shckheol.chol.cthear.keeol.???cheeo.ol,chs.oraiin.qokeeey.soiin.qodaiin.cheol.qokeey.daiin.cheodam
+28	+Pc	teol.cheol.etchey.???cheo,r.cheol.cthol.cholaiin.chol,qkar<$>	teol.cheol.etchey.???cheo,r.cheol.cthol.cholaiin.chol,qkar

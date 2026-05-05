@@ -1,0 +1,21 @@
+# Folio f68v2 from ZL3b-n.txt
+# Header: <! $Q=I $P=M $F=z $B=1 $I=A $H=4>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>teeody.shcthey.psheody.shocthy.ykeody.shdy.shot.ytchy	teeody.shcthey.psheody.shocthy.ykeody.shdy.shot.ytchy
+2	+P0	dchaiin.shey.dcheedy.qokeey.shckeey.dal.dy.sheetey.daldy	dchaiin.shey.dcheedy.qokeey.shckeey.dal.dy.sheetey.daldy
+3	+P0	qoeeey.shekeey.shkeey.s.alchey.cthy.shteody.qoteeody.dam	qoeeey.shekeey.shkeey.s.alchey.cthy.shteody.qoteeody.dam
+4	+P0	okeey.sheoy.keol.ycheety.okeody.shey.qokey.chol.chekody	okeey.sheoy.keol.ycheety.okeody.shey.qokey.chol.chekody
+5	+P0	scheos.seekey.okey.chody<->okeos.cheo.sal,ar.oallchdm<$>	scheos.seekey.okey.chodyokeos.cheo.sal,ar.oallchdm
+6	@Cc	<!10:30>okeadaiin.ykeeody.shsdy.shyokeey.dalches.oko[s:r].cheky.otees.oteydy.okechoy.yteody.chetedy.cheda[d:m]y.[@150;:ch]eectheey.otychdy.oteey.cpheeo,dy.otey.[ch:ee]key.daiin.chey.da[iir:iis].oteeys.sar.o[ckhee:{ck}eee]y.dor,chy.okchy.qokeechy.dal.chy.chokeeey.sary	okeadaiin.ykeeody.shsdy.shyokeey.dalches.okos.cheky.otees.oteydy.okechoy.yteody.chetedy.chedady.@150;eectheey.otychdy.oteey.cpheeo,dy.otey.chkey.daiin.chey.daiir.oteeys.sar.ockheey.dor,chy.okchy.qokeechy.dal.chy.chokeeey.sary
+7	@Ro	otey.dalar	otey.dalar
+8	@Ro	otosey<!star><->sary	otoseysary
+9	@Ro	yshesas.ar.shy	yshesas.ar.shy
+10	@Ro	socths.chety	socths.chety
+11	@Ro	oteoys<!star><->orasaly	oteoysorasaly
+12	@Ro	yteody.chetey	yteody.chetey
+13	@Ro	oteeos.alamchy	oteeos.alamchy
+14	@Ro	otchdy<!star><->chetal	otchdychetal
+15	@Ro	adairchdy.aiin	adairchdy.aiin
+16	@Ro	dchedal.daiin	dchedal.daiin
+17	@Ro	ykeeepol<!star><->ypchy	ykeeepolypchy
+18	@Ro	choteey.dary	choteey.dary

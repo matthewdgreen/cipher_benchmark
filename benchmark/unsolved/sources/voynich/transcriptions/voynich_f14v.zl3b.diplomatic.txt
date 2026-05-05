@@ -1,0 +1,12 @@
+# Folio f14v from ZL3b-n.txt
+# Header: <! $Q=B $P=L $F=x $B=3 $I=H $L=A $H=1 $C=1>
+# Columns: locus<TAB>kind<TAB>raw_ivtff<TAB>cleaned_eva_first_alternatives
+1	@P0	<%>pdychoiin.yfodain.otyshy.dy.ypchor.daiin.kol.ydain	pdychoiin.yfodain.otyshy.dy.ypchor.daiin.kol.ydain
+2	+P0	okchor.d,chytshy.oty.chy.cthy.otchy,ty.chol,daiin	okchor.d,chytshy.oty.chy.cthy.otchy,ty.chol,daiin
+3	+P0	ychy,dy.daiin.chcthy.y[k:t],ykaiin.dytchy.{ykhh}y.ky,dy	ychy,dy.daiin.chcthy.yk,ykaiin.dytchy.ykhhy.ky,dy
+4	+P0	ytychy.ksho.ykshy.shokshor.yty.darody.dyoty,ds	ytychy.ksho.ykshy.shokshor.yty.darody.dyoty,ds
+5	+P0	okshy.daiin.okchor,chky.qotchy.daiin.cthor.oty	okshy.daiin.okchor,chky.qotchy.daiin.cthor.oty
+6	+P0	qoty.choky.cthy.chokchy.dy,dy,dy.chckhy.dchyd.n	qoty.choky.cthy.chokchy.dy,dy,dy.chckhy.dchyd.n
+7	+P0	oy,kshy.cho,ty.dydy,odyd.otchy.o.kchy.dshy.dardy	oy,kshy.cho,ty.dydy,odyd.otchy.o.kchy.dshy.dardy
+8	+P0	chokshor.daiin<->okshody.daiin<->dol.dair.dam	chokshor.daiinokshody.daiindol.dair.dam
+9	+P0	dykchy.ctholdg<->dchckhy<$>	dykchy.ctholdgdchckhy
