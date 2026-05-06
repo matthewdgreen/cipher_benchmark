@@ -1,0 +1,17 @@
+{
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Feynman 2.txt",
+  "canonical_sha256_utf8": "4f26d2d2ca01ca974adc72285f2c8fb1f8b7cf7270dabc1930d677dba83b5722",
+  "cipher_foundation_url": "https://cipherfoundation.org/modern-ciphers/feynman-challenge-ciphers/",
+  "ciphertext_letter_count": 261,
+  "claimed_solution_url": "https://codewarrior0.github.io/cipher-blog/2023/05/27/feynman-solved.html",
+  "id": "feynman_2",
+  "plaintext_letter_count": 261,
+  "plaintext_sha256_utf8": "f7948e305363cab82ff5297b84bb29d6e6a41eb51f6f5eacca7b39ac30e7a9be",
+  "published_alphabet_1": "MANYREQUS.HVBCID.OLWGZX.K.",
+  "published_alphabet_2": "JHAZTENYXMLOCUFBQVKPSGW.D.",
+  "source_discussion_url": "https://ciphermysteries.com/2017/04/30/feynman-challenge-ciphers-geoffrey-chaucer",
+  "source_plaintext_citation": "A. E. Housman, \"Terence, This is Stupid Stuff\", 1896",
+  "source_plaintext_url": "https://stuff.mit.edu/afs/athena.mit.edu/user/d/m/dmaze/Poetry/Housman/Terence",
+  "title": "Feynman Challenge Cipher #2",
+  "verification_note": "Re-encipherment under the published two-alphabet alternating-word method matches 259/261 ciphertext letters with the documented England/brews exception and an expanded \"ale is\" tokenization; the remaining two letters appear to be alphabet/method exceptions in the published partial alphabets."
+}

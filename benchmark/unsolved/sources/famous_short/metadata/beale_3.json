@@ -1,0 +1,13 @@
+{
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Beale 3.txt",
+  "canonical_format": "single-line whitespace-separated numeric tokens; no word-boundary separators",
+  "id": "beale_3",
+  "max_numeric_token": 975,
+  "primary_source_note": "Cipher Foundation Beale Papers transcription, described there as following the 1885 pamphlet copy in the Internet Archive.",
+  "primary_transcription_url": "https://cipherfoundation.org/older-ciphers/beale-papers/beale-papers-transcription/",
+  "sha256_canonical_utf8": "010873a2c0f62196b263e621d5dd618f608cf856ddfed5e8b951f4e6e9418d9f",
+  "source_cipher_label": "NAMES AND RESIDENCES [3]",
+  "title": "Beale cipher 3",
+  "token_count": 618,
+  "unique_token_count": 263
+}

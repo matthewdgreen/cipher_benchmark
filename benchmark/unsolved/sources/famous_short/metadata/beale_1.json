@@ -1,0 +1,13 @@
+{
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Beale 1.txt",
+  "canonical_format": "single-line whitespace-separated numeric tokens; no word-boundary separators",
+  "id": "beale_1",
+  "max_numeric_token": 2906,
+  "primary_source_note": "Cipher Foundation Beale Papers transcription, described there as following the 1885 pamphlet copy in the Internet Archive.",
+  "primary_transcription_url": "https://cipherfoundation.org/older-ciphers/beale-papers/beale-papers-transcription/",
+  "sha256_canonical_utf8": "82c528d40b06e9c586b612c96416a7b1495cd166516789016ec594ee27e03edb",
+  "source_cipher_label": "THE LOCALITY OF THE VAULT [1]",
+  "title": "Beale cipher 1",
+  "token_count": 520,
+  "unique_token_count": 298
+}

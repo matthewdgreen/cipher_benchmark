@@ -1,0 +1,24 @@
+{
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/D'Agapeyeff.txt",
+  "azdecrypt_pair_token_count": 196,
+  "canonical_format": "single-line whitespace-separated five-digit groups; no word-boundary separators",
+  "canonical_sha256_utf8": "5b4fccca5977fc4fa4312c949aef7545da9cc44c6dc1e56530d37848bbd58787",
+  "digit_count": 395,
+  "five_digit_group_count": 79,
+  "hyde_and_rugg_links_url": "https://www.hydeandrugg.com/our-research/codes-ciphers/the-dagapeyeff-cipher/dagapeyeff-links-and-resources/",
+  "hyde_and_rugg_overview_url": "https://www.hydeandrugg.com/our-research/codes-ciphers/the-dagapeyeff-cipher/",
+  "hypothesis_views": [
+    "sources/famous_short/transcriptions/dagapeyeff_cipher.azdecrypt_pairs.canonical.txt",
+    "sources/famous_short/transcriptions/dagapeyeff_cipher.codes_and_ciphers_polybius_example.txt",
+    "sources/famous_short/transcriptions/dagapeyeff_cipher.codes_and_ciphers_polybius_example_merged.txt"
+  ],
+  "id": "dagapeyeff_cipher",
+  "open_library_url": "https://openlibrary.org/books/OL16612369M/Codes_and_ciphers",
+  "pair_hypothesis_sha256_utf8": "7ff6b3b5f5733047d9963f8ceb875c18e73c5ef05e52a9bab3a139d530b2ee25",
+  "pair_hypothesis_unique_tokens": 18,
+  "primary_transcription_url": "https://en.wikipedia.org/wiki/D%27Agapeyeff_cipher",
+  "rights_note": "Original 1939 book is not assumed public-domain. Local transcription is included for research benchmark use with rights_class hold_for_review.",
+  "source_book": "Alexander D'Agapeyeff, Codes and Ciphers, first edition, Oxford University Press, 1939",
+  "title": "D'Agapeyeff cipher",
+  "unique_five_digit_groups": 76
+}

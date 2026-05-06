@@ -1,0 +1,17 @@
+{
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Feynman 3.txt",
+  "canonical_sha256_utf8": "b6d555a3686e6ee0c10c6ee463100bda2a96e2a3f6e0be992b05687a821de4ee",
+  "cipher_foundation_url": "https://cipherfoundation.org/modern-ciphers/feynman-challenge-ciphers/",
+  "ciphertext_letter_count": 231,
+  "claimed_solution_url": "https://codewarrior0.github.io/cipher-blog/2023/05/27/feynman-solved.html",
+  "id": "feynman_3",
+  "plaintext_letter_count": 231,
+  "plaintext_sha256_utf8": "a63a0ccd7b6e7e2811f755eb7042fedf9ba9ef76fea2708d70a629980528f35a",
+  "published_alphabet_1": "MANYREQUS.HVBCID.OLWGZX.K.",
+  "published_alphabet_2": "JHAZTENYXMLOCUFBQVKPSGW.D.",
+  "source_discussion_url": "https://ciphermysteries.com/2017/04/30/feynman-challenge-ciphers-geoffrey-chaucer",
+  "source_plaintext_citation": "Richard P. Feynman, \"Atomic Theory of the Lambda Transition in Helium\", Physical Review, 1953",
+  "source_plaintext_url": "https://authors.library.caltech.edu/records/s20st-4d867",
+  "title": "Feynman Challenge Cipher #3",
+  "verification_note": "Re-encipherment under the published two-alphabet alternating-word method matches 230/231 ciphertext letters with the published partial alphabets; the single discrepancy is consistent with one unrecovered/exceptional mapping in the claimed method."
+}

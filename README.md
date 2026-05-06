@@ -8,9 +8,9 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Current Status
 
-**MVP in progress.** Main manifest: 902 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, Kryptos, and neutral-probe sources. A parallel **unsolved-benchmark area** (12 records) covers open-ended evaluation on famous unsolved ciphers (Voynich, Zodiac variants, Scorpion, Kryptos K4). Additional sources under investigation.
+**MVP in progress.** Main manifest: 904 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, Kryptos, Feynman solved-probable calibrations, and neutral-probe sources. A parallel **unsolved-benchmark area** (239 records) covers open-ended evaluation on famous unsolved ciphers (Voynich, Zodiac variants, Scorpion, Kryptos K4, Beale 1/3, and D'Agapeyeff). Additional sources under investigation.
 
-### Main benchmark (`benchmark/manifest/records.jsonl`, 902 records)
+### Main benchmark (`benchmark/manifest/records.jsonl`, 904 records)
 
 | Source | Records | Cipher Type | Tracks | Status |
 |--------|---------|-------------|--------|--------|
@@ -21,6 +21,7 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 | External tool built-ins | 3 | Reference ciphers | B only | Parity smoke records |
 | Curated Zodiac | 2 | Homophonic / transposition+homophonic | B only | Global glyph IDs; Z408/Z340 parity records |
 | Kryptos solved sections | 3 | Keyed-Vigenère (K1/K2), transposition/TransMatrix (K3) | B only | Calibration records with known-key replay metadata; K4 in unsolved area |
+| Feynman Challenge Ciphers #2/#3 | 2 | Alternating word substitution + even-word reversal | B only | Solved-probable claimed-solution calibration records |
 | Neutral probe | 1 | Simple substitution | B only | Alphabet-agnostic diagnostic baseline |
 | ICDAR 2024 | — | Various | — | Data staged; redistribution TBD |
 
@@ -30,13 +31,14 @@ A separate area for historical ciphers with **no widely accepted solution**, org
 
 | Source | Records | Status | Notes |
 |--------|---------|--------|-------|
-| Voynich Manuscript (Beinecke MS 408) | 3 seed folios | Script ready | `scripts/create_voynich_intake.py` pulls ~211 folios via Beinecke IIIF |
+| Voynich Manuscript (Beinecke MS 408) | 227 | Seeded | ZL3b-derived canonical folio records; transliteration rights still under review |
 | Zodiac (unsolved variants) | 5 | Seeded | Z340 + Z153 diagnostic variants with zkdecrypto glyph IDs |
 | Scorpion ciphers | 3 | Seeded | S1/S5 image-linked records + S1+S5 shared-key hypothesis (v0.2, pre-benchmark-grade) |
 | Kryptos K4 | 1 | Seeded | K4 unsolved challenge; K1–K3 in main benchmark |
+| Famous short: Beale 1 & 3, D'Agapeyeff | 3 | Seeded | Numeric/fractionation diagnostic records |
 | DECODE undecrypted subset | — | Planned | Blocked on DECODE login |
 | Rohonc Codex | — | Planned | Rights TBD |
-| Famous short (Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man, etc.) | — | Planned | One record per cipher |
+| Other famous short ciphers (Dorabella, Somerton Man, etc.) | — | Planned | One record per cipher |
 
 ## Quick Start
 
@@ -91,6 +93,8 @@ benchmark/                    # The main benchmark dataset (solved / scorable)
     zodiac/                   #     Curated Zodiac records (Z408/Z340 parity)
       transcriptions/ plaintext/ metadata/
     kryptos/                  #     Kryptos K1/K2/K3 calibration records
+      transcriptions/ plaintext/ metadata/
+    feynman/                  #     Feynman #2/#3 solved-probable calibration records
       transcriptions/ plaintext/ metadata/
     neutral_probe/            #     Alphabet-agnostic diagnostic baseline
       transcriptions/ plaintext/

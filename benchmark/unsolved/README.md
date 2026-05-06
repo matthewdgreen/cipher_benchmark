@@ -73,8 +73,27 @@ Exclude:
 **Tier 2 (famous short ciphers — challenge set):**
   * `famous_short/` — Zodiac Z13/Z32, Kryptos K4, Dorabella, D'Agapeyeff,
     Beale 1 & 3, Somerton Man, Ricky McCormick, Scorpion S1–S5,
-    Shugborough, Feynman #2/#3, Paul Rubin, Henry Debosnys.
+    Shugborough, Paul Rubin, Henry Debosnys.
     One record per cipher.
+
+Initial Beale intake is now live under `sources/famous_short/` for Beale 1
+and Beale 3. These are numeric-token unsolved records sourced to the public
+Beale Papers transcription tradition, with the AZdecrypt bundled copies used
+only as cross-check material. Beale 2 is intentionally not included as an
+unsolved target because it has a traditional accepted solution.
+
+Initial D'Agapeyeff intake is also live under `sources/famous_short/` as a
+diagnostic unsolved record. The target preserves the public five-digit grouping
+from the 1939 *Codes and Ciphers* challenge; a two-digit-pair view and related
+Polybius worked-example files are stored only as hypothesis/context material.
+Rights are marked `hold_for_review` because the original book is not assumed
+public-domain.
+
+Feynman Challenge Cipher #2 and #3 were originally triaged here, but have been
+promoted to the main benchmark as `solved_probable` records under
+`benchmark/sources/feynman/`. The claimed plaintexts and method metadata are
+stored for calibration while ordinary context tiers avoid exposing
+solution-bearing details.
 
 Initial Scorpion intake has started under `sources/scorpion/` with S1 and S5
 as image-linked, documentation-rich records. They now include tentative v0.2
@@ -83,6 +102,14 @@ clearly marked synthetic S1+S5 shared-key/shared-alphabet hypothesis case. The
 next curation step is still a vetted Scorpion glyph-ID pass over the public
 images; do not treat the v0.2 labels or synthetic composite as benchmark-grade
 evidence.
+
+AZdecrypt's bundled `Ciphers/Unsolved` examples are being triaged under
+`sources/azdecrypt_unsolved/INTAKE.md`. This is an intake ledger, not a claim
+that those bundled transcriptions are canonical. Each candidate should be
+verified against better public/archival sources and rights reviewed before it
+becomes a live unsolved benchmark record. If no better source can be found, an
+AZdecrypt-derived placeholder may be added only with explicit
+`hold_for_review` provenance.
 
 ## Layout
 

@@ -33,8 +33,10 @@ Last swept: 2026-04-23.
   Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man,
   Ricky McCormick, Scorpion S1–S5, Shugborough, Feynman #2/#3,
   Paul Rubin, Henry Debosnys).
-  - Started: Scorpion S1/S5, Zodiac variants/Z153, and Kryptos K4 are now
-    seeded in the unsolved area.
+  - Started: Scorpion S1/S5, Zodiac variants/Z153, Kryptos K4, Beale 1/3,
+    and D'Agapeyeff are now seeded in the unsolved area. Feynman #2/#3 have
+    been promoted to main-benchmark `solved_probable` calibration records with
+    claimed plaintext and method metadata.
 - [ ] Evaluate Rohonc Codex rights; include if feasible.
 - [ ] Draft the Track D (`image2hypothesis`) evaluation rubric.
 

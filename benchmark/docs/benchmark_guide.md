@@ -489,7 +489,7 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 - **Evaluation scripts** (`evaluation/`): Scoring code for each track (symbol error rate for Track A, plaintext accuracy for Tracks B and C).
 - **Additional sources**: DECODE database records (with plaintext/transcription once API access resolves), British Library cipher manuscripts, HCPortal material, ICDAR 2024 competition data. See `source_audit.md` for current status.
 - **Difficulty annotations**: Per-record difficulty estimates based on cipher complexity, symbol count, and solution method.
-- **Unsolved area expansion**: Voynich full intake (script ready; 3 seed folios committed), DECODE undecrypted subset (blocked on login), Rohonc Codex (rights TBD), and remaining famous-short records (Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man, etc. — Kryptos K4, Zodiac variants, and Scorpion S1/S5 already seeded). See `benchmark/unsolved/README.md`.
+- **Unsolved area expansion**: Voynich full intake, DECODE undecrypted subset (blocked on login), Rohonc Codex (rights TBD), and remaining famous-short records (Dorabella, Somerton Man, etc. — Kryptos K4, Zodiac variants, Scorpion S1/S5, Beale 1/3, and D'Agapeyeff are already seeded). Feynman #2/#3 have moved to the main benchmark as `solved_probable` calibration records. See `benchmark/unsolved/README.md`.
 
 ## 12. Unsolved Area
 
