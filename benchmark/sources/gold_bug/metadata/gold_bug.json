@@ -1,0 +1,39 @@
+{
+  "id": "gold_bug_poe",
+  "title": "The Gold-Bug cipher",
+  "author": "Edgar Allan Poe",
+  "first_published": "Dollar Newspaper, Philadelphia, June 21, 1843",
+  "cipher_type": "simple_substitution",
+  "token_count": 204,
+  "plaintext_letter_count": 203,
+  "note_on_cipher_length": "204 cipher characters encode 203 plaintext letters plus one em-dash (—) representing the hyphen in 'death's-head'.",
+  "substitution_key_note": "Poe gives the key through Legrand's frequency analysis in the story. The key assigns one plaintext letter to each of the 21 distinct cipher symbols. Poe explicitly names the following mappings: 5=a, †=d, 8=e, 3=g, 4=h, 6=i, *=n, 0=o, (=p, ‡=r, )=s, ;=t, ?=u, ¶=y. The remaining 7 symbols encode b, c, f, l, m, v, w and the hyphen.",
+  "edition_note": "Different digital editions assign different Unicode code points to Poe's original Dollar Newspaper typeset characters. The AZdecrypt bundled transcription (used here as cross-check) uses Windows-1252 encoding and its symbol–letter mapping differs in the 'forty-one' phrase region from the key Poe states textually. Seven positions in the AZdecrypt transcription conflict when the story-stated key is applied; this is an edition-specific encoding variant, not a cipher error. The diplomatic transcription stored here is the AZdecrypt version re-encoded as UTF-8. A fully self-consistent key for this specific transcription can be derived by aligning the cipher against the known plaintext.",
+  "sources": [
+    {
+      "label": "Original publication",
+      "citation": "Poe, Edgar Allan. 'The Gold-Bug.' Dollar Newspaper (Philadelphia), 21 June 1843, pp. 1–2.",
+      "notes": "Prize story; also reprinted in Saturday Courier and collected editions."
+    },
+    {
+      "label": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2147",
+      "notes": "Part of a collected Poe works volume. Plain text and HTML formats available. Used to cross-check plaintext."
+    },
+    {
+      "label": "Poe Stories (poestories.com)",
+      "url": "https://poestories.com/read/goldbug",
+      "notes": "Annotated transcription of the story including the ciphertext and solution. Documents edition-specific character variants."
+    },
+    {
+      "label": "AZdecrypt bundled cipher",
+      "path": "Ciphers/Substitution/The Gold Bug.txt",
+      "notes": "Windows-1252 encoded; used as ciphertext source for this record. Symbol mapping in this edition differs slightly from Poe's stated key in the 'forty-one' phrase region."
+    },
+    {
+      "label": "Cipher Machines and Cryptology",
+      "url": "https://www.ciphermachinesandcryptology.com/en/goldbug.htm",
+      "notes": "Secondary analysis of the cipher including a printable ciphertext version."
+    }
+  ]
+}
