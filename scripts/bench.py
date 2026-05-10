@@ -329,11 +329,12 @@ def cmd_show(args) -> None:
     for img in rec.get("image_files", []):
         file_status("  Image", img)
 
-    # Context layers
+    # Context layers — print all, same rendering as `context` subcommand
     layers = rec.get("context_layers", {})
     if layers:
         print()
-        print("  Context layers available:", ", ".join(layers.keys()))
+        print("  Context layers:")
+        _print_context_layers(layers)
 
     # Associated documents
     assoc = rec.get("associated_documents", [])
@@ -536,12 +537,36 @@ def cmd_diff(args) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Subcommand: context  (print context layer text)
+# Context layer rendering  (shared by show and context subcommands)
 # ---------------------------------------------------------------------------
 
 _ALL_LAYERS = ("minimal", "standard", "historical", "max")
 
 _LAYER_FLAGS = ("contains_solution", "contains_plaintext_hint", "contains_cipher_type_hint")
+
+
+def _print_context_layers(layers: dict, wanted: list[str] | None = None) -> None:
+    """Print formatted context layer blocks.  wanted=None prints all present layers."""
+    if wanted is None:
+        wanted = [n for n in _ALL_LAYERS if n in layers] or list(layers.keys())
+    for name in wanted:
+        layer = layers[name]
+        label = layer.get("label") or name
+        text = layer.get("text", "").strip()
+        warnings = [f for f in _LAYER_FLAGS if layer.get(f)]
+        warn_str = "  ⚠  " + ", ".join(warnings) if warnings else ""
+        print(f"\n  ┌─ {name.upper()}  —  {label}{warn_str}")
+        for para in text.split("\n"):
+            wrapped = textwrap.fill(
+                para, width=70, initial_indent="  │  ", subsequent_indent="  │  "
+            )
+            print(wrapped)
+        print(f"  └{'─' * 58}")
+
+
+# ---------------------------------------------------------------------------
+# Subcommand: context  (print context layer text)
+# ---------------------------------------------------------------------------
 
 
 def cmd_context(args) -> None:
@@ -573,33 +598,15 @@ def cmd_context(args) -> None:
         wanted = [args.layer]
 
     if args.raw:
-        # Just the text, one layer after another, separated by a blank line
         for i, name in enumerate(wanted):
             if i:
                 print()
             print(layers[name].get("text", "").strip())
         return
 
-    # Formatted output
     area = _area_label(root)
     print(f"\n── {rec['id']}  [context layers]  [{area}] ──")
-
-    for name in wanted:
-        layer = layers[name]
-        label = layer.get("label") or name
-        text = layer.get("text", "").strip()
-
-        # Collect active warning flags
-        warnings = [f for f in _LAYER_FLAGS if layer.get(f)]
-        warn_str = "  ⚠  " + ", ".join(warnings) if warnings else ""
-
-        print(f"\n  ┌─ {name.upper()}  —  {label}{warn_str}")
-        # Wrap and indent the text
-        for para in text.split("\n"):
-            wrapped = textwrap.fill(para, width=70, initial_indent="  │  ", subsequent_indent="  │  ")
-            print(wrapped)
-        print(f"  └{'─' * 58}")
-
+    _print_context_layers(layers, wanted)
     print()
 
 
