@@ -71,9 +71,14 @@ python3 scripts/bench.py plain borg_0010r
 
 # Word-aligned cipher ↔ plaintext view (solved records only)
 python3 scripts/bench.py diff borg_0010r --limit 30
+
+# Print context layer text (with warning flags for solution/hint content)
+python3 scripts/bench.py context kryptos_k1
+python3 scripts/bench.py context beale_1 --layer historical
+python3 scripts/bench.py context borg_0010r --layer minimal --raw
 ```
 
-The `--raw` flag on `cat` and `plain` suppresses the header for pipeline use. Run `python3 scripts/bench.py --help` or append `--help` to any subcommand for the full option reference.
+The `--raw` flag on `cat`, `plain`, and `context` suppresses headers for pipeline use. Run `python3 scripts/bench.py --help` or append `--help` to any subcommand for the full option reference.
 
 ## Quick Start
 

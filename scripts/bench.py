@@ -536,6 +536,74 @@ def cmd_diff(args) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Subcommand: context  (print context layer text)
+# ---------------------------------------------------------------------------
+
+_ALL_LAYERS = ("minimal", "standard", "historical", "max")
+
+_LAYER_FLAGS = ("contains_solution", "contains_plaintext_hint", "contains_cipher_type_hint")
+
+
+def cmd_context(args) -> None:
+    hit = find_record(args.id)
+    if hit is None:
+        print(f"Error: record '{args.id}' not found.", file=sys.stderr)
+        sys.exit(1)
+    rec, root = hit
+
+    layers = rec.get("context_layers", {})
+    if not layers:
+        print(f"Error: record '{args.id}' has no context_layers field.", file=sys.stderr)
+        sys.exit(1)
+
+    # Determine which layers to show
+    if args.layer == "all":
+        wanted = [name for name in _ALL_LAYERS if name in layers]
+        if not wanted:
+            wanted = list(layers.keys())
+    else:
+        if args.layer not in layers:
+            available = ", ".join(layers.keys())
+            print(
+                f"Error: layer '{args.layer}' not found for '{args.id}'. "
+                f"Available: {available}",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        wanted = [args.layer]
+
+    if args.raw:
+        # Just the text, one layer after another, separated by a blank line
+        for i, name in enumerate(wanted):
+            if i:
+                print()
+            print(layers[name].get("text", "").strip())
+        return
+
+    # Formatted output
+    area = _area_label(root)
+    print(f"\n── {rec['id']}  [context layers]  [{area}] ──")
+
+    for name in wanted:
+        layer = layers[name]
+        label = layer.get("label") or name
+        text = layer.get("text", "").strip()
+
+        # Collect active warning flags
+        warnings = [f for f in _LAYER_FLAGS if layer.get(f)]
+        warn_str = "  ⚠  " + ", ".join(warnings) if warnings else ""
+
+        print(f"\n  ┌─ {name.upper()}  —  {label}{warn_str}")
+        # Wrap and indent the text
+        for para in text.split("\n"):
+            wrapped = textwrap.fill(para, width=70, initial_indent="  │  ", subsequent_indent="  │  ")
+            print(wrapped)
+        print(f"  └{'─' * 58}")
+
+    print()
+
+
+# ---------------------------------------------------------------------------
 # Argument parsing
 # ---------------------------------------------------------------------------
 
@@ -555,6 +623,9 @@ def build_parser() -> argparse.ArgumentParser:
               bench cat borg_0010r --diplomatic
               bench plain copiale_p050
               bench diff borg_0010r --limit 30
+              bench context kryptos_k1
+              bench context beale_1 --layer historical
+              bench context borg_0010r --layer minimal --raw
         """),
     )
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -608,6 +679,23 @@ def build_parser() -> argparse.ArgumentParser:
     dp.add_argument("--limit", type=int, default=40,
                     help="Max words/tokens to display (default: 40; use -1 for all)")
 
+    # context
+    xp = sub.add_parser("context", help="Print context layer text for a record")
+    xp.add_argument("id", help="Record ID")
+    xp.add_argument(
+        "--layer",
+        default="all",
+        help=(
+            "Which layer to print: minimal, standard, historical, max, or all "
+            "(default: all). 'all' prints every layer present in order."
+        ),
+    )
+    xp.add_argument(
+        "--raw",
+        action="store_true",
+        help="Print only the text, no headers or warning flags (useful for piping to a solver)",
+    )
+
     return p
 
 
@@ -624,12 +712,13 @@ def main() -> None:
         args.limit = 10 ** 9
 
     dispatch = {
-        "stats": cmd_stats,
-        "list":  cmd_list,
-        "show":  cmd_show,
-        "cat":   cmd_cat,
-        "plain": cmd_plain,
-        "diff":  cmd_diff,
+        "stats":   cmd_stats,
+        "list":    cmd_list,
+        "show":    cmd_show,
+        "cat":     cmd_cat,
+        "plain":   cmd_plain,
+        "diff":    cmd_diff,
+        "context": cmd_context,
     }
     dispatch[args.cmd](args)
 
