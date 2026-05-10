@@ -47,6 +47,34 @@ A separate area for historical ciphers with **no widely accepted solution**, org
 | Rohonc Codex | — | Planned | Rights TBD |
 | Other famous short ciphers (Somerton-adjacent variants, etc.) | — | Planned | One record per cipher |
 
+## Exploring the Benchmark
+
+`scripts/bench.py` is a command-line tool for browsing both manifests without reading raw JSON. It requires only Python 3.10+ and no third-party packages.
+
+```bash
+# Summary counts across both manifests
+python3 scripts/bench.py stats
+
+# List records — filter by source, status, track, or area
+python3 scripts/bench.py list --source borg --limit 10
+python3 scripts/bench.py list --track transcription2plaintext --solved
+python3 scripts/bench.py list --area unsolved --has-image
+
+# Inspect a single record (metadata, file availability, context layers)
+python3 scripts/bench.py show kryptos_k1
+python3 scripts/bench.py show beale_1
+
+# Print ciphertext or plaintext
+python3 scripts/bench.py cat borg_0010r
+python3 scripts/bench.py cat borg_0010r --diplomatic
+python3 scripts/bench.py plain borg_0010r
+
+# Word-aligned cipher ↔ plaintext view (solved records only)
+python3 scripts/bench.py diff borg_0010r --limit 30
+```
+
+The `--raw` flag on `cat` and `plain` suppresses the header for pipeline use. Run `python3 scripts/bench.py --help` or append `--help` to any subcommand for the full option reference.
+
 ## Quick Start
 
 Each benchmark record is one manuscript page. Files are organized by source:
