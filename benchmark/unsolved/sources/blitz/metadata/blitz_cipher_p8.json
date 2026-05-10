@@ -1,0 +1,11 @@
+{
+  "id": "blitz_cipher_p8",
+  "title": "Blitz Cipher page 8",
+  "source_url": "https://ciphermysteries.com/2014/10/24/blitz-cipher-partial-transcription",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Blitz cipher page 8.txt",
+  "canonical_sha256_utf8": "60d2c56b0e0b08a002c9a03a09cd9cbab4acc95bc48af9bdbc8a222b1fa60866",
+  "length_nonspace_chars": 159,
+  "unique_nonspace_symbols": 41,
+  "line_count": 11,
+  "curation_note": "Companion text-only Blitz Cipher page. No accepted solution is available."
+}

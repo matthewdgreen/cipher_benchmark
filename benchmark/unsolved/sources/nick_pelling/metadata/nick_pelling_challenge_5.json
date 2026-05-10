@@ -1,0 +1,11 @@
+{
+  "id": "nick_pelling_challenge_5",
+  "title": "Nick Pelling challenge 5",
+  "source_url": "https://ciphermysteries.com/",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Nick Pelling challenge 5.txt",
+  "canonical_sha256_utf8": "11aef23e5729807d8aed7da7797a8f6e1f48f176272f484753032829ad06342b",
+  "token_count": 82,
+  "unique_numeric_tokens": 57,
+  "line_count": 5,
+  "curation_note": "This is one item from a Nick Pelling / Cipher Mysteries challenge set as preserved in the local AZdecrypt unsolved corpus. The exact public challenge page and current solve status still need to be pinned down; import is therefore a hold-for-review placeholder with numeric-token provenance."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "lawrence_public_library_cryptogram_p1",
+  "title": "Lawrence Public Library cryptogram part 1",
+  "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2019/04/19/an-unsolved-crypto-mystery-from-a-kansas-library/",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Lawrence Public Library Cryptogram part 1.txt",
+  "canonical_sha256_utf8": "68fa618968abb3de28c0395dffb2acde7a3dc5b92b2983f8c382400793bdf565",
+  "length_nonspace_chars": 451,
+  "unique_nonspace_symbols": 29,
+  "line_count": 23,
+  "curation_note": "The article reports the cryptogram was left in Assassin’s Apprentice by Robin Hobb and discusses book-cipher, monoalphabetic-substitution, and first-letter mnemonic possibilities. No accepted solution is available."
+}

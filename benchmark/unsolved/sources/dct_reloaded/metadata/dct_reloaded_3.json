@@ -1,0 +1,11 @@
+{
+  "id": "dct_reloaded_3",
+  "title": "Double Column Transposition Reloaded — Part 3",
+  "source_url": "https://mysterytwister.org/media/challenges/pdf/mtc3-wacker-10-DCTreloaded-03-en.pdf",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/DCT Reloaded 3.txt",
+  "canonical_sha256_utf8": "a13e08c5c7847001efd158d0d577c61f8ec798cd04935bd2f6f5b621e17f8b14",
+  "length_nonspace_chars": 1100,
+  "unique_nonspace_symbols": 50,
+  "line_count": 19,
+  "curation_note": "MTC3 describes Part 3 as a German plaintext encrypted with random keys. The local AZdecrypt file includes header hints that both key words have length 27-34 and are chosen randomly."
+}

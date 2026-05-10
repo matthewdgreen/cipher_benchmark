@@ -89,6 +89,43 @@ Polybius worked-example files are stored only as hypothesis/context material.
 Rights are marked `hold_for_review` because the original book is not assumed
 public-domain.
 
+Initial Dorabella and Taman Shud intake is live under `sources/dorabella/` and
+`sources/taman_shud/`. Dorabella is marked `disputed` because many claimed
+solutions exist without consensus, and the current target is an AZdecrypt
+letter-surrogate transcription rather than a vetted global glyph ontology.
+Taman Shud is intentionally a no-overclaim diagnostic: the target follows the
+AZdecrypt non-struck transcription, while a note documents the commonly shown
+crossed-out line.
+
+Initial DCT Reloaded intake is live under `sources/dct_reloaded/` with
+`dct_reloaded_3`, a German double-column transposition challenge from
+MysteryTwister C3. The record includes non-solution challenge constraints such
+as the two random key lengths, making it useful for pure-transposition and
+context-controlled agent tests.
+
+Initial Ricky McCormick intake is live under `sources/ricky_mccormick/` with
+the two encrypted note pages as companion unsolved records. These are intended
+as qualitative unknown-notation/noisy-symbol diagnostics rather than ordinary
+substitution benchmarks.
+
+Initial Lawrence Public Library intake is live under
+`sources/lawrence_public_library/` with the two related cryptogram parts from
+the Cipherbrain/Klaus Schmeh public report. The context preserves public
+hypotheses such as book-cipher, monoalphabetic-substitution, and first-letter
+mnemonic possibilities without claiming a solution.
+
+Initial Blitz Cipher intake is live under `sources/blitz/` with text-only
+pages 7 and 8 from Cipher Mysteries' public partial transcription. These are
+marked `hold_for_review`; their use is exploratory because provenance,
+language, cipher family, and transcription certainty are all unresolved.
+
+Initial Nick Pelling, Paul Rubin, and Glurk intake is live under
+`sources/nick_pelling/`, `sources/paul_rubin/`, and `sources/glurk/`. Nick
+Pelling and Glurk are deliberately marked as hold-for-review challenge
+placeholders because exact public challenge pages still need to be pinned down.
+Paul Rubin is a mixed-stream diagnostic record that should trigger structural
+analysis before single-family solving.
+
 Feynman Challenge Cipher #2 and #3 were originally triaged here, but have been
 promoted to the main benchmark as `solved_probable` records under
 `benchmark/sources/feynman/`. The claimed plaintexts and method metadata are

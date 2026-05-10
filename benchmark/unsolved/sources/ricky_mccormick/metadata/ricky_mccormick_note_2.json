@@ -1,0 +1,11 @@
+{
+  "id": "ricky_mccormick_note_2",
+  "title": "Ricky McCormick encrypted note 2",
+  "source_url": "https://cipherfoundation.org/modern-ciphers/ricky-mccormick/",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Ricky McCormick page 2.txt",
+  "canonical_sha256_utf8": "6dd1a5eadf89c6bbf5eb0640c0552bd38b94e7bff9fa08bfed86aacb1f42893c",
+  "length_nonspace_chars": 425,
+  "unique_nonspace_symbols": 39,
+  "line_count": 17,
+  "curation_note": "Companion note to ricky_mccormick_note_1. No accepted solution is available."
+}

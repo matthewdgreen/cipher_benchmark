@@ -1,0 +1,11 @@
+{
+  "id": "ricky_mccormick_note_1",
+  "title": "Ricky McCormick encrypted note 1",
+  "source_url": "https://cipherfoundation.org/modern-ciphers/ricky-mccormick/",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Ricky McCormick page 1.txt",
+  "canonical_sha256_utf8": "c80c21992dfa782385042a60fb6e1b5bdf2a00bf38a15af163c0d0df9aa96c12",
+  "length_nonspace_chars": 406,
+  "unique_nonspace_symbols": 33,
+  "line_count": 13,
+  "curation_note": "Cipher Foundation hosts images of the two notes and states they were found on Ricky McCormick’s body and released after the FBI held them for over a decade. No accepted solution is available."
+}

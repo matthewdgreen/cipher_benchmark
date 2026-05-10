@@ -1,0 +1,11 @@
+{
+  "id": "lawrence_public_library_cryptogram_p2",
+  "title": "Lawrence Public Library cryptogram part 2",
+  "source_url": "https://scienceblogs.de/klausis-krypto-kolumne/2019/04/19/an-unsolved-crypto-mystery-from-a-kansas-library/",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Lawrence Public Library Cryptogram part 2.txt",
+  "canonical_sha256_utf8": "7d5bf36932efb32261e30dbe3c2faa57694567ef10edf6933bfb8facbf0615fc",
+  "length_nonspace_chars": 395,
+  "unique_nonspace_symbols": 29,
+  "line_count": 21,
+  "curation_note": "Companion page to lawrence_public_library_cryptogram_p1. No accepted solution is available."
+}

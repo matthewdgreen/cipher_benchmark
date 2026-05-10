@@ -8,7 +8,7 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Current Status
 
-**MVP in progress.** Main manifest: 904 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, Kryptos, Feynman solved-probable calibrations, and neutral-probe sources. A parallel **unsolved-benchmark area** (239 records) covers open-ended evaluation on famous unsolved ciphers (Voynich, Zodiac variants, Scorpion, Kryptos K4, Beale 1/3, and D'Agapeyeff). Additional sources under investigation.
+**MVP in progress.** Main manifest: 904 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, Kryptos, Feynman solved-probable calibrations, and neutral-probe sources. A parallel **unsolved-benchmark area** (256 records) covers open-ended evaluation on famous unsolved ciphers and challenge records (Voynich, Zodiac variants, Scorpion, Kryptos K4, Beale 1/3, D'Agapeyeff, Dorabella, Taman Shud, DCT Reloaded 3, Ricky McCormick, Lawrence Public Library, Blitz, Nick Pelling, Paul Rubin, and Glurk). Additional sources under investigation.
 
 ### Main benchmark (`benchmark/manifest/records.jsonl`, 904 records)
 
@@ -35,10 +35,17 @@ A separate area for historical ciphers with **no widely accepted solution**, org
 | Zodiac (unsolved variants) | 5 | Seeded | Z340 + Z153 diagnostic variants with zkdecrypto glyph IDs |
 | Scorpion ciphers | 3 | Seeded | S1/S5 image-linked records + S1+S5 shared-key hypothesis (v0.2, pre-benchmark-grade) |
 | Kryptos K4 | 1 | Seeded | K4 unsolved challenge; K1–K3 in main benchmark |
-| Famous short: Beale 1 & 3, D'Agapeyeff | 3 | Seeded | Numeric/fractionation diagnostic records |
+| Famous short: Beale 1 & 3, D'Agapeyeff, Dorabella, Taman Shud | 5 | Seeded | Numeric/fractionation, symbolic-short, and no-overclaim diagnostic records |
+| DCT Reloaded | 1 | Seeded | German double-column transposition challenge with key-length context |
+| Ricky McCormick notes | 2 | Seeded | Real-world unknown notation / personal-code diagnostic records |
+| Lawrence Public Library cryptogram | 2 | Seeded | Related-page unknown/book/substitution candidate records |
+| Blitz Ciphers | 2 | Seeded | Text-only symbolic pages with uncertain cipher family |
+| Nick Pelling challenges | 6 | Seeded | Related numeric challenge placeholders; source pages still under review |
+| Paul Rubin | 1 | Seeded | Mixed-stream modern challenge diagnostic record |
+| Glurk Beale 3 emulation | 1 | Seeded | Synthetic/challenge numeric codebook-style placeholder |
 | DECODE undecrypted subset | — | Planned | Blocked on DECODE login |
 | Rohonc Codex | — | Planned | Rights TBD |
-| Other famous short ciphers (Dorabella, Somerton Man, etc.) | — | Planned | One record per cipher |
+| Other famous short ciphers (Somerton-adjacent variants, etc.) | — | Planned | One record per cipher |
 
 ## Quick Start
 

@@ -1,0 +1,11 @@
+{
+  "id": "dorabella_cipher",
+  "title": "Dorabella cipher",
+  "source_url": "https://ciphermysteries.com/other-ciphers/the-dorabella-cipher",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Dorabella.txt",
+  "canonical_sha256_utf8": "dab3f0c1e9ea2bd60021c700869cc5840d72fd8621f418de50f0cdb8aae19153",
+  "length_nonspace_chars": 87,
+  "unique_nonspace_symbols": 20,
+  "line_count": 3,
+  "curation_note": "The Dorabella cipher is the short symbol note Edward Elgar sent to Dora Penny in 1897. Many claimed solutions have been published, but no consensus plaintext is accepted. The target transcription here is the AZdecrypt letter-surrogate encoding, not a global Dorabella glyph ontology."
+}

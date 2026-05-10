@@ -1,0 +1,11 @@
+{
+  "id": "paul_rubin_cipher",
+  "title": "Paul Rubin cipher",
+  "source_url": "https://ciphermysteries.com/2018/01/05/cracking-paul-rubin-cipher",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Paul Rubin.txt",
+  "canonical_sha256_utf8": "67f9f70e1b0c1fe5e4b75eb7c7fe15af2be41366c19cef956286cb7d9b3038e3",
+  "length_nonspace_chars": 459,
+  "unique_nonspace_symbols": 52,
+  "line_count": 20,
+  "curation_note": "The Paul Rubin cipher is a modern unsolved challenge with mixed alphabetic, punctuation, numeric, and binary-looking material in the AZdecrypt copy. The benchmark preserves the local transcription as a diagnostic unknown-cipher target; source/status should still be reviewed against primary material."
+}

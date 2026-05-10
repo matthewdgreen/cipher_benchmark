@@ -1,0 +1,10 @@
+{
+  "id": "glurk_beale3_emulation",
+  "title": "Glurk Beale 3 emulation challenge",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Glurk (Beale 3 emulation challenge).txt",
+  "canonical_sha256_utf8": "c7d77da6f7fdc5a57c6d70b31c1c45dd956bbc984589b294d75af578c8be0dc4",
+  "token_count": 618,
+  "unique_numeric_tokens": 258,
+  "line_count": 25,
+  "curation_note": "This appears to be a modern Beale-3-emulation challenge preserved in the local AZdecrypt unsolved corpus. No better canonical public source has been identified yet, so this is imported as a synthetic/challenge placeholder, not a historical unsolved cipher."
+}

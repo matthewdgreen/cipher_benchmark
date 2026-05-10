@@ -1,0 +1,11 @@
+{
+  "id": "blitz_cipher_p7",
+  "title": "Blitz Cipher page 7",
+  "source_url": "https://ciphermysteries.com/2014/10/24/blitz-cipher-partial-transcription",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Blitz cipher page 7.txt",
+  "canonical_sha256_utf8": "8b0fe0e3eeda4db922fdaeab8232bedd0a827d2af2bf96f41ffb24ca388c4e3d",
+  "length_nonspace_chars": 470,
+  "unique_nonspace_symbols": 53,
+  "line_count": 24,
+  "curation_note": "Cipher Mysteries describes pages 7 and 8 as prosaic-looking text-only Blitz Cipher pages, with page 7 rotated 180 degrees from the image as released. No accepted solution is available."
+}

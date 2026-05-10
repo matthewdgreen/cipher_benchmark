@@ -1,0 +1,11 @@
+{
+  "id": "taman_shud_code",
+  "title": "Taman Shud code",
+  "source_url": "https://cipherfoundation.org/modern-ciphers/tamam-shud-somerton-man/",
+  "azdecrypt_crosscheck_file": "other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Taman Shud.txt",
+  "canonical_sha256_utf8": "3c449e6bcbdf3d783f7536f723ec331a25502c4c6ee6297e53df99f22bd1d019",
+  "length_nonspace_chars": 44,
+  "unique_nonspace_symbols": 17,
+  "line_count": 2,
+  "curation_note": "The Taman Shud code is the short sequence of letters copied from a Rubaiyat connected to the Somerton Man case. The Somerton Man has reportedly been identified as Carl Webb, but the letter sequence remains without an accepted explanation. The AZdecrypt target omits the crossed-out line and preserves the common non-struck line sequence."
+}
