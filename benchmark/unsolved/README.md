@@ -65,7 +65,9 @@ Exclude:
 ## Source tiers (planned)
 
 **Tier 1 (bulk corpora):**
-  * `voynich/` — Beinecke MS 408, ~240 pages. (This PR: intake started.)
+  * `voynich/` — Beinecke MS 408, ~240 pages. ZL3b-based intake live; direct
+    permission from René Zandbergen recorded locally; transliteration remains
+    one documented view rather than final glyph ground truth.
   * `decode_undecrypted/` — filtered DECODE records marked `undecrypted`,
     ~1,200 candidates. Blocked on DECODE login.
   * `rohonc/` — Hungarian Academy of Sciences, ~450 pages. Rights pending.

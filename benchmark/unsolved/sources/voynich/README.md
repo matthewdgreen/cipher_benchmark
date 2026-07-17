@@ -17,11 +17,19 @@ policy for public-domain materials (no known rights restrictions). We
 redistribute alongside attribution and a link to the source. If this
 position changes, switch `rights_class` to `linked_only`.
 
-The Zandbergen-Landini transliteration is modern scholarly work. The source
-data README documents provenance and the transcription overview page carries a
-copyright notice for René Zandbergen, but no explicit permissive redistribution
-license was found during the May 2026 intake. Records derived from ZL3b are
-therefore marked `rights_class: hold_for_review`.
+The Zandbergen-Landini transliteration is modern scholarly work. On
+2026-05-17, René Zandbergen explicitly granted permission by E-mail to use any
+or all transliteration files made available at `voynich.nu`. A local note with
+the permission text is preserved at `documents/PERMISSION_2026-05-17.md`.
+Accordingly, the current ZL3b-derived benchmark records are treated as
+redistributable benchmark materials and use `rights_class: open`, with
+attribution and source links preserved.
+
+This is still not a claim that the transliteration is uniquely "correct." As
+René notes in the permission E-mail, both the transliteration alphabet and the
+grouping of glyphs into characters are editorial choices. Benchmark users
+should treat the current import as one documented, reproducible representation,
+not as a final Voynich glyph ontology.
 
 ## Transcription
 The current benchmark import uses the Zandbergen-Landini ZL3b transliteration:
@@ -42,6 +50,20 @@ treating certain and uncertain spaces as word boundaries, and mapping
 importer-level EVA/high-ASCII units to a global S-token map. This is a
 practical benchmark representation, not a claim about final Voynich glyph
 ontology.
+
+## Reproducibility
+
+The current Voynich benchmark import is reproducible in a narrow, benchmark
+sense:
+
+- the raw source snapshot (`ZL3b-n.txt`) is preserved locally in the benchmark;
+- the source-file header/version is recorded in `documents/SOURCE_ZL3b.md`;
+- the importer is deterministic and documented in
+  `scripts/import_voynich_zl3b.py`.
+
+It is not uniquely reproducible in a stronger philological sense, because
+alternative transliteration alphabets and alternative glyph-grouping decisions
+remain plausible and should be expected in future comparative imports.
 
 Alphabets in use:
 - **EVA** (Takahashi–D'Imperio–Currier–Stolfi): dominant since late 1990s.

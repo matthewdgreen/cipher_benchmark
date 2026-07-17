@@ -32,6 +32,7 @@ SPLITS = UNSOLVED / "splits"
 SOURCE_URL = "https://www.voynich.nu/data/ZL3b-n.txt"
 SOURCE_PAGE = "https://voynich.nu/transcr.html"
 DATA_README_URL = "https://www.voynich.nu/data/000_README.txt"
+PERMISSION_DATE = "2026-05-17"
 PUBLIC_OVERVIEW_URLS = [
     "https://en.wikipedia.org/wiki/Voynich_manuscript",
     "https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript",
@@ -342,7 +343,7 @@ def build_record(
         "source_record_id": f"Beinecke_MS408_{folio}_ZL3b",
         "source_url": "https://collections.library.yale.edu/catalog/2002046",
         "task_tracks": task_tracks,
-        "rights_class": "hold_for_review",
+        "rights_class": "open",
         "status": "unsolved",
         "partial_solution_evidence": "none",
         "cipher_type": ["unknown"],
@@ -370,9 +371,12 @@ def build_record(
             "reading, removes IVTFF markup/comments, treats certain and uncertain "
             "spaces as word boundaries, and maps importer-level EVA units to a "
             "global S-token map. The Yale manuscript images are public-domain/open "
-            "access, but the ZL transliteration page carries a copyright notice "
-            "and no explicit permissive redistribution license was found during "
-            "intake; rights_class is therefore hold_for_review."
+            "access. René Zandbergen granted direct permission on "
+            f"{PERMISSION_DATE} to use the transliteration files hosted at "
+            "voynich.nu, so the preserved ZL3b snapshot and these derived "
+            "benchmark files are treated as redistributable with attribution. "
+            "The transliteration alphabet and glyph grouping remain editorial "
+            "choices rather than neutral Voynich ground truth."
         ),
         "context_layers": context_layers(page, token_count, word_count, symbol_count),
         "associated_documents": [
@@ -397,7 +401,7 @@ def build_record(
                 "document_type": "metadata_note",
                 "title": f"ZL3b source notes for {folio}",
                 "summary": "Page-level comments and source header from the ZL3b IVTFF file.",
-                "rights_class": "hold_for_review",
+                "rights_class": "open",
                 "text_file": f"sources/voynich/documents/{record_id}.zl3b.notes.md",
                 "source_url": SOURCE_URL,
                 "contains_solution": False,
@@ -409,7 +413,7 @@ def build_record(
                 "document_type": "transcription",
                 "title": f"ZL3b diplomatic transliteration for {folio}",
                 "summary": "Raw IVTFF locus text plus importer-cleaned EVA surface text.",
-                "rights_class": "hold_for_review",
+                "rights_class": "open",
                 "text_file": f"sources/voynich/transcriptions/{record_id}.zl3b.diplomatic.txt",
                 "source_url": SOURCE_URL,
                 "contains_solution": False,
@@ -474,15 +478,31 @@ def write_source_docs(source_path: Path, source_header: list[str]) -> None:
                 f"- Source overview page: `{SOURCE_PAGE}`",
                 f"- Data directory README: `{DATA_README_URL}`",
                 "- Local preserved copy: `sources/voynich/transcriptions/ZL3b-n.txt`",
+                "- Permission note: `sources/voynich/documents/PERMISSION_2026-05-17.md`",
                 "",
                 "## Rights / Licensing",
                 "",
                 "The Yale/Beinecke manuscript images are public-domain/open-access "
-                "materials, but the ZL3b transliteration is a modern scholarly "
-                "transliteration. The downloaded source page carries a copyright "
-                "notice for René Zandbergen and the data README describes provenance "
-                "but does not state an explicit permissive redistribution license. "
-                "Derived benchmark records therefore use `rights_class: hold_for_review`.",
+                "materials. The ZL3b transliteration is a modern scholarly "
+                "transliteration by René Zandbergen and collaborators. On "
+                f"{PERMISSION_DATE}, René Zandbergen granted permission by E-mail "
+                "to use the transliteration files made available at `voynich.nu`. "
+                "The benchmark therefore treats the preserved ZL3b snapshot and "
+                "derived benchmark files as redistributable with attribution, and "
+                "current Voynich records use `rights_class: open`.",
+                "",
+                "This does not make the transliteration neutral. The current import "
+                "is one documented transliteration view rather than final Voynich "
+                "glyph ground truth.",
+                "",
+                "## Reproducibility Status",
+                "",
+                "The current ZL3b-based import is reproducible as a benchmark "
+                "transformation because the source snapshot is preserved locally, "
+                "the source version/header is recorded, and the importer is "
+                "deterministic. It is not uniquely reproducible in a stronger "
+                "philological sense, because transliteration alphabets and glyph "
+                "grouping choices remain editorial.",
                 "",
                 "## Import Choices",
                 "",

@@ -41,6 +41,13 @@ script ready (`scripts/create_voynich_intake.py`, ~211 folios). Records
 produced there live in `benchmark/unsolved/manifest/records.jsonl` and validate
 against a separate schema.
 
+Voynich note: ZL3b transliteration use permission was granted directly by René
+Zandbergen on 2026-05-17 and is recorded under
+`benchmark/unsolved/sources/voynich/documents/PERMISSION_2026-05-17.md`. The
+benchmark should now treat the preserved ZL3b snapshot as redistributable with
+attribution, but continue to document that the transliteration alphabet and
+glyph grouping are editorial choices rather than neutral Voynich ground truth.
+
 Scorpion S1/S5 are documentation-rich exploratory records under
 `benchmark/unsolved/sources/scorpion/`. They include local copies of the public
 cipher images, a released-letter excerpt as an associated document, tentative

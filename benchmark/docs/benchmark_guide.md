@@ -457,7 +457,24 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 - **Tracks supported:** B only (transcription2plaintext)
 - **Rights:** `linked_only` — ciphertext is widely published; plaintext for K1–K3 is in the public record. No redistribution claims asserted here, but rights have not been formally cleared.
 - **Special field:** `known_cipher_parameters` in `metadata/kryptos_k*.json` stores solution-bearing calibration data (keyed-Vigenère tableau+key for K1/K2; TransMatrix w1/w2/direction for K3). **These parameters must not be exposed in blind or standard solver context.**
-- **Unsolved:** K4 (97 characters, unsolved since 1990) lives in `benchmark/unsolved/` as a Track D challenge record.
+- **K3 capability note:** K3 is both a known-parameter replay/calibration record
+  and a demonstrated blind-search regression. Decipher's wide Rust
+  pure-transposition screen searched 179,361 candidates in the 2026-07-13
+  verification run and recovered the accepted plaintext at 100% without
+  receiving the stored TransMatrix parameters. It selected an equivalent
+  `TransMatrix(4,48,cw)` representation rather than the stored replay form
+  `TransMatrix(24,8,cw)`. A fully unknown-cipher agentic run still has a
+  separate routing obligation: it must infer or adopt the pure-transposition
+  family.
+- **K4 status:** K4 (97 characters) lives in `benchmark/unsolved/`. Its full
+  plaintext was recovered from Jim Sanborn's archival papers in September 2025
+  and confirmed by Sanborn, but it has not been publicly released. The archival
+  discovery did not recover or publicly establish the key or cryptanalytic
+  method. The benchmark therefore continues to classify K4 as publicly
+  cryptanalytically unsolved and unscorable, with only the confirmed public
+  crib spans `EASTNORTHEAST` and `BERLINCLOCK` available as partial evidence.
+  Public reconstruction claims must not be promoted to benchmark ground truth
+  without authoritative independent confirmation.
 
 ### Neutral probe
 

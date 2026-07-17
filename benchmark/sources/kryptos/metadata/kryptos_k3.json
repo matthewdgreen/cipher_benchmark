@@ -12,5 +12,24 @@
     "w2": 8,
     "direction": "cw",
     "notes": "Solution-bearing calibration parameters for known transform replay. Do not expose these in blind or standard agent context."
+  },
+  "benchmark_capability": {
+    "capability_class": "blind_search_demonstrated",
+    "solver": "decipher-automated pure_transposition_screen_rust",
+    "profile": "wide",
+    "known_parameter_replay_available": true,
+    "blind_search_uses_known_parameters": false,
+    "last_verified": "2026-07-13",
+    "blind_search_candidate_count_observed": 179361,
+    "blind_search_selected_equivalent_parameters": {
+      "type": "transmatrix",
+      "w1": 4,
+      "w2": 48,
+      "direction": "cw"
+    },
+    "observed_char_accuracy": 1.0,
+    "regression_floor_char_accuracy": 0.99,
+    "routing_caveat": "Recovery is demonstrated once the case reaches the pure-transposition route. A fully unknown-cipher run must still infer or adopt that family before invoking the capable search.",
+    "ground_truth_firewall": "The TransMatrix parameters and plaintext are solution-bearing calibration data. They may be used for replay and post-hoc grading, but not to generate, rank, route, or select candidates in a blind-search evaluation. The verified blind run selected an equivalent parameterization different from the stored replay parameters."
   }
 }

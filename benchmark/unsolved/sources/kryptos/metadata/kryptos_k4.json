@@ -1,10 +1,45 @@
 {
-  "source": "Kryptos public cipher text, cross-checked against local Zenith/AZdecrypt sources",
+  "source": "Kryptos public ciphertext, cross-checked against local Zenith/AZdecrypt sources",
+  "source_urls": [
+    "https://www.cia.gov/legacy/headquarters/kryptos-sculpture/",
+    "https://apnews.com/article/650c1253d6a96591f29b88a20299c430",
+    "https://apnews.com/article/cb8ee8554ca473910cbd0592f8bdb350",
+    "https://www.smithsonianmag.com/blogs/office-of-the-secretary-of-the-smithsonian/2026/02/17/smithsonian-archives-help-unlock-mysteries-connect-americans-history/"
+  ],
   "zenith_source_file": "/Users/mgreen/Dropbox/src2/decipher/other_tools/zenith-src/zenith-inference/src/main/resources/ciphers/kryptos4.json",
   "azdecrypt_source_file": "/Users/mgreen/Dropbox/src2/decipher/other_tools/azdecrypt-src/AZdecrypt/Ciphers/Unsolved/Kryptos 4.txt",
   "ciphertext_normalized": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
   "known_public_cribs": [
-    "BERLIN",
-    "CLOCK"
-  ]
+    {
+      "plaintext": "EASTNORTHEAST",
+      "positions_one_based_inclusive": [22, 34],
+      "positions_zero_based_inclusive": [21, 33]
+    },
+    {
+      "plaintext": "BERLINCLOCK",
+      "positions_one_based_inclusive": [64, 74],
+      "positions_zero_based_inclusive": [63, 73]
+    }
+  ],
+  "public_status_as_of": "2026-07-13",
+  "solution_status": {
+    "plaintext": "privately_recovered_and_artist_confirmed_but_not_publicly_released",
+    "plaintext_recovery": "Jarett Kobek and Richard Byrne found plaintext-bearing material in Jim Sanborn's Smithsonian papers in September 2025; Sanborn confirmed the recovered text.",
+    "cryptanalytic_method": "not_publicly_known_or_reproducibly_demonstrated",
+    "key": "not_publicly_known",
+    "public_cryptanalytic_status": "unsolved",
+    "benchmark_status": "unsolved_unscorable",
+    "critical_distinction": "The 2025 event recovered the plaintext from archival material; it did not decipher K4 from its ciphertext. The discoverers did not obtain the key or method."
+  },
+  "claimed_public_reconstructions": {
+    "status": "unverified_for_benchmark_ground_truth",
+    "policy": "Do not import a claimed reconstruction as plaintext or use it for solver routing, ranking, repair, or grading without authoritative independent confirmation that it matches the artist-authenticated text and a reproducible method."
+  },
+  "benchmark_capability": {
+    "capability_class": "investigative_only_not_demonstrated_solve",
+    "available_workflow": "Unknown-cipher diagnosis can test periodic polyalphabetic, Quagmire, pure-transposition, transform-plus-homophonic, and other supported hypotheses, and can check candidates against explicitly permitted public cribs.",
+    "unsupported_claim": "No evidence currently establishes that K4's undisclosed construction is in Decipher's implemented search families.",
+    "scoring_limit": "The private authenticated plaintext is unavailable to the benchmark, so full character or word accuracy cannot be computed.",
+    "appropriate_success_criteria": "Record statistical evidence, disciplined hypothesis coverage, reproducible negative results, and public-crib consistency without claiming a solve."
+  }
 }

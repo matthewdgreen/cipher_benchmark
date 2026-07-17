@@ -31,7 +31,7 @@ A separate area for historical ciphers with **no widely accepted solution**, org
 
 | Source | Records | Status | Notes |
 |--------|---------|--------|-------|
-| Voynich Manuscript (Beinecke MS 408) | 227 | Seeded | ZL3b-derived canonical folio records; transliteration rights still under review |
+| Voynich Manuscript (Beinecke MS 408) | 227 | Seeded | ZL3b-derived canonical folio records; direct permission from René Zandbergen recorded locally; transliteration view reproducible but editorial |
 | Zodiac (unsolved variants) | 5 | Seeded | Z340 + Z153 diagnostic variants with zkdecrypto glyph IDs |
 | Scorpion ciphers | 3 | Seeded | S1/S5 image-linked records + S1+S5 shared-key hypothesis (v0.2, pre-benchmark-grade) |
 | Kryptos K4 | 1 | Seeded | K4 unsolved challenge; K1–K3 in main benchmark |
