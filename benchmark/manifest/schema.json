@@ -36,6 +36,14 @@
       "format": "uri",
       "description": "URL to the source record or project page"
     },
+    "source_file": {
+      "type": "string",
+      "description": "Path or identifier of the exact upstream bundled source file."
+    },
+    "upstream_provenance": {
+      "type": "string",
+      "description": "Concise provenance and licensing note for an upstream tool or corpus source."
+    },
     "task_tracks": {
       "type": "array",
       "items": {
@@ -53,6 +61,28 @@
       "type": "string",
       "enum": ["solved_verified", "solved_probable", "partial_solution", "unsolved"],
       "description": "Solution verification status"
+    },
+    "scorable": {
+      "type": "boolean",
+      "description": "Whether verified target output is available for quantitative scoring."
+    },
+    "unsupported_reason": {
+      "type": "string",
+      "description": "Why a record is retained as diagnostic rather than supported/scorable."
+    },
+    "baseline_solvers": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "External or native solvers relevant to baseline comparison."
+    },
+    "transform_applied": {
+      "oneOf": [
+        {"type": "boolean"},
+        {"type": "string"},
+        {"type": "array", "items": {"type": ["string", "object"]}},
+        {"type": "object"}
+      ],
+      "description": "Whether, or which, preprocessing/reading-order transform has been applied to the stored ciphertext."
     },
     "cipher_type": {
       "type": "array",

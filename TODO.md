@@ -38,7 +38,8 @@ Last swept: 2026-07-19.
     been promoted to main-benchmark `solved_probable` calibration records with
     claimed plaintext and method metadata.
 - [ ] Evaluate Rohonc Codex rights; include if feasible.
-- [ ] Draft the Track D (`image2hypothesis`) evaluation rubric.
+- [x] Draft the Track D (`image2hypothesis`) evaluation rubric in
+  `benchmark/docs/track_d_image2hypothesis_rubric.md`.
 
 ## Agentic Parity Support
 
@@ -97,22 +98,27 @@ Last swept: 2026-07-19.
     calibration text ending `ID BY ROWS`; source `?` tokens are retained in
     the canonical transcription as skipped/unknown ciphertext symbols.
   - `kryptos_k4` is an unsolved challenge record in the unsolved area.
-- [ ] Complete external-tool corpus inventory.
+- [x] Complete external-tool corpus inventory.
   - Zenith bundled JSON ciphers currently observed in `../decipher/other_tools/zenith-src/zenith-inference/src/main/resources/ciphers/`: `goldbug`, `hamptonfull`, `horacemann`, `jameshampton1`, `kryptos1`, `kryptos2`, `kryptos3`, `kryptos4`, `zodiac340-original`, `zodiac340-transformed`, `zodiac408`.
   - zkdecrypto-lite currently has 24 bundled `cipher/*.txt` files under `../decipher/other_tools/zkdecrypto-src/zkdecrypto-lite/cipher/`.
   - For each candidate, record: source path, provenance/license note, cipher type, dimensions/token count, plaintext/key availability, transform requirements, scorable status, and likely baseline solver.
-- [ ] Import remaining solved/scorable Zenith records.
-  - Confirm which Zenith JSON files include or imply a plaintext/key suitable for `transcription2plaintext`.
+- [x] Resolve remaining solved/scorable Zenith records.
+  - Confirmed: the three JSON files with bundled keys are already imported.
+    Z340 and Kryptos K1-K3 are curated in dedicated sources; Hampton files lack
+    ground truth and K4 remains unsolved.
   - Treat Kryptos sections and Hampton/J. Hampton carefully; add as parity only when the cipher family and solution layer are unambiguous.
   - Represent Zodiac 340 original/transformed with explicit `transform_applied` metadata before using in scored splits.
-- [ ] Import selected zkdecrypto-lite records.
-  - Start with solved/reference Zodiac and other solved examples.
+- [x] Evaluate selected zkdecrypto-lite records for import.
+  - Zodiac coverage is already curated. No further records were imported:
+    remaining files lack a bundled plaintext/key, duplicate curated targets,
+    or are unsolved/diagnostic. See the external-tool corpus inventory.
   - Add unsolved or special-family ciphers only as diagnostic records, not solved parity tests.
   - Label unsupported families explicitly instead of letting Decipher failures look like regressions.
-- [ ] Expand tool-bundled split coverage.
-  - `parity_tool_builtins.jsonl`: all solved tool-bundled records expected to be solvable by automated tools.
-  - Consider separate splits: `parity_zodiac.jsonl`, `parity_kryptos.jsonl`, `parity_polygraphic_or_transposition.jsonl`, and `agentic_advantage_unsolved_or_contextual.jsonl`.
-- [ ] Add/standardize tool-bundled metadata fields where useful.
+- [x] Expand tool-bundled split coverage.
+  - `parity_tool_builtins.jsonl` covers all three self-contained known-key
+    Zenith imports; dedicated Zodiac and Kryptos splits cover their curated
+    source records. Contextual advantage packets are separate from parity.
+- [x] Add/standardize tool-bundled metadata fields where useful.
   - `known_cipher_type`
   - `word_boundaries`
   - `baseline_solvers`
@@ -122,12 +128,14 @@ Last swept: 2026-07-19.
   - `unsupported_reason`
   - `source_file`
   - `upstream_provenance`
-- [ ] Run validator after each tool-bundled import batch and verify all manifest/split references.
+- [x] Run validator after the tool-bundled inventory/metadata batch and verify
+  all manifest/split references (905 records, 23 split files, 455 tests).
 
 ## Agentic Advantage Support
 
-- [ ] Add context-scaling splits for Borg and Copiale.
-- [ ] Populate tiered `context_layers` beyond the initial generated backfill.
+- [x] Add context-scaling splits for Borg and Copiale.
+- [x] Populate tiered `context_layers` across the current manifests (905/905
+  main records and 262/262 unsolved records).
   - Keep `minimal` to archival/provenance facts only.
   - Keep `standard` to language, cipher-family, symbol, and transcript facts.
   - Use `historical` for stronger non-solution background, such as author,
@@ -152,4 +160,5 @@ Last swept: 2026-07-19.
 - [ ] Add dirty-transcription stress variants.
 - [ ] Add nomenclator/codeword stress cases.
 - [ ] Add Track C image-to-plaintext experiments.
-- [ ] Add explicit `agentic_hypothesis` metadata for each advantage test.
+- [x] Add explicit `agentic_hypothesis` metadata for each current advantage
+  test.

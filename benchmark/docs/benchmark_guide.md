@@ -439,7 +439,9 @@ The `logogram_glossary` documents symbols that represent whole words rather than
 
 - **Records:** 3 (`goldbug`, `horacemann`, `zodiac408`) imported from the Zenith solver checkout
 - **Purpose:** Parity smoke tests against external solver outputs
-- **Pending import:** Additional Zenith/zkdecrypto-lite bundled ciphers (see `AGENTS.md`)
+- **Inventory:** See `external_tool_corpus_inventory.md`. All self-contained
+  known-key Zenith records are imported; ciphertext-only or duplicate tool
+  examples are intentionally not promoted to scored records.
 
 ### Zodiac curated records
 

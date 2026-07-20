@@ -46,6 +46,9 @@ Three modes, depending on what signal is available:
      automated score. Intended for human rubric review or community
      assessment.
 
+The review procedure and reproducibility requirements are defined in
+[`../docs/track_d_image2hypothesis_rubric.md`](../docs/track_d_image2hypothesis_rubric.md).
+
 ## Scope rules
 
 Include:

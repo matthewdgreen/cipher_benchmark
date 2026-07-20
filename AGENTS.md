@@ -63,12 +63,14 @@ Treat those transcriptions as usable for initial solver experiments only; do
 not make final benchmark claims until a vetted glyph-ID pass reconciles the
 public source's reported symbol counts.
 
-Tool-bundled coverage is intentionally still partial. The benchmark currently
-has three imported Zenith smoke records (`goldbug`, `horacemann`,
-`zodiac408`) plus a separate curated Zodiac source with global glyph IDs for
-Z408/Z340, plus solved Kryptos K1/K2/K3 calibration records in the main
-manifest. Kryptos K4 lives in the unsolved area. The downloaded tool corpora contain
-more material:
+Tool-bundled coverage is intentionally selective. The benchmark has three
+imported Zenith smoke records (`goldbug`, `horacemann`, `zodiac408`) plus a
+separate curated Zodiac source with global glyph IDs for Z408/Z340 and solved
+Kryptos K1/K2/K3 calibration records. Kryptos K4 lives in the unsolved area.
+The full disposition is recorded in
+`benchmark/docs/external_tool_corpus_inventory.md`: all self-contained,
+known-key Zenith resources are represented, while duplicate, unsolved, and
+ciphertext-only examples are not promoted to scored records.
 
 - Zenith source checkout includes 11 cipher JSON resources: `goldbug`,
   `hamptonfull`, `horacemann`, `jameshampton1`, `kryptos1`, `kryptos2`,
@@ -76,11 +78,10 @@ more material:
   and `zodiac408`.
 - zkdecrypto-lite includes 24 bundled `cipher/*.txt` resources.
 
-Future curation should inventory these files before importing them. Add solved
-and scorable records to parity splits; add unsolved, transformed, unsupported,
-or special-family ciphers only with explicit diagnostic metadata — or, for
-genuinely unsolved items, route to `benchmark/unsolved/` instead of the main
-manifest.
+Future imports must add solved and scorable records to parity splits; add
+unsolved, transformed, unsupported, or special-family ciphers only with
+explicit diagnostic metadata — or, for genuinely unsolved items, route to
+`benchmark/unsolved/` instead of the main manifest.
 
 ## Schema (as of 2026-04-23)
 

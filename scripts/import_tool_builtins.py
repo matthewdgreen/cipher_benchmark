@@ -104,7 +104,8 @@ def main() -> None:
 
         if record_id not in existing:
             order.append(record_id)
-        existing[record_id] = {
+        prior = existing.get(record_id, {})
+        updated = {
             "id": record_id,
             "source": "tool_builtins",
             "source_record_id": f"zenith:{spec['source_file']}",
@@ -128,7 +129,18 @@ def main() -> None:
             "token_count": len(ciphertext),
             "word_count": 0,
             "notes": spec["description"],
+            "source_file": f"zenith-inference/src/main/resources/ciphers/{spec['source_file']}",
+            "upstream_provenance": "Zenith GPLv3 source distribution",
+            "baseline_solvers": ["zenith"],
+            "scorable": True,
+            "transform_applied": False,
         }
+        # Preserve curated context/relationship metadata added after the first
+        # import rather than erasing it on an idempotent refresh.
+        for field in ("context_layers", "related_records", "associated_documents"):
+            if field in prior:
+                updated[field] = prior[field]
+        existing[record_id] = updated
         imported.append(record_id)
 
     rows = [existing[record_id] for record_id in order]

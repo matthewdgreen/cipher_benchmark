@@ -112,6 +112,8 @@ Records are listed in `benchmark/manifest/records.jsonl` (one JSON object per li
 - **[Benchmark Guide](benchmark/docs/benchmark_guide.md)** — Full dataset documentation: schema, rights classes, transcription layers, sources, and file formats
 - **[Unsolved Area README](benchmark/unsolved/README.md)** — Scope and evaluation model for unsolved ciphers, including Track D (`image2hypothesis`)
 - **[Normalization Rules](benchmark/docs/normalization_rules.md)** — How diplomatic transcriptions are converted to canonical form
+- **[External Tool Corpus Inventory](benchmark/docs/external_tool_corpus_inventory.md)** — Scorable/imported versus diagnostic bundled solver files
+- **[Track D Rubric](benchmark/docs/track_d_image2hypothesis_rubric.md)** — Reproducible review criteria for unsolved image-to-hypothesis work
 - **[Source Audit](source_audit.md)** — Assessment of candidate data sources, APIs, and rights
 - **[AGENTS.md](AGENTS.md)** — Project context for automated sessions (Codex, Claude)
 
