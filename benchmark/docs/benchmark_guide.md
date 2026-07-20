@@ -2,7 +2,7 @@
 
 **Version:** 0.2
 **Date:** 2026-04-23
-**Status:** Draft — Borg/Copiale and multilingual synthetic Track B records loaded; DECODE/Gallica Track A records in progress; schema hardened via S1–S7 rollout; unsolved-benchmark area seeded with Voynich intake.
+**Status:** Draft — Borg/Copiale and multilingual synthetic Track B records loaded; DECODE/Gallica Track A images and structured provenance loaded (transcriptions pending); schema hardened via S1–S7 rollout; unsolved-benchmark area includes the full 227-folio ZL3b-derived Voynich intake and curated challenge records.
 
 ---
 

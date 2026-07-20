@@ -25,7 +25,7 @@ data, curation scripts, manifests, splits, images, transcriptions, and plaintext
   `benchmark/unsolved/README.md` for scope and evaluation model).
 - Raw/staging data: `data_staging/`
 
-As of April 28, 2026, the main manifest contains 900 records:
+As of July 19, 2026, the main manifest contains 905 records:
 
 - Borg: 397
 - Copiale: 101
@@ -34,12 +34,15 @@ As of April 28, 2026, the main manifest contains 900 records:
 - Tool-bundled parity records: 3
 - Curated Zodiac records: 2
 - Kryptos solved calibration records: 3
+- Feynman solved-probable calibration records: 2
+- Neutral alphabetic probe: 1
+- Gold Bug solved historical calibration: 1
 
-The unsolved area currently contains seed Voynich folios, Zodiac diagnostic
-variants, Scorpion S1/S5 records, and Kryptos K4. It also has a Voynich intake
-script ready (`scripts/create_voynich_intake.py`, ~211 folios). Records
-produced there live in `benchmark/unsolved/manifest/records.jsonl` and validate
-against a separate schema.
+The unsolved area currently contains 262 records, including 227 Voynich
+folios, Zodiac diagnostic variants, Scorpion S1/S5 records, Kryptos K4, and a
+growing famous/challenge-cipher intake. Records live in
+`benchmark/unsolved/manifest/records.jsonl` and validate against a separate
+schema.
 
 Voynich note: ZL3b transliteration use permission was granted directly by René
 Zandbergen on 2026-05-17 and is recorded under

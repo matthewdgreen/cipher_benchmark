@@ -1,6 +1,6 @@
 # Cipher Benchmark TODO
 
-Last swept: 2026-04-23.
+Last swept: 2026-07-19.
 
 ## Schema And Curation (post S1–S7 rollout)
 
@@ -10,24 +10,24 @@ Last swept: 2026-04-23.
 - [x] Backfill `rights_class` (synthetic → `open`).
 - [x] Coerce integer `manuscript_page` values to string (101 records).
 - [x] Relabel 101 Copiale records to `rights_class: open` per Megyesi 2026-04-18.
-- [ ] Populate `image_provenance` on existing DECODE/Gallica records (155)
-  now that the structured field exists. Data is already in free-text
-  `curation_notes`; refactor `scripts/create_decode_gallica_pilot.py` to
-  emit the structured field on future runs and backfill existing records.
-- [ ] Populate `date_earliest_year` / `date_latest_year` opportunistically
-  (DECODE records carry parseable date strings).
-- [ ] Run the full Voynich intake (`scripts/create_voynich_intake.py`
-  without `--limit`) and commit the produced records into
-  `benchmark/unsolved/manifest/records.jsonl`.
+- [x] Populate structured `image_provenance` on all 155 DECODE/Gallica
+  records and update `scripts/create_decode_gallica_pilot.py` to emit it.
+  `scripts/backfill_decode_gallica_metadata.py` is the idempotent migration.
+- [x] Correct DECODE manuscript dates (the old values were DECODE database
+  creation timestamps) and populate `date_earliest_year` /
+  `date_latest_year` where source date bounds exist (154 of 155 records).
+- [x] Complete the Voynich intake and commit 227 ZL3b-derived folio records
+  into `benchmark/unsolved/manifest/records.jsonl`.
 
 ## Unsolved Area
 
 - [x] Seed `benchmark/unsolved/` with relaxed schema + README +
   per-source Voynich README.
 - [x] Write Voynich intake script (Beinecke IIIF).
-- [ ] Run full Voynich intake and commit ~211 folio records.
-- [ ] Fetch a community-standard Voynich transcription (ZL/EVA IVTFF)
-  into `benchmark/unsolved/sources/voynich/transcriptions/`.
+- [x] Run the full Voynich intake and commit 227 folio records.
+- [x] Import the Zandbergen-Landini ZL3b EVA/IVTFF transcription into
+  `benchmark/unsolved/sources/voynich/transcriptions/`; direct permission
+  from René Zandbergen is recorded with the source documentation.
 - [ ] Build `decode_undecrypted/` intake (blocked on DECODE login).
 - [ ] Build `famous_short/` with one record per cipher (Zodiac Z13/Z32,
   Kryptos K4, Dorabella, D'Agapeyeff, Beale 1 & 3, Somerton Man,

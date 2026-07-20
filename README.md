@@ -8,9 +8,9 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 
 ## Current Status
 
-**MVP in progress.** Main manifest: 904 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, Kryptos, Feynman solved-probable calibrations, and neutral-probe sources. A parallel **unsolved-benchmark area** (256 records) covers open-ended evaluation on famous unsolved ciphers and challenge records (Voynich, Zodiac variants, Scorpion, Kryptos K4, Beale 1/3, D'Agapeyeff, Dorabella, Taman Shud, DCT Reloaded 3, Ricky McCormick, Lawrence Public Library, Blitz, Nick Pelling, Paul Rubin, and Glurk). Additional sources under investigation.
+**MVP in progress.** Main manifest: 905 records across historical, DECODE/Gallica, synthetic, tool-bundled parity, curated Zodiac, Kryptos, Feynman solved-probable calibrations, Gold Bug, and neutral-probe sources. A parallel **unsolved-benchmark area** (262 records) covers open-ended evaluation on famous unsolved ciphers and challenge records (Voynich, Zodiac variants, Scorpion, Kryptos K4, Beale 1/3, D'Agapeyeff, Dorabella, Taman Shud, DCT Reloaded 3, Ricky McCormick, Lawrence Public Library, Blitz, Nick Pelling, Paul Rubin, Glurk, Moustier, and Boys' Life 1931). Additional sources under investigation.
 
-### Main benchmark (`benchmark/manifest/records.jsonl`, 904 records)
+### Main benchmark (`benchmark/manifest/records.jsonl`, 905 records)
 
 | Source | Records | Cipher Type | Tracks | Status |
 |--------|---------|-------------|--------|--------|
@@ -23,6 +23,7 @@ A standardized benchmark dataset for evaluating AI-assisted classical cipher ana
 | Kryptos solved sections | 3 | Keyed-Vigenère (K1/K2), transposition/TransMatrix (K3) | B only | Calibration records with known-key replay metadata; K4 in unsolved area |
 | Feynman Challenge Ciphers #2/#3 | 2 | Alternating word substitution + even-word reversal | B only | Solved-probable claimed-solution calibration records |
 | Neutral probe | 1 | Simple substitution | B only | Alphabet-agnostic diagnostic baseline |
+| Gold Bug (Poe 1843) | 1 | Simple substitution | B only | Solved historical calibration record |
 | ICDAR 2024 | — | Various | — | Data staged; redistribution TBD |
 
 ### Unsolved area (`benchmark/unsolved/manifest/records.jsonl`)
@@ -43,6 +44,8 @@ A separate area for historical ciphers with **no widely accepted solution**, org
 | Nick Pelling challenges | 6 | Seeded | Related numeric challenge placeholders; source pages still under review |
 | Paul Rubin | 1 | Seeded | Mixed-stream modern challenge diagnostic record |
 | Glurk Beale 3 emulation | 1 | Seeded | Synthetic/challenge numeric codebook-style placeholder |
+| Moustier altar ciphers | 2 | Seeded | Short historical inscription diagnostics |
+| Boys' Life 1931 Hood Treasure Hunt | 4 | Seeded | Related historical puzzle-cipher records |
 | DECODE undecrypted subset | — | Planned | Blocked on DECODE login |
 | Rohonc Codex | — | Planned | Rights TBD |
 | Other famous short ciphers (Somerton-adjacent variants, etc.) | — | Planned | One record per cipher |

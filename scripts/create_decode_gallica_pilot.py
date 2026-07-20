@@ -16,7 +16,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-BASE = Path("/Users/mgreen/Dropbox/src2/cipher_benchmark")
+BASE = Path(__file__).resolve().parents[1]
 BENCHMARK = BASE / "benchmark"
 MAPPING = BASE / "data_staging" / "decode_gallica_mapping.json"
 SCAN_COUNTS = BASE / "data_staging" / "gallica_scan_counts.json"
@@ -24,6 +24,7 @@ OFFSETS_FILE = BASE / "data_staging" / "gallica_folio_offsets.json"
 DETAIL_FILE = BASE / "data_staging" / "decode_decrypted_ciphers_detail.jsonl"
 
 IMAGE_WIDTH = 1200
+OFFSET_SOURCE = "data_staging/gallica_folio_offsets.json"
 
 
 def load_decode_details():
@@ -147,6 +148,35 @@ def decode_symbol_sets(set_codes):
     return [SET_MAP.get(c, f"unknown_{c}") for c in codes]
 
 
+def decode_date_bounds(detail):
+    """Return the historical display date and optional inclusive year bounds."""
+    start = detail.get("start_year")
+    end = detail.get("end_year")
+    start_year = int(start) if str(start or "").isdigit() else None
+    end_year = int(end) if str(end or "").isdigit() else None
+    if start_year is None and end_year is None:
+        return "", None, None
+    earliest = start_year if start_year is not None else end_year
+    latest = end_year if end_year is not None else start_year
+    display = str(earliest) if earliest == latest else f"{earliest}-{latest}"
+    return display, earliest, latest
+
+
+def image_provenance(ark, scan_index, folio_offset, *, fetched_at):
+    service = f"https://gallica.bnf.fr/iiif/ark:/12148/{ark}"
+    provenance = {
+        "iiif_service": service,
+        "request_url_template": f"{service}/f{{scan_index}}/full/{IMAGE_WIDTH},/0/native.jpg",
+        "requested_image_url": f"{service}/f{scan_index}/full/{IMAGE_WIDTH},/0/native.jpg",
+        "requested_width": IMAGE_WIDTH,
+        "fetched_at": fetched_at,
+        "folio_offset": folio_offset,
+    }
+    if folio_offset:
+        provenance["offset_source"] = OFFSET_SOURCE
+    return provenance
+
+
 def main():
     print("Loading data...")
     with open(MAPPING) as f:
@@ -208,10 +238,7 @@ def main():
             "French": "fr", "Spanish": "es", "Dutch": "nl",
             "Italian": "it", "Spanis": "es",
         }.get(r["language"], r["language"][:2].lower())
-        date_str = detail.get("creation_date", "")
-        # Extract year-ish from DECODE date field
-        if date_str and len(date_str) >= 4:
-            date_str = date_str[:10]  # "YYYY-MM-DD" or similar
+        date_str, date_earliest_year, date_latest_year = decode_date_bounds(detail)
 
         image_files = [f"sources/decode_gallica/images/{record_id}_f{folio}.jpg"]
 
@@ -231,6 +258,9 @@ def main():
             "provenance": detail.get("current_holder", "Bibliothèque nationale de France"),
             "solution_reference": "DECODE database (de-crypt.org). Cipher keys published by S. Tomokiyo, Cryptiana.",
             "image_files": image_files,
+            "image_provenance": image_provenance(
+                ark, scan_index, vol_offset, fetched_at=time.strftime("%Y-%m-%d")
+            ),
             "has_key": True,
             "manuscript_page": f"f{folio}",
             "curation_notes": (
@@ -245,6 +275,9 @@ def main():
                 )
             ),
         }
+        if date_earliest_year is not None:
+            rec["date_earliest_year"] = date_earliest_year
+            rec["date_latest_year"] = date_latest_year
         benchmark_records.append(rec)
 
     print(f"\nCreated {len(benchmark_records)} records")
